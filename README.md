@@ -31,3 +31,25 @@ pkill | Encerra processos com base em seus nomes ou outras informações | pkill
 ps aux | Lista informações detalhadas sobre todos os processos em execução | ps aux
 
 ps -eLf | Lista informações sobre os threads em execução em cada processo | ps -eLf
+
+
+Terminais shell gratis e online
+Referência: https://ubunlog.com/pt/terminales-online-gnulinux-navegador/?msclkid=48141829be5911ec94c7a0d473f4b695%2F
+
+https://bellard.org/jslinux/
+
+https://copy.sh/v86/?profile=linux26
+
+http://www.webminal.org/terminal/
+
+https://www.tutorialspoint.com/unix_terminal_online.php
+
+http://www.masswerk.at/jsuix/index.html
+
+http://cb.vu/
+
+https://codeanywhere.com/editor/
+
+
+
+
