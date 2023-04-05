@@ -26,6 +26,13 @@ pstree	Exibe uma árvore hierárquica de todos os processos em execução no sis
 |ps -eLf | Lista informações sobre os threads em execução em cada processo | ps -eLf |
 
 
+
+Trabalho 1:  Verificar condições no SUAP. 
+Utilizar o seguinte repositório:
+https://github.com/mchavesferreira/php_app/
+
+---
+
 Terminais shell gratis e online
 Referência: https://ubunlog.com/pt/terminales-online-gnulinux-navegador/?msclkid=48141829be5911ec94c7a0d473f4b695%2F
 
