@@ -1,7 +1,40 @@
 # sebe
+Sistemas Embarcados
+
+## Aulas
+- [Trabalho 1](#Trabalho-1)
+- [Comandos Básicos para Linux](#Comandos-Básicos-para-Linux)
+- [BLOG](#BLOG)
+- [Guia Básico para ESP32](#Guia-Básico-para-ESP32)
 
 
-Comandos Básicos para Linux
+
+
+## Trabalho 1
+Verificar condições no SUAP. 
+Utilizar o seguinte repositório:
+https://github.com/mchavesferreira/php_app/
+
+Com a finalidade desenvolver aplicações em nuvem preparando ambiente para IOT, o aluno deve implantar criar uma instância Linux Ubuntu 20.0.4 no AWS. 
+
+Instalar um servidor de web Apache e serviços PHP criação de uma pagina simples código php (prazo: 27/3/2023)
+
+Aperfeiçoar exibição da pagina com utilização da busca e separação de campos com Json  (prazo: 05/04/2023 14h00)
+
+Instalar Mysql e exemplificar uma aplicação  banco de Dados Mysql.   (prazo: 21/04/2023 14h00)
+
+Utilizando o exemplo disposto no repositório, criar uma API com php. Utilizar um node (esp32 ou Esp8266 para consumir a API utilizando método GET. Instalar o pacote de projeto e adaptar o código na instância. 
+Utilizar o repositório como referência: https://github.com/mchavesferreira/php_app
+Para saber mais sobre ESP32, simulação online: https://github.com/mchavesferreira/mcr/blob/main/ESP32.md
+Exemplo em funcionamento:
+http://smartcampus.ctd.ifsp.edu.br/aula/php_app/index.php
+Insira dados em: http://smartcampus.ctd.ifsp.edu.br/aula/php_app/form.php
+
+Esta atividade compõe 30% a avaliação final. 
+
+Preencher o Blog com a proposta da atividade. (Prazo final 26/04/2023) 14h00
+
+##  Comandos Básicos para Linux
 
 
 Comando	Resumo	Exemplo
@@ -17,7 +50,8 @@ pstree	Exibe uma árvore hierárquica de todos os processos em execução no sis
 | ps | Lista informações sobre os processos em execução | ps -ef |
 | top | Mostra em tempo real os processos em execução, uso de CPU e memória | top |
 | htop | Similar ao top, mas com uma interface mais amigável | htop |
-| pstree | Mostra a estrutura hierárquica dos processos em execução | pstree |
+| pstree
+| Mostra a estrutura hierárquica dos processos em execução | pstree |
 | kill | Envia um sinal para encerrar um processo especificado | kill 1234 |
 | killall | Encerra todos os processos com o nome especificado | killall firefox |
 | pgrep | Procura por processos com base em seus nomes ou outras informações | pgrep ssh |
@@ -27,12 +61,16 @@ pstree	Exibe uma árvore hierárquica de todos os processos em execução no sis
 | --- | --- | --- |
 
 
-Trabalho 1:  Verificar condições no SUAP. 
-Utilizar o seguinte repositório:
-https://github.com/mchavesferreira/php_app/
+##  BLOG
+
+Orientações para a disciplina, acompanhe a postagem de trabalhos de outros alunos
+<a href=http://smartcampus.ctd.ifsp.edu.br/blog/index.php?raselecionado=CT120893>Acesso as postagem do professor</a>
+
+##  Guia Básico para ESP32
+<a href=https://github.com/mchavesferreira/mcr/blob/main/ESP32.md>Acesse o link</a>
 
 
-
+##  Ferramentas de desenvolvimento
 Terminais shell gratis e online
 Referência: https://ubunlog.com/pt/terminales-online-gnulinux-navegador/?msclkid=48141829be5911ec94c7a0d473f4b695%2F
 
