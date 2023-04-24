@@ -70,6 +70,26 @@ Orientações para a disciplina, acompanhe a postagem de trabalhos de outros alu
 <a href=https://github.com/mchavesferreira/mcr/blob/main/ESP32.md>Acesse o link</a>
 
 
+## Projeto 2
+Idéias de projetos
+
+
+Algumas Idéias discutidas em sala de aula
+
+
+    MPC - Movimentação de Pilares de Concreto
+    DPA - Detecção da Poluição do Ar
+    UI - Umidificador Inteligente
+    S2 - Sensor Som (Detecção de Ruídos)
+    PS - Proteção Solar com o uso de Painéis Fotovoltáicos
+    DVG - Detecção de Vazamento de Gás
+    CABPIB - Controle de Acesso Baseado em Processamento de Imagens e Biometria
+    SM - Smart Mirror
+    RI - Rastreamento Inteligente
+    PiWALL - Matriz de Monitores
+    DMIA - Detecção de Movimentos para a Integração com o Ambiente
+
+
 ##  Ferramentas de desenvolvimento
 Terminais shell gratis e online
 Referência: https://ubunlog.com/pt/terminales-online-gnulinux-navegador/?msclkid=48141829be5911ec94c7a0d473f4b695%2F
