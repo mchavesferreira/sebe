@@ -89,6 +89,11 @@ Algumas Idéias discutidas em sala de aula
     PiWALL - Matriz de Monitores
     DMIA - Detecção de Movimentos para a Integração com o Ambiente
 
+21 Open Source Projects for IoT
+https://www.linux.com/NEWS/21-OPEN-SOURCE-PROJECTS-IOT/
+
+
+
 
 ##  Ferramentas de desenvolvimento
 Terminais shell gratis e online
