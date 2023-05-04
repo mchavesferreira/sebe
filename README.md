@@ -94,8 +94,16 @@ https://www.linux.com/NEWS/21-OPEN-SOURCE-PROJECTS-IOT/
 
 
 ## Links interessantes
+###Mapas
+<BR><BR>Redes Internet
+<BR><a href=https://bbmaps.itu.int/bbmaps/>rede de fibra óptia ITU</a>
 
-<BR><BR><a href=https://bbmaps.itu.int/bbmaps/>rede de fibra óptia ITU</a>
+<BR><BR>LPWan
+<BR>https://www.teleco.com.br/lpwa_cobertura.asp
+
+ <BR><BR>Torres de celular
+<BR>http://www.telecocare.com.br/mapaerbs/index.php 
+<BR>http://sistemas.anatel.gov.br/siec-servico-movel-web/
 
 <BR><BR>
 ##  Ferramentas de desenvolvimento
