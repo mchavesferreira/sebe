@@ -93,8 +93,11 @@ Algumas Idéias discutidas em sala de aula
 https://www.linux.com/NEWS/21-OPEN-SOURCE-PROJECTS-IOT/
 
 
+## Links interessantes
 
+<BR><BR><a href=https://bbmaps.itu.int/bbmaps/>rede de fibra óptia ITU</a>
 
+<BR><BR>
 ##  Ferramentas de desenvolvimento
 Terminais shell gratis e online
 Referência: https://ubunlog.com/pt/terminales-online-gnulinux-navegador/?msclkid=48141829be5911ec94c7a0d473f4b695%2F
