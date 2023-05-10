@@ -1,0 +1,719 @@
+[
+    {
+        "id": "1bb633f1.b351b4",
+        "type": "tab",
+        "label": "NETIO AN31 (REST XML)",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "4c62af1e.1100e8",
+        "type": "http request",
+        "z": "1bb633f1.b351b4",
+        "name": "HTTP Request (POST)",
+        "method": "POST",
+        "ret": "txt",
+        "url": "http://netio-4all.netio-products.com:8080/netio.xml",
+        "tls": "",
+        "x": 430,
+        "y": 100,
+        "wires": [
+            [
+                "30becbe7.6edfe4"
+            ]
+        ]
+    },
+    {
+        "id": "30becbe7.6edfe4",
+        "type": "debug",
+        "z": "1bb633f1.b351b4",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 650,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "742a4bf0.6b140c",
+        "type": "http request",
+        "z": "1bb633f1.b351b4",
+        "name": "HTTP Request (GET)",
+        "method": "GET",
+        "ret": "txt",
+        "url": "http://netio-4All.netio-products.com:8080/netio.xml",
+        "tls": "",
+        "x": 520,
+        "y": 240,
+        "wires": [
+            [
+                "6975307a.b56078"
+            ]
+        ]
+    },
+    {
+        "id": "4800479b.fb5df",
+        "type": "function",
+        "z": "1bb633f1.b351b4",
+        "name": "Function",
+        "func": "msg.Model = msg.payload[\"set:Root\"].Agent[0].Model[0];\nmsg.Version = msg.payload[\"set:Root\"].Agent[0].Version[0];\nmsg.Time = msg.payload[\"set:Root\"].Agent[0].Time[0];\nmsg.XMLVersion = msg.payload[\"set:Root\"].Agent[0].XmlVer[0];\nmsg.SerialNumber = msg.payload[\"set:Root\"].Agent[0].SerialNumber[0];\n\ntry{msg.Voltage = msg.payload[\"set:Root\"].GlobalMeasure[0].Voltage[0]}\n    catch (err1) {msg.Voltage = 0;}\ntry{msg.Frequency = msg.payload[\"set:Root\"].GlobalMeasure[0].Frequency[0]}\n    catch (err2) {msg.Frequency = 0;}\ntry{msg.TotalCurrent = msg.payload[\"set:Root\"].GlobalMeasure[0].TotalCurrent[0] / 1000}\n    catch (err3) {msg.TotalCurrent = 0;}\ntry{msg.OverallPowerFactor = msg.payload[\"set:Root\"].GlobalMeasure[0].OverallPowerFactor[0]}\n    catch (err4) {msg.OverallPowerFactor = 0;}\ntry{msg.TotalLoad = msg.payload[\"set:Root\"].GlobalMeasure[0].TotalLoad[0]}\n    catch (err5) {msg.TotalLoad = 0;}\n\nmsg.O1_State = msg.payload[\"set:Root\"].Outputs[0].Output[0].State[0];\nmsg.O2_State = msg.payload[\"set:Root\"].Outputs[0].Output[1].State[0];\nmsg.O3_State = msg.payload[\"set:Root\"].Outputs[0].Output[2].State[0];\nmsg.O4_State = msg.payload[\"set:Root\"].Outputs[0].Output[3].State[0];\n\nif(msg.O1_State == \"1\") msg.O1_Color = \"#09ef28\";\n    else msg.O1_Color = \"Orange\";\nif(msg.O2_State == \"1\") msg.O2_Color = \"#09ef28\";\n    else msg.O2_Color = \"Orange\";\nif(msg.O3_State == \"1\") msg.O3_Color = \"#09ef28\";\n    else msg.O3_Color = \"Orange\";\nif(msg.O4_State == \"1\") msg.O4_Color = \"#09ef28\";\n    else msg.O4_Color = \"Orange\";\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 860,
+        "y": 240,
+        "wires": [
+            [
+                "9bcb7e3d.f1504",
+                "ba7ee6d8e510b53a"
+            ]
+        ]
+    },
+    {
+        "id": "cd080282.71a5b8",
+        "type": "ui_text",
+        "z": "1bb633f1.b351b4",
+        "group": "46837236.66036c",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "NETIO model",
+        "label": "NETIO Model: ",
+        "format": "{{msg.Model}}",
+        "layout": "row-center",
+        "x": 660,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "ccea96e3.c1a69",
+        "type": "ui_text",
+        "z": "1bb633f1.b351b4",
+        "group": "46837236.66036c",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Model Firmware",
+        "format": "{{msg.Version}}",
+        "layout": "row-center",
+        "x": 660,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "d82c63e.ace26a",
+        "type": "ui_text",
+        "z": "1bb633f1.b351b4",
+        "group": "46837236.66036c",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "Serial Number",
+        "label": "Serial Number",
+        "format": "{{msg.SerialNumber}}",
+        "layout": "col-center",
+        "x": 660,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "ef997a92.41c47",
+        "type": "ui_text",
+        "z": "1bb633f1.b351b4",
+        "group": "46837236.66036c",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "name": "XML Version",
+        "label": "XML Version:",
+        "format": "{{msg.XMLVersion}}",
+        "layout": "row-center",
+        "x": 650,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "9caefe9.b45368",
+        "type": "ui_gauge",
+        "z": "1bb633f1.b351b4",
+        "name": "Current (Device)",
+        "group": "42b17a1e.4b9414",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Current ({{msg.Model}})",
+        "label": "A",
+        "format": "{{msg.TotalCurrent}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 300,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "c13b8596.0534",
+        "type": "ui_gauge",
+        "z": "1bb633f1.b351b4",
+        "name": "Overall Power Factor",
+        "group": "42b17a1e.4b9414",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Overall Power Factor",
+        "label": "",
+        "format": "{{msg.OverallPowerFactor}}",
+        "min": "-1",
+        "max": "1",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 320,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "c4e6e2ff.952178",
+        "type": "ui_gauge",
+        "z": "1bb633f1.b351b4",
+        "name": "Voltage",
+        "group": "ae15777b.7fccb8",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Voltage",
+        "label": "V",
+        "format": "{{msg.Voltage}}",
+        "min": 0,
+        "max": "500",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 280,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "bd85348a.be1338",
+        "type": "ui_gauge",
+        "z": "1bb633f1.b351b4",
+        "name": "Frequency",
+        "group": "ae15777b.7fccb8",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Frequency",
+        "label": "Hz",
+        "format": "{{msg.Frequency}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 290,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "723bf8ea.5aa068",
+        "type": "ui_chart",
+        "z": "1bb633f1.b351b4",
+        "name": "Current Chart (Device)",
+        "group": "42b17a1e.4b9414",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "label": "Current ",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "32",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#ff0000",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#0000a0",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 320,
+        "y": 360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "79147afe.e1932c",
+        "type": "link in",
+        "z": "1bb633f1.b351b4",
+        "name": "",
+        "links": [
+            "9bcb7e3d.f1504"
+        ],
+        "x": 75,
+        "y": 420,
+        "wires": [
+            [
+                "9caefe9.b45368",
+                "c13b8596.0534",
+                "c4e6e2ff.952178",
+                "bd85348a.be1338",
+                "193fba32.4d7516",
+                "432f96bb.b69708"
+            ]
+        ]
+    },
+    {
+        "id": "9bcb7e3d.f1504",
+        "type": "link out",
+        "z": "1bb633f1.b351b4",
+        "name": "HTTP GET",
+        "links": [
+            "9c12af89.5b273",
+            "79147afe.e1932c",
+            "8a46b639.d7cfe8"
+        ],
+        "x": 955,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "9c12af89.5b273",
+        "type": "link in",
+        "z": "1bb633f1.b351b4",
+        "name": "",
+        "links": [
+            "9bcb7e3d.f1504"
+        ],
+        "x": 495,
+        "y": 420,
+        "wires": [
+            [
+                "cd080282.71a5b8",
+                "ccea96e3.c1a69",
+                "d82c63e.ace26a",
+                "ef997a92.41c47"
+            ]
+        ]
+    },
+    {
+        "id": "193fba32.4d7516",
+        "type": "function",
+        "z": "1bb633f1.b351b4",
+        "name": "Current Chart",
+        "func": "msg.payload = msg.TotalCurrent;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 220,
+        "y": 300,
+        "wires": [
+            [
+                "723bf8ea.5aa068"
+            ]
+        ]
+    },
+    {
+        "id": "432f96bb.b69708",
+        "type": "ui_gauge",
+        "z": "1bb633f1.b351b4",
+        "name": "",
+        "group": "ae15777b.7fccb8",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Total Load",
+        "label": "W",
+        "format": "{{msg.TotalLoad}}",
+        "min": 0,
+        "max": "10000",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 290,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "10c360c3.e15a9f",
+        "type": "inject",
+        "z": "1bb633f1.b351b4",
+        "name": "1 Second Repeat",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": false,
+        "onceDelay": "1",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 310,
+        "y": 240,
+        "wires": [
+            [
+                "742a4bf0.6b140c"
+            ]
+        ]
+    },
+    {
+        "id": "6f97cb69.91da0c",
+        "type": "ui_button",
+        "z": "1bb633f1.b351b4",
+        "name": "Output 1 = ON",
+        "group": "42b17a1e.4b9414",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Output 1 = ON",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "<set:Root xmlns:set=\"http://www.netio-products.com/XMLSchema/NETIO.xsd\">  <Outputs>   <Output>    <ID>1</ID>    <Action>1</Action>   </Output>  </Outputs> </set:Root>",
+        "payloadType": "str",
+        "topic": "",
+        "topicType": "str",
+        "x": 100,
+        "y": 40,
+        "wires": [
+            [
+                "4c62af1e.1100e8"
+            ]
+        ]
+    },
+    {
+        "id": "3fbc65f4.7329c2",
+        "type": "ui_button",
+        "z": "1bb633f1.b351b4",
+        "name": "Output 1 = OFF",
+        "group": "42b17a1e.4b9414",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Output 1 = OFF",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "<set:Root xmlns:set=\"http://www.netio-products.com/XMLSchema/NETIO.xsd\">  <Outputs>   <Output>    <ID>1</ID>    <Action>0</Action>   </Output>  </Outputs> </set:Root>",
+        "payloadType": "str",
+        "topic": "",
+        "topicType": "str",
+        "x": 100,
+        "y": 80,
+        "wires": [
+            [
+                "4c62af1e.1100e8"
+            ]
+        ]
+    },
+    {
+        "id": "9cdb81da.dd7f2",
+        "type": "ui_button",
+        "z": "1bb633f1.b351b4",
+        "name": "Output 1 = Short ON",
+        "group": "42b17a1e.4b9414",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Output 1 = Short ON",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "<set:Root xmlns:set=\"http://www.netio-products.com/XMLSchema/NETIO.xsd\">  <Outputs>   <Output>    <ID>3</ID>    <Action>4</Action>   </Output>  </Outputs> </set:Root>",
+        "payloadType": "str",
+        "topic": "",
+        "topicType": "str",
+        "x": 120,
+        "y": 120,
+        "wires": [
+            [
+                "4c62af1e.1100e8"
+            ]
+        ]
+    },
+    {
+        "id": "676326e6.ad709",
+        "type": "ui_button",
+        "z": "1bb633f1.b351b4",
+        "name": "Output 1 = Short OFF",
+        "group": "42b17a1e.4b9414",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Output 1 = Short OFF (Restart)",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "<set:Root xmlns:set=\"http://www.netio-products.com/XMLSchema/NETIO.xsd\">  <Outputs>   <Output>    <ID>1</ID>    <Action>2</Action>   </Output>  </Outputs> </set:Root>",
+        "payloadType": "str",
+        "topic": "",
+        "topicType": "str",
+        "x": 120,
+        "y": 160,
+        "wires": [
+            [
+                "4c62af1e.1100e8"
+            ]
+        ]
+    },
+    {
+        "id": "9a29242a.fdc1e8",
+        "type": "ui_button",
+        "z": "1bb633f1.b351b4",
+        "name": "Output 1 = Toggle",
+        "group": "42b17a1e.4b9414",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Output 1 = Toggle",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "<set:Root xmlns:set=\"http://www.netio-products.com/XMLSchema/NETIO.xsd\">  <Outputs>   <Output>    <ID>1</ID>    <Action>4</Action>   </Output>  </Outputs> </set:Root>",
+        "payloadType": "str",
+        "topic": "",
+        "topicType": "str",
+        "x": 110,
+        "y": 200,
+        "wires": [
+            [
+                "4c62af1e.1100e8"
+            ]
+        ]
+    },
+    {
+        "id": "8a46b639.d7cfe8",
+        "type": "link in",
+        "z": "1bb633f1.b351b4",
+        "name": "",
+        "links": [
+            "9bcb7e3d.f1504"
+        ],
+        "x": 795,
+        "y": 420,
+        "wires": [
+            [
+                "4eb1218f.eabd",
+                "22bafd0b.66b9da",
+                "1283561e.fc04aa",
+                "8ba14a74.7c7bc"
+            ]
+        ]
+    },
+    {
+        "id": "4eb1218f.eabd",
+        "type": "ui_text",
+        "z": "1bb633f1.b351b4",
+        "group": "70282a6c.d359e4",
+        "order": 1,
+        "width": "0",
+        "height": "0",
+        "name": "O1 State",
+        "label": "<font color= {{msg.O1_Color}} > O1 =</font>",
+        "format": "<font color= {{msg.O1_Color}} > {{msg.O1_State}} </font>",
+        "layout": "row-center",
+        "x": 920,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "22bafd0b.66b9da",
+        "type": "ui_text",
+        "z": "1bb633f1.b351b4",
+        "group": "70282a6c.d359e4",
+        "order": 2,
+        "width": "0",
+        "height": "0",
+        "name": "O2 State",
+        "label": "<font color= {{msg.O2_Color}} > O2 =</font>",
+        "format": "<font color= {{msg.O2_Color}} > {{msg.O2_State}} </font>",
+        "layout": "row-center",
+        "x": 920,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "1283561e.fc04aa",
+        "type": "ui_text",
+        "z": "1bb633f1.b351b4",
+        "group": "70282a6c.d359e4",
+        "order": 3,
+        "width": "0",
+        "height": "0",
+        "name": "O3 State",
+        "label": "<font color= {{msg.O3_Color}} > O3 =</font>",
+        "format": "<font color= {{msg.O3_Color}} > {{msg.O3_State}} </font>",
+        "layout": "row-center",
+        "x": 920,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "8ba14a74.7c7bc",
+        "type": "ui_text",
+        "z": "1bb633f1.b351b4",
+        "group": "70282a6c.d359e4",
+        "order": 4,
+        "width": "0",
+        "height": "0",
+        "name": "O4 State",
+        "label": "<font color= {{msg.O4_Color}} > O4 =</font>",
+        "format": "<font color= {{msg.O4_Color}} > {{msg.O4_State}} </font>",
+        "layout": "row-center",
+        "x": 920,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "6975307a.b56078",
+        "type": "xml",
+        "z": "1bb633f1.b351b4",
+        "name": "XML Parse",
+        "property": "payload",
+        "attr": "",
+        "chr": "",
+        "x": 710,
+        "y": 240,
+        "wires": [
+            [
+                "4800479b.fb5df"
+            ]
+        ]
+    },
+    {
+        "id": "ba7ee6d8e510b53a",
+        "type": "debug",
+        "z": "1bb633f1.b351b4",
+        "name": "debug 78",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1020,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "46837236.66036c",
+        "type": "ui_group",
+        "name": "Device Status",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "42b17a1e.4b9414",
+        "type": "ui_group",
+        "name": "Clock",
+        "tab": "d62e70e1.18023",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "ae15777b.7fccb8",
+        "type": "ui_group",
+        "name": "Device Management",
+        "tab": "",
+        "order": 4,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "70282a6c.d359e4",
+        "type": "ui_group",
+        "name": "O1 - O4 Output States",
+        "tab": "",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "d62e70e1.18023",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "order": 16,
+        "disabled": false,
+        "hidden": false
+    }
+]
