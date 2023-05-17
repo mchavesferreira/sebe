@@ -1,0 +1,26 @@
+[
+    {
+        "id": "97956af4f05cd01e",
+        "type": "function",
+        "z": "1ec0a21f3604a711",
+        "name": "separa_campos",
+        "func": "var temperatura = {  payload : msg.payload.temperatura } \nvar humidade = {  payload : msg.payload.humidade } \n\n\nreturn [ temperatura, humidade ];",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 470,
+        "y": 360,
+        "wires": [
+            [
+                "e877816ac5267625",
+                "6089ba716e6b034a"
+            ],
+            [
+                "1cab036388018b4b",
+                "20870bf8d29c9b10"
+            ]
+        ]
+    }
+]
