@@ -72,6 +72,9 @@ Orientações para a disciplina, acompanhe a postagem de trabalhos de outros alu
 
 ## Projeto 2
 Idéias de projetos
+Os temas apresentado a seguir abrangem áreas como sustentabilidade, agricultura, segurança e monitoramento ambiental. Os alunos podem explorar as tecnologias e técnicas necessárias para implementar esses projetos, incluindo a integração do microcontrolador com sensores, comunicação Wi-Fi, armazenamento de dados em um banco de dados e criação de um dashboard para visualização dos dados coletados.
+
+Esses projetos oferecem oportunidades para os alunos aplicarem conceitos de sistemas embarcados, IoT, programação, gerenciamento de dados e interface do usuário, enquanto desenvolvem soluções práticas e inovadoras para problemas do mundo real.
 
 
 Algumas Idéias:
@@ -98,6 +101,12 @@ Algumas Idéias:
     (ARCV) Automação Residencial com Controle por Voz 
     (SMS) Sistema de Monitoramento de Segurança 
     (GEA) Gerenciamento de Estoque Automatizado 
+    (MCAR) Monitoramento de Consumo de Água em Residências 
+    (SCEAI) Sistema de Controle de Estufa para Agricultura Inteligente 
+    (MVMI) Monitoramento de Vibração em Máquinas Industriais 
+    (SADI) Sistema de Alarme e Detecção de Intrusão 
+    (MNRAU) Monitoramento de Níveis de Ruído em Ambientes Urbanos 
+
 
 21 Open Source Projects for IoT
 https://www.linux.com/NEWS/21-OPEN-SOURCE-PROJECTS-IOT/
