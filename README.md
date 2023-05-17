@@ -74,7 +74,7 @@ Orientações para a disciplina, acompanhe a postagem de trabalhos de outros alu
 Idéias de projetos
 
 
-Algumas Idéias discutidas em sala de aula
+Algumas Idéias:
 
 
     MPC - Movimentação de Pilares de Concreto
@@ -88,6 +88,16 @@ Algumas Idéias discutidas em sala de aula
     RI - Rastreamento Inteligente
     PiWALL - Matriz de Monitores
     DMIA - Detecção de Movimentos para a Integração com o Ambiente
+    (MCETR)Monitoramento de Consumo de Energia em Tempo Real 
+    (SII) Sistema de Irrigação Inteligente 
+    (CARF) Controle de Acesso com Reconhecimento Facial 
+    (MQAAI) Medição de Qualidade do Ar em Ambientes Internos
+    (RAG)Rastreamento de Ativos com Geolocalização 
+    (MTUA) Monitoramento de Temperatura e Umidade em Ambientes 
+    (SME) Sistema de Monitoramento de Estacionamento 
+    (ARCV) Automação Residencial com Controle por Voz 
+    (SMS) Sistema de Monitoramento de Segurança 
+    (GEA) Gerenciamento de Estoque Automatizado 
 
 21 Open Source Projects for IoT
 https://www.linux.com/NEWS/21-OPEN-SOURCE-PROJECTS-IOT/
