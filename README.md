@@ -80,17 +80,15 @@ Esses projetos oferecem oportunidades para os alunos aplicarem conceitos de sist
 Algumas Idéias:
 
 
-    MPC - Movimentação de Pilares de Concreto
-    DPA - Detecção da Poluição do Ar
-    UI - Umidificador Inteligente
-    S2 - Sensor Som (Detecção de Ruídos)
-    PS - Proteção Solar com o uso de Painéis Fotovoltáicos
-    DVG - Detecção de Vazamento de Gás
-    CABPIB - Controle de Acesso Baseado em Processamento de Imagens e Biometria
-    SM - Smart Mirror
-    RI - Rastreamento Inteligente
-    PiWALL - Matriz de Monitores
-    DMIA - Detecção de Movimentos para a Integração com o Ambiente
+    (MPC)  Movimentação de Pilares de Concreto
+    (DPA)  Detecção da Poluição do Ar
+    (UI)  Umidificador Inteligente
+    (DVG)  Detecção de Vazamento de Gás
+    (CABPIB)  Controle de Acesso Baseado em Processamento de Imagens e Biometria
+    (SM) Smart Mirror
+    (RI)  Rastreamento Inteligente
+    (PiWALL)  Matriz de Monitores
+    (DMIA)  Detecção de Movimentos para a Integração com o Ambiente
     (MCETR)Monitoramento de Consumo de Energia em Tempo Real 
     (SII) Sistema de Irrigação Inteligente 
     (CARF) Controle de Acesso com Reconhecimento Facial 
@@ -106,6 +104,11 @@ Algumas Idéias:
     (MVMI) Monitoramento de Vibração em Máquinas Industriais 
     (SADI) Sistema de Alarme e Detecção de Intrusão 
     (MNRAU) Monitoramento de Níveis de Ruído em Ambientes Urbanos 
+    (SMSR) Sistema de Monitoramento de Saúde Remoto 
+    (AICP) Automação Industrial com Controle de Processos 
+    (CASE) Controle de Acesso e Segurança em Edifícios 
+    (SMQA) Sistema de Monitoramento de Qualidade da Água 
+    (MRA) Medição de Radiação em Ambientes 
 
 
 21 Open Source Projects for IoT
