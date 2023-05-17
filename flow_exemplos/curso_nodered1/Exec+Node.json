@@ -1,0 +1,464 @@
+[
+    {
+        "id": "43b23ddd.f9423c",
+        "type": "tab",
+        "label": "Exec Example Lesson - With Error Handling",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "5e3fcb94.74eb0c",
+        "type": "group",
+        "z": "43b23ddd.f9423c",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "bc31e7be.aa8cc8",
+            "492a9930.d11ee",
+            "ff3ea851.ee5928",
+            "200c1ae5.b0263e",
+            "854f5d8f.7fcbd8",
+            "a8b11557.e75fc",
+            "98477b15.6d546",
+            "2ba213b5.15e1e4",
+            "5ddcb91e.5abc98",
+            "842e518c.ae178",
+            "e26dde3e.212798"
+        ],
+        "x": 18,
+        "y": 33,
+        "w": 1228,
+        "h": 414
+    },
+    {
+        "id": "2ba213b5.15e1e4",
+        "type": "group",
+        "z": "43b23ddd.f9423c",
+        "g": "5e3fcb94.74eb0c",
+        "name": "",
+        "style": {
+            "fill": "#e3f3d3",
+            "label": true
+        },
+        "nodes": [
+            "e3dea04f.a3c818",
+            "99d4414d.39ed28"
+        ],
+        "x": 64,
+        "y": 99,
+        "w": 272,
+        "h": 122
+    },
+    {
+        "id": "5ddcb91e.5abc98",
+        "type": "group",
+        "z": "43b23ddd.f9423c",
+        "g": "5e3fcb94.74eb0c",
+        "name": "",
+        "style": {
+            "fill": "#ffefbf",
+            "label": true
+        },
+        "nodes": [
+            "5e70b7fd.00aaa8"
+        ],
+        "x": 584,
+        "y": 59,
+        "w": 232,
+        "h": 82
+    },
+    {
+        "id": "842e518c.ae178",
+        "type": "group",
+        "z": "43b23ddd.f9423c",
+        "g": "5e3fcb94.74eb0c",
+        "name": "",
+        "style": {
+            "label": true,
+            "label-position": "sw",
+            "color": "#ff0000",
+            "fill": "#ffefbf"
+        },
+        "nodes": [
+            "55818676.d6dc78"
+        ],
+        "x": 834,
+        "y": 319,
+        "w": 212,
+        "h": 82
+    },
+    {
+        "id": "e26dde3e.212798",
+        "type": "group",
+        "z": "43b23ddd.f9423c",
+        "g": "5e3fcb94.74eb0c",
+        "name": "",
+        "style": {
+            "fill": "#ffefbf",
+            "label": true
+        },
+        "nodes": [
+            "cc738e4f.32eed",
+            "8be0bd.efc7ff4",
+            "73cee723.be75b",
+            "5cd8002e.5ee1c"
+        ],
+        "x": 44,
+        "y": 299,
+        "w": 612,
+        "h": 122
+    },
+    {
+        "id": "bc31e7be.aa8cc8",
+        "type": "exec",
+        "z": "43b23ddd.f9423c",
+        "g": "5e3fcb94.74eb0c",
+        "command": "",
+        "addpay": true,
+        "append": "",
+        "useSpawn": "true",
+        "timer": "",
+        "oldrc": false,
+        "name": "Exec",
+        "x": 470,
+        "y": 180,
+        "wires": [
+            [
+                "200c1ae5.b0263e",
+                "854f5d8f.7fcbd8",
+                "5e70b7fd.00aaa8"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "99d4414d.39ed28",
+        "type": "inject",
+        "z": "43b23ddd.f9423c",
+        "g": "2ba213b5.15e1e4",
+        "name": "Kill",
+        "props": [
+            {
+                "p": "kill",
+                "v": "ping 127.0.0.1",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payloadType": "str",
+        "x": 160,
+        "y": 180,
+        "wires": [
+            [
+                "bc31e7be.aa8cc8"
+            ]
+        ]
+    },
+    {
+        "id": "492a9930.d11ee",
+        "type": "debug",
+        "z": "43b23ddd.f9423c",
+        "g": "5e3fcb94.74eb0c",
+        "name": "Unreachable!",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "\"IP Unreachable!\"",
+        "targetType": "jsonata",
+        "statusVal": "payload",
+        "statusType": "msg",
+        "x": 1110,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "ff3ea851.ee5928",
+        "type": "change",
+        "z": "43b23ddd.f9423c",
+        "g": "5e3fcb94.74eb0c",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "reset",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 860,
+        "y": 200,
+        "wires": [
+            [
+                "854f5d8f.7fcbd8",
+                "98477b15.6d546"
+            ]
+        ]
+    },
+    {
+        "id": "e3dea04f.a3c818",
+        "type": "inject",
+        "z": "43b23ddd.f9423c",
+        "g": "2ba213b5.15e1e4",
+        "name": "Ping My Phone (IP .11)",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "ping 192.168.0.11",
+        "payloadType": "str",
+        "x": 210,
+        "y": 140,
+        "wires": [
+            [
+                "bc31e7be.aa8cc8"
+            ]
+        ]
+    },
+    {
+        "id": "200c1ae5.b0263e",
+        "type": "switch",
+        "z": "43b23ddd.f9423c",
+        "g": "5e3fcb94.74eb0c",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "cont",
+                "v": "Unreachable",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 2,
+        "x": 670,
+        "y": 180,
+        "wires": [
+            [
+                "492a9930.d11ee"
+            ],
+            [
+                "ff3ea851.ee5928"
+            ]
+        ]
+    },
+    {
+        "id": "854f5d8f.7fcbd8",
+        "type": "trigger",
+        "z": "43b23ddd.f9423c",
+        "g": "5e3fcb94.74eb0c",
+        "name": "",
+        "op1": "",
+        "op2": "",
+        "op1type": "nul",
+        "op2type": "payl",
+        "duration": "5",
+        "extend": false,
+        "units": "s",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 790,
+        "y": 280,
+        "wires": [
+            [
+                "55818676.d6dc78"
+            ]
+        ]
+    },
+    {
+        "id": "a8b11557.e75fc",
+        "type": "debug",
+        "z": "43b23ddd.f9423c",
+        "g": "5e3fcb94.74eb0c",
+        "name": "Unreachable!",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "\"Watchdog Timeout!\"",
+        "targetType": "jsonata",
+        "statusVal": "\"Watchdog Timeout!\"",
+        "statusType": "auto",
+        "x": 1130,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "98477b15.6d546",
+        "type": "debug",
+        "z": "43b23ddd.f9423c",
+        "g": "5e3fcb94.74eb0c",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1100,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "cc738e4f.32eed",
+        "type": "change",
+        "z": "43b23ddd.f9423c",
+        "g": "e26dde3e.212798",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "kill",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 560,
+        "y": 340,
+        "wires": [
+            [
+                "bc31e7be.aa8cc8"
+            ]
+        ]
+    },
+    {
+        "id": "55818676.d6dc78",
+        "type": "function",
+        "z": "43b23ddd.f9423c",
+        "g": "842e518c.ae178",
+        "name": "Raise Kill Event",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 940,
+        "y": 360,
+        "wires": [
+            [
+                "a8b11557.e75fc"
+            ]
+        ],
+        "icon": "node-red/alert.svg"
+    },
+    {
+        "id": "73cee723.be75b",
+        "type": "complete",
+        "z": "43b23ddd.f9423c",
+        "g": "e26dde3e.212798",
+        "name": "Ping Auto-Kill Event Monitor",
+        "scope": [
+            "55818676.d6dc78",
+            "5e70b7fd.00aaa8"
+        ],
+        "uncaught": false,
+        "x": 190,
+        "y": 340,
+        "wires": [
+            [
+                "8be0bd.efc7ff4",
+                "5cd8002e.5ee1c"
+            ]
+        ]
+    },
+    {
+        "id": "5e70b7fd.00aaa8",
+        "type": "function",
+        "z": "43b23ddd.f9423c",
+        "g": "5ddcb91e.5abc98",
+        "name": "Raise New Event",
+        "func": "msg.payload = \"New\"\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 700,
+        "y": 100,
+        "wires": [
+            []
+        ],
+        "icon": "node-red/alert.svg"
+    },
+    {
+        "id": "5cd8002e.5ee1c",
+        "type": "function",
+        "z": "43b23ddd.f9423c",
+        "g": "e26dde3e.212798",
+        "name": "Smart Debug - Was Flow Stopped On Watchdog Kill?",
+        "func": "if(msg.payload != \"New\"){ \n node.status({fill:\"red\",shape:\"ring\",text:\"Watchdog Kill Event Raised!\"})\n}else{\n  node.status({fill:\"green\",shape:\"ring\",text:\"OK\"})\n}\nreturn msg;",
+        "outputs": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 345,
+        "y": 380,
+        "wires": [],
+        "icon": "font-awesome/fa-bug",
+        "l": false
+    },
+    {
+        "id": "8be0bd.efc7ff4",
+        "type": "switch",
+        "z": "43b23ddd.f9423c",
+        "g": "e26dde3e.212798",
+        "name": "Kill Event?",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "neq",
+                "v": "New",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 400,
+        "y": 340,
+        "wires": [
+            [
+                "cc738e4f.32eed"
+            ]
+        ]
+    }
+]

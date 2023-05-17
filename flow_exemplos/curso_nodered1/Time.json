@@ -1,0 +1,1677 @@
+[
+    {
+        "id": "85a839d4.998298",
+        "type": "tab",
+        "label": "Time Lesson",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "3e289158.1c229e",
+        "type": "group",
+        "z": "85a839d4.998298",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "c706f10d.3bba38",
+            "59a39c21.b4cb5c",
+            "23b5f3eb.b5527c",
+            "ceec6e21.d35fc8",
+            "26d857b.d264728",
+            "4fe3fc26.c3cd44",
+            "6a94e6ad.573f48",
+            "55750ddf.128944",
+            "c4e27a7c.b051a",
+            "a57b1762.fa85f8",
+            "baaf2932.37611",
+            "22e36aa8.c5c03e",
+            "a37b80bb.734cd",
+            "5e95e1b0.0c6d68"
+        ],
+        "x": 34,
+        "y": 1139,
+        "w": 1132,
+        "h": 422
+    },
+    {
+        "id": "5fa4e31f.b6c334",
+        "type": "group",
+        "z": "85a839d4.998298",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "3527c4af.cc5ce4",
+            "2150ab33.86943c",
+            "9f3167fe.e8a42",
+            "6dad2926.23951",
+            "f49d2718.e5c49",
+            "d853e988.3e8558",
+            "1f68d8a1.b08f87",
+            "467129dd.ec4688"
+        ],
+        "x": 34,
+        "y": 1959,
+        "w": 1132,
+        "h": 202
+    },
+    {
+        "id": "9bf70c2c.82fa4",
+        "type": "group",
+        "z": "85a839d4.998298",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "8a8cd9f2.02b5b8",
+            "5501541a.28fc64",
+            "cef1cb57.d82368",
+            "f414c0db.79371",
+            "925b19ce.46da18",
+            "106edf6c.60c381",
+            "753809af.4ce418"
+        ],
+        "x": 34,
+        "y": 699,
+        "w": 1132,
+        "h": 202
+    },
+    {
+        "id": "9fab0e0a.852e3",
+        "type": "group",
+        "z": "85a839d4.998298",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "838cfd65.f326d8",
+            "99a0ccb6.d8c638",
+            "3c129a86.ebafee",
+            "60916a01.7cd594",
+            "fe3317f6.f069d8"
+        ],
+        "x": 34,
+        "y": 39,
+        "w": 1132,
+        "h": 162
+    },
+    {
+        "id": "aadefa93.c9e678",
+        "type": "group",
+        "z": "85a839d4.998298",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "fe51cf43.63efc8",
+            "f7bb7140.f03f5",
+            "79b6305a.fac718",
+            "9f599ce6.bdc5d8",
+            "79f75db0.995d7c",
+            "70fd6ec1.35cb98",
+            "bf6dadd0.1a38e8"
+        ],
+        "x": 34,
+        "y": 919,
+        "w": 1132,
+        "h": 202
+    },
+    {
+        "id": "b62ff9fe.54f6a",
+        "type": "group",
+        "z": "85a839d4.998298",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "bf3af3d7.2a2ef",
+            "c9216c49.bcda1",
+            "a8b128c9.460b58",
+            "67c9a916.910e9",
+            "fe78a893.3ca1",
+            "d00a7e78.8b825",
+            "e558a827.50008",
+            "f29962a1.b6f47"
+        ],
+        "x": 34,
+        "y": 419,
+        "w": 1132,
+        "h": 262
+    },
+    {
+        "id": "c1316dcf.559c08",
+        "type": "group",
+        "z": "85a839d4.998298",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "df31bf00.42cc58",
+            "90b112f5.4fb5c8",
+            "53b3649.5bf7a9c",
+            "7b700cc.521bf74",
+            "9558a4e9.673a",
+            "33f18451.f99e5c",
+            "ecfe110.4eb93f",
+            "33742c8e.d0309c",
+            "af65d77a.7222e",
+            "387b8060.784de",
+            "3736ce67.c1020a",
+            "ef3deee7.918f18"
+        ],
+        "x": 34,
+        "y": 1579,
+        "w": 1132,
+        "h": 362
+    },
+    {
+        "id": "f8b16958.15dde8",
+        "type": "group",
+        "z": "85a839d4.998298",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "fd0f3bb3.4e82f8",
+            "5c29008c.06d03",
+            "773f147e.169dcc",
+            "a2c5ca19.77993",
+            "ee06885d.61808"
+        ],
+        "x": 34,
+        "y": 219,
+        "w": 1132,
+        "h": 182
+    },
+    {
+        "id": "838cfd65.f326d8",
+        "type": "moment",
+        "z": "85a839d4.998298",
+        "g": "9fab0e0a.852e3",
+        "name": "",
+        "topic": "",
+        "input": "payload",
+        "inputType": "msg",
+        "inTz": "Europe/London",
+        "adjAmount": 0,
+        "adjType": "days",
+        "adjDir": "add",
+        "format": "LLL",
+        "locale": "en_GB",
+        "output": "payload",
+        "outputType": "msg",
+        "outTz": "Europe/London",
+        "x": 580,
+        "y": 120,
+        "wires": [
+            [
+                "60916a01.7cd594"
+            ]
+        ]
+    },
+    {
+        "id": "fe3317f6.f069d8",
+        "type": "comment",
+        "z": "85a839d4.998298",
+        "g": "9fab0e0a.852e3",
+        "name": "node-red-contrib-moment",
+        "info": "",
+        "x": 170,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "99a0ccb6.d8c638",
+        "type": "inject",
+        "z": "85a839d4.998298",
+        "g": "9fab0e0a.852e3",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 140,
+        "y": 120,
+        "wires": [
+            [
+                "838cfd65.f326d8",
+                "3c129a86.ebafee"
+            ]
+        ]
+    },
+    {
+        "id": "3c129a86.ebafee",
+        "type": "debug",
+        "z": "85a839d4.998298",
+        "g": "9fab0e0a.852e3",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 330,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "60916a01.7cd594",
+        "type": "debug",
+        "z": "85a839d4.998298",
+        "g": "9fab0e0a.852e3",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1050,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "fd0f3bb3.4e82f8",
+        "type": "nostalgic",
+        "z": "85a839d4.998298",
+        "g": "f8b16958.15dde8",
+        "name": "",
+        "outputProp": "nostalgic",
+        "interval": 1,
+        "resend": true,
+        "attach": true,
+        "x": 615,
+        "y": 300,
+        "wires": [
+            [
+                "ee06885d.61808"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "5c29008c.06d03",
+        "type": "comment",
+        "z": "85a839d4.998298",
+        "g": "f8b16958.15dde8",
+        "name": "node-red-contrib-nostalgic",
+        "info": "",
+        "x": 190,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "773f147e.169dcc",
+        "type": "debug",
+        "z": "85a839d4.998298",
+        "g": "f8b16958.15dde8",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1050,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "a2c5ca19.77993",
+        "type": "inject",
+        "z": "85a839d4.998298",
+        "g": "f8b16958.15dde8",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 140,
+        "y": 360,
+        "wires": [
+            [
+                "773f147e.169dcc",
+                "fd0f3bb3.4e82f8"
+            ]
+        ]
+    },
+    {
+        "id": "ee06885d.61808",
+        "type": "debug",
+        "z": "85a839d4.998298",
+        "g": "f8b16958.15dde8",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "nostalgic",
+        "statusType": "msg",
+        "x": 1030,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "bf3af3d7.2a2ef",
+        "type": "moment",
+        "z": "85a839d4.998298",
+        "g": "b62ff9fe.54f6a",
+        "name": "Add 1 Hour",
+        "topic": "",
+        "input": "payload",
+        "inputType": "msg",
+        "inTz": "Europe/London",
+        "adjAmount": "1",
+        "adjType": "hours",
+        "adjDir": "add",
+        "format": "DD MMMM yyyy HH:mm:ss",
+        "locale": "en_GB",
+        "output": "payload",
+        "outputType": "msg",
+        "outTz": "Europe/London",
+        "x": 350,
+        "y": 580,
+        "wires": [
+            [
+                "a8b128c9.460b58"
+            ]
+        ]
+    },
+    {
+        "id": "c9216c49.bcda1",
+        "type": "inject",
+        "z": "85a839d4.998298",
+        "g": "b62ff9fe.54f6a",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 150,
+        "y": 460,
+        "wires": [
+            [
+                "bf3af3d7.2a2ef",
+                "67c9a916.910e9",
+                "fe78a893.3ca1",
+                "e558a827.50008"
+            ]
+        ]
+    },
+    {
+        "id": "a8b128c9.460b58",
+        "type": "debug",
+        "z": "85a839d4.998298",
+        "g": "b62ff9fe.54f6a",
+        "name": "New Time",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 960,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "67c9a916.910e9",
+        "type": "debug",
+        "z": "85a839d4.998298",
+        "g": "b62ff9fe.54f6a",
+        "name": "Current Raw Time",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 990,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "fe78a893.3ca1",
+        "type": "moment",
+        "z": "85a839d4.998298",
+        "g": "b62ff9fe.54f6a",
+        "name": "Subtract 1 Hour",
+        "topic": "",
+        "input": "payload",
+        "inputType": "msg",
+        "inTz": "Europe/London",
+        "adjAmount": "1",
+        "adjType": "hours",
+        "adjDir": "subtract",
+        "format": "DD MMMM yyyy HH:mm:ss",
+        "locale": "en_GB",
+        "output": "payload",
+        "outputType": "msg",
+        "outTz": "Europe/London",
+        "x": 360,
+        "y": 640,
+        "wires": [
+            [
+                "d00a7e78.8b825"
+            ]
+        ]
+    },
+    {
+        "id": "d00a7e78.8b825",
+        "type": "debug",
+        "z": "85a839d4.998298",
+        "g": "b62ff9fe.54f6a",
+        "name": "New Time",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 960,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "e558a827.50008",
+        "type": "moment",
+        "z": "85a839d4.998298",
+        "g": "b62ff9fe.54f6a",
+        "name": "Format",
+        "topic": "",
+        "input": "payload",
+        "inputType": "msg",
+        "inTz": "Europe/London",
+        "adjAmount": "0",
+        "adjType": "hours",
+        "adjDir": "add",
+        "format": "DD MMMM yyyy HH:mm:ss",
+        "locale": "en_GB",
+        "output": "payload",
+        "outputType": "msg",
+        "outTz": "Europe/London",
+        "x": 340,
+        "y": 520,
+        "wires": [
+            [
+                "f29962a1.b6f47"
+            ]
+        ]
+    },
+    {
+        "id": "f29962a1.b6f47",
+        "type": "debug",
+        "z": "85a839d4.998298",
+        "g": "b62ff9fe.54f6a",
+        "name": "Current Formatted Time",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 1010,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "8a8cd9f2.02b5b8",
+        "type": "inject",
+        "z": "85a839d4.998298",
+        "g": "9bf70c2c.82fa4",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "1577880000000",
+        "payloadType": "num",
+        "x": 160,
+        "y": 740,
+        "wires": [
+            [
+                "106edf6c.60c381",
+                "5501541a.28fc64",
+                "f414c0db.79371"
+            ]
+        ]
+    },
+    {
+        "id": "5501541a.28fc64",
+        "type": "moment",
+        "z": "85a839d4.998298",
+        "g": "9bf70c2c.82fa4",
+        "name": "Add 1 Hour",
+        "topic": "",
+        "input": "payload",
+        "inputType": "msg",
+        "inTz": "Europe/London",
+        "adjAmount": "1",
+        "adjType": "hours",
+        "adjDir": "add",
+        "format": "DD MMMM yyyy HH:mm:ss",
+        "locale": "en_GB",
+        "output": "payload",
+        "outputType": "msg",
+        "outTz": "Europe/London",
+        "x": 370,
+        "y": 800,
+        "wires": [
+            [
+                "cef1cb57.d82368"
+            ]
+        ]
+    },
+    {
+        "id": "cef1cb57.d82368",
+        "type": "debug",
+        "z": "85a839d4.998298",
+        "g": "9bf70c2c.82fa4",
+        "name": "New Time",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 960,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "f414c0db.79371",
+        "type": "moment",
+        "z": "85a839d4.998298",
+        "g": "9bf70c2c.82fa4",
+        "name": "Subtract 1 Hour",
+        "topic": "",
+        "input": "payload",
+        "inputType": "msg",
+        "inTz": "Europe/London",
+        "adjAmount": "1",
+        "adjType": "hours",
+        "adjDir": "subtract",
+        "format": "DD MMMM yyyy HH:mm:ss",
+        "locale": "en_GB",
+        "output": "payload",
+        "outputType": "msg",
+        "outTz": "Europe/London",
+        "x": 380,
+        "y": 860,
+        "wires": [
+            [
+                "925b19ce.46da18"
+            ]
+        ]
+    },
+    {
+        "id": "925b19ce.46da18",
+        "type": "debug",
+        "z": "85a839d4.998298",
+        "g": "9bf70c2c.82fa4",
+        "name": "New Time",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 960,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "106edf6c.60c381",
+        "type": "moment",
+        "z": "85a839d4.998298",
+        "g": "9bf70c2c.82fa4",
+        "name": "Format",
+        "topic": "",
+        "input": "payload",
+        "inputType": "msg",
+        "inTz": "Europe/London",
+        "adjAmount": "0",
+        "adjType": "hours",
+        "adjDir": "add",
+        "format": "DD MMMM yyyy HH:mm:ss",
+        "locale": "en_GB",
+        "output": "payload",
+        "outputType": "msg",
+        "outTz": "Europe/London",
+        "x": 360,
+        "y": 740,
+        "wires": [
+            [
+                "753809af.4ce418"
+            ]
+        ]
+    },
+    {
+        "id": "753809af.4ce418",
+        "type": "debug",
+        "z": "85a839d4.998298",
+        "g": "9bf70c2c.82fa4",
+        "name": "Current Formatted Time",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 1010,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "fe51cf43.63efc8",
+        "type": "inject",
+        "z": "85a839d4.998298",
+        "g": "aadefa93.c9e678",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "01/01/2020 12:00:00",
+        "payloadType": "str",
+        "x": 170,
+        "y": 960,
+        "wires": [
+            [
+                "70fd6ec1.35cb98",
+                "f7bb7140.f03f5",
+                "9f599ce6.bdc5d8"
+            ]
+        ]
+    },
+    {
+        "id": "f7bb7140.f03f5",
+        "type": "moment",
+        "z": "85a839d4.998298",
+        "g": "aadefa93.c9e678",
+        "name": "Add 1 Hour",
+        "topic": "",
+        "input": "payload",
+        "inputType": "msg",
+        "inTz": "Europe/London",
+        "adjAmount": "1",
+        "adjType": "hours",
+        "adjDir": "add",
+        "format": "DD MMMM yyyy HH:mm:ss",
+        "locale": "en_GB",
+        "output": "payload",
+        "outputType": "msg",
+        "outTz": "Europe/London",
+        "x": 370,
+        "y": 1020,
+        "wires": [
+            [
+                "79b6305a.fac718"
+            ]
+        ]
+    },
+    {
+        "id": "79b6305a.fac718",
+        "type": "debug",
+        "z": "85a839d4.998298",
+        "g": "aadefa93.c9e678",
+        "name": "New Time",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 960,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "9f599ce6.bdc5d8",
+        "type": "moment",
+        "z": "85a839d4.998298",
+        "g": "aadefa93.c9e678",
+        "name": "Subtract 1 Hour",
+        "topic": "",
+        "input": "payload",
+        "inputType": "msg",
+        "inTz": "Europe/London",
+        "adjAmount": "1",
+        "adjType": "hours",
+        "adjDir": "subtract",
+        "format": "DD MMMM yyyy HH:mm:ss",
+        "locale": "en_GB",
+        "output": "payload",
+        "outputType": "msg",
+        "outTz": "Europe/London",
+        "x": 380,
+        "y": 1080,
+        "wires": [
+            [
+                "79f75db0.995d7c"
+            ]
+        ]
+    },
+    {
+        "id": "79f75db0.995d7c",
+        "type": "debug",
+        "z": "85a839d4.998298",
+        "g": "aadefa93.c9e678",
+        "name": "New Time",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 960,
+        "y": 1080,
+        "wires": []
+    },
+    {
+        "id": "70fd6ec1.35cb98",
+        "type": "moment",
+        "z": "85a839d4.998298",
+        "g": "aadefa93.c9e678",
+        "name": "Format",
+        "topic": "",
+        "input": "payload",
+        "inputType": "msg",
+        "inTz": "Europe/London",
+        "adjAmount": "0",
+        "adjType": "hours",
+        "adjDir": "add",
+        "format": "DD MMMM yyyy HH:mm:ss",
+        "locale": "en_GB",
+        "output": "payload",
+        "outputType": "msg",
+        "outTz": "Europe/London",
+        "x": 360,
+        "y": 960,
+        "wires": [
+            [
+                "bf6dadd0.1a38e8"
+            ]
+        ]
+    },
+    {
+        "id": "bf6dadd0.1a38e8",
+        "type": "debug",
+        "z": "85a839d4.998298",
+        "g": "aadefa93.c9e678",
+        "name": "Current Formatted Time",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 1010,
+        "y": 960,
+        "wires": []
+    },
+    {
+        "id": "c706f10d.3bba38",
+        "type": "comment",
+        "z": "85a839d4.998298",
+        "g": "3e289158.1c229e",
+        "name": "Formatting",
+        "info": "",
+        "x": 120,
+        "y": 1180,
+        "wires": []
+    },
+    {
+        "id": "59a39c21.b4cb5c",
+        "type": "moment",
+        "z": "85a839d4.998298",
+        "g": "3e289158.1c229e",
+        "name": "DD MMMM yyyy HH:mm:ss",
+        "topic": "",
+        "input": "payload",
+        "inputType": "msg",
+        "inTz": "Europe/London",
+        "adjAmount": "0",
+        "adjType": "hours",
+        "adjDir": "add",
+        "format": "DD MMMM yyyy HH:mm:ss",
+        "locale": "en_GB",
+        "output": "payload",
+        "outputType": "msg",
+        "outTz": "Europe/London",
+        "x": 420,
+        "y": 1220,
+        "wires": [
+            [
+                "23b5f3eb.b5527c"
+            ]
+        ]
+    },
+    {
+        "id": "23b5f3eb.b5527c",
+        "type": "debug",
+        "z": "85a839d4.998298",
+        "g": "3e289158.1c229e",
+        "name": "Current Formatted Time",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 1010,
+        "y": 1220,
+        "wires": []
+    },
+    {
+        "id": "ceec6e21.d35fc8",
+        "type": "inject",
+        "z": "85a839d4.998298",
+        "g": "3e289158.1c229e",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "0.12",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 150,
+        "y": 1220,
+        "wires": [
+            [
+                "59a39c21.b4cb5c",
+                "26d857b.d264728",
+                "6a94e6ad.573f48",
+                "c4e27a7c.b051a",
+                "baaf2932.37611",
+                "a37b80bb.734cd"
+            ]
+        ]
+    },
+    {
+        "id": "26d857b.d264728",
+        "type": "moment",
+        "z": "85a839d4.998298",
+        "g": "3e289158.1c229e",
+        "name": "dddd DD MMMM yyyy HH:mm:ss",
+        "topic": "",
+        "input": "payload",
+        "inputType": "msg",
+        "inTz": "Europe/London",
+        "adjAmount": "0",
+        "adjType": "hours",
+        "adjDir": "add",
+        "format": "dddd DD MMMM yyyy HH:mm:ss",
+        "locale": "en_GB",
+        "output": "payload",
+        "outputType": "msg",
+        "outTz": "Europe/London",
+        "x": 440,
+        "y": 1280,
+        "wires": [
+            [
+                "4fe3fc26.c3cd44"
+            ]
+        ]
+    },
+    {
+        "id": "4fe3fc26.c3cd44",
+        "type": "debug",
+        "z": "85a839d4.998298",
+        "g": "3e289158.1c229e",
+        "name": "Current Formatted Time",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 1010,
+        "y": 1280,
+        "wires": []
+    },
+    {
+        "id": "6a94e6ad.573f48",
+        "type": "moment",
+        "z": "85a839d4.998298",
+        "g": "3e289158.1c229e",
+        "name": "LLL (Local)",
+        "topic": "",
+        "input": "payload",
+        "inputType": "msg",
+        "inTz": "Europe/London",
+        "adjAmount": "0",
+        "adjType": "hours",
+        "adjDir": "add",
+        "format": "LLL",
+        "locale": "en_GB",
+        "output": "payload",
+        "outputType": "msg",
+        "outTz": "Europe/London",
+        "x": 370,
+        "y": 1340,
+        "wires": [
+            [
+                "55750ddf.128944"
+            ]
+        ]
+    },
+    {
+        "id": "55750ddf.128944",
+        "type": "debug",
+        "z": "85a839d4.998298",
+        "g": "3e289158.1c229e",
+        "name": "Current Formatted Time",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 1010,
+        "y": 1340,
+        "wires": []
+    },
+    {
+        "id": "c4e27a7c.b051a",
+        "type": "moment",
+        "z": "85a839d4.998298",
+        "g": "3e289158.1c229e",
+        "name": "SS (Milliseconds)",
+        "topic": "",
+        "input": "payload",
+        "inputType": "msg",
+        "inTz": "Europe/London",
+        "adjAmount": "0",
+        "adjType": "hours",
+        "adjDir": "add",
+        "format": "SS",
+        "locale": "en_GB",
+        "output": "payload",
+        "outputType": "msg",
+        "outTz": "Europe/London",
+        "x": 390,
+        "y": 1400,
+        "wires": [
+            [
+                "a57b1762.fa85f8"
+            ]
+        ]
+    },
+    {
+        "id": "a57b1762.fa85f8",
+        "type": "debug",
+        "z": "85a839d4.998298",
+        "g": "3e289158.1c229e",
+        "name": "Current Formatted Time",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 1010,
+        "y": 1400,
+        "wires": []
+    },
+    {
+        "id": "baaf2932.37611",
+        "type": "moment",
+        "z": "85a839d4.998298",
+        "g": "3e289158.1c229e",
+        "name": "A (AM/PM)",
+        "topic": "",
+        "input": "payload",
+        "inputType": "msg",
+        "inTz": "Europe/London",
+        "adjAmount": "0",
+        "adjType": "hours",
+        "adjDir": "add",
+        "format": "A",
+        "locale": "en_GB",
+        "output": "payload",
+        "outputType": "msg",
+        "outTz": "Europe/London",
+        "x": 370,
+        "y": 1460,
+        "wires": [
+            [
+                "22e36aa8.c5c03e"
+            ]
+        ]
+    },
+    {
+        "id": "22e36aa8.c5c03e",
+        "type": "debug",
+        "z": "85a839d4.998298",
+        "g": "3e289158.1c229e",
+        "name": "Current Formatted Time",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 1010,
+        "y": 1460,
+        "wires": []
+    },
+    {
+        "id": "a37b80bb.734cd",
+        "type": "moment",
+        "z": "85a839d4.998298",
+        "g": "3e289158.1c229e",
+        "name": "dd DD/MM/yy - hh:mm:ss:SS(A)",
+        "topic": "",
+        "input": "payload",
+        "inputType": "msg",
+        "inTz": "Europe/London",
+        "adjAmount": "0",
+        "adjType": "hours",
+        "adjDir": "add",
+        "format": "dd DD/MM/yy - hh:mm:ss:SS(A)",
+        "locale": "en_GB",
+        "output": "payload",
+        "outputType": "msg",
+        "outTz": "Europe/London",
+        "x": 430,
+        "y": 1520,
+        "wires": [
+            [
+                "5e95e1b0.0c6d68"
+            ]
+        ]
+    },
+    {
+        "id": "5e95e1b0.0c6d68",
+        "type": "debug",
+        "z": "85a839d4.998298",
+        "g": "3e289158.1c229e",
+        "name": "Current Formatted Time",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 1010,
+        "y": 1520,
+        "wires": []
+    },
+    {
+        "id": "df31bf00.42cc58",
+        "type": "comment",
+        "z": "85a839d4.998298",
+        "g": "c1316dcf.559c08",
+        "name": "Time Zone Shift",
+        "info": "",
+        "x": 140,
+        "y": 1620,
+        "wires": []
+    },
+    {
+        "id": "90b112f5.4fb5c8",
+        "type": "moment",
+        "z": "85a839d4.998298",
+        "g": "c1316dcf.559c08",
+        "name": "Input: Europe/London, Output: Europe/London",
+        "topic": "",
+        "input": "payload",
+        "inputType": "msg",
+        "inTz": "Europe/London",
+        "adjAmount": "0",
+        "adjType": "hours",
+        "adjDir": "add",
+        "format": "LLL",
+        "locale": "en_GB",
+        "output": "payload",
+        "outputType": "msg",
+        "outTz": "Europe/London",
+        "x": 480,
+        "y": 1660,
+        "wires": [
+            [
+                "33742c8e.d0309c"
+            ]
+        ]
+    },
+    {
+        "id": "33742c8e.d0309c",
+        "type": "debug",
+        "z": "85a839d4.998298",
+        "g": "c1316dcf.559c08",
+        "name": "Current Formatted Time",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 1010,
+        "y": 1660,
+        "wires": []
+    },
+    {
+        "id": "53b3649.5bf7a9c",
+        "type": "inject",
+        "z": "85a839d4.998298",
+        "g": "c1316dcf.559c08",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "0.12",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 150,
+        "y": 1660,
+        "wires": [
+            [
+                "90b112f5.4fb5c8",
+                "7b700cc.521bf74",
+                "9558a4e9.673a",
+                "33f18451.f99e5c",
+                "ecfe110.4eb93f"
+            ]
+        ]
+    },
+    {
+        "id": "af65d77a.7222e",
+        "type": "debug",
+        "z": "85a839d4.998298",
+        "g": "c1316dcf.559c08",
+        "name": "Current Formatted Time",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 1010,
+        "y": 1720,
+        "wires": []
+    },
+    {
+        "id": "387b8060.784de",
+        "type": "debug",
+        "z": "85a839d4.998298",
+        "g": "c1316dcf.559c08",
+        "name": "Current Formatted Time",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 1010,
+        "y": 1780,
+        "wires": []
+    },
+    {
+        "id": "3736ce67.c1020a",
+        "type": "debug",
+        "z": "85a839d4.998298",
+        "g": "c1316dcf.559c08",
+        "name": "Current Formatted Time",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 1010,
+        "y": 1840,
+        "wires": []
+    },
+    {
+        "id": "ef3deee7.918f18",
+        "type": "debug",
+        "z": "85a839d4.998298",
+        "g": "c1316dcf.559c08",
+        "name": "Current Formatted Time",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 1010,
+        "y": 1900,
+        "wires": []
+    },
+    {
+        "id": "7b700cc.521bf74",
+        "type": "moment",
+        "z": "85a839d4.998298",
+        "g": "c1316dcf.559c08",
+        "name": "Input: Europe/London, Output: Europe/Paris",
+        "topic": "",
+        "input": "payload",
+        "inputType": "msg",
+        "inTz": "Europe/London",
+        "adjAmount": "0",
+        "adjType": "hours",
+        "adjDir": "add",
+        "format": "LLL",
+        "locale": "en_GB",
+        "output": "payload",
+        "outputType": "msg",
+        "outTz": "Europe/Paris",
+        "x": 470,
+        "y": 1720,
+        "wires": [
+            [
+                "af65d77a.7222e"
+            ]
+        ]
+    },
+    {
+        "id": "9558a4e9.673a",
+        "type": "moment",
+        "z": "85a839d4.998298",
+        "g": "c1316dcf.559c08",
+        "name": "Input: Europe/London, Output: Pacific/Auckland",
+        "topic": "",
+        "input": "payload",
+        "inputType": "msg",
+        "inTz": "Europe/London",
+        "adjAmount": "0",
+        "adjType": "hours",
+        "adjDir": "add",
+        "format": "LLL",
+        "locale": "en_GB",
+        "output": "payload",
+        "outputType": "msg",
+        "outTz": "Pacific/Auckland",
+        "x": 480,
+        "y": 1780,
+        "wires": [
+            [
+                "387b8060.784de"
+            ]
+        ]
+    },
+    {
+        "id": "33f18451.f99e5c",
+        "type": "moment",
+        "z": "85a839d4.998298",
+        "g": "c1316dcf.559c08",
+        "name": "Input: Europe/London, Output: Greenwich",
+        "topic": "",
+        "input": "payload",
+        "inputType": "msg",
+        "inTz": "Europe/London",
+        "adjAmount": "0",
+        "adjType": "hours",
+        "adjDir": "add",
+        "format": "LLL",
+        "locale": "en_GB",
+        "output": "payload",
+        "outputType": "msg",
+        "outTz": "Greenwich",
+        "x": 460,
+        "y": 1840,
+        "wires": [
+            [
+                "3736ce67.c1020a"
+            ]
+        ]
+    },
+    {
+        "id": "ecfe110.4eb93f",
+        "type": "moment",
+        "z": "85a839d4.998298",
+        "g": "c1316dcf.559c08",
+        "name": "Input: Europe/London, Output: Etc/GMT+3",
+        "topic": "",
+        "input": "payload",
+        "inputType": "msg",
+        "inTz": "Europe/London",
+        "adjAmount": "0",
+        "adjType": "hours",
+        "adjDir": "add",
+        "format": "LLL",
+        "locale": "en_GB",
+        "output": "payload",
+        "outputType": "msg",
+        "outTz": "Etc/GMT+3",
+        "x": 460,
+        "y": 1900,
+        "wires": [
+            [
+                "ef3deee7.918f18"
+            ]
+        ]
+    },
+    {
+        "id": "3527c4af.cc5ce4",
+        "type": "comment",
+        "z": "85a839d4.998298",
+        "g": "5fa4e31f.b6c334",
+        "name": "Subtracting Dates From Eachother (As Opposed To Offsetting A Date)",
+        "info": "",
+        "x": 330,
+        "y": 2000,
+        "wires": []
+    },
+    {
+        "id": "2150ab33.86943c",
+        "type": "inject",
+        "z": "85a839d4.998298",
+        "g": "5fa4e31f.b6c334",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 140,
+        "y": 2080,
+        "wires": [
+            [
+                "6dad2926.23951"
+            ]
+        ]
+    },
+    {
+        "id": "9f3167fe.e8a42",
+        "type": "moment",
+        "z": "85a839d4.998298",
+        "g": "5fa4e31f.b6c334",
+        "name": "",
+        "topic": "",
+        "input": "result",
+        "inputType": "msg",
+        "inTz": "Europe/London",
+        "adjAmount": "1",
+        "adjType": "hours",
+        "adjDir": "subtract",
+        "format": "H:mm:ss:SS",
+        "locale": "Europe/London",
+        "output": "payload",
+        "outputType": "msg",
+        "outTz": "Europe/London",
+        "x": 740,
+        "y": 2080,
+        "wires": [
+            [
+                "d853e988.3e8558"
+            ]
+        ]
+    },
+    {
+        "id": "6dad2926.23951",
+        "type": "join",
+        "z": "85a839d4.998298",
+        "g": "5fa4e31f.b6c334",
+        "name": "",
+        "mode": "custom",
+        "build": "array",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "10",
+        "count": "2",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 310,
+        "y": 2080,
+        "wires": [
+            [
+                "f49d2718.e5c49"
+            ]
+        ]
+    },
+    {
+        "id": "f49d2718.e5c49",
+        "type": "function",
+        "z": "85a839d4.998298",
+        "g": "5fa4e31f.b6c334",
+        "name": "Subtract Dates",
+        "func": "X1 = msg.payload.length > 0 && msg.payload[0] !== \"\"\nX2 = msg.payload.length > 1\n\nif(X1 === false){throw \"Error, No Time Values Passed\"}\nif(X2 === false){throw \"Error, Second Button Press Not Made Within 60 Second Window\"}\n\nmsg.result = msg.payload[1] - msg.payload[0]\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 500,
+        "y": 2080,
+        "wires": [
+            [
+                "9f3167fe.e8a42",
+                "1f68d8a1.b08f87"
+            ]
+        ]
+    },
+    {
+        "id": "d853e988.3e8558",
+        "type": "debug",
+        "z": "85a839d4.998298",
+        "g": "5fa4e31f.b6c334",
+        "name": "Human Readable Difference",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 1000,
+        "y": 2080,
+        "wires": []
+    },
+    {
+        "id": "1f68d8a1.b08f87",
+        "type": "debug",
+        "z": "85a839d4.998298",
+        "g": "5fa4e31f.b6c334",
+        "name": "Millisecond Difference",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "result",
+        "targetType": "msg",
+        "statusVal": "result",
+        "statusType": "auto",
+        "x": 740,
+        "y": 2020,
+        "wires": []
+    },
+    {
+        "id": "467129dd.ec4688",
+        "type": "inject",
+        "z": "85a839d4.998298",
+        "g": "5fa4e31f.b6c334",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "str",
+        "x": 130,
+        "y": 2120,
+        "wires": [
+            [
+                "6dad2926.23951"
+            ]
+        ]
+    }
+]

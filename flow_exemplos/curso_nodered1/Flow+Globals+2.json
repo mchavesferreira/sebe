@@ -1,0 +1,227 @@
+[
+    {
+        "id": "90615a6c.ae38b8",
+        "type": "tab",
+        "label": "Flow / Globals - 2",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "566d0c29.0273ec",
+        "type": "group",
+        "z": "90615a6c.ae38b8",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "76a41145.2d956",
+            "75ce368e.4b4978",
+            "9ee53e96.0ac6f",
+            "1b201bd1.0b9ad4"
+        ],
+        "x": 74,
+        "y": 139,
+        "w": 792,
+        "h": 122
+    },
+    {
+        "id": "c7ef707.40ee59",
+        "type": "group",
+        "z": "90615a6c.ae38b8",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "42929bcc.43e704",
+            "f26a24d1.76117",
+            "d190df8e.ff3be",
+            "bbb680fa.3061c"
+        ],
+        "x": 74,
+        "y": 279,
+        "w": 792,
+        "h": 122
+    },
+    {
+        "id": "76a41145.2d956",
+        "type": "inject",
+        "z": "90615a6c.ae38b8",
+        "g": "566d0c29.0273ec",
+        "name": "Get Flow Variable \"Data1\"",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 230,
+        "y": 220,
+        "wires": [
+            [
+                "75ce368e.4b4978",
+                "1b201bd1.0b9ad4"
+            ]
+        ]
+    },
+    {
+        "id": "75ce368e.4b4978",
+        "type": "change",
+        "z": "90615a6c.ae38b8",
+        "g": "566d0c29.0273ec",
+        "name": "Read From Flow",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Data1",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 520,
+        "y": 220,
+        "wires": [
+            [
+                "9ee53e96.0ac6f"
+            ]
+        ]
+    },
+    {
+        "id": "9ee53e96.0ac6f",
+        "type": "debug",
+        "z": "90615a6c.ae38b8",
+        "g": "566d0c29.0273ec",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 770,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "1b201bd1.0b9ad4",
+        "type": "debug",
+        "z": "90615a6c.ae38b8",
+        "g": "566d0c29.0273ec",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 490,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "42929bcc.43e704",
+        "type": "inject",
+        "z": "90615a6c.ae38b8",
+        "g": "c7ef707.40ee59",
+        "name": "Get Global Variable \"Data2\"",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 240,
+        "y": 360,
+        "wires": [
+            [
+                "f26a24d1.76117",
+                "bbb680fa.3061c"
+            ]
+        ]
+    },
+    {
+        "id": "f26a24d1.76117",
+        "type": "change",
+        "z": "90615a6c.ae38b8",
+        "g": "c7ef707.40ee59",
+        "name": "Read From Global",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Data2",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 530,
+        "y": 360,
+        "wires": [
+            [
+                "d190df8e.ff3be"
+            ]
+        ]
+    },
+    {
+        "id": "d190df8e.ff3be",
+        "type": "debug",
+        "z": "90615a6c.ae38b8",
+        "g": "c7ef707.40ee59",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 770,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "bbb680fa.3061c",
+        "type": "debug",
+        "z": "90615a6c.ae38b8",
+        "g": "c7ef707.40ee59",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 490,
+        "y": 320,
+        "wires": []
+    }
+]

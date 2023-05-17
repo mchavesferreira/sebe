@@ -1,0 +1,488 @@
+[
+    {
+        "id": "f66a7ef5.6d77d",
+        "type": "subflow",
+        "name": "Find 1's In Array",
+        "info": "",
+        "category": "",
+        "in": [
+            {
+                "x": 50,
+                "y": 30,
+                "wires": [
+                    {
+                        "id": "f041e7cf.6de4a8"
+                    }
+                ]
+            }
+        ],
+        "out": [
+            {
+                "x": 580,
+                "y": 40,
+                "wires": [
+                    {
+                        "id": "b1630fdf.845a18",
+                        "port": 0
+                    }
+                ]
+            }
+        ],
+        "env": [],
+        "color": "#DDAA99"
+    },
+    {
+        "id": "f041e7cf.6de4a8",
+        "type": "function",
+        "z": "f66a7ef5.6d77d",
+        "name": "Find 1's In Array",
+        "func": "for (i=0;i<msg.payload.length;i++){\n    if (msg.payload[i] == 1){\n        msg.index = i\n        node.send(msg);\n    }\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 200,
+        "y": 80,
+        "wires": [
+            [
+                "b1630fdf.845a18"
+            ]
+        ]
+    },
+    {
+        "id": "b1630fdf.845a18",
+        "type": "join",
+        "z": "f66a7ef5.6d77d",
+        "name": "",
+        "mode": "custom",
+        "build": "array",
+        "property": "index",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "2",
+        "count": "",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 430,
+        "y": 80,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c5d8f5b0.c9d328",
+        "type": "tab",
+        "label": "Extras",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "39bd01fc.c4468e",
+        "type": "group",
+        "z": "c5d8f5b0.c9d328",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "6cad614d.f2e63",
+            "cd439220.96a8d",
+            "76bc48f1.7227",
+            "761a1e1a.90e548"
+        ],
+        "x": 114,
+        "y": 339,
+        "w": 802,
+        "h": 82
+    },
+    {
+        "id": "788b1c5.f716764",
+        "type": "group",
+        "z": "c5d8f5b0.c9d328",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "b8ccfb91.ebc368",
+            "8be29ced.95f7a8",
+            "2cac9af3.319bd6"
+        ],
+        "x": 114,
+        "y": 459,
+        "w": 802,
+        "h": 82
+    },
+    {
+        "id": "a3eca935.9fb5c",
+        "type": "group",
+        "z": "c5d8f5b0.c9d328",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "dd216b27.2737a8",
+            "9436b81a.09f71",
+            "8d479adc.464b9"
+        ],
+        "x": 154,
+        "y": 159,
+        "w": 382,
+        "h": 122
+    },
+    {
+        "id": "d0f4f277.b1df4",
+        "type": "group",
+        "z": "c5d8f5b0.c9d328",
+        "name": "My New Group",
+        "style": {
+            "stroke": "#ff0000",
+            "fill": "#bfdbef",
+            "fill-opacity": "0.5",
+            "label": true,
+            "label-position": "sw",
+            "color": "#000000"
+        },
+        "nodes": [
+            "524f1c57.f36bdc",
+            "4fd05f65.8502e8",
+            "f1e4bcbf.f5e608",
+            "7c11baeb.989874"
+        ],
+        "x": 164,
+        "y": 619,
+        "w": 552,
+        "h": 210
+    },
+    {
+        "id": "dd216b27.2737a8",
+        "type": "function",
+        "z": "c5d8f5b0.c9d328",
+        "g": "a3eca935.9fb5c",
+        "name": "Smart Debug - True False",
+        "func": "if(msg.payload === false){ \n node.status({fill:\"red\",shape:\"ring\",text:msg.payload})\n}else{\n  node.status({fill:\"green\",shape:\"ring\",text:msg.payload})\n}\nreturn msg;",
+        "outputs": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 495,
+        "y": 220,
+        "wires": [],
+        "inputLabels": [
+            "Stuff Goes Here"
+        ],
+        "icon": "font-awesome/fa-bug",
+        "l": false
+    },
+    {
+        "id": "9436b81a.09f71",
+        "type": "inject",
+        "z": "c5d8f5b0.c9d328",
+        "g": "a3eca935.9fb5c",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "false",
+        "payloadType": "bool",
+        "x": 250,
+        "y": 240,
+        "wires": [
+            [
+                "dd216b27.2737a8"
+            ]
+        ]
+    },
+    {
+        "id": "8d479adc.464b9",
+        "type": "inject",
+        "z": "c5d8f5b0.c9d328",
+        "g": "a3eca935.9fb5c",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 250,
+        "y": 200,
+        "wires": [
+            [
+                "dd216b27.2737a8"
+            ]
+        ]
+    },
+    {
+        "id": "6cad614d.f2e63",
+        "type": "function",
+        "z": "c5d8f5b0.c9d328",
+        "g": "39bd01fc.c4468e",
+        "name": "Smart Debug",
+        "func": " node.status({fill:\"blue\",shape:\"ring\",text:msg.index})\n",
+        "outputs": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 875,
+        "y": 380,
+        "wires": [],
+        "icon": "font-awesome/fa-bug",
+        "l": false
+    },
+    {
+        "id": "cd439220.96a8d",
+        "type": "inject",
+        "z": "c5d8f5b0.c9d328",
+        "g": "39bd01fc.c4468e",
+        "name": "Big Array",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0]",
+        "payloadType": "json",
+        "x": 220,
+        "y": 380,
+        "wires": [
+            [
+                "76bc48f1.7227"
+            ]
+        ]
+    },
+    {
+        "id": "76bc48f1.7227",
+        "type": "function",
+        "z": "c5d8f5b0.c9d328",
+        "g": "39bd01fc.c4468e",
+        "name": "Find 1's In Array",
+        "func": "for (i=0;i<msg.payload.length;i++){\n    if (msg.payload[i] == 1){\n        msg.index = i\n        node.send(msg);\n    }\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 460,
+        "y": 380,
+        "wires": [
+            [
+                "761a1e1a.90e548"
+            ]
+        ]
+    },
+    {
+        "id": "761a1e1a.90e548",
+        "type": "join",
+        "z": "c5d8f5b0.c9d328",
+        "g": "39bd01fc.c4468e",
+        "name": "",
+        "mode": "custom",
+        "build": "array",
+        "property": "index",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "2",
+        "count": "",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 690,
+        "y": 380,
+        "wires": [
+            [
+                "6cad614d.f2e63"
+            ]
+        ]
+    },
+    {
+        "id": "2cac9af3.319bd6",
+        "type": "subflow:f66a7ef5.6d77d",
+        "z": "c5d8f5b0.c9d328",
+        "g": "788b1c5.f716764",
+        "name": "",
+        "env": [],
+        "x": 540,
+        "y": 500,
+        "wires": [
+            [
+                "b8ccfb91.ebc368"
+            ]
+        ]
+    },
+    {
+        "id": "b8ccfb91.ebc368",
+        "type": "function",
+        "z": "c5d8f5b0.c9d328",
+        "g": "788b1c5.f716764",
+        "name": "Smart Debug - Was Flow Stopped On Watchdog Kill?",
+        "func": " node.status({fill:\"blue\",shape:\"ring\",text:msg.index})\n",
+        "outputs": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 875,
+        "y": 500,
+        "wires": [],
+        "icon": "font-awesome/fa-bug",
+        "l": false
+    },
+    {
+        "id": "8be29ced.95f7a8",
+        "type": "inject",
+        "z": "c5d8f5b0.c9d328",
+        "g": "788b1c5.f716764",
+        "name": "Big Array",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0]",
+        "payloadType": "json",
+        "x": 220,
+        "y": 500,
+        "wires": [
+            [
+                "2cac9af3.319bd6"
+            ]
+        ]
+    },
+    {
+        "id": "524f1c57.f36bdc",
+        "type": "inject",
+        "z": "c5d8f5b0.c9d328",
+        "g": "d0f4f277.b1df4",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 270,
+        "y": 660,
+        "wires": [
+            [
+                "4fd05f65.8502e8"
+            ]
+        ]
+    },
+    {
+        "id": "4fd05f65.8502e8",
+        "type": "debug",
+        "z": "c5d8f5b0.c9d328",
+        "g": "d0f4f277.b1df4",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 600,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "f1e4bcbf.f5e608",
+        "type": "complete",
+        "z": "c5d8f5b0.c9d328",
+        "g": "d0f4f277.b1df4",
+        "name": "",
+        "scope": [],
+        "uncaught": false,
+        "x": 270,
+        "y": 720,
+        "wires": [
+            [
+                "7c11baeb.989874"
+            ]
+        ]
+    },
+    {
+        "id": "7c11baeb.989874",
+        "type": "function",
+        "z": "c5d8f5b0.c9d328",
+        "g": "d0f4f277.b1df4",
+        "name": "",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 600,
+        "y": 780,
+        "wires": [
+            []
+        ]
+    }
+]

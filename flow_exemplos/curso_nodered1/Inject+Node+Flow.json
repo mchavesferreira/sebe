@@ -1,0 +1,194 @@
+[
+    {
+        "id": "30e0cb4e.ea6f24",
+        "type": "tab",
+        "label": "Inject Node Lesson",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "100f8a83.e106ed",
+        "type": "group",
+        "z": "30e0cb4e.ea6f24",
+        "name": "Inject Node",
+        "style": {
+            "stroke": "#000000",
+            "fill": "#ffff00",
+            "fill-opacity": "0.05",
+            "label": true,
+            "label-position": "sw",
+            "color": "#ff0000"
+        },
+        "nodes": [
+            "413a2cf8.988ee4",
+            "e2050e23.5985f",
+            "79a5d77.7907fa8",
+            "efdb71f1.e79438",
+            "150f7151.7291af",
+            "3c7f81f3.c7a20e",
+            "1649185f.3c8c58"
+        ],
+        "x": 194,
+        "y": 39,
+        "w": 712,
+        "h": 210
+    },
+    {
+        "id": "413a2cf8.988ee4",
+        "type": "inject",
+        "z": "30e0cb4e.ea6f24",
+        "g": "100f8a83.e106ed",
+        "name": "RUN",
+        "props": [],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "10",
+        "topic": "",
+        "x": 290,
+        "y": 140,
+        "wires": [
+            [
+                "150f7151.7291af"
+            ]
+        ]
+    },
+    {
+        "id": "e2050e23.5985f",
+        "type": "change",
+        "z": "30e0cb4e.ea6f24",
+        "g": "100f8a83.e106ed",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "counter",
+                "pt": "global",
+                "to": "0",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 470,
+        "y": 80,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "79a5d77.7907fa8",
+        "type": "inject",
+        "z": "30e0cb4e.ea6f24",
+        "g": "100f8a83.e106ed",
+        "name": "",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payloadType": "str",
+        "x": 290,
+        "y": 80,
+        "wires": [
+            [
+                "e2050e23.5985f"
+            ]
+        ]
+    },
+    {
+        "id": "efdb71f1.e79438",
+        "type": "change",
+        "z": "30e0cb4e.ea6f24",
+        "g": "100f8a83.e106ed",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "counter",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 600,
+        "y": 140,
+        "wires": [
+            [
+                "3c7f81f3.c7a20e"
+            ]
+        ]
+    },
+    {
+        "id": "150f7151.7291af",
+        "type": "function",
+        "z": "30e0cb4e.ea6f24",
+        "g": "100f8a83.e106ed",
+        "name": "+1",
+        "func": "if (msg.hasOwnProperty(\"payload\")){\n  global.set(\"counter\",0)\n  return msg;\n}\n\nglobal.set(\"counter\",global.get(\"counter\")+1)\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 440,
+        "y": 140,
+        "wires": [
+            [
+                "efdb71f1.e79438"
+            ]
+        ]
+    },
+    {
+        "id": "3c7f81f3.c7a20e",
+        "type": "debug",
+        "z": "30e0cb4e.ea6f24",
+        "g": "100f8a83.e106ed",
+        "name": "",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 790,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "1649185f.3c8c58",
+        "type": "inject",
+        "z": "30e0cb4e.ea6f24",
+        "g": "100f8a83.e106ed",
+        "name": "Reset",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 290,
+        "y": 200,
+        "wires": [
+            [
+                "150f7151.7291af"
+            ]
+        ]
+    }
+]

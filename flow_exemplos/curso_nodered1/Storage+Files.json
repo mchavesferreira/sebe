@@ -1,0 +1,802 @@
+[
+    {
+        "id": "210514bc.71c824",
+        "type": "tab",
+        "label": "Storage / Files Lesson",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "1587c48e.92e0e3",
+        "type": "group",
+        "z": "210514bc.71c824",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "58670d4c.79c8f4",
+            "41d2efb7.84974",
+            "97bab815.d2f1a",
+            "a1666675.6b4f78"
+        ],
+        "x": 34,
+        "y": 779,
+        "w": 892,
+        "h": 162
+    },
+    {
+        "id": "16922a11.135126",
+        "type": "group",
+        "z": "210514bc.71c824",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "9d8b9098.acad6",
+            "b5fbdc4b.407cf8",
+            "202b5886.90968",
+            "220fbd23.90f03a",
+            "8e3ca12f.ae4fd"
+        ],
+        "x": 34,
+        "y": 19,
+        "w": 852,
+        "h": 202
+    },
+    {
+        "id": "1c2400e4.581cef",
+        "type": "group",
+        "z": "210514bc.71c824",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "e94d5c3d.3ec23",
+            "3fee05f8.10231a",
+            "3b66f8b.d38d408",
+            "ad7403fd.0c4d48",
+            "2a6b7dab.1381fa"
+        ],
+        "x": 34,
+        "y": 1099,
+        "w": 772,
+        "h": 182
+    },
+    {
+        "id": "82439707.1b2cb8",
+        "type": "group",
+        "z": "210514bc.71c824",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "e4639989.19f63",
+            "e03c1524.7b921",
+            "9d5f044b.102638",
+            "4bf31cc2.f5c6ec"
+        ],
+        "x": 34,
+        "y": 259,
+        "w": 852,
+        "h": 142
+    },
+    {
+        "id": "89d5c354.6d0c9",
+        "type": "group",
+        "z": "210514bc.71c824",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "4627e72e.9c103",
+            "da11dc13.9b79e8",
+            "47f65f57.e51088",
+            "b69186f0.15ed6",
+            "3fbfc03.f79e34",
+            "803b6a96.fc91f8",
+            "d1ff46b6.a7ff2",
+            "856709f8.d99f2",
+            "cd39fcca.2b851",
+            "317847bf.7650b",
+            "5cb40b74.5bdd9c",
+            "8921a0bc.2687d8",
+            "dcce517.eea3ab",
+            "7fb71758.5906e8"
+        ],
+        "x": 34,
+        "y": 419,
+        "w": 1112,
+        "h": 342
+    },
+    {
+        "id": "8c2b7e18.db3b78",
+        "type": "group",
+        "z": "210514bc.71c824",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "f6ca7733.bc093",
+            "1a960f79.b70b19",
+            "57f4bdce.612784"
+        ],
+        "x": 34,
+        "y": 959,
+        "w": 812,
+        "h": 122
+    },
+    {
+        "id": "9d8b9098.acad6",
+        "type": "comment",
+        "z": "210514bc.71c824",
+        "g": "16922a11.135126",
+        "name": "Read File Data",
+        "info": "",
+        "x": 160,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "b5fbdc4b.407cf8",
+        "type": "file in",
+        "z": "210514bc.71c824",
+        "g": "16922a11.135126",
+        "name": "",
+        "filename": "",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "x": 470,
+        "y": 120,
+        "wires": [
+            [
+                "220fbd23.90f03a"
+            ]
+        ]
+    },
+    {
+        "id": "202b5886.90968",
+        "type": "inject",
+        "z": "210514bc.71c824",
+        "g": "16922a11.135126",
+        "name": "Text File Location",
+        "props": [
+            {
+                "p": "filename",
+                "v": "/home/liam/Documents/Example File Read.txt",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 160,
+        "y": 120,
+        "wires": [
+            [
+                "b5fbdc4b.407cf8",
+                "8e3ca12f.ae4fd"
+            ]
+        ]
+    },
+    {
+        "id": "220fbd23.90f03a",
+        "type": "debug",
+        "z": "210514bc.71c824",
+        "g": "16922a11.135126",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 770,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "8e3ca12f.ae4fd",
+        "type": "debug",
+        "z": "210514bc.71c824",
+        "g": "16922a11.135126",
+        "name": "",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "filename",
+        "targetType": "msg",
+        "statusVal": "filename",
+        "statusType": "auto",
+        "x": 490,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "e4639989.19f63",
+        "type": "inject",
+        "z": "210514bc.71c824",
+        "g": "82439707.1b2cb8",
+        "name": "HTML File Location",
+        "props": [
+            {
+                "p": "filename",
+                "v": "/home/liam/Documents/Node-RED.html",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 170,
+        "y": 300,
+        "wires": [
+            [
+                "e03c1524.7b921",
+                "9d5f044b.102638"
+            ]
+        ]
+    },
+    {
+        "id": "e03c1524.7b921",
+        "type": "file in",
+        "z": "210514bc.71c824",
+        "g": "82439707.1b2cb8",
+        "name": "",
+        "filename": "",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "x": 470,
+        "y": 300,
+        "wires": [
+            [
+                "4bf31cc2.f5c6ec"
+            ]
+        ]
+    },
+    {
+        "id": "9d5f044b.102638",
+        "type": "debug",
+        "z": "210514bc.71c824",
+        "g": "82439707.1b2cb8",
+        "name": "",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "filename",
+        "targetType": "msg",
+        "statusVal": "filename",
+        "statusType": "auto",
+        "x": 490,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "4bf31cc2.f5c6ec",
+        "type": "debug",
+        "z": "210514bc.71c824",
+        "g": "82439707.1b2cb8",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 770,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "4627e72e.9c103",
+        "type": "comment",
+        "z": "210514bc.71c824",
+        "g": "89d5c354.6d0c9",
+        "name": "Write File Data",
+        "info": "",
+        "x": 140,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "da11dc13.9b79e8",
+        "type": "join",
+        "z": "210514bc.71c824",
+        "g": "89d5c354.6d0c9",
+        "name": "",
+        "mode": "custom",
+        "build": "array",
+        "property": "",
+        "propertyType": "full",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "2",
+        "count": "",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "num",
+        "reduceFixup": "",
+        "x": 470,
+        "y": 540,
+        "wires": [
+            [
+                "b69186f0.15ed6",
+                "d1ff46b6.a7ff2",
+                "cd39fcca.2b851"
+            ]
+        ]
+    },
+    {
+        "id": "47f65f57.e51088",
+        "type": "link in",
+        "z": "210514bc.71c824",
+        "g": "89d5c354.6d0c9",
+        "name": "",
+        "links": [
+            "41fb3b0b.4e08ec"
+        ],
+        "x": 375,
+        "y": 540,
+        "wires": [
+            [
+                "da11dc13.9b79e8",
+                "dcce517.eea3ab"
+            ]
+        ]
+    },
+    {
+        "id": "b69186f0.15ed6",
+        "type": "debug",
+        "z": "210514bc.71c824",
+        "g": "89d5c354.6d0c9",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 730,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "3fbfc03.f79e34",
+        "type": "link out",
+        "z": "210514bc.71c824",
+        "g": "89d5c354.6d0c9",
+        "name": "",
+        "links": [
+            "6be4b70b.6115c8"
+        ],
+        "x": 295,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "803b6a96.fc91f8",
+        "type": "inject",
+        "z": "210514bc.71c824",
+        "g": "89d5c354.6d0c9",
+        "name": "Scrape F1 Website",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payloadType": "str",
+        "x": 170,
+        "y": 500,
+        "wires": [
+            [
+                "3fbfc03.f79e34"
+            ]
+        ]
+    },
+    {
+        "id": "d1ff46b6.a7ff2",
+        "type": "file",
+        "z": "210514bc.71c824",
+        "g": "89d5c354.6d0c9",
+        "name": "",
+        "filename": "/home/liam/Documents/F1_Data.txt",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 720,
+        "y": 600,
+        "wires": [
+            [
+                "856709f8.d99f2"
+            ]
+        ]
+    },
+    {
+        "id": "856709f8.d99f2",
+        "type": "debug",
+        "z": "210514bc.71c824",
+        "g": "89d5c354.6d0c9",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 950,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "cd39fcca.2b851",
+        "type": "csv",
+        "z": "210514bc.71c824",
+        "g": "89d5c354.6d0c9",
+        "name": "",
+        "sep": ",",
+        "hdrin": "",
+        "hdrout": "none",
+        "multi": "one",
+        "ret": "\\n",
+        "temp": "Event,Time,msgID",
+        "skip": "0",
+        "strings": true,
+        "include_empty_strings": "",
+        "include_null_values": "",
+        "x": 610,
+        "y": 660,
+        "wires": [
+            [
+                "317847bf.7650b"
+            ]
+        ]
+    },
+    {
+        "id": "317847bf.7650b",
+        "type": "file",
+        "z": "210514bc.71c824",
+        "g": "89d5c354.6d0c9",
+        "name": "",
+        "filename": "/home/liam/Documents/F1_Data.csv",
+        "appendNewline": true,
+        "createDir": true,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 830,
+        "y": 660,
+        "wires": [
+            [
+                "5cb40b74.5bdd9c"
+            ]
+        ]
+    },
+    {
+        "id": "5cb40b74.5bdd9c",
+        "type": "debug",
+        "z": "210514bc.71c824",
+        "g": "89d5c354.6d0c9",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1050,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "58670d4c.79c8f4",
+        "type": "comment",
+        "z": "210514bc.71c824",
+        "g": "1587c48e.92e0e3",
+        "name": "Watch A File",
+        "info": "",
+        "x": 130,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "41d2efb7.84974",
+        "type": "watch",
+        "z": "210514bc.71c824",
+        "g": "1587c48e.92e0e3",
+        "name": "",
+        "files": "/home/liam/Documents/F1_Data.csv",
+        "recursive": "",
+        "x": 200,
+        "y": 860,
+        "wires": [
+            [
+                "97bab815.d2f1a",
+                "a1666675.6b4f78"
+            ]
+        ]
+    },
+    {
+        "id": "97bab815.d2f1a",
+        "type": "debug",
+        "z": "210514bc.71c824",
+        "g": "1587c48e.92e0e3",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 750,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "a1666675.6b4f78",
+        "type": "debug",
+        "z": "210514bc.71c824",
+        "g": "1587c48e.92e0e3",
+        "name": "File Name Updated",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "file",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 790,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "57f4bdce.612784",
+        "type": "comment",
+        "z": "210514bc.71c824",
+        "g": "8c2b7e18.db3b78",
+        "name": "Watch A Directory",
+        "info": "",
+        "x": 150,
+        "y": 1000,
+        "wires": []
+    },
+    {
+        "id": "8921a0bc.2687d8",
+        "type": "file",
+        "z": "210514bc.71c824",
+        "g": "89d5c354.6d0c9",
+        "name": "Write File",
+        "filename": "",
+        "appendNewline": true,
+        "createDir": true,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 740,
+        "y": 720,
+        "wires": [
+            [
+                "7fb71758.5906e8"
+            ]
+        ]
+    },
+    {
+        "id": "dcce517.eea3ab",
+        "type": "function",
+        "z": "210514bc.71c824",
+        "g": "89d5c354.6d0c9",
+        "name": "Sort Files",
+        "func": "msg.filename = \"/home/liam/Documents/\" + msg.Event + \".txt\"\nmsg.payload = msg.Time\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 540,
+        "y": 720,
+        "wires": [
+            [
+                "8921a0bc.2687d8"
+            ]
+        ]
+    },
+    {
+        "id": "7fb71758.5906e8",
+        "type": "debug",
+        "z": "210514bc.71c824",
+        "g": "89d5c354.6d0c9",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 950,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "f6ca7733.bc093",
+        "type": "watch",
+        "z": "210514bc.71c824",
+        "g": "8c2b7e18.db3b78",
+        "name": "",
+        "files": "/home/liam/Documents/",
+        "recursive": "",
+        "x": 160,
+        "y": 1040,
+        "wires": [
+            [
+                "1a960f79.b70b19"
+            ]
+        ]
+    },
+    {
+        "id": "1a960f79.b70b19",
+        "type": "debug",
+        "z": "210514bc.71c824",
+        "g": "8c2b7e18.db3b78",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 750,
+        "y": 1040,
+        "wires": []
+    },
+    {
+        "id": "3fee05f8.10231a",
+        "type": "tail",
+        "z": "210514bc.71c824",
+        "g": "1c2400e4.581cef",
+        "name": "",
+        "filetype": "text",
+        "split": "[\\r]{0,1}\\n",
+        "filename": "/home/liam/Documents/TimeStamps.txt",
+        "inputs": 0,
+        "x": 450,
+        "y": 1240,
+        "wires": [
+            [
+                "e94d5c3d.3ec23"
+            ]
+        ]
+    },
+    {
+        "id": "ad7403fd.0c4d48",
+        "type": "inject",
+        "z": "210514bc.71c824",
+        "g": "1c2400e4.581cef",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "5",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 150,
+        "y": 1180,
+        "wires": [
+            [
+                "3b66f8b.d38d408"
+            ]
+        ]
+    },
+    {
+        "id": "3b66f8b.d38d408",
+        "type": "file",
+        "z": "210514bc.71c824",
+        "g": "1c2400e4.581cef",
+        "name": "",
+        "filename": "/home/liam/Documents/TimeStamps.txt",
+        "appendNewline": true,
+        "createDir": true,
+        "overwriteFile": "false",
+        "encoding": "none",
+        "x": 460,
+        "y": 1180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e94d5c3d.3ec23",
+        "type": "debug",
+        "z": "210514bc.71c824",
+        "g": "1c2400e4.581cef",
+        "name": "",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 710,
+        "y": 1240,
+        "wires": []
+    },
+    {
+        "id": "2a6b7dab.1381fa",
+        "type": "comment",
+        "z": "210514bc.71c824",
+        "g": "1c2400e4.581cef",
+        "name": "Tail A File",
+        "info": "",
+        "x": 120,
+        "y": 1140,
+        "wires": []
+    }
+]

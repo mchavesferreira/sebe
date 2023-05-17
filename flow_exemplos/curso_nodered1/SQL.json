@@ -1,0 +1,431 @@
+[
+    {
+        "id": "312694ae.2afeac",
+        "type": "tab",
+        "label": "SQL Lesson",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "13eefed7.796659",
+        "type": "mysql",
+        "z": "312694ae.2afeac",
+        "mydb": "d4fbcd53.8a91b8",
+        "name": "",
+        "x": 1150,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c742ead3.d57d9",
+        "type": "comment",
+        "z": "312694ae.2afeac",
+        "name": "SQL Write Example",
+        "info": "",
+        "x": 180,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "57305dd1.52f1a4",
+        "type": "complete",
+        "z": "312694ae.2afeac",
+        "name": "Listen For Monitor Node Updates",
+        "scope": [
+            "bd91696e.e3a6c8",
+            "4598e6a7.f47d6",
+            "bda866fa.cbd96",
+            "ac9572a5.b6b67"
+        ],
+        "uncaught": false,
+        "x": 230,
+        "y": 300,
+        "wires": [
+            [
+                "57a74bb9.15c314"
+            ]
+        ]
+    },
+    {
+        "id": "16052cca.ebcf5b",
+        "type": "inject",
+        "z": "312694ae.2afeac",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "First Inject Node",
+        "payloadType": "str",
+        "x": 180,
+        "y": 100,
+        "wires": [
+            [
+                "bd91696e.e3a6c8"
+            ]
+        ]
+    },
+    {
+        "id": "79929b93.5d938c",
+        "type": "inject",
+        "z": "312694ae.2afeac",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "Second Inject Node",
+        "payloadType": "str",
+        "x": 190,
+        "y": 140,
+        "wires": [
+            [
+                "4598e6a7.f47d6"
+            ]
+        ]
+    },
+    {
+        "id": "3c9e9815.3283c8",
+        "type": "inject",
+        "z": "312694ae.2afeac",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "Third Inject Node",
+        "payloadType": "str",
+        "x": 180,
+        "y": 180,
+        "wires": [
+            [
+                "bda866fa.cbd96"
+            ]
+        ]
+    },
+    {
+        "id": "75c6d145.8ab428",
+        "type": "inject",
+        "z": "312694ae.2afeac",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "Fourth Inject Node",
+        "payloadType": "str",
+        "x": 190,
+        "y": 220,
+        "wires": [
+            [
+                "ac9572a5.b6b67"
+            ]
+        ]
+    },
+    {
+        "id": "bd91696e.e3a6c8",
+        "type": "debug",
+        "z": "312694ae.2afeac",
+        "name": "Monitor",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 360,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "4598e6a7.f47d6",
+        "type": "debug",
+        "z": "312694ae.2afeac",
+        "name": "Monitor",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 480,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "bda866fa.cbd96",
+        "type": "debug",
+        "z": "312694ae.2afeac",
+        "name": "Monitor",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 620,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "ac9572a5.b6b67",
+        "type": "debug",
+        "z": "312694ae.2afeac",
+        "name": "Monitor",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 760,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "67b1b55b.178efc",
+        "type": "template",
+        "z": "312694ae.2afeac",
+        "name": "Set SQL Topic",
+        "field": "topic",
+        "fieldType": "msg",
+        "format": "sql",
+        "syntax": "mustache",
+        "template": "INSERT INTO `NR_Lesson`.`Lesson1` (`Time`,`Msg`) VALUES (\"{{Time}}\",\"{{Msg}}\")",
+        "output": "str",
+        "x": 880,
+        "y": 300,
+        "wires": [
+            [
+                "12d38eea.df0d49",
+                "13eefed7.796659"
+            ]
+        ],
+        "icon": "font-awesome/fa-database"
+    },
+    {
+        "id": "48f25d44.4a3104",
+        "type": "change",
+        "z": "312694ae.2afeac",
+        "name": "Set SQL Data",
+        "rules": [
+            {
+                "t": "set",
+                "p": "Msg",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "payload",
+                "pt": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 680,
+        "y": 300,
+        "wires": [
+            [
+                "67b1b55b.178efc"
+            ]
+        ]
+    },
+    {
+        "id": "57a74bb9.15c314",
+        "type": "moment",
+        "z": "312694ae.2afeac",
+        "name": "Get DateTime",
+        "topic": "",
+        "input": "",
+        "inputType": "date",
+        "inTz": "Europe/London",
+        "adjAmount": "0",
+        "adjType": "hours",
+        "adjDir": "add",
+        "format": "yyyy-MM-DD HH:mm:ss",
+        "locale": "en_gb",
+        "output": "Time",
+        "outputType": "msg",
+        "outTz": "Europe/London",
+        "x": 480,
+        "y": 300,
+        "wires": [
+            [
+                "48f25d44.4a3104"
+            ]
+        ]
+    },
+    {
+        "id": "12d38eea.df0d49",
+        "type": "debug",
+        "z": "312694ae.2afeac",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1130,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "27bcb204.ecab16",
+        "type": "template",
+        "z": "312694ae.2afeac",
+        "name": "Latest Data Query",
+        "field": "topic",
+        "fieldType": "msg",
+        "format": "sql",
+        "syntax": "mustache",
+        "template": "SELECT * FROM Lesson1 ORDER BY id DESC LIMIT 1\n",
+        "output": "str",
+        "x": 370,
+        "y": 580,
+        "wires": [
+            [
+                "e3721d77.fa78c"
+            ]
+        ]
+    },
+    {
+        "id": "33fec7d9.53067",
+        "type": "inject",
+        "z": "312694ae.2afeac",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 160,
+        "y": 580,
+        "wires": [
+            [
+                "27bcb204.ecab16"
+            ]
+        ]
+    },
+    {
+        "id": "e3721d77.fa78c",
+        "type": "mysql",
+        "z": "312694ae.2afeac",
+        "mydb": "d4fbcd53.8a91b8",
+        "name": "",
+        "x": 610,
+        "y": 580,
+        "wires": [
+            [
+                "4bcbf201.83e4f4",
+                "6101cac9.20993c"
+            ]
+        ]
+    },
+    {
+        "id": "4bcbf201.83e4f4",
+        "type": "debug",
+        "z": "312694ae.2afeac",
+        "name": "",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload[0].Msg",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 880,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "6101cac9.20993c",
+        "type": "debug",
+        "z": "312694ae.2afeac",
+        "name": "",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload[0].Time",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 880,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "e6a14c22.b76258",
+        "type": "comment",
+        "z": "312694ae.2afeac",
+        "name": "SQL Read Example",
+        "info": "",
+        "x": 170,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "d4fbcd53.8a91b8",
+        "type": "MySQLdatabase",
+        "z": "",
+        "name": "",
+        "host": "127.0.0.1",
+        "port": "3306",
+        "db": "NR_Lesson",
+        "tz": ""
+    }
+]

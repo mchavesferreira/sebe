@@ -1,0 +1,558 @@
+[
+    {
+        "id": "493fe890.eeec38",
+        "type": "tab",
+        "label": "Flow / Globals",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "3bc3597a.71e016",
+        "type": "group",
+        "z": "493fe890.eeec38",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "d368fe68.2f526",
+            "c527d51f.c2dd98",
+            "dbce78c2.67a808",
+            "cdb9051c.a5f9e8",
+            "74f69c8e.b820d4",
+            "1e7a4b6f.662e7d",
+            "79c905d5.79214c",
+            "86bd973a.ea0de8"
+        ],
+        "x": 54,
+        "y": 59,
+        "w": 792,
+        "h": 202
+    },
+    {
+        "id": "b42b711.b622c9",
+        "type": "group",
+        "z": "493fe890.eeec38",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "fb208acc.21eaa8",
+            "d23cce52.868c88",
+            "7dc66759.45ea48",
+            "8213e87.081d098",
+            "e28530b9.8e587",
+            "971c72f0.b7801"
+        ],
+        "x": 54,
+        "y": 519,
+        "w": 792,
+        "h": 122
+    },
+    {
+        "id": "e91a6e75.bea788",
+        "type": "group",
+        "z": "493fe890.eeec38",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "21fb0a29.4771ce",
+            "779123d0.6228b4",
+            "41a4f00a.662e4",
+            "60cac7d4.a8eba8",
+            "1bc75c3a.9c15d4",
+            "a1eae8e0.baf09",
+            "b29fad01.2f2f08",
+            "7f7c5ad4.6cdd44"
+        ],
+        "x": 54,
+        "y": 279,
+        "w": 792,
+        "h": 202
+    },
+    {
+        "id": "d368fe68.2f526",
+        "type": "inject",
+        "z": "493fe890.eeec38",
+        "g": "3bc3597a.71e016",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "This Is A Flow Variable_2",
+        "payloadType": "str",
+        "x": 150,
+        "y": 140,
+        "wires": [
+            [
+                "c527d51f.c2dd98",
+                "79c905d5.79214c"
+            ]
+        ]
+    },
+    {
+        "id": "c527d51f.c2dd98",
+        "type": "change",
+        "z": "493fe890.eeec38",
+        "g": "3bc3597a.71e016",
+        "name": "Store In Flow",
+        "rules": [
+            {
+                "t": "set",
+                "p": "Data1",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 490,
+        "y": 140,
+        "wires": [
+            [
+                "dbce78c2.67a808"
+            ]
+        ]
+    },
+    {
+        "id": "dbce78c2.67a808",
+        "type": "debug",
+        "z": "493fe890.eeec38",
+        "g": "3bc3597a.71e016",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 750,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "cdb9051c.a5f9e8",
+        "type": "inject",
+        "z": "493fe890.eeec38",
+        "g": "3bc3597a.71e016",
+        "name": "Get Flow Variable \"Data1\"",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payloadType": "str",
+        "x": 210,
+        "y": 220,
+        "wires": [
+            [
+                "74f69c8e.b820d4",
+                "86bd973a.ea0de8"
+            ]
+        ]
+    },
+    {
+        "id": "74f69c8e.b820d4",
+        "type": "change",
+        "z": "493fe890.eeec38",
+        "g": "3bc3597a.71e016",
+        "name": "Read From Flow",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Data1",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 500,
+        "y": 220,
+        "wires": [
+            [
+                "1e7a4b6f.662e7d"
+            ]
+        ]
+    },
+    {
+        "id": "1e7a4b6f.662e7d",
+        "type": "debug",
+        "z": "493fe890.eeec38",
+        "g": "3bc3597a.71e016",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 750,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "79c905d5.79214c",
+        "type": "debug",
+        "z": "493fe890.eeec38",
+        "g": "3bc3597a.71e016",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 470,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "86bd973a.ea0de8",
+        "type": "debug",
+        "z": "493fe890.eeec38",
+        "g": "3bc3597a.71e016",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 470,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "21fb0a29.4771ce",
+        "type": "inject",
+        "z": "493fe890.eeec38",
+        "g": "e91a6e75.bea788",
+        "name": "This Is A Global Variable",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "This Is A Global Variable",
+        "payloadType": "str",
+        "x": 210,
+        "y": 360,
+        "wires": [
+            [
+                "779123d0.6228b4",
+                "b29fad01.2f2f08"
+            ]
+        ]
+    },
+    {
+        "id": "779123d0.6228b4",
+        "type": "change",
+        "z": "493fe890.eeec38",
+        "g": "e91a6e75.bea788",
+        "name": "Store In Global",
+        "rules": [
+            {
+                "t": "set",
+                "p": "Data2",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 500,
+        "y": 360,
+        "wires": [
+            [
+                "41a4f00a.662e4"
+            ]
+        ]
+    },
+    {
+        "id": "41a4f00a.662e4",
+        "type": "debug",
+        "z": "493fe890.eeec38",
+        "g": "e91a6e75.bea788",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 750,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "60cac7d4.a8eba8",
+        "type": "inject",
+        "z": "493fe890.eeec38",
+        "g": "e91a6e75.bea788",
+        "name": "Get Global Variable \"Data2\"",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 220,
+        "y": 440,
+        "wires": [
+            [
+                "1bc75c3a.9c15d4",
+                "7f7c5ad4.6cdd44"
+            ]
+        ]
+    },
+    {
+        "id": "1bc75c3a.9c15d4",
+        "type": "change",
+        "z": "493fe890.eeec38",
+        "g": "e91a6e75.bea788",
+        "name": "Read From Global",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Data2",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 510,
+        "y": 440,
+        "wires": [
+            [
+                "a1eae8e0.baf09"
+            ]
+        ]
+    },
+    {
+        "id": "a1eae8e0.baf09",
+        "type": "debug",
+        "z": "493fe890.eeec38",
+        "g": "e91a6e75.bea788",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 750,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "b29fad01.2f2f08",
+        "type": "debug",
+        "z": "493fe890.eeec38",
+        "g": "e91a6e75.bea788",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 470,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "7f7c5ad4.6cdd44",
+        "type": "debug",
+        "z": "493fe890.eeec38",
+        "g": "e91a6e75.bea788",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 470,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "fb208acc.21eaa8",
+        "type": "function",
+        "z": "493fe890.eeec38",
+        "g": "b42b711.b622c9",
+        "name": "Read Global",
+        "func": "msg.Data2 = global.get(\"Data2\")\nmsg.Data3 = global.get(\"Data3\")||\"ERROR\"\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 490,
+        "y": 560,
+        "wires": [
+            [
+                "7dc66759.45ea48"
+            ]
+        ]
+    },
+    {
+        "id": "d23cce52.868c88",
+        "type": "inject",
+        "z": "493fe890.eeec38",
+        "g": "b42b711.b622c9",
+        "name": "RUN",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 150,
+        "y": 560,
+        "wires": [
+            [
+                "fb208acc.21eaa8"
+            ]
+        ]
+    },
+    {
+        "id": "7dc66759.45ea48",
+        "type": "debug",
+        "z": "493fe890.eeec38",
+        "g": "b42b711.b622c9",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 750,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "8213e87.081d098",
+        "type": "function",
+        "z": "493fe890.eeec38",
+        "g": "b42b711.b622c9",
+        "name": "Set Global",
+        "func": "msg.Data2 = global.set(\"Data2\",\"Updated From Function Node\")\nmsg.Data3 = global.set(\"Data3\", \"I Now Exist!\")\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 490,
+        "y": 600,
+        "wires": [
+            [
+                "971c72f0.b7801"
+            ]
+        ]
+    },
+    {
+        "id": "e28530b9.8e587",
+        "type": "inject",
+        "z": "493fe890.eeec38",
+        "g": "b42b711.b622c9",
+        "name": "RUN",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 150,
+        "y": 600,
+        "wires": [
+            [
+                "8213e87.081d098"
+            ]
+        ]
+    },
+    {
+        "id": "971c72f0.b7801",
+        "type": "debug",
+        "z": "493fe890.eeec38",
+        "g": "b42b711.b622c9",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 750,
+        "y": 600,
+        "wires": []
+    }
+]
