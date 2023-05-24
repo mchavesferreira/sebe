@@ -70,6 +70,7 @@ Orientações para a disciplina, acompanhe a postagem de trabalhos de outros alu
 <a href=https://github.com/mchavesferreira/mcr/blob/main/ESP32.md>Acesse o link</a>
 
 
+
 ## Projeto 2
 Idéias de projetos
 Os temas apresentado a seguir abrangem áreas como sustentabilidade, agricultura, segurança e monitoramento ambiental. Os alunos podem explorar as tecnologias e técnicas necessárias para implementar esses projetos, incluindo a integração do microcontrolador com sensores, comunicação Wi-Fi, armazenamento de dados em um banco de dados e criação de um dashboard para visualização dos dados coletados.
@@ -148,6 +149,8 @@ https://codeanywhere.com/editor/
 
 
 ## Node-red e MQTT links de interesse <BR>
+###  Exemplo flow
+    <BR><a href=tutorial_exemplo_flow_nodered.json>Exemplo node-red</a><br>
 <BR><BR> Dashboard extrs: https://flows.nodered.org/collection/590bc13ff3a5f005c7d2189bbb563976
 <BR><BR> Configuring the Node-Red MQTT Publish and Subscribe Nodes - https://stevesnoderedguide.com/configuring-the-mqtt-publish-node
 <BR><BR> DESENVOLVIMENTO DE UMA APLICAÇÃO PARA MONITORAMENTO UTILIZANDO CONCEITOS DE INTERNET DAS COISAS <a href=https://repositorio.uft.edu.br/handle/11612/2182>Link</a>
