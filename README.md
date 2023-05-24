@@ -7,6 +7,7 @@ Sistemas Embarcados
 - [BLOG](#BLOG)
 - [Guia Básico para ESP32](#Guia-Básico-para-ESP32)
 - [Node-red links de interesse] (#Node-red-links-de-interesse)
+- [Tago e ESP32] (#Tago-e-ESP32)
 
 
 
@@ -115,6 +116,23 @@ Algumas Idéias:
 21 Open Source Projects for IoT
 https://www.linux.com/NEWS/21-OPEN-SOURCE-PROJECTS-IOT/
 
+<BR><BR>
+## Tago e ESP32
+    
+<BR>Aula com a plataforma Tago.IO, experiências com node-red e mqtt.
+<BR>
+
+<BR>Exemplo ESP32, mqtt e dashboard node-red
+
+<BR>https://wokwi.com/projects/365211000246545409
+
+
+
+<BR>https://github.com/mchavesferreira/mcr/blob/main/esp32_iot/node_red1.json
+
+<BR>https://github.com/mchavesferreira/mcr/blob/main/esp32_iot/node_red_estudo.json
+<BR><BR>    
+   <BR> 
 
 ## Links interessantes
 ###Mapas
