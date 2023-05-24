@@ -126,6 +126,8 @@ https://www.linux.com/NEWS/21-OPEN-SOURCE-PROJECTS-IOT/
 
 <BR>https://wokwi.com/projects/365211000246545409
 
+<Br><BR> Exemplo em node-red
+<Br><BR>  http://embarcadosifsp.duckdns.org:1880/ui
 
 
 <BR>https://github.com/mchavesferreira/mcr/blob/main/esp32_iot/node_red1.json
