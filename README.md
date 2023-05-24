@@ -6,8 +6,8 @@ Sistemas Embarcados
 - [Comandos Básicos para Linux](#Comandos-Básicos-para-Linux)
 - [BLOG](#BLOG)
 - [Guia Básico para ESP32](#Guia-Básico-para-ESP32)
-- [Node-red links de interesse] (#Node-red-links-de-interesse)
-- [Tago e ESP32] (#Tago-e-ESP32)
+- [Node-red links de interesse](#Node-red-links-de-interesse)
+- [Tago e ESP32](#Tago-e-ESP32)
 
 
 
