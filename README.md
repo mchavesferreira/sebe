@@ -136,6 +136,18 @@ https://www.linux.com/NEWS/21-OPEN-SOURCE-PROJECTS-IOT/
 <BR><BR>    
    <BR> 
 
+
+## Projeto 3      
+
+FreeRTOS + Node red + mysql + ESP32
+Este trabalho considerará o estudo do tema FREERTOS utilizando a prática com node MCU ESP32, não utilizando portanto o ambiente de prototipação Arduino.
+Disponibilidade de material e scripts fornecido pelo docente (github):
+https://github.com/mchavesferreira/embarcados_projeto_exemplo
+https://wokwi.com/projects/365853246230678529  Simulador
+https://github.com/mchavesferreira/embarcados_freertos      
+
+Os recursos do projeto deve implementar (node, mysql, .ino, ..) e o formato de entrega de scripts de seu projeto deve ser acordado com o docente .
+       
 ## Links interessantes
 ###Mapas
 <BR><BR>Redes Internet
