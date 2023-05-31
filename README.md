@@ -8,7 +8,7 @@ Sistemas Embarcados
 - [Guia Básico para ESP32](#Guia-Básico-para-ESP32)
 - [Node-red links de interesse](#Node-red-links-de-interesse)
 - [Tago e ESP32](#Tago-e-ESP32)
-
+- [FreeRTOS](#FreeRTOS)
 
 
 ## Trabalho 1
@@ -136,8 +136,8 @@ https://www.linux.com/NEWS/21-OPEN-SOURCE-PROJECTS-IOT/
 <BR><BR>    
    <BR> 
 
-
-## Projeto 3      
+## FreeRTOS
+### Projeto 3      
 
 FreeRTOS + Node red + mysql + ESP32
 Este trabalho considerará o estudo do tema FREERTOS utilizando a prática com node MCU ESP32, não utilizando portanto o ambiente de prototipação Arduino.
