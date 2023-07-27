@@ -185,7 +185,7 @@ https://codeanywhere.com/editor/
 
 ## Node-red e MQTT links de interesse <BR>
 ###  Exemplo flow para node-red
-    <BR>tutorial_exemplo_flow_nodered.json
+    <BR>https://github.com/mchavesferreira/sebe/blob/main/tutorial_exemplo_flow_nodered.json
 <BR><BR> Dashboard extrs: https://flows.nodered.org/collection/590bc13ff3a5f005c7d2189bbb563976
 <BR><BR> Configuring the Node-Red MQTT Publish and Subscribe Nodes - https://stevesnoderedguide.com/configuring-the-mqtt-publish-node
 <BR><BR> DESENVOLVIMENTO DE UMA APLICAÇÃO PARA MONITORAMENTO UTILIZANDO CONCEITOS DE INTERNET DAS COISAS <a href=https://repositorio.uft.edu.br/handle/11612/2182>Link</a>
