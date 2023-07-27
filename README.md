@@ -184,8 +184,17 @@ https://codeanywhere.com/editor/
 
 
 ## Node-red e MQTT links de interesse <BR>
-###  Exemplo flow
-    <BR><a href=tutorial_exemplo_flow_nodered.json>Exemplo node-red</a><br>
+###  Exemplo flow para node-red
+    <BR>tutorial_exemplo_flow_nodered.json
 <BR><BR> Dashboard extrs: https://flows.nodered.org/collection/590bc13ff3a5f005c7d2189bbb563976
 <BR><BR> Configuring the Node-Red MQTT Publish and Subscribe Nodes - https://stevesnoderedguide.com/configuring-the-mqtt-publish-node
 <BR><BR> DESENVOLVIMENTO DE UMA APLICAÇÃO PARA MONITORAMENTO UTILIZANDO CONCEITOS DE INTERNET DAS COISAS <a href=https://repositorio.uft.edu.br/handle/11612/2182>Link</a>
+
+
+## DNS
+<BR><BR> Consultar propagação DNS
+<BR><BR> https://www.whatsmydns.net/
+<BR><BR> Registro traceroute Registro.br
+<BR><BR> https://registro.br/tecnologia/ferramentas/traceroute/
+
+
