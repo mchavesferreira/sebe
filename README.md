@@ -18,11 +18,11 @@ https://github.com/mchavesferreira/php_app/
 
 Com a finalidade desenvolver aplicações em nuvem preparando ambiente para IOT, o aluno deve implantar criar uma instância Linux Ubuntu 20.0.4 no AWS. 
 
-Instalar um servidor de web Apache e serviços PHP criação de uma pagina simples código php (prazo: 27/3/2023)
+Instalar um servidor de web Apache e serviços PHP criação de uma pagina simples código php (prazo: /03/2024)
 
-Aperfeiçoar exibição da pagina com utilização da busca e separação de campos com Json  (prazo: 05/04/2023 14h00)
+Aperfeiçoar exibição da pagina com utilização da busca e separação de campos com Json  (prazo: /04/2024 14h00)
 
-Instalar Mysql e exemplificar uma aplicação  banco de Dados Mysql.   (prazo: 21/04/2023 14h00)
+Instalar Mysql e exemplificar uma aplicação  banco de Dados Mysql.   (prazo: /04/2024 14h00)
 
 Utilizando o exemplo disposto no repositório, criar uma API com php. Utilizar um node (esp32 ou Esp8266 para consumir a API utilizando método GET. Instalar o pacote de projeto e adaptar o código na instância. 
 Utilizar o repositório como referência: https://github.com/mchavesferreira/php_app
@@ -33,7 +33,7 @@ Insira dados em: http://smartcampus.ctd.ifsp.edu.br/aula/php_app/form.php
 
 Esta atividade compõe 30% a avaliação final. 
 
-Preencher o Blog com a proposta da atividade. (Prazo final 26/04/2023) 14h00
+Preencher o Blog com a proposta da atividade. (Prazo final 26/04/2024) 14h00
 
 ##  Comandos Básicos para Linux
 
