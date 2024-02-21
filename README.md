@@ -2,6 +2,8 @@
 Sistemas Embarcados
 
 ## Aulas
+
+- [Sistemas Operacionais](#Sistemas-Operacionais)
 - [Trabalho 1](#Trabalho-1)
 - [Comandos Básicos para Linux](#Comandos-Básicos-para-Linux)
 - [BLOG](#BLOG)
@@ -10,6 +12,8 @@ Sistemas Embarcados
 - [Tago e ESP32](#Tago-e-ESP32)
 - [FreeRTOS](#FreeRTOS)
 
+## Sistemas Operacionais
+<a href=tanenbaum.pdf> Livro </a>
 
 ## Trabalho 1
 Verificar condições no SUAP. 
