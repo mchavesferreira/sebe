@@ -264,6 +264,10 @@ tasklist
 start notepad.exe
 ```
 
+```cmd
+start https://www.google.com/search?q=sistemas+embarcados
+```
+
 #### Parar um Processo
 
 ```cmd
