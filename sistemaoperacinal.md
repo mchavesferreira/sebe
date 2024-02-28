@@ -78,4 +78,23 @@ Aqui está uma lista de 50 comandos importantes que você deve conhecer ao traba
 - `icacls` - Exibe ou modifica listas de controle de acesso (ACLs) de arquivos.
 - `takeown` - Permite a um administrador recuperar o acesso a um arquivo que anteriormente era inacessível.
 
+### Comandos do Prompt de Comando do Windows para Personalização da Aparência
+
+- `color` - Altera as cores do fundo e do texto do terminal. Cada cor é representada por um código hexadecimal, onde o primeiro dígito representa a cor de fundo e o segundo dígito a cor do texto. Por exemplo, `color 0A` altera o fundo para preto (`0`) e o texto para verde claro (`A`).
+
+- `title` - Define o título da janela do Prompt de Comando. Por exemplo, `title Meu Prompt` altera o título da janela para "Meu Prompt".
+
+- `mode` - Configura o tamanho da janela do terminal. Por exemplo, `mode con cols=100 lines=40` ajusta o terminal para ter 100 colunas de largura e 40 linhas de altura.
+
+#### Exemplo de Uso
+
+Para um prompt com fundo azul e texto branco, título "Prompt Personalizado" e dimensões de 120 colunas por 30 linhas, você pode usar:
+
+```cmd
+color 1F
+title Prompt Personalizado
+mode con cols=120 lines=30
+
+
+
 
