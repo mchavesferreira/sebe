@@ -57,3 +57,25 @@ Aqui está uma lista de 50 comandos importantes que você deve conhecer ao traba
     set - Exibe, define ou remove variáveis de ambiente do Windows.
     subst - Associa um caminho a uma letra de unidade.
 
+### Comandos do Prompt de Comando do Windows para Lidar com Arquivos
+
+- `copy` - Copia um ou mais arquivos de um local para outro.
+- `del` - Deleta um ou mais arquivos.
+- `move` - Move um ou mais arquivos de um diretório para outro.
+- `rename` - Renomeia um arquivo.
+- `type` - Exibe o conteúdo de um arquivo no terminal.
+- `xcopy` - Copia arquivos e diretórios, incluindo subdiretórios.
+- `robocopy` - Ferramenta de cópia robusta para arquivos, com suporte a mais opções que o `xcopy`.
+- `attrib` - Exibe ou altera atributos de arquivo.
+- `find` - Procura por uma string de texto em um arquivo.
+- `fc` - Compara dois arquivos e exibe as diferenças entre eles.
+- `more` - Exibe o conteúdo de um arquivo uma tela de cada vez.
+- `print` - Envia um arquivo para a impressora.
+- `recover` - Recupera informações legíveis de um disco danificado.
+- `comp` - Compara o conteúdo de dois ou mais arquivos byte a byte.
+- `expand` - Expande arquivos compactados.
+- `assoc` - Associa uma extensão de arquivo a um tipo de arquivo, permitindo que você veja ou modifique essa associação.
+- `icacls` - Exibe ou modifica listas de controle de acesso (ACLs) de arquivos.
+- `takeown` - Permite a um administrador recuperar o acesso a um arquivo que anteriormente era inacessível.
+
+
