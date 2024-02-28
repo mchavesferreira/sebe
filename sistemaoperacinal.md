@@ -319,6 +319,8 @@ echo Limpando arquivos temporários...
 del /q /s /f %TEMP%\*
 echo Limpeza concluída.
 pause
+```
+
 ......
 
 
