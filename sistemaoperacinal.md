@@ -94,10 +94,7 @@ Para um prompt com fundo azul e texto branco, título "Prompt Personalizado" e d
 color 1F
 title Prompt Personalizado
 mode con cols=120 lines=30
-
-Aqui está o texto formatado em Markdown, pronto para ser editado e utilizado em um arquivo para GitHub. Este formato inclui os comandos de rede do Prompt de Comando do Windows e exemplos de uso, organizados de forma clara e acessível:
-
-markdown
+```
 
 # Comandos de Rede Importantes no Prompt de Comando do Windows
 
@@ -111,32 +108,31 @@ Neste documento, apresentamos comandos essenciais do Prompt de Comando do Window
 
   ```cmd
   ipconfig
-
+```
     Uso Avançado: Para obter detalhes completos, incluindo servidores DNS, endereços IPv6, etc.
 
-    cmd
+  ```cmd
 
     ipconfig /all
-
+  ```
 2. ping
 
 Descrição: Verifica a conectividade com outro host na rede.
 
     Exemplo: Testando a conectividade com o Google.
 
-    cmd
-
+  ```cmd
     ping google.com
-
+  ```
 3. tracert
 
 Descrição: Rastreia a rota que os pacotes tomam até um destino específico.
 
     Exemplo: Rastreando a rota para example.com.
 
-    cmd
-
+  ```cmd
     tracert example.com
+  ```
 
 4. netstat
 
@@ -144,9 +140,9 @@ Descrição: Mostra estatísticas da rede, como conexões ativas.
 
     Uso Básico: Para exibir todas as conexões e portas de escuta.
 
-    cmd
-
+ ```cmd
     netstat
+  ```
 
 5. nslookup
 
@@ -154,44 +150,39 @@ Descrição: Consulta servidores DNS para descobrir endereços IP e outros dados
 
     Exemplo: Consultando o endereço IP de google.com.
 
-    cmd
-
+   ```cmd
     nslookup google.com
+  ```
 
 Exemplos de Uso
 Verificando a Configuração de IP da Máquina
 
 Para obter a configuração de IP atual de todas as interfaces de rede:
 
-cmd
-
+  ```cmd
 ipconfig
+  ```
 
 Para informações mais detalhadas, incluindo servidores DNS e endereços IPv6:
 
-cmd
-
+  ```cmd
 ipconfig /all
-
+  ```
 Testando a Conectividade com um Host
 
 Para verificar a conectividade com o site da Google:
 
-cmd
-
+  ```cmd
 ping google.com
+  ```
 
 Para rastrear a rota até example.com:
 
-cmd
-
+  ```cmd
 tracert example.com
+  ```
 
 Estes comandos são fundamentais para diagnosticar problemas de rede, configurar sistemas, ou simplesmente entender como as informações viajam pela internet e redes locais. Utilize-os para assegurar uma rede estável e eficiente.
 
-css
-
-
-Copie e cole este texto em um novo arquivo `.md` em seu repositório GitHub para criar u
 
 
