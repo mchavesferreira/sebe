@@ -57,7 +57,7 @@ Aqui está uma lista de 50 comandos importantes que você deve conhecer ao traba
     set - Exibe, define ou remove variáveis de ambiente do Windows.
     subst - Associa um caminho a uma letra de unidade.
     
-      <img src=imagens/alunoprompt.png>
+      ![Treinando no prompt](alunoprompt.png)
 
 ### Comandos do Prompt de Comando do Windows para Lidar com Arquivos
 
