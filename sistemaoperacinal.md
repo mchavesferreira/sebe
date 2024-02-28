@@ -291,13 +291,18 @@ Um arquivo com a extensão .bat no Windows é conhecido como um arquivo de lote 
 Quando um arquivo .bat é executado, o interpretador de comandos lê o arquivo linha por linha e executa cada comando sequencialmente. Isso permite aos usuários e administradores de sistemas automatizar tarefas repetitivas, como a gestão de arquivos e diretórios, a execução de programas, e a configuração de processos do sistema. 
 Exemplo:
 ```cmd
-copy con exemplo.bat
+copy con livre.bat
 ```
 Cole este script e pressione CTRL+C
 ```cmd
 @echo off
 wmic logicaldisk get name,freespace
 ```
+Execute o script
+```cmd
+livre
+```
+......
 
 
 
