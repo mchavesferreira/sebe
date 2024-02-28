@@ -285,10 +285,19 @@ Filtrar por nome no Prompt de Comando:
 ```cmd
 tasklist | findstr "nome_do_processo"
 ```
+### Script .bat no Windows
+Um arquivo com a extensão .bat no Windows é conhecido como um arquivo de lote ou batch file. Esses arquivos são scripts de texto simples que contêm uma sequência de comandos executados pelo interpretador de comandos do Windows (cmd.exe). Os arquivos .bat foram introduzidos nas primeiras versões do DOS e continuam a ser suportados no Windows para automação de tarefas e procedimentos de administração do sistema.
 
-
-
-
+Quando um arquivo .bat é executado, o interpretador de comandos lê o arquivo linha por linha e executa cada comando sequencialmente. Isso permite aos usuários e administradores de sistemas automatizar tarefas repetitivas, como a gestão de arquivos e diretórios, a execução de programas, e a configuração de processos do sistema. 
+Exemplo:
+```cmd
+copy con exemplo.bat
+```
+Cole este script e pressione CTRL+C
+```cmd
+@echo off
+wmic logicaldisk get name,freespace
+```
 
 
 
