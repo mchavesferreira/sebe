@@ -102,7 +102,7 @@ No Prompt de Comando do Windows, diversos comandos estão disponíveis para gere
 
 #### 1. `cd` (Change Directory)
 
-**Descrição:** Muda o diretório atual para outro especificado.
+**Descrição:** Muda o diretório atual para outro especificado. Este comando, quando usado sem nenhum argumento, mostrará o caminho completo do diretório em que você se encontra no momento.
 
 - **Exemplo 1:** Mudar para o diretório "Documentos" em "C:\Usuários\SeuNome":
 ```cmd
