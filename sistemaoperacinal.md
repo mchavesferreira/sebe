@@ -287,6 +287,11 @@ Para forçar a parada:
 taskkill /F /IM notepad.exe
 ```
 
+```cmd
+taskkill /PID 1234
+```
+
+
 #### Identificar Processos por ID ou Nome
 Filtrar por nome no Prompt de Comando:
 
