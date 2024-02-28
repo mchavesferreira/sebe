@@ -145,6 +145,50 @@ Descrição: Lista os arquivos e pastas no diretório atual, mostrando informaç
 dir
 ```
 
+### Comandos para Edição e Criação de Arquivos
+#### 1. copy con
+
+Descrição: Cria um novo arquivo de texto. O usuário pode digitar o conteúdo do arquivo diretamente no prompt e finalizar com CTRL+Z.
+Exemplo: Criar um arquivo chamado exemplo.txt.
+```cmd
+copy con exemplo.txt
+```
+Após executar o comando, digite o conteúdo desejado e finalize com CTRL+Z.
+
+#### 2. echo
+
+Descrição: Cria um arquivo de texto ou adiciona conteúdo a um arquivo existente. Se o arquivo não existir, ele será criado.
+Exemplo 1: Criar um arquivo ou adicionar uma linha a um arquivo existente.
+```cmd
+echo Linha de exemplo > arquivo.txt
+```
+Exemplo 2: Adicionar uma nova linha ao arquivo sem sobrescrever o conteúdo existente.
+
+```cmd
+echo Linha adicional >> arquivo.txt
+```
+#### 3. type
+
+Descrição: Concatena e exibe o conteúdo de um ou mais arquivos de texto.
+Exemplo: Visualizar o conteúdo de um arquivo.
+```cmd
+    type arquivo.txt
+```
+#### 4. notepad
+
+Descrição: Abre o arquivo especificado no Bloco de Notas, permitindo a edição. Se o arquivo não existir, o Bloco de Notas perguntará se você deseja criá-lo.
+Exemplo: Abrir ou criar um arquivo com o Bloco de Notas.
+```cmd
+    notepad arquivo.txt
+```
+
+#### 5. delDescrição: Deleta um ou mais arquivos.
+Exemplo: Deletar um arquivo.
+```cmd
+    del arquivo.txt
+```
+
+
 ### Comandos de rede
 
 Neste documento, apresentamos comandos essenciais do Prompt de Comando do Windows para gerenciamento e diagnóstico de redes. Estes comandos são fundamentais para diagnosticar problemas de rede, configurar sistemas, ou simplesmente entender como as informações viajam pela internet e redes locais. 
