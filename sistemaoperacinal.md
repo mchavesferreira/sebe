@@ -96,6 +96,55 @@ title Prompt Personalizado
 mode con cols=120 lines=30
 ```
 
+### Comandos Sobre Pastas no Windows
+
+No Prompt de Comando do Windows, diversos comandos estão disponíveis para gerenciar pastas (diretórios). Aqui estão alguns dos mais importantes, acompanhados de exemplos práticos de uso.
+
+#### 1. `cd` (Change Directory)
+
+**Descrição:** Muda o diretório atual para outro especificado.
+
+- **Exemplo 1:** Mudar para o diretório "Documentos" em "C:\Usuários\SeuNome":
+```cmd
+cd C:\Usuários\SeuNome\Documentos
+```
+- **Exemplo 2:**  Voltar um diretório acima do atual:
+```cmd
+cd ..
+```
+#### 2. mkdir (Make Directory)
+
+Descrição: Cria um novo diretório.
+
+- **Exemplo 1:** Criar um diretório chamado "NovoProjeto" no diretório atual:
+```cmd
+mkdir NovoProjeto
+```
+- **Exemplo 2:** Criar vários diretórios aninhados de uma vez (Windows 10 e superior):
+
+```cmd
+mkdir Projeto\Subprojeto\Arquivos
+```
+#### 3. rmdir (Remove Directory)
+
+Descrição: Remove um diretório vazio.
+- **Exemplo:**  Remover um diretório vazio chamado "ProjetoAntigo":
+```cmd
+rmdir ProjetoAntigo
+```
+Para remover um diretório e todos os seus conteúdos (use com cautela):
+
+```cmd
+rmdir /s /q ProjetoAntigo
+```
+#### 4. dir
+
+Descrição: Lista os arquivos e pastas no diretório atual, mostrando informações detalhadas.
+- **Exemplo:**  Listar arquivos e pastas com detalhes:
+```cmd
+dir
+```
+
 ### Comandos de rede
 
 Neste documento, apresentamos comandos essenciais do Prompt de Comando do Windows para gerenciamento e diagnóstico de redes. Estes comandos são fundamentais para diagnosticar problemas de rede, configurar sistemas, ou simplesmente entender como as informações viajam pela internet e redes locais. 
@@ -149,53 +198,6 @@ Exemplo: Consultando o endereço IP de ctd.ifsp.edu.br
 nslookup ctd.ifsp.edu.br
 ```
 
-### Comandos Sobre Pastas no Windows
 
-No Prompt de Comando do Windows, diversos comandos estão disponíveis para gerenciar pastas (diretórios). Aqui estão alguns dos mais importantes, acompanhados de exemplos práticos de uso.
-
-#### 1. `cd` (Change Directory)
-
-**Descrição:** Muda o diretório atual para outro especificado.
-
-- **Exemplo 1:** Mudar para o diretório "Documentos" em "C:\Usuários\SeuNome":
-```cmd
-  cd C:\Usuários\SeuNome\Documentos
-```
-- **Exemplo 2:**  Voltar um diretório acima do atual:
-```cmd
-cd ..
-```
-#### 2. mkdir (Make Directory)
-
-Descrição: Cria um novo diretório.
-
-- **Exemplo:** Criar um diretório chamado "NovoProjeto" no diretório atual:
-```cmd
-mkdir NovoProjeto
-```
-- **Exemplo 2:** Criar vários diretórios aninhados de uma vez (Windows 10 e superior):
-
-```cmd
-mkdir Projeto\Subprojeto\Arquivos
-```
-#### 3. rmdir (Remove Directory)
-
-Descrição: Remove um diretório vazio.
-- **Exemplo:**  Remover um diretório vazio chamado "ProjetoAntigo":
-```cmd
-rmdir ProjetoAntigo
-
-Para remover um diretório e todos os seus conteúdos (use com cautela):
-
-```cmd
-rmdir /s /q ProjetoAntigo
-```
-#### 4. dir
-
-Descrição: Lista os arquivos e pastas no diretório atual, mostrando informações detalhadas.
-- **Exemplo:**  Listar arquivos e pastas com detalhes:
-```cmd
-dir
-```
 
 
