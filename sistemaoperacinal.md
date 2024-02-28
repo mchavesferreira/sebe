@@ -116,18 +116,18 @@ ipconfig /all
 #### 2. ping
 
 Descrição: Verifica a conectividade com outro host na rede.
-Exemplo: Testando a conectividade com o Google.
+Exemplo: Testando a conectividade com o ctd.ifsp.edu.br.
 
 ```cmd
-ping google.com
+ping ctd.ifsp.edu.br
 ```
 #### 3. tracert
 
 Descrição: Rastreia a rota que os pacotes tomam até um destino específico.
-Exemplo: Rastreando a rota para ifsp.edu.br.
+Exemplo: Rastreando a rota para ctd.ifsp.edu.br.
 
 ```cmd
-tracert  ifsp.edu.br.
+tracert  ctd.ifsp.edu.br
 ```
 
 #### 4. netstat
@@ -143,10 +143,10 @@ netstat
 
 Descrição: Consulta servidores DNS para descobrir endereços IP e outros dados de DNS.
 
-Exemplo: Consultando o endereço IP de google.com.
+Exemplo: Consultando o endereço IP de ctd.ifsp.edu.br
 
 ```cmd
-nslookup google.com
+nslookup ctd.ifsp.edu.br
 ```
 
 
