@@ -342,7 +342,37 @@ echo Limpeza concluída.
 pause
 ```
 
+## Lista de comandos para o Android
+GPT
 
+No Android, muitos dos comandos de shell utilizados provêm do Linux, uma vez que o Android é construído sobre o kernel Linux. Estes comandos podem ser executados via ADB (Android Debug Bridge) ou diretamente em um terminal se o dispositivo estiver rooteado e tiver um emulador de terminal instalado. Aqui está uma lista de 20 comandos úteis de shell para uso no Android:
+
+## Comandos de Shell Úteis para Android
+
+1. **`adb devices`** - Lista todos os dispositivos conectados via ADB.
+2. **`adb shell`** - Inicia uma sessão shell no dispositivo conectado.
+3. **`ls`** - Lista os arquivos e diretórios no diretório atual.
+4. **`cd <diretório>`** - Muda o diretório atual para `<diretório>`.
+5. **`pwd`** - Mostra o caminho do diretório atual.
+6. **`cp <origem> <destino>`** - Copia arquivos ou diretórios de `<origem>` para `<destino>`.
+7. **`mv <origem> <destino>`** - Move ou renomeia arquivos ou diretórios de `<origem>` para `<destino>`.
+8. **`rm <arquivo>`** - Remove um arquivo. Use `rm -r <diretório>` para remover um diretório e seu conteúdo.
+9. **`cat <arquivo>`** - Mostra o conteúdo de um arquivo.
+10. **`grep <texto> <arquivo>`** - Procura por `<texto>` dentro de `<arquivo>`.
+11. **`top`** - Mostra os processos em execução e o uso de CPU.
+12. **`ps`** - Lista os processos em execução.
+13. **`kill <PID>`** - Termina o processo com o ID de processo especificado `<PID>`.
+14. **`df`** - Mostra o uso do espaço em disco.
+15. **`du <diretório>`** - Mostra o uso do espaço em disco pelo diretório especificado.
+16. **`netstat`** - Mostra as conexões de rede, tabelas de roteamento, estatísticas de interface, conexões masquerade, e multicast memberships.
+17. **`ping <endereço>`** - Testa a conectividade com o endereço especificado.
+18. **`wget <URL>`** - Faz o download de arquivos da internet.
+19. **`chmod <modos> <arquivo>`** - Altera as permissões de um arquivo ou diretório.
+20. **`chown <usuário>:<grupo> <arquivo>`** - Muda o proprietário e o grupo de um arquivo ou diretório.
+
+Esses comandos podem ser extremamente úteis para tarefas de gerenciamento de sistema, diagnóstico e automação em dispositivos Android. Note que alguns comandos, especialmente aqueles que modificam o sistema ou os arquivos, podem requerer privilégios de superusuário (root) para serem executados.
+
+ 
 ......
 
 
