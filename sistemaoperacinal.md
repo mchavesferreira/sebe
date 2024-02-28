@@ -96,93 +96,60 @@ title Prompt Personalizado
 mode con cols=120 lines=30
 ```
 
-# Comandos de Rede Importantes no Prompt de Comando do Windows
+### Comandos de rede
 
-Neste documento, apresentamos comandos essenciais do Prompt de Comando do Windows para gerenciamento e diagnóstico de redes. Cada comando é acompanhado de uma breve descrição e exemplos de uso.
+Neste documento, apresentamos comandos essenciais do Prompt de Comando do Windows para gerenciamento e diagnóstico de redes. Estes comandos são fundamentais para diagnosticar problemas de rede, configurar sistemas, ou simplesmente entender como as informações viajam pela internet e redes locais. 
 
-## 1. `ipconfig`
+#### 1. `ipconfig`
 
 **Descrição:** Exibe todas as configurações atuais de IP das interfaces de rede.
 
 - **Uso Básico:** Para visualizar a configuração IP atual.
-
-  ```cmd
-  ipconfig
+```cmd
+ipconfig
 ```
-    Uso Avançado: Para obter detalhes completos, incluindo servidores DNS, endereços IPv6, etc.
+Uso Avançado: Para obter detalhes completos, incluindo servidores DNS, endereços IPv6, etc.
 
-  ```cmd
-
-    ipconfig /all
-  ```
-2. ping
+```cmd
+ipconfig /all
+```
+#### 2. ping
 
 Descrição: Verifica a conectividade com outro host na rede.
+Exemplo: Testando a conectividade com o Google.
 
-    Exemplo: Testando a conectividade com o Google.
-
-  ```cmd
-    ping google.com
-  ```
-3. tracert
+```cmd
+ping google.com
+```
+#### 3. tracert
 
 Descrição: Rastreia a rota que os pacotes tomam até um destino específico.
+Exemplo: Rastreando a rota para ifsp.edu.br.
 
-    Exemplo: Rastreando a rota para example.com.
+```cmd
+tracert  ifsp.edu.br.
+```
 
-  ```cmd
-    tracert example.com
-  ```
-
-4. netstat
+#### 4. netstat
 
 Descrição: Mostra estatísticas da rede, como conexões ativas.
+Uso Básico: Para exibir todas as conexões e portas de escuta.
 
-    Uso Básico: Para exibir todas as conexões e portas de escuta.
+```cmd
+netstat
+```
 
- ```cmd
-    netstat
-  ```
-
-5. nslookup
+#### 5. nslookup
 
 Descrição: Consulta servidores DNS para descobrir endereços IP e outros dados de DNS.
 
-    Exemplo: Consultando o endereço IP de google.com.
+Exemplo: Consultando o endereço IP de google.com.
 
-   ```cmd
-    nslookup google.com
-  ```
-
-Exemplos de Uso
-Verificando a Configuração de IP da Máquina
-
-Para obter a configuração de IP atual de todas as interfaces de rede:
-
-  ```cmd
-ipconfig
-  ```
-
-Para informações mais detalhadas, incluindo servidores DNS e endereços IPv6:
-
-  ```cmd
-ipconfig /all
-  ```
-Testando a Conectividade com um Host
-
-Para verificar a conectividade com o site da Google:
-
-  ```cmd
-ping google.com
-  ```
-
-Para rastrear a rota até example.com:
-
-  ```cmd
-tracert example.com
-  ```
-
-Estes comandos são fundamentais para diagnosticar problemas de rede, configurar sistemas, ou simplesmente entender como as informações viajam pela internet e redes locais. Utilize-os para assegurar uma rede estável e eficiente.
+```cmd
+nslookup google.com
+```
 
 
+### Comandos edição
+#### vim
 
