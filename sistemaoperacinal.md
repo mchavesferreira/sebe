@@ -316,6 +316,22 @@ Execute o script
 livre
 ```
 
+#### wmic
+wmic process: A ferramenta de linha de comando WMI (Windows Management Instrumentation) permite que você gerencie e consulte informações sobre processos. Você pode usar filtros e formatação para personalizar a saída.
+Exemplo de uso para listar todos os processos em execução:
+```cmd
+wmic process get ProcessId, Name, Commandline
+```
+Buscar número serial
+```cmd
+wmic bios get serialnumber
+```
+Buscar a marca e modelo
+```cmd
+wmic csproduct
+```
+
+
 Outro exemplo de scritp para uso com .bat
 Limpeza de Arquivos Temporários
 ```cmd
@@ -325,6 +341,7 @@ del /q /s /f %TEMP%\*
 echo Limpeza concluída.
 pause
 ```
+
 
 ......
 
