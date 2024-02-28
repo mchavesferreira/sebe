@@ -242,6 +242,47 @@ Exemplo: Consultando o endereço IP de ctd.ifsp.edu.br
 nslookup ctd.ifsp.edu.br
 ```
 
+markdown
+
+### Gerenciando Processos no Windows
+
+Gerenciar processos, incluindo como listar, iniciar e parar processos, bem como identificar processos por ID ou nome.
+
+#### Listar Processos em Execução
+
+- **Prompt de Comando:**
+
+```cmd
+tasklist
+```
+
+#### Iniciar um Processo
+
+```cmd
+start notepad.exe
+```
+
+#### Parar um Processo
+
+```cmd
+taskkill /IM notepad.exe
+```
+Para forçar a parada:
+
+```cmd
+taskkill /F /IM notepad.exe
+```
+
+#### Identificar Processos por ID ou Nome
+Filtrar por nome no Prompt de Comando:
+
+```cmd
+tasklist | findstr "nome_do_processo"
+```
+
+
+
+
 
 
 
