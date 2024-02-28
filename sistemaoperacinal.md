@@ -153,3 +153,16 @@ nslookup ctd.ifsp.edu.br
 ### Comandos edição
 #### vim
 
+### Comandos Sobre Pastas no Windows
+
+No Prompt de Comando do Windows, diversos comandos estão disponíveis para gerenciar pastas (diretórios). Aqui estão alguns dos mais importantes, acompanhados de exemplos práticos de uso.
+
+#### 1. `cd` (Change Directory)
+
+**Descrição:** Muda o diretório atual para outro especificado.
+
+- **Exemplo 1:** Mudar para o diretório "Documentos" em "C:\Usuários\SeuNome":
+  ```cmd
+  cd C:\Usuários\SeuNome\Documentos
+
+
