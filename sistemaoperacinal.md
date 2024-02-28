@@ -56,6 +56,8 @@ Aqui está uma lista de 50 comandos importantes que você deve conhecer ao traba
     help - Fornece informações de ajuda sobre comandos do Windows.
     set - Exibe, define ou remove variáveis de ambiente do Windows.
     subst - Associa um caminho a uma letra de unidade.
+    
+      <img src=imagens/prompt.png>
 
 ### Comandos do Prompt de Comando do Windows para Lidar com Arquivos
 
@@ -148,44 +150,44 @@ dir
 ### Comandos para Edição e Criação de Arquivos
 #### 1. copy con
 
-Descrição: Cria um novo arquivo de texto. O usuário pode digitar o conteúdo do arquivo diretamente no prompt e finalizar com CTRL+Z.
-Exemplo: Criar um arquivo chamado exemplo.txt.
+Descrição: Cria um novo arquivo de texto. O usuário pode digitar o conteúdo do arquivo diretamente no prompt e finalizar com CTRL+C.
+Exemplo: Criar um arquivo chamado Cyborg.txt.
 ```cmd
-copy con exemplo.txt
+copy con Cyborg.txt
 ```
-Após executar o comando, digite o conteúdo desejado e finalize com CTRL+Z.
+Após executar o comando, digite o conteúdo desejado e finalize com CTRL+C.
 
 #### 2. echo
 
 Descrição: Cria um arquivo de texto ou adiciona conteúdo a um arquivo existente. Se o arquivo não existir, ele será criado.
 Exemplo 1: Criar um arquivo ou adicionar uma linha a um arquivo existente.
 ```cmd
-echo Linha de exemplo > arquivo.txt
+echo Linha de exemplo > Gambit.txt
 ```
 Exemplo 2: Adicionar uma nova linha ao arquivo sem sobrescrever o conteúdo existente.
 
 ```cmd
-echo Linha adicional >> arquivo.txt
+echo Linha adicional >> Gambit.txt
 ```
 #### 3. type
 
 Descrição: Concatena e exibe o conteúdo de um ou mais arquivos de texto.
 Exemplo: Visualizar o conteúdo de um arquivo.
 ```cmd
-    type arquivo.txt
+    type Gambit.txt
 ```
 #### 4. notepad
 
 Descrição: Abre o arquivo especificado no Bloco de Notas, permitindo a edição. Se o arquivo não existir, o Bloco de Notas perguntará se você deseja criá-lo.
 Exemplo: Abrir ou criar um arquivo com o Bloco de Notas.
 ```cmd
-    notepad arquivo.txt
+    notepad Gambit.txt
 ```
 
 #### 5. delDescrição: Deleta um ou mais arquivos.
 Exemplo: Deletar um arquivo.
 ```cmd
-    del arquivo.txt
+    del Gambit.txt
 ```
 
 
