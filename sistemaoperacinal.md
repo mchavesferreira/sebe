@@ -181,13 +181,21 @@ Exemplo: Visualizar o conteúdo de um arquivo.
 Descrição: Abre o arquivo especificado no Bloco de Notas, permitindo a edição. Se o arquivo não existir, o Bloco de Notas perguntará se você deseja criá-lo.
 Exemplo: Abrir ou criar um arquivo com o Bloco de Notas.
 ```cmd
-    notepad Gambit.txt
+notepad Gambit.txt
 ```
 
-#### 5. delDescrição: Deleta um ou mais arquivos.
+#### 5. cacls
+
+O cacls é uma ferramenta de permissões de arquivo na linha de comando mais antiga que também permite modificar as listas de controle de acesso (ACLs) de arquivos. Embora ainda esteja disponível em versões recentes do Windows para compatibilidade, a Microsoft recomenda usar icacls no lugar de cacls para uma funcionalidade mais completa e melhor suporte a novos recursos de segurança.
+```cmd
+cacls Gambit.txt
+```
+
+#### 6. del
+Descrição: Deleta um ou mais arquivos.
 Exemplo: Deletar um arquivo.
 ```cmd
-    del Gambit.txt
+del Gambit.txt
 ```
 
 
