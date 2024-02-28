@@ -310,6 +310,15 @@ Execute o script
 ```cmd
 livre
 ```
+
+Outro exemplo de scritp para uso com .bat
+Limpeza de Arquivos Temporários
+```cmd
+@echo off
+echo Limpando arquivos temporários...
+del /q /s /f %TEMP%\*
+echo Limpeza concluída.
+pause
 ......
 
 
