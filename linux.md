@@ -17,7 +17,8 @@ O **Linux** é um sistema operacional de código aberto, gratuito e amplamente u
 Videos sobre a história do linux: 
 [Filme] Revolution OS :: A História do Linux https://youtu.be/o05wf_q3a8c?si=TJNFmJLsZ2iHh9pi
 
-The Code: Story of Linux documentary  - https://youtu.be/898DQ6bdcMw?si=bC0-kAsWU7r3qihs
+The Code: Story of Linux documentary  - https://youtu.be/zPt_e9Cdk08?si=I5g8xmSP6-2YDpJi
+
 ## Componentes do Sistema
 
 **Kernel:** O núcleo do sistema, responsável pela comunicação entre o hardware e o software.
