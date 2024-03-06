@@ -157,15 +157,17 @@ nslookup ou dig - Ferramentas para consultar servidores DNS e obter informaçõe
 nslookup google.com
 ```cmd
 dig google.com
-
+```
 wget ou curl - Ferramentas de linha de comando para baixar arquivos da Internet.
 ```cmd
-wget http://example.com/arquivo.txt
+wget http://smartcampus.ctd.ifsp.edu.br/php/capa.php
 ```
 ```cmd
-curl http://example.com/ 
+curl http://smartcampus.ctd.ifsp.edu.br/php/capa.php
 ```
+
 nmap - Ferramenta de exploração de rede e scanner de segurança.
+```cmd
 nmap -A -T4 google.com 
 ```
 iptables - Ferramenta de manipulação de tabela de controle de tráfego de rede.
@@ -179,7 +181,7 @@ hostname
 ip route-  Usado para exibir e manipular tabelas de roteamento.
 ```cmd
 ip route
-
+```
 mtr - Combina as funcionalidades do traceroute e ping em uma única ferramenta.
 ```cmd
 mtr google.com 
@@ -239,5 +241,28 @@ print("Olá, Mundo!")
 
 ## PHp
 
+## Scripts Shell
 
+Crie um script.sh com este conteudo
+```java
+#!/bin/bash
+
+# Solicita ao usuário o diretório para listar os arquivos
+echo "Digite o caminho do diretório para listar os arquivos:"
+read /home/username
+
+# Verifica se o diretório existe
+if [ -d "$/home/username" ]; then
+    # Lista todos os arquivos no diretório e subdiretórios
+    echo "Listando todos os arquivos em $DIRETORIO:"
+    find "$/home/username" -type f
+else
+    # Mensagem de erro se o diretório não existir
+    echo "O diretório especificado não existe."
+fi
+```
+
+Dê permissão de execução ao script com o comando chmod +x lista_arquivos.sh.
+
+Execute o script com ./lista_arquivos.sh.
 
