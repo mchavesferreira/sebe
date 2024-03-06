@@ -75,11 +75,7 @@ cat arquivo.txt
 cp -r - Copia diretórios inteiros, incluindo subdiretórios. Exemplo: 
 ```cmd
 cp -r origem/ destino/
-```
-rsync - Ferramenta avançada para cópia de arquivos, que suporta cópia incremental e sincronização de diretórios. Exemplo: 
-```cmd
-rsync -av origem/ destino/
- ```   
+``` 
 chmod - Modifica as permissões de arquivo ou diretório. Exemplo: 
 ```cmd
 chmod 755 arquivo.txt
@@ -130,6 +126,65 @@ find - Busca arquivos e diretórios dentro de uma estrutura de diretórios. Exem
 ```cmd
 find /diretorio -name "arquivo*"
 ```
+### Comandos para rede
+
+ifconfig (ou ip addr em sistemas mais novos) - Exibe informações sobre as interfaces de rede atuais, como endereço IP, status da interface, entre outros.
+```cmd
+ifconfig
+```
+```cmd
+ip addr
+```
+ping  -Envia pacotes ICMP ECHO_REQUEST para um host específico para testar a conectividade.
+```cmd
+ping google.com 
+```
+
+traceroute (ou tracepath) - Mostra a rota que os pacotes tomam para alcançar um host de destino.
+```cmd
+traceroute google.com
+```
+netstat - Exibe conexões de rede, tabelas de roteamento, estatísticas de interface, conexões masquerade, e escutas de portas.
+```cmd
+netstat -tuln 
+```
+ss - Semelhante ao netstat, mas mais rápido e com mais informações. Mostra estatísticas de soquetes.
+```cmd
+ss -tuln 
+```
+nslookup ou dig - Ferramentas para consultar servidores DNS e obter informações sobre registros DNS de um domínio.
+```cmd
+nslookup google.com
+```cmd
+dig google.com
+
+wget ou curl - Ferramentas de linha de comando para baixar arquivos da Internet.
+```cmd
+wget http://example.com/arquivo.txt
+```
+```cmd
+curl http://example.com/ 
+```
+nmap - Ferramenta de exploração de rede e scanner de segurança.
+nmap -A -T4 google.com 
+```
+iptables - Ferramenta de manipulação de tabela de controle de tráfego de rede.
+```cmd
+iptables -L 
+```
+hostname - Mostra ou define o nome do sistema na rede.
+```cmd
+hostname 
+```
+ip route-  Usado para exibir e manipular tabelas de roteamento.
+```cmd
+ip route
+
+mtr - Combina as funcionalidades do traceroute e ping em uma única ferramenta.
+```cmd
+mtr google.com 
+```
+### Compliladores
 
 ## Pyhon
 
@@ -137,5 +192,11 @@ find /diretorio -name "arquivo*"
 ```cmd
 print("Olá, Mundo!")
 ```
+
+## C ou C++
+
+
+## PHp
+
 
 
