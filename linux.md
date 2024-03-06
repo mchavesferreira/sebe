@@ -184,6 +184,47 @@ mtr - Combina as funcionalidades do traceroute e ping em uma única ferramenta.
 ```cmd
 mtr google.com 
 ```
+
+### Gerenciando Processos 
+
+Gerenciar processos, incluindo como listar, iniciar e parar processos, bem como identificar processos por ID ou nome.
+
+ps - Exibe os processos em execução.
+```cmd
+ps aux
+```
+top - Exibe os processos em execução em tempo real, mostra os processos consumindo mais recursos, atualizada periodicamente.
+```cmd
+top 
+```
+kill -Envia um sinal para um processo, geralmente para terminá-lo.
+```cmd
+kill 1234
+```
+
+killall - Termina todos os processos com o nome especificado.
+```cmd
+killall firefox 
+```
+
+nice - Inicia um processo com uma prioridade ("niceness") definida.
+```cmd
+nice -n 10 command 
+```
+renice - Altera a prioridade de um processo em execução.
+```cmd
+renice 10 -p 1234
+```
+
+nohup - Executa um comando imune a hangups, permitindo que continue rodando após o usuário se desconectar.
+```cmd
+nohup command & 
+```
+
+jobs - Lista os trabalhos em execução na sessão atual do shell.
+```cmd
+jobs 
+```
 ### Compliladores
 
 ## Pyhon
