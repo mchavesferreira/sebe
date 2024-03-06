@@ -15,11 +15,9 @@ O **Linux** é um sistema operacional de código aberto, gratuito e amplamente u
 **Compatibilidade:** Suporta uma vasta gama de hardware e software, incluindo muitos programas e jogos desenvolvidos para Windows através de camadas de compatibilidade como o Wine.
 
 Videos sobre a história do linux: 
-[Filme] Revolution OS :: A História do Linux  https://www.youtube.com/watch?v=o05wf_q3a8c&list=PLzEiYA7yCrq_yUnYYL4K8vgeo5J8u5uqG
+[Filme] Revolution OS :: A História do Linux https://youtu.be/o05wf_q3a8c?si=TJNFmJLsZ2iHh9pi
 
-The Code: Story of Linux documentary  - https://www.youtube.com/watch?v=zPt_e9Cdk08&list=PLzEiYA7yCrq_yUnYYL4K8vgeo5J8u5uqG
- 
-
+The Code: Story of Linux documentary  - https://youtu.be/898DQ6bdcMw?si=bC0-kAsWU7r3qihs
 ## Componentes do Sistema
 
 **Kernel:** O núcleo do sistema, responsável pela comunicação entre o hardware e o software.
