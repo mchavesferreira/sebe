@@ -249,16 +249,17 @@ Crie um script.sh com este conteudo
 
 # Solicita ao usuário o diretório para listar os arquivos
 echo "Digite o caminho do diretório para listar os arquivos:"
-read /home/username
 
+
+PASTA='/home/pi'
 # Verifica se o diretório existe
-if [ -d "$/home/username" ]; then
+if [ -d $PASTA ]; then
     # Lista todos os arquivos no diretório e subdiretórios
     echo "Listando todos os arquivos em $DIRETORIO:"
-    find "$/home/username" -type f
+    find $PASTA -type f
 else
     # Mensagem de erro se o diretório não existir
-    echo "O diretório especificado não existe."
+    echo " O diretório especificado não existe "
 fi
 ```
 
