@@ -4,6 +4,7 @@ O **Linux** é um sistema operacional de código aberto, gratuito e amplamente u
 
 Referências:
 -https://github.com/DiogoCaetanoGarcia/Sistemas_Embarcados
+
 -https://www.youtube.com/watch?v=5ScfjIhPFds&list=PL15Z2M2X5QOPrg7V4Ll3i7cxUo-ngRwYq
 
 
