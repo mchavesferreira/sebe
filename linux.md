@@ -1,12 +1,17 @@
 # Linux
+
 O **Linux** é um sistema operacional de código aberto, gratuito e amplamente utilizado em todo o mundo. Desenvolvido inicialmente por Linus Torvalds em 1991, o Linux é baseado no Unix e é conhecido por sua robustez, segurança e flexibilidade. É utilizado em uma variedade de dispositivos, desde servidores e supercomputadores até smartphones, televisões e carros.
 
 ## Características Principais
 
 **Código Aberto:** O código fonte do Linux está disponível gratuitamente para qualquer pessoa visualizar, modificar e distribuir.
+
 **Segurança:** O Linux é conhecido por sua segurança robusta, com recursos como o SELinux (Security-Enhanced Linux) para gestão de acesso baseada em políticas.
+
 **Multiusuário:** Vários usuários podem operar o sistema simultaneamente, com controles de acesso específicos para cada um.
+
 **Multitarefa:** O Linux é capaz de executar múltiplos processos ao mesmo tempo sem afetar o desempenho do sistema.
+
 **Compatibilidade:** Suporta uma vasta gama de hardware e software, incluindo muitos programas e jogos desenvolvidos para Windows através de camadas de compatibilidade como o Wine.
 
 Videos sobre a história do linux: 
@@ -18,8 +23,11 @@ The Code: Story of Linux documentary  - https://www.youtube.com/watch?v=zPt_e9Cd
 ## Componentes do Sistema
 
 **Kernel:** O núcleo do sistema, responsável pela comunicação entre o hardware e o software.
+
 **Shell:** A interface de linha de comando (CLI) que permite aos usuários interagir com o sistema.
+
 **Sistema de Arquivos:** Organiza e gerencia o acesso aos dados armazenados no dispositivo.
+
 **Programas de Utilitários:** Conjunto de ferramentas que realizam tarefas específicas, como gerenciamento de arquivos e configuração do sistema.
 
 ## Distribuições
