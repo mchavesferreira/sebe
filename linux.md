@@ -2,6 +2,11 @@
 
 O **Linux** é um sistema operacional de código aberto, gratuito e amplamente utilizado em todo o mundo. Desenvolvido inicialmente por Linus Torvalds em 1991, o Linux é baseado no Unix e é conhecido por sua robustez, segurança e flexibilidade. É utilizado em uma variedade de dispositivos, desde servidores e supercomputadores até smartphones, televisões e carros.
 
+Referências:
+-https://github.com/DiogoCaetanoGarcia/Sistemas_Embarcados
+-https://www.youtube.com/watch?v=5ScfjIhPFds&list=PL15Z2M2X5QOPrg7V4Ll3i7cxUo-ngRwYq
+
+
 ## Características Principais
 
 **Código Aberto:** O código fonte do Linux está disponível gratuitamente para qualquer pessoa visualizar, modificar e distribuir.
