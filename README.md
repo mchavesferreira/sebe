@@ -15,6 +15,14 @@ Sistemas Embarcados
 ## Sistemas Operacionais
 <a href=tanenbaum.pdf> Livro </a>
 
+## Conhecendo o shell Windows
+https://github.com/mchavesferreira/sebe/blob/main/sistemaoperacinal.md
+
+## Introdução ao Linux
+Referências:
+https://github.com/DiogoCaetanoGarcia/Sistemas_Embarcados
+
+
 ## Trabalho 1
 Verificar condições no SUAP. 
 Utilizar o seguinte repositório:
