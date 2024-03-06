@@ -19,8 +19,9 @@ Sistemas Embarcados
 https://github.com/mchavesferreira/sebe/blob/main/sistemaoperacinal.md
 
 ## Introdução ao Linux
-Referências:
-https://github.com/DiogoCaetanoGarcia/Sistemas_Embarcados
+
+https://github.com/mchavesferreira/sebe/blob/main/linux.md
+
 
 
 ## Trabalho 1
