@@ -26,6 +26,7 @@ https://github.com/mchavesferreira/sebe/blob/main/linux.md
 
 https://www.oracle.com/br/cloud/free/
 Alguns vídeos de orientação:  
+https://www.youtube.com/watch?v=CgjfyEt38fI&t=45s
 https://www.youtube.com/watch?v=XW7isnD1mWM
 https://www.youtube.com/watch?v=2GTPWqv-nAw
 
