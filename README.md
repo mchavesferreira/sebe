@@ -22,6 +22,13 @@ https://github.com/mchavesferreira/sebe/blob/main/sistemaoperacinal.md
 
 https://github.com/mchavesferreira/sebe/blob/main/linux.md
 
+## Criação de instância
+
+https://www.oracle.com/br/cloud/free/
+Alguns vídeos de orientação:  
+https://www.youtube.com/watch?v=XW7isnD1mWM
+https://www.youtube.com/watch?v=2GTPWqv-nAw
+
 
 
 ## Trabalho 1
