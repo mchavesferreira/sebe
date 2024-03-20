@@ -53,6 +53,22 @@ Reinicie o servidor Apache utilize o seguinte comando:
 sudo systemctl restart apache2
 ```
 
+### primeiro código php
+```java
+<!DOCTYPE html>
+<html>
+<body>
+ 
+<?php
+echo "My first PHP script!";
+?>
+
+</body>
+</html>
+```
+
+Saiba mais sobre php:  https://www.w3schools.com/php/default.asp
+
 ## MYSQL (Banco de dados)
 Instalar mysql no Ubuntu AWS
 Orientações: 
