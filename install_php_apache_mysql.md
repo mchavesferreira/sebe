@@ -33,7 +33,9 @@ sudo systemctl status apache2
 ```
 
 Teste as configurações do servidor Apache utilize o seguinte comando:
+```java
 sudo apache2ctl configtest
+```
 
 ## PHP (Linguagem de programação web)
 O primeiro pacote permite instalar várias versões do PHP no ubuntu mantido por Ondrej Surý em https://launchpad.net/~ondrej
