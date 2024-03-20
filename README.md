@@ -34,12 +34,20 @@ https://www.youtube.com/watch?v=XW7isnD1mWM
 
 https://www.youtube.com/watch?v=2GTPWqv-nAw
 
+## Instalação de pacotes no servidor
+Apache, PHP, Mysql
 
+Videos de orientação:
+- https://insights.ionited.io/ion/configurar-linux-apache-mysql-e-php-lamp-no-ubuntu-2204
+- 
 
 ## Trabalho 1
 Verificar condições no SUAP. 
 Utilizar o seguinte repositório:
-https://github.com/mchavesferreira/php_app/
+
+- https://github.com/mchavesferreira/php_app/
+  
+- http://smartcampus.ifsp.online/blog/index.php?raselecionado=CT120893
 
 Com a finalidade desenvolver aplicações em nuvem preparando ambiente para IOT, o aluno deve implantar criar uma instância Linux Ubuntu 20.0.4 no AWS. 
 
