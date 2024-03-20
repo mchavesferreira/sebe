@@ -15,6 +15,7 @@ sudo apt-get install apache2
 Para iniciar o servidor Apache utilize o seguinte comando:
 ```java
 sudo systemctl start apache2
+```
 
 Para parar o servidor Apache utilize o seguinte comando:
 ```java
@@ -24,6 +25,7 @@ sudo systemctl stop apache2
 Para reiniciar o servidor Apache utilize o seguinte comando:
 ```java
 sudo systemctl restart apache2
+```
 
 Para ver o status do servidor Apache utilize o seguinte comando:
 ```java
@@ -42,6 +44,7 @@ sudo add-apt-repository ppa:ondrej/php
 Para instalar o PHP no servidor Apache utilize o seguinte comando:
 ```java
 sudo apt-get install php libapache2-mod-php php-mysql php-dev php-pear
+```
 
 Reinicie o servidor Apache utilize o seguinte comando:
 ```java
