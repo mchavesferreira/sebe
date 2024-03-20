@@ -37,6 +37,33 @@ Teste as configurações do servidor Apache utilize o seguinte comando:
 sudo apache2ctl configtest
 ```
 
+### Crie a primeira pagina index.html
+Acesse a pasta onde está configurada a pagina default
+```java
+cd /var/www/html
+```
+Edite o arquivo index.html
+```java
+nano index.html
+```
+
+```java
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+```
+
+Saiba mais sobre Html, css: https://www.w3schools.com/html/default.asp
+
 ## PHP (Linguagem de programação web)
 O primeiro pacote permite instalar várias versões do PHP no ubuntu mantido por Ondrej Surý em https://launchpad.net/~ondrej
 ```java
@@ -54,6 +81,11 @@ sudo systemctl restart apache2
 ```
 
 ### primeiro código php
+Crie o arquivo e edite-o
+```java
+nano index.php
+```
+
 ```java
 <!DOCTYPE html>
 <html>
