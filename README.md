@@ -37,9 +37,10 @@ https://www.youtube.com/watch?v=2GTPWqv-nAw
 ## Instalação de pacotes no servidor
 Apache, PHP, Mysql
 
-Videos de orientação:
+ orientação:
+- https://github.com/mchavesferreira/sebe/blob/main/install_php_apache_mysql.md
+- https://github.com/mchavesferreira/sebe/blob/main/slide/desenvolvendo_api_php_html.pdf
 - https://insights.ionited.io/ion/configurar-linux-apache-mysql-e-php-lamp-no-ubuntu-2204
-- 
 
 ## Trabalho 1
 Verificar condições no SUAP. 
