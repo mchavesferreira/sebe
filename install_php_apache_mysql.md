@@ -118,3 +118,9 @@ sudo apt-get install mysql-server -y
 
 Depois da instalação configure o auth_socket plugin autenticação utilizando para autenticar sem senha.
 After installing the MySQL, the root user is configured using the auth_socket authentication plugin and then when you enter to the console of mysql using sudo mysql you’re automatically authenticated, without a password.
+
+
+## Utilizando banco de dados
+
+Comandos básico de banco de dados
+http://smartcampus.ifsp.online/blog/index.php?IDselecionado=28    
