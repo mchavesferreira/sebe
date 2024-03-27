@@ -99,7 +99,7 @@ pstree	Exibe uma árvore hierárquica de todos os processos em execução no sis
 ##  BLOG
 
 Orientações para a disciplina, acompanhe a postagem de trabalhos de outros alunos
-<a href=http://smartcampus.ctd.ifsp.edu.br/blog/index.php?raselecionado=CT120893>Acesso as postagem do professor</a>
+<a href=http://smartcampus.ifsp.online/blog/index.php?raselecionado=CT120893>Acesso as postagem do professor</a>
 
 ##  Guia Básico para ESP32
 <a href=https://github.com/mchavesferreira/mcr/blob/main/ESP32.md>Acesse o link</a>
