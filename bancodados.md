@@ -79,9 +79,13 @@ CREATE TABLE CadastroAlunos (
 Neste exemplo, CadastroAlunos é o nome da tabela. Aqui estão alguns detalhes sobre a definição dos campos:
 
     - ID INT AUTO_INCREMENT PRIMARY KEY: Define o campo ID como um inteiro que é autoincrementado para cada novo registro inserido na tabela. Este campo também é a chave primária, o que garante que cada valor seja único e não nulo.
+    
    - Time VARCHAR(255): Define o campo Time como uma string variável que pode conter até 255 caracteres. Ele pode ser usado para armazenar informações sobre a turma ou o horário do aluno.
-    -Nome VARCHAR(255): Similar ao campo Time, este campo armazena o nome do aluno e pode conter até 255 caracteres.
-    -RG VARCHAR(20) UNIQUE: Define o campo RG para armazenar o RG do aluno, com um máximo de 20 caracteres. O modificador UNIQUE garante que cada RG na tabela seja único, prevenindo registros duplicados.
+   - 
+    - Nome VARCHAR(255): Similar ao campo Time, este campo armazena o nome do aluno e pode conter até 255 caracteres.
+     
+    - RG VARCHAR(20) UNIQUE: Define o campo RG para armazenar o RG do aluno, com um máximo de 20 caracteres. O modificador UNIQUE garante que cada RG na tabela seja único, prevenindo registros duplicados.
+    
 
 Lembre-se de ajustar o tamanho dos campos VARCHAR conforme necessário para se adequar às suas necessidades específicas. Por exemplo, se você sabe que os nomes dos alunos não excederão 50 caracteres, você pode definir o campo Nome como VARCHAR(50) para economizar espaço na base de dados.
 
