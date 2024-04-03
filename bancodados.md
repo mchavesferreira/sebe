@@ -25,7 +25,7 @@ Aula síncrona TEAMS Banco de dados e requisições POST e GET
 1:06:30 Inserindo dados via POST e GET via php
 
 1:09:59 Uso de um código .ino para envio de dados via GET e POST (arquivo1 e  arquivo2)
-Comandos básicos Mysql
+## Comandos básicos Mysql
 
 // conecta com o banco de dados via terminal localmente
 
@@ -35,7 +35,7 @@ Acesso remoto utilizando rds
 
 mysql -u admin -h database-1.cscbnowewjwj.sa-east-1.rds.amazonaws.com -p
 
-// mostra base de banco de dados
+### mostra base de banco de dados
 
 show databases;
 
@@ -47,10 +47,42 @@ Create Database meubanco;
 
 use meubanco;
 
- 
+## Criação de tabelas
+
+### Tipos de Campos Mais Comuns em MySQL
+
+| Tipo de Campo | Descrição | Exemplo de Uso |
+|---------------|-----------|----------------|
+| INT           | Um número inteiro. Pode ser assinado (negativo e positivo) ou não assinado (apenas positivo). | Idade, quantidade. |
+| VARCHAR       | Uma cadeia de caracteres de comprimento variável. Requer um comprimento definido. | Nomes, endereços de email. |
+| TEXT          | Um texto longo. Útil para armazenar cadeias de caracteres de comprimento indeterminado. | Descrições de produtos, posts de blog. |
+| DATE          | Data no formato YYYY-MM-DD. | Data de nascimento, datas de eventos. |
+| DATETIME      | Combina data e hora no formato YYYY-MM-DD HH:MM:SS. | Timestamps de quando um registro foi criado ou atualizado. |
+| FLOAT/DOUBLE  | Números com pontos decimais. `FLOAT` é para precisão simples e `DOUBLE` para precisão dupla. | Preços, medidas. |
+| BOOLEAN       | Armazena verdadeiro ou falso (representado por 1 e 0, respectivamente). | Status ativo/inativo, opções de sim/não. |
+| ENUM          | Um campo que pode armazenar um dos valores predefinidos. | Status de pedido (como `Pendente`, `Completo`, `Cancelado`). |
+
+
+### Exemplo de criação de tabelas
+
+Para criar uma tabela de cadastro de alunos no MySQL, que inclua os campos ID, Time, Nome e RG, você pode usar o seguinte comando SQL:
+```java
+CREATE TABLE CadastroAlunos (
+    ID INT AUTO_INCREMENT PRIMARY KEY,
+    Time VARCHAR(255),
+    Nome VARCHAR(255),
+    RG VARCHAR(20) UNIQUE
+);
+
+```
+
+
+
+A tabela a seguir descreve os tipos de campos (ou colunas) mais comuns usados em tabelas MySQL, que são essenciais para armazenar diferentes tipos de dados:
+
 
 // CRIA TABELA
-
+```java
 CREATE TABLE tempLog (
 
 timeStamp TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
@@ -61,7 +93,7 @@ humidity int(11) NOT NULL,
 
 PRIMARY KEY (timeStamp) );
 
- 
+ ```
 
 // descreve características da base de dados
 
