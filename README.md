@@ -44,8 +44,8 @@ sudo netfilter-persistent save
 ```
 Fonte:  https://blog.tomaszdunia.pl/oracle-free-tier-eng/
 
-Embora os vídes mostrem que o plano Free Tier permita uma instância Free Oracle Cloud VPS (4 Cores 24GB RAM),  não é apenas no domínio Brasil, que está sobrecarregado segundo a busca em fóruns. 
-Então escolha  Distribuição Linux Ubuntu 20.04 ou 22...   Máquina virtual 1 core 1 GB. No momento foi possível criar duas intâncias.
+Embora os vídes mostrem que o plano Free Tier permita uma instância Free Oracle Cloud VPS (4 Cores 24GB RAM),  não é apenas no domínio Brasil, que está sobrecarregado, uma busca em fóruns revela que outras regiões estão com o mesmo problema. 
+Então escolha  Distribuição Linux Ubuntu 20.04 ou 22...   Máquina virtual 1 core 1 GB. No momento foi possível a única disponível porém permite criar duas intâncias.
 
 ![Captura de tela 2024-04-03 210148](https://github.com/mchavesferreira/sebe/assets/63993080/abfde088-6210-4a39-9923-e1352c7d8955)
 
