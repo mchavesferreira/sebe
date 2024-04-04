@@ -38,10 +38,10 @@ Obs:
 Instruções para liberar a porta 80, além de adicionar a regra em "VCN- Virtual cloud network", 
 realize no prompt os seguintes comandos:
 
-´´´java
+```java
 sudo iptables -I INPUT 6 -m state --state NEW -p tcp --dport 80 -j ACCEPT
 sudo netfilter-persistent save
-´´´
+```
 Fonte:  https://blog.tomaszdunia.pl/oracle-free-tier-eng/
 
 Embora os vídes mostrem que o plano Free Tier permita uma instância Free Oracle Cloud VPS (4 Cores 24GB RAM),  não é apenas no domínio Brasil, que está sobrecarregado segundo a busca em fóruns. 
