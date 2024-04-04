@@ -71,9 +71,8 @@ Com a finalidade desenvolver aplicações em nuvem preparando ambiente para IOT,
 
 Instalar um servidor de web Apache e serviços PHP criação de uma pagina simples código php (prazo: /03/2024)
 
-Aperfeiçoar exibição da pagina com utilização da busca e separação de campos com Json  (prazo: /04/2024 14h00)
 
-Instalar Mysql e exemplificar uma aplicação  banco de Dados Mysql.   (prazo: /04/2024 14h00)
+Instalar Mysql e exemplificar a aplicação  banco de Dados Mysql.  <h2> (prazo: 10/04/2024 14h00) </h2>
 
 Utilizando o exemplo disposto no repositório, criar uma API com php. Utilizar um node (esp32 ou Esp8266 para consumir a API utilizando método GET. Instalar o pacote de projeto e adaptar o código na instância. 
 Utilizar o repositório como referência: https://github.com/mchavesferreira/php_app
@@ -84,7 +83,7 @@ Insira dados em: http://smartcampus.ctd.ifsp.edu.br/aula/php_app/form.php
 
 Esta atividade compõe 30% a avaliação final. 
 
-Preencher o Blog com a proposta da atividade. (Prazo final 26/04/2024) 14h00
+Apresentar presencial  <h2> (Prazo final 17/04/2024) 14h00  </h2>
 
 ##  Comandos Básicos para Linux
 
