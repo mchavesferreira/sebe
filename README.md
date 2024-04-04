@@ -69,10 +69,10 @@ Utilizar o seguinte repositório:
 
 Com a finalidade desenvolver aplicações em nuvem preparando ambiente para IOT, o aluno deve implantar criar uma instância Linux Ubuntu 20.0.4 no AWS. 
 
-<h2>Ativide 03/04/2024 </h2>
+<h2>Atividade 03/04/2024 </h2>
 Instalar um servidor de web Apache e serviços PHP criação de uma pagina simples código php 
 
-<h2>Ativide 10/04/2024 14h00) </h2>
+<h2>Atividade 10/04/2024 14h00) </h2>
 Instalar Mysql e exemplificar a aplicação  banco de Dados Mysql.  
 
 <h2>Atividade Final Trabalho 1: 10/04/2024 14h00 </h2>
