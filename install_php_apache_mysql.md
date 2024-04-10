@@ -101,6 +101,34 @@ echo "My first PHP script!";
 
 Saiba mais sobre php:  https://www.w3schools.com/php/default.asp
 
+Exemplos de Variáveis e tUtilizando método GET
+
+```java
+<?php
+
+$nome = "João";
+$idade = 30;
+$fruta = "laranja";
+
+
+
+$bebida = "café";
+echo "$nome tem  $idade  e gosta de $bebida.";
+
+$nome2 = $_GET['nome'];  // Acessa o parâmetro 'nome'
+$idade2 = $_GET['idade'];  // Acessa o parâmetro 'idade'
+echo "<BR>Metodo GET<BR>"?
+echo "Nome: " . $nome2 . "<br>";
+echo "Idade: " . $idade2;
+
+
+?>
+```
+
+
+
+
+
 ## MYSQL (Banco de dados)
 Instalar mysql no Ubuntu AWS
 Orientações: 
