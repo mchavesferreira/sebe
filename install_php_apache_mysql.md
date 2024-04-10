@@ -105,23 +105,17 @@ Exemplos de Variáveis e tUtilizando método GET
 
 ```java
 <?php
-
 $nome = "João";
 $idade = 30;
 $fruta = "laranja";
-
-
-
 $bebida = "café";
 echo "$nome tem  $idade  e gosta de $bebida.";
 
-$nome2 = $_GET['nome'];  // Acessa o parâmetro 'nome'
-$idade2 = $_GET['idade'];  // Acessa o parâmetro 'idade'
-echo "<BR>Metodo GET<BR>"?
+$nome2 = $_GET['nome2'];  // Acessa o parâmetro 'nome'
+$idade2 = $_GET['idade2'];  // Acessa o parâmetro 'idade'
+echo "<BR>Metodo GET<BR>";
 echo "Nome: " . $nome2 . "<br>";
 echo "Idade: " . $idade2;
-
-
 ?>
 ```
 
