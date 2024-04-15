@@ -40,6 +40,9 @@ nano  /var/www/html/php_app/connect.php
 Com isso, sua api deve funcionar, caso o mysql não esteja conectando ao php, confira as autorizações.
 
 Acessando através do navegador (browser), será possível inserir dados manualmente
+```java
+http://ipdoseuservidor/php_app/form.php
+```
 
 Para conexão com ESP32 ou ESP8266, baixe e edite o firmware:  https://github.com/mchavesferreira/php_app/blob/main/codigos_arduino/exemplo_metodo_post.ino
 
