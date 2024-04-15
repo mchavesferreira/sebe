@@ -1,6 +1,52 @@
 # sebe
 Sistemas Embarcados
 
+![atencao](https://github.com/mchavesferreira/sebe/assets/63993080/e7f8595e-19e2-4a2d-98ef-31728ca1a1dd)   Trabalho 1: Orientações para quem não veio nas ultimas aulas.
+
+Passos:
+- Criar instância no cloud oracle, com email pessoal ou institucional, escolher instância free, e sistema linux ubuntu (20.xx ou 22.xx)
+  
+- Instalar Apache, php. (Liberar porta 80 nas configurações de rede, abaixo tem comentário e link de orientação. Conferir a pasta /var/www/html  crie um arquivo .php  para verificar funcionamento)
+  
+- Instalar mysql  (Liberar porta 3306. A primeira instação será sem senha. Configure senha para "root", pratique os comandos de criação de banco de dados exemplos neste <a href=https://github.com/mchavesferreira/sebe/blob/main/install_php_apache_mysql.md target=_blank>link</a>
+
+- Acesse via prompt a pasta do apache
+  
+```java
+  cd /var/www/html/
+```
+Utilize o comando para clonar o projeto para o servidor, caso o comando "git" não esteja instalado, <b>instale!</b>
+
+```java
+git clone https://github.com/mchavesferreira/php_app.git
+```
+
+Confira que a pasta será copiada automaticamente para o seu servidor, mas ao acessar, faltará configurações de banco de dados, exempo acesse sua pagina no navegador
+
+```java
+http://ipdoseuservidor/php_app   
+```
+
+Utilize o arquivo:  https://github.com/mchavesferreira/php_app/blob/main/ExComandosSQL.php  para criar o banco de dados <B>sensor</b>, e criar a tabela <b>tempLog</b>, acessao via prompt o seu mysql.
+
+Acesse a pagina e edite as configurações de banco de dados.  No arquivo connect.php, coloque a senha e o banco de dados
+
+```java
+sudo su
+cd  /var/www/html/php_app
+nano  /var/www/html/php_app/connect.php
+```
+
+Com isso, sua api deve funcionar, caso o mysql não esteja conectando ao php, confira as autorizações.
+
+Acessando através do navegador (browser), será possível inserir dados manualmente
+
+Para conexão com ESP32 ou ESP8266, baixe e edite o firmware:  https://github.com/mchavesferreira/php_app/blob/main/codigos_arduino/exemplo_metodo_post.ino
+
+Edite: http://ip_seu_servidor, além das configurações de rede wifi.
+
+Modifique cores, e nomes, cores da api personalizando-a.
+
 ## Aulas
 
 - [Sistemas Operacionais](#Sistemas-Operacionais)
