@@ -75,11 +75,7 @@ Acessando através do navegador (browser), será possível inserir dados manualm
 http://ipdoseuservidor/php_app/form.php
 ```
 
-Para conexão com ESP32 ou ESP8266, baixe e edite o firmware:  https://github.com/mchavesferreira/php_app/blob/main/codigos_arduino/exemplo_metodo_post.ino
-
-Edite: http://ip_seu_servidor, além das configurações de rede wifi.
-
-Modifique cores, e nomes, cores da api personalizando-a.
+<B>Modifique cores, e nomes, cores da api personalize. </b>
 
 ## Aulas
 
@@ -155,7 +151,7 @@ Instalar um servidor de web Apache e serviços PHP criação de uma pagina simpl
 <h2>Atividade 10/04/2024 14h00) </h2>
 Instalar Mysql e exemplificar a aplicação  banco de Dados Mysql.  
 
-<h2>Atividade Final Trabalho 1: 17/04/2024 14h00 </h2>
+<h2>Atividade Final Trabalho 1: 21/04/2024 14h00 </h2>
 Utilizando o exemplo disposto no repositório, criar uma API com php. Utilizar um node (esp32 ou Esp8266 para consumir a API utilizando método GET. Instalar o pacote de projeto e adaptar o código na instância. 
 Utilizar o repositório como referência: https://github.com/mchavesferreira/php_app
 Para saber mais sobre ESP32, simulação online: https://github.com/mchavesferreira/mcr/blob/main/ESP32.md
@@ -163,7 +159,7 @@ Exemplo em funcionamento:
 http://smartcampus.ctd.ifsp.edu.br/aula/php_app/index.php
 Insira dados em: http://smartcampus.ctd.ifsp.edu.br/aula/php_app/form.php
 
-Esta atividade compõe 30% a avaliação final. Apresentar presencialmente em sala de aula.
+Esta atividade compõe 25 % a avaliação final. Apresentar presencialmente em sala de aula ou enviar até 21/04/2024 em SUAP o <b>http://IP</b> de sua instância.
 
 
 ##  Comandos Básicos para Linux
