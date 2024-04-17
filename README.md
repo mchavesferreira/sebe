@@ -10,6 +10,37 @@ Passos:
   
 - Instalar mysql  (Liberar porta 3306. A primeira instação será sem senha. Configure senha para "root", pratique os comandos de criação de banco de dados exemplos neste <a href=https://github.com/mchavesferreira/sebe/blob/main/install_php_apache_mysql.md target=_blank>link</a>
 
+Caso tenha erro de conexão com o login root no mysql realize os seguintes passos:
+
+O erro "ERROR 1698 (28000): Access denied for user 'root'@'localhost'" ocorre quando o usuário 'root' não tem permissão de acesso ao MySQL. Esse erro é comum em sistemas como Ubuntu, onde o MySQL usa o plugin de autenticação auth_socket por padrão para o usuário 'root', ao invés de uma senha. Aqui está como você pode corrigir este erro:
+Opção 1: Alterar para Autenticação por Senha
+ Acesse o MySQL usando sudo:
+```java
+sudo  mysql -u root
+```
+Altere o método de autenticação para 'root':
+
+```java
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'sua_nova_senha';
+```
+Atualize as permissões:
+
+```java
+FLUSH PRIVILEGES;
+```
+Saia do MySQL:
+
+```java
+EXIT;
+```
+Tente conectar novamente sem sudo:
+
+```java
+    mysql -u root -p
+```
+Você será solicitado a inserir a senha que você configurou.
+
+
 - Acesse via prompt a pasta do apache
   
 ```java
