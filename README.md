@@ -1,7 +1,20 @@
 # sebe
 Sistemas Embarcados
 
-![atencao](https://github.com/mchavesferreira/sebe/assets/63993080/e7f8595e-19e2-4a2d-98ef-31728ca1a1dd)   Trabalho 1: Orientações para quem não veio nas ultimas aulas.
+Aula 24/04/2024
+
+IoT Introdução
+Soc, SBC, Esp32...
+
+Exemplo online Esp32+sensor comunicando com API/PHP:   https://wokwi.com/projects/396067644168942593
+
+https://github.com/mchavesferreira/mcr/blob/main/ESP32.md  >> Introdução ao ESP32
+
+https://github.com/mchavesferreira/mcr/tree/main/esp32_iot  >> Utilizando ESP32 em IoT
+
+---------------------------
+
+Trabalho 1: Orientações para quem não veio nas ultimas aulas.
 
 Passos:
 - Criar instância no cloud oracle, com email pessoal ou institucional, escolher instância free, e sistema linux ubuntu (20.xx ou 22.xx)
