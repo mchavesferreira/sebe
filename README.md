@@ -11,7 +11,7 @@ Instalar Node-red: http://smartcampus.ctd.ifsp.edu.br/blog/index.php?IDseleciona
 
 
 Dashboard exemplo:  
-http://avrchaves.duckdns.org:1880/
+http://avrchaves.duckdns.org:1880/ui
 
 
 Aula 24/04/2024
