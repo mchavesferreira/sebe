@@ -5,7 +5,10 @@ Aula 08/05/2024
 
 Node-red Oficial:  https://flows.nodered.org/
 
+Node-red Apresentação:  http://smartcampus.ctd.ifsp.edu.br/blog/index.php?IDselecionado=50
+
 Instalar Node-red: http://smartcampus.ctd.ifsp.edu.br/blog/index.php?IDselecionado=45
+
 
 Dashboard exemplo:  
 http://avrchaves.duckdns.org:1880/
