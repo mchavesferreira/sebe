@@ -1,6 +1,16 @@
 # sebe
 Sistemas Embarcados
 
+Aula 08/05/2024
+
+Node-red Oficial:  https://flows.nodered.org/
+
+Instalar Node-red: http://smartcampus.ctd.ifsp.edu.br/blog/index.php?IDselecionado=45
+
+Dashboard exemplo:  
+http://avrchaves.duckdns.org:1880/
+
+
 Aula 24/04/2024
 
 IoT Introdução
