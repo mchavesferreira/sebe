@@ -4,8 +4,8 @@ Sistemas Embarcados
 ## Aula 15/05/2024
 
 ### Prática com NodeRED
-
-flow_exemplos/README.md
+[
+flow_exemplos/README.md](https://github.com/mchavesferreira/sebe/tree/main/flow_exemplos)
 
 ### Formato JSON
 Exemplo de cotação dolar
@@ -15,10 +15,13 @@ Exemplo de cotação dolar
 
 https://github.com/mchavesferreira/mcr/tree/main/esp32_iot
 
-flow_exemplos/aula_mqtt.pdf
+[flow_exemplos/aula_mqtt.pdf](https://github.com/mchavesferreira/sebe/blob/main/flow_exemplos/aula_mqtt.pdf)
+
 
 ### Trabalho: 
-Utilize o exemplo de cotação do dolar para capturar um valor (temperatura, cotações), qualquer exemplo em formato json.
+Utilize o exemplo de cotação do dolar para capturar um valor (temperatura, cotações), qualquer exemplo em formato json, separar os campos, exemplificar com gráfico.
+
+Criar um dashboard para seu nodered.
 
 ##  Aula 08/05/2024
 
