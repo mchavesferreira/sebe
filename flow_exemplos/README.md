@@ -24,3 +24,16 @@ msg.payload - O valor atual do sensor, por exemplo, 22°C.
 msg.topic - O tópico MQTT associado, como "casa/sala/temperatura", que indica de onde o dado está vindo e o tipo de dado.
 
 
+## Função
+
+Exemplo:
+
+´´´rubby
+let data=new Date();
+msg.payload=data
+return msg;
+´´´
+
+
+Altere:  
+msg.payload=data.toString;
