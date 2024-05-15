@@ -41,7 +41,10 @@ msg.payload=data.toString;
 
 ![image](https://github.com/mchavesferreira/sebe/assets/63993080/577f6384-9956-43bd-ae77-e4a90b496a8a)
 
-´´´´java
+<details><summary>Codigo</summary>
+<p>
+
+```ruby
 [
     {
         "id": "ad46570c.7c11d8",
@@ -283,6 +286,16 @@ msg.payload=data.toString;
         "disabled": false,
         "hidden": false
     }
+
+```
+</details>
+
+<p>
+
+
+
+
+
 ]
 ´´´
 
