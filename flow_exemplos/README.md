@@ -2,6 +2,13 @@
 
 No Node-RED, uma ferramenta de programação visual para conectar dispositivos de hardware, APIs e serviços online, as mensagens (msg) são objetos JavaScript que passam através dos nós e contêm dados que podem ser manipulados e utilizados de diversas maneiras. Os atributos msg.payload e msg.topic são duas propriedades comuns em mensagens no Node-RED, e cada uma tem um papel específico:
 
+![Captura de tela 2024-05-15 124810](https://github.com/mchavesferreira/sebe/assets/63993080/857efca0-bce3-4c91-b5d3-2a3eec879872)
+
+![Captura de tela 2024-05-15 124828](https://github.com/mchavesferreira/sebe/assets/63993080/506fc857-7ad0-4266-917e-9d4a7d0ea50c)
+
+![Captura de tela 2024-05-15 124921](https://github.com/mchavesferreira/sebe/assets/63993080/a2f06857-d476-4816-9e2e-4d8569add843)
+
+
 ## Formato de mensagens
 ### msg.payload
 
@@ -23,21 +30,24 @@ msg.payload - O valor atual do sensor, por exemplo, 22°C.
 
 msg.topic - O tópico MQTT associado, como "casa/sala/temperatura", que indica de onde o dado está vindo e o tipo de dado.
 
+![Captura de tela 2024-05-15 125027](https://github.com/mchavesferreira/sebe/assets/63993080/b53e99be-1984-4496-9cb8-0ce9ff04bc52)
+
 
 ## Função
 
 Exemplo:
 
-´´´rubby
+```ruby
 let data=new Date();
 msg.payload=data
 return msg;
-´´´
+```
 
 
 Altere:  
+```ruby
 msg.payload=data.toString;
-
+```
 
 ![image](https://github.com/mchavesferreira/sebe/assets/63993080/577f6384-9956-43bd-ae77-e4a90b496a8a)
 
@@ -287,6 +297,8 @@ msg.payload=data.toString;
         "hidden": false
     }
 
+]
+
 ```
 </details>
 
@@ -296,6 +308,5 @@ msg.payload=data.toString;
 
 
 
-]
-´´´
+
 
