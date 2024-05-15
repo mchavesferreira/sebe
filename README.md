@@ -3,15 +3,22 @@ Sistemas Embarcados
 
 ## Aula 15/05/2024
 
-Prática com NodeRED
+### Prática com NodeRED
 
-Formato JSON
+flow_exemplos/README.md
 
+### Formato JSON
 Exemplo de cotação dolar
 
 
-Protocolo MQTT
+### Protocolo MQTT
+
+https://github.com/mchavesferreira/mcr/tree/main/esp32_iot
+
 flow_exemplos/aula_mqtt.pdf
+
+### Trabalho: 
+Utilize o exemplo de cotação do dolar para capturar um valor (temperatura, cotações), qualquer exemplo em formato json.
 
 ##  Aula 08/05/2024
 
