@@ -21,3 +21,6 @@ Arrays: Um array JSON é uma lista ordenada de valores, delimitada por colchetes
 Fonte: 
 
 https://www.json.org/json-en.html
+
+Fonte de dados IBGE:  
+https://servicodados.ibge.gov.br/api/docs/
