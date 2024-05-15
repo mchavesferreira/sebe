@@ -37,3 +37,252 @@ return msg;
 
 Altere:  
 msg.payload=data.toString;
+
+
+![image](https://github.com/mchavesferreira/sebe/assets/63993080/577f6384-9956-43bd-ae77-e4a90b496a8a)
+
+´´´´java
+[
+    {
+        "id": "ad46570c.7c11d8",
+        "type": "inject",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 140,
+        "y": 480,
+        "wires": [
+            [
+                "a5ca5a5d.8d7fd"
+            ]
+        ]
+    },
+    {
+        "id": "a5ca5a5d.8d7fd",
+        "type": "http request",
+        "z": "f6f2187d.f17ca8",
+        "name": "Cotação Dólar",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "https://economia.awesomeapi.com.br/json/last/USD-BRL",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "x": 120,
+        "y": 540,
+        "wires": [
+            [
+                "7f25f1d1.a10eb8",
+                "76d173da70211228"
+            ]
+        ]
+    },
+    {
+        "id": "7f25f1d1.a10eb8",
+        "type": "json",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 330,
+        "y": 540,
+        "wires": [
+            [
+                "d6f506b6.2129b8",
+                "22ed231a9ad130c8"
+            ]
+        ]
+    },
+    {
+        "id": "d6f506b6.2129b8",
+        "type": "function",
+        "z": "f6f2187d.f17ca8",
+        "name": "Formatar Dólar",
+        "func": "var high = msg.payload.USDBRL.high;\nvar low = msg.payload.USDBRL.low;\n\nmsg.payload = `O preço atual do dólar é ${high} (alta) / ${low} (baixa).`;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 540,
+        "wires": [
+            [
+                "8900313a.6596f8",
+                "d29a739ae590e316"
+            ]
+        ]
+    },
+    {
+        "id": "8900313a.6596f8",
+        "type": "ui_template",
+        "z": "f6f2187d.f17ca8",
+        "group": "ca22fa0e.65a208",
+        "name": "Cotação Dólar",
+        "order": 1,
+        "width": 10,
+        "height": 2,
+        "format": "<div style=\"text-align:center;font-size:30px\">{{msg.payload}}</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 720,
+        "y": 540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "76d173da70211228",
+        "type": "debug",
+        "z": "f6f2187d.f17ca8",
+        "name": "debug 6",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 260,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "22ed231a9ad130c8",
+        "type": "debug",
+        "z": "f6f2187d.f17ca8",
+        "name": "debug 7",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 460,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "d29a739ae590e316",
+        "type": "debug",
+        "z": "f6f2187d.f17ca8",
+        "name": "debug 8",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 640,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "ec6a00d39ca4cb03",
+        "type": "function",
+        "z": "f6f2187d.f17ca8",
+        "d": true,
+        "name": "function 4",
+        "func": "    var dados = msg.payload.USDBRL;\n\n    // Separando cada campo\n    msg.payload = {\n        code: dados.code,\n        codein: dados.codein,\n        name: dados.name,\n        high: dados.high,\n        low: dados.low,\n        varBid: dados.varBid,\n        pctChange: dados.pctChange,\n        bid: dados.bid,\n        ask: dados.ask,\n        timestamp: dados.timestamp,\n        create_date: dados.create_date\n    };\n\n    // Retorna a mensagem modificada para continuar o fluxo\n    return msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 460,
+        "y": 680,
+        "wires": [
+            [
+                "fb35721b95f9f506",
+                "4431601db61e0556"
+            ]
+        ]
+    },
+    {
+        "id": "fb35721b95f9f506",
+        "type": "debug",
+        "z": "f6f2187d.f17ca8",
+        "d": true,
+        "name": "debug 9",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 520,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "4431601db61e0556",
+        "type": "ui_template",
+        "z": "f6f2187d.f17ca8",
+        "d": true,
+        "group": "ca22fa0e.65a208",
+        "name": "Cotação Dólar",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "format": "<div style=\"\n        font-family: Arial, sans-serif;\n        margin: 20px;\n        background-color: #f4f4f4;\n        color: #333;\n    }\n    table {\n        width: 100%;\n        margin-top: 20px;\n        border-collapse: collapse;\n    }\n    th, td {\n        padding: 8px;\n        text-align: left;\n        border-bottom: 1px solid #ddd;\n    }\n    th {\n        background-color: #4CAF50;\n        color: white;\n    }\n    td {\n        background-color: #f8f8f8;\n    }\n\">\n\n<h1>Cotação do Dólar Americano / Real Brasileiro</h1>\n<table>\n    <tr>\n        <th>Campo</th>\n        <th>Valor</th>\n    </tr>\n    <tr>\n        <td>Código</td>\n        <td>{{msg.payload.USDBRL.code}}</td>\n    </tr>\n    <tr>\n        <td>Código IN</td>\n        <td>{{payload.USDBRL.codein}}</td>\n    </tr>\n    <tr>\n        <td>Nome</td>\n        <td>{{payload.USDBRL.name}}</td>\n    </tr>\n    <tr>\n        <td>Máximo</td>\n        <td>{{msg.payload.high}}</td>\n    </tr>\n    <tr>\n        <td>Mínimo</td>\n        <td>{{payload.USDBRL.low}}</td>\n    </tr>\n    <tr>\n        <td>Variação</td>\n        <td>{{payload.USDBRL.varBid}}</td>\n    </tr>\n    <tr>\n        <td>Mudança Percentual</td>\n        <td>{{payload.USDBRL.pctChange}}%</td>\n    </tr>\n    <tr>\n        <td>Lance</td>\n        <td>{{payload.USDBRL.bid}}</td>\n    </tr>\n    <tr>\n        <td>Pedido</td>\n        <td>{{payload.USDBRL.ask}}</td>\n    </tr>\n    <tr>\n        <td>Timestamp</td>\n        <td>{{payload.USDBRL.timestamp}}</td>\n    </tr>\n    <tr>\n        <td>Data de Criação</td>\n        <td>{{payload.USDBRL.create_date}}</td>\n    </tr>\n</table>\n\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 660,
+        "y": 680,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ca22fa0e.65a208",
+        "type": "ui_group",
+        "name": "Cotação Dólar",
+        "tab": "84f5f56f.0f223",
+        "order": 1,
+        "disp": true,
+        "width": 10,
+        "collapse": false
+    },
+    {
+        "id": "84f5f56f.0f223",
+        "type": "ui_tab",
+        "name": "Dashboard",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    }
+]
+´´´
+
