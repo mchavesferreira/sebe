@@ -17,6 +17,44 @@ Neste exemplo, o objeto contém três chaves: "nome", "idade", e "casado", com s
 
 
 Arrays: Um array JSON é uma lista ordenada de valores, delimitada por colchetes []. Os valores dentro de um array são separados por vírgulas. Os valores podem ser de qualquer tipo de dado JSON, incluindo objetos e outros arrays. Por exemplo:
+```ruby
+[
+  "maçã",
+  "banana",
+  "cereja"
+]
+```
+Este é um exemplo de um array contendo três strings. Arrays também podem conter objetos:
+```ruby
+[
+  {"nome": "João", "idade": 30},
+  {"nome": "Maria", "idade": 25}
+]
+```
+
+## Tipos de Valores no JSON
+
+Os valores em JSON podem ser de um dos seguintes tipos:
+
+### String: 
+
+### Número:
+Inteiros ou decimais, como 42 ou 3.14. Não diferencia entre inteiros e floats.
+    
+### Objeto: 
+Coleções de pares chave/valor encapsulados entre chaves.
+    
+### Array: 
+Listas ordenadas de valores entre colchetes.
+    
+### Booleano: 
+true ou false.
+    
+### Null: 
+Representa um valor nulo ou "vazio", escrito como null.
+
+    
+
 
 Fonte: 
 
