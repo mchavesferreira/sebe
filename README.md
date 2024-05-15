@@ -7,7 +7,11 @@ Prática com NodeRED
 
 Formato JSON
 
+Exemplo de cotação dolar
+
+
 Protocolo MQTT
+flow_exemplos/aula_mqtt.pdf
 
 ##  Aula 08/05/2024
 
