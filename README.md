@@ -10,6 +10,7 @@ flow_exemplos/README.md](https://github.com/mchavesferreira/sebe/tree/main/flow_
 ### Formato JSON
 Exemplo de cotação dolar
 
+Exemplo com mensagens: https://github.com/mchavesferreira/sebe/blob/main/flow_exemplos/json.md
 
 ### Protocolo MQTT
 
