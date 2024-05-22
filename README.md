@@ -4,13 +4,15 @@ Sistemas Embarcados
 ## Aula 15/05/2024
 
 ### Prática com NodeRED
-[
-flow_exemplos/README.md](https://github.com/mchavesferreira/sebe/tree/main/flow_exemplos)
+[flow_exemplos/README.md](https://github.com/mchavesferreira/sebe/tree/main/flow_exemplos)
 
 ### Formato JSON
-Exemplo de cotação dolar
 
-Exemplo com mensagens: https://github.com/mchavesferreira/sebe/blob/main/flow_exemplos/json.md
+<a href=https://github.com/mchavesferreira/sebe/blob/main/flow_exemplos/json.md>Saiba mais sobre o formato json</a>
+
+Importe este exemplo para o nodered: <a href=https://github.com/mchavesferreira/sebe/blob/main/flow_exemplos/cotacao_dolar.json>Exemplo de cotação dolar</a>
+
+Instale um plugin no navegador para facilitar a compreensão de um json: <a href=https://addons.mozilla.org/en-US/firefox/addon/json_formatter/>firefox</a>
 
 ### Protocolo MQTT
 
