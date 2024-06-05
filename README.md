@@ -17,6 +17,8 @@ node-red-node-mysql
 
 Crie a conexão MQTT local, e conecte ao banco de dados Mysql
 
+A base de dados será a mesma utilizada para o projeto 1, disponível em: https://github.com/mchavesferreira/php_app
+
 Simule a conexão utilizando o circuito tratado em aulas anteriores:  https://wokwi.com/projects/365211000246545409
 
 
