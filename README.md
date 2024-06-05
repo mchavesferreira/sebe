@@ -1,6 +1,27 @@
 # sebe
 Sistemas Embarcados
 
+## Aula 05/06/2024
+
+Trabalhando com mysql, node-red e mqtt
+
+Importe para o node-red o flow:
+
+https://github.com/mchavesferreira/embarcados_freertos/blob/main/exemplo_node_red_mqtt_mysql_dht_sensor.json
+
+Adicione os nodes faltantes:  
+
+ui_led 
+
+node-red-node-mysql
+
+Crie a conexão MQTT local, e conecte ao banco de dados Mysql
+
+Simule a conexão utilizando o circuito tratado em aulas anteriores:  https://wokwi.com/projects/365211000246545409
+
+
+
+
 ## Aula 22/05/2024
 
 ### Protocolo MQTT
