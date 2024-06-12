@@ -1,6 +1,12 @@
 # sebe
 Sistemas Embarcados
 
+## Aula 12/06/2024
+
+- Configurar DNS
+  
+- Introdução ao RTOS/FreeRTOS
+
 ## Aula 05/06/2024
 
 Trabalhando com mysql, node-red e mqtt
