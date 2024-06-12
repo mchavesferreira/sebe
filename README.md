@@ -3,9 +3,13 @@ Sistemas Embarcados
 
 ## Aula 12/06/2024
 
-- Configurar DNS  <a href=http://smartcampus.ctd.ifsp.edu.br/blog/index.php?IDselecionado=30>Redirecionamento DDNS com DuckDns </a>
+- Configurar DNS
+
+ http://smartcampus.ctd.ifsp.edu.br/blog/index.php?IDselecionado=30 Redirecionamento DDNS com DuckDns 
   
-- Introdução ao RTOS/FreeRTOS <a href=https://github.com/mchavesferreira/embarcados_freertos> Conceito de RTOS</a>
+- Introdução ao RTOS/FreeRTOS
+
+https://github.com/mchavesferreira/embarcados_freertos
 
 ## Aula 05/06/2024
 
