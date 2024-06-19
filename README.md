@@ -7,7 +7,11 @@ FreeRTOS - https://chatgpt.com/g/g-xFCyP0VEc-sebe-r
 
 Apresentação do Trabalho 2 
 
+Exemplos de códigos:  https://github.com/mchavesferreira/embarcados_freertos/tree/main/example_freertos_arduino
 
+https://github.com/mchavesferreira/embarcados_freertos/tree/main/exemplos_scripts_rtos
+
+https://github.com/mchavesferreira/embarcados_freertos/tree/main/DHT_MQTT_FREERTOS_v_jun21
 
 ## Aula 12/06/2024
 
