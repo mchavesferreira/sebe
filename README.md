@@ -7,6 +7,8 @@ FreeRTOS - https://chatgpt.com/g/g-xFCyP0VEc-sebe-r
 
 Apresentação do Trabalho 2 
 
+
+
 ## Aula 12/06/2024
 
 - Configurar DNS
