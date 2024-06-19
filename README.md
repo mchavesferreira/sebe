@@ -1,6 +1,12 @@
 # sebe
 Sistemas Embarcados
 
+## Aula 19/06/2024
+
+FreeRTOS - https://chatgpt.com/g/g-xFCyP0VEc-sebe-r  
+
+Consulta:  
+
 ## Aula 12/06/2024
 
 - Configurar DNS
