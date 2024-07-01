@@ -389,6 +389,10 @@ Os recursos do projeto deve implementar (node, mysql, .ino, ..) e o formato de e
 <BR>http://www.telecocare.com.br/mapaerbs/index.php 
 <BR>http://sistemas.anatel.gov.br/siec-servico-movel-web/
 
+### API Públicas
+
+https://github.com/public-apis/public-apis
+
 <BR><BR>
 ##  Ferramentas de desenvolvimento
 Terminais shell gratis e online
