@@ -98,6 +98,14 @@ https://github.com/mchavesferreira/mcr/blob/main/ESP32.md  >> Introdução ao ES
 
 https://github.com/mchavesferreira/mcr/tree/main/esp32_iot  >> Utilizando ESP32 em IoT
 
+Tecnologias:
+
+https://www.airgain.com/technology/    
+
+Choosing a Microcontroller (MCU) or Microprocessor (MPU)
+
+https://www.verytechnology.com/iot-insights/top-iot-boards-for-development-prototyping
+
 ---------------------------
 
 ## Trabalho 1: Orientações para quem não veio nas ultimas aulas.
