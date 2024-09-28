@@ -1,4 +1,4 @@
-# Node-Red
+# NNode-RED
 
 
 #### O que é o Node-RED?
@@ -333,7 +333,7 @@ Siga os passos abaixo para instalar o Node-RED:
 
 ### Instalar node extras (pacotes)
 
-Utilize o menu "Gerenciar Paleta"  para adicionar mais pacotes ao seu nodered. Conheças os pacotes em:
+Utilize o menu "Gerenciar Paleta"  para adicionar mais pacotes ao seu Node-RED. Conheças os pacotes em:
 
 <a href=https://flows.nodered.org/collection/590bc13ff3a5f005c7d2189bbb563976>Node-RED Dashboard extra nodes (collection) - Node-RED (nodered.org)</a>
 
@@ -386,7 +386,7 @@ Este é apenas um exemplo básico de como usar o Node-RED para buscar dados de u
 
 <a href=https://github.com/mchavesferreira/sebe/blob/main/flow_exemplos/cotacao_dolar.json>Script Cotação do dolar</a>: elaboração de um script flow que busque uma informação de cotação de dolar em formato json e exiba em dashboard.
 
-## Tutoriais, pdfs e vídeos sobre o Nodered
+## Tutoriais, pdfs e vídeos sobre o Node-RED
 
 
 [1] <a href=http://inf.ufes.br/~zegonc/material/Redes%20de%20Sensores%20sem%20Fio/Minicurso%20Node-RED.pdf target=_blank>Slide: <a/> Desenvolvimento de aplicações integrando serviços Web, fontes de dados e dispositivos IoT com o uso do Node-RED. Ministrantes: Celso Alberto Saibel Santos e Jordano Ribeiro Celestrin  
@@ -424,7 +424,7 @@ https://www.youtube.com/watch?v=O88f7OxXSlk : Resumo do curso, Video com a seç�
 
 <BR><BR>[6]da Silva, Esdras Barbosa Lima J.&nbsp; <a href="https://www.cin.ufpe.br/~tg/2020-3/TG_EC/tg_eblsj.pdf" target="_blank">Node-RED KNoT: Um m&oacute;dulo de integra&ccedil;&atilde;o da ferramenta Node-RED com a meta plataforma KNoT</a></p>
 
-[7] Usando nodered para integrar dispositivos
+[7] Usando Node-RED para integrar dispositivos
 
 https://raw.githubusercontent.com/mchavesferreira/sebe/refs/heads/main/imagens/netio.png
 
