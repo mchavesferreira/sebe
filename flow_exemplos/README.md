@@ -398,14 +398,21 @@ Este é apenas um exemplo básico de como usar o Node-RED para buscar dados de u
 <BR><BR><BR><BR>
 [2] ***Curso Udemy*** de <a href=https://www.udemy.com/course/node-red/>Reginaldo Santos. Do Zero ao Node-Red (Prototipagem rápida).</a> Assista ao curso liberado no Canal Youtube do Autor 
 
-<img src=https://raw.githubusercontent.com/mchavesferreira/paginaaws/main/cursonodeudemy.png width=300 height=200><BR>
-<BR><BR>
+<img src=https://raw.githubusercontent.com/mchavesferreira/paginaaws/main/cursonodeudemy.png width=300 height=200>
+
+
 <a href=https://www.youtube.com/playlist?list=PL07l7JtVlEwJoWNaX_sn0N8j9aUZyScWK>playlist youtube <a/>
-<BR><BR>
+
+
+
 <a href=https://www.youtube.com/watch?v=q9etCbnHLzo  target=_blan>aula 1-4 som editado </a>
-<BR><BR>
+
+
+
 <a href=http://https//youtu.be/Hy06QIhayYg  target=_blan>(Seção 7 Front End )</a>
-<BR><BR>
+
+
+
 <img src=https://github.com/mchavesferreira/sebe/blob/main/imagens/video.png>
 
 <a href=https://www.youtube.com/watch?v=O88f7OxXSlk>Video com a seção de criação de uma dashboard para uma estação</a>
