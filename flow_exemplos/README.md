@@ -424,5 +424,8 @@ https://www.youtube.com/watch?v=O88f7OxXSlk : Resumo do curso, Video com a se√ß√
 
 <BR><BR>[6]da Silva, Esdras Barbosa Lima J.&nbsp; <a href="https://www.cin.ufpe.br/~tg/2020-3/TG_EC/tg_eblsj.pdf" target="_blank">Node-RED KNoT: Um m&oacute;dulo de integra&ccedil;&atilde;o da ferramenta Node-RED com a meta plataforma KNoT</a></p>
 
+[7] Usando nodered para integrar dispositivos
 
+https://raw.githubusercontent.com/mchavesferreira/sebe/refs/heads/main/imagens/netio.png
 
+<a href=https://www.netio-products.com/en/application-notes/an31-node-red-example-of-rest-xml-communication-with-netio-4x> Node-RED example of REST XML communication with NETIO</a>
