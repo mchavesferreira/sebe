@@ -396,15 +396,15 @@ Este é apenas um exemplo básico de como usar o Node-RED para buscar dados de u
 
 
 <BR><BR><BR><BR>
-[2] ***Curso Udemy*** de Reginaldo Santos. Do Zero ao Node-Red (Prototipagem rápida). Assista ao curso liberado no Canal Youtube do Autor 
+[2] ***Curso Udemy*** de <a href=https://www.udemy.com/course/node-red/>Reginaldo Santos. Do Zero ao Node-Red (Prototipagem rápida).</a> Assista ao curso liberado no Canal Youtube do Autor 
 
 <img src=https://raw.githubusercontent.com/mchavesferreira/paginaaws/main/cursonodeudemy.png width=300 height=200><BR>
 <BR><BR>
 <a href=https://www.youtube.com/playlist?list=PL07l7JtVlEwJoWNaX_sn0N8j9aUZyScWK>[playlist youtube] <a/>
 <BR><BR>
-<a href=https://www.youtube.com/watch?v=q9etCbnHLzo[aula 1-4 som editado] </a>
+<a href=https://www.youtube.com/watch?v=q9etCbnHLzo>[aula 1-4 som editado] </a>
 <BR><BR>
-<a href=http://https//youtu.be/Hy06QIhayYg(Seção 7 Front End )</a>
+<a href=http://https//youtu.be/Hy06QIhayYg>(Seção 7 Front End )</a>
 <BR><BR>
 <a href=https://www.youtube.com/watch?v=O88f7OxXSlk><img src=https://github.com/mchavesferreira/sebe/blob/main/imagens/video.png>
 Video com a seção de criação de uma dashboard para uma estação</a>
@@ -412,11 +412,11 @@ Video com a seção de criação de uma dashboard para uma estação</a>
 
 <BR><BR>[3] <a href="https://nerdiy.de/en/nodered-mit-dashboard-nodes-eine-benutzeroberflaeche-erstellen/" target="_blank">HowTo: Node Red &ndash; Creating a User Interface with Dashboard Nodes</a></p>
 
-<BR><BR>[4] Slide aplica&otilde;es: <a href="https://sesam-world.com/_pdf/sesam-134/05-IBM.pdf">https://sesam-world.com/_pdf/sesam-134/05-IBM.pdf</a></p>
+<BR><BR>[4] Slide aplica&otilde;es: <a href="https://sesam-world.com/_pdf/sesam-134/05-IBM.pdf" target="_blank">https://sesam-world.com/_pdf/sesam-134/05-IBM.pdf</a></p>
 
-<BR><BR>[5]&nbsp; Passe, Fernando et al .<a href="http://www2.sbc.org.br/ceacpad/ijcae/v6_n1_dec_2017/IJCAE_v6_n1_dez_2017_paper_6_vf.pdf"> Perspectivas para o uso do Node-Red no Ensino de IoT</a></p>
+<BR><BR>[5]Passe, Fernando et al .<a href="http://www2.sbc.org.br/ceacpad/ijcae/v6_n1_dec_2017/IJCAE_v6_n1_dez_2017_paper_6_vf.pdf" target="_blank"> Perspectivas para o uso do Node-Red no Ensino de IoT</a></p>
 
-<BR><BR>[6]&nbsp; da Silva, Esdras Barbosa Lima J.&nbsp; <a href="https://www.cin.ufpe.br/~tg/2020-3/TG_EC/tg_eblsj.pdf">Node-RED KNoT: Um m&oacute;dulo de integra&ccedil;&atilde;o da ferramenta Node-RED com a meta plataforma KNoT</a></p>
+<BR><BR>[6]da Silva, Esdras Barbosa Lima J.&nbsp; <a href="https://www.cin.ufpe.br/~tg/2020-3/TG_EC/tg_eblsj.pdf" target="_blank">Node-RED KNoT: Um m&oacute;dulo de integra&ccedil;&atilde;o da ferramenta Node-RED com a meta plataforma KNoT</a></p>
 
 
 
