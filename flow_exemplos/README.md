@@ -426,6 +426,6 @@ https://www.youtube.com/watch?v=O88f7OxXSlk : Resumo do curso, Video com a se√ß√
 
 [7] Usando Node-RED para integrar dispositivos
 
-https://raw.githubusercontent.com/mchavesferreira/sebe/refs/heads/main/imagens/netio.png
+<img src=https://raw.githubusercontent.com/mchavesferreira/sebe/refs/heads/main/imagens/netio.png>
 
 <a href=https://www.netio-products.com/en/application-notes/an31-node-red-example-of-rest-xml-communication-with-netio-4x> Node-RED example of REST XML communication with NETIO</a>
