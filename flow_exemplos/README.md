@@ -401,8 +401,7 @@ Este é apenas um exemplo básico de como usar o Node-RED para buscar dados de u
 <img src=https://raw.githubusercontent.com/mchavesferreira/paginaaws/main/cursonodeudemy.png width=300 height=200>
 
 
-<a href=[https://www.youtube.com/playlist?list=PL07l7JtVlEwJoWNaX_sn0N8j9aUZyScWK](https://www.youtube.com/playlist?list=PL07l7JtVlEwJoWNaX_sn0N8j9aUZyScWK) playlist youtube <a/>
-
+<a href=https://www.youtube.com/playlist?list=PL07l7JtVlEwJoWNaX_sn0N8j9aUZyScWK > playlist do curso <a/> Liberado no yotube.
 
 
 <a href=https://www.youtube.com/watch?v=q9etCbnHLzo  target=_blan>aula 1-4 som editado </a>
