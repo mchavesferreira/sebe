@@ -413,9 +413,7 @@ http://https//youtu.be/Hy06QIhayYg  Seção 7 Front End
 
 <img src=https://github.com/mchavesferreira/sebe/blob/main/imagens/video.png>
 
-<a href=https://www.youtube.com/watch?v=O88f7OxXSlk>Criando estação</a>
-
-Video com a seção de criação de uma dashboard para uma estação
+https://www.youtube.com/watch?v=O88f7OxXSlk : Resumo do curso, Video com a seção de criação de uma dashboard para uma estação
 
 
 <BR><BR>[3] <a href="https://nerdiy.de/en/nodered-mit-dashboard-nodes-eine-benutzeroberflaeche-erstellen/" target="_blank">HowTo: Node Red &ndash; Creating a User Interface with Dashboard Nodes</a></p>
