@@ -1,5 +1,9 @@
 # Node-Red
 
+
+#### O que é o Node-RED?
+Node-RED é uma plataforma de programação visual usada para conectar dispositivos IoT e criar fluxos de dados. Ele é baseado em **JavaScript** e executado no **Node.js**.
+
 No Node-RED, uma ferramenta de programação visual para conectar dispositivos de hardware, APIs e serviços online, as mensagens (msg) são objetos JavaScript que passam através dos nós e contêm dados que podem ser manipulados e utilizados de diversas maneiras. Os atributos msg.payload e msg.topic são duas propriedades comuns em mensagens no Node-RED, e cada uma tem um papel específico:
 
 ![Captura de tela 2024-05-15 124810](https://github.com/mchavesferreira/sebe/assets/63993080/857efca0-bce3-4c91-b5d3-2a3eec879872)
@@ -305,8 +309,112 @@ msg.payload=data.toString;
 <p>
 
 
+# Node-RED Cursos
+
+## Sugestões para Capacitação em Node-RED
+
+### Instalação de Nodes Extras
+
+- **Node-RED Dashboard Extra Nodes**  
+  [Node-RED Dashboard extra nodes (collection) - Node-RED (nodered.org)](https://nodered.org/)
+
+---
+
+### Introdução ao Node-RED
 
 
+#### Como Instalar o Node-RED?
+Siga os passos abaixo para instalar o Node-RED:
+
+1. Instale o Node.js na sua máquina, se ainda não estiver instalado. Você pode baixá-lo no [site oficial do Node.js](https://nodejs.org/).
+2. Após a instalação do Node.js, você pode instalar o Node-RED usando o seguinte comando no terminal:
+   ```bash
+   npm install -g --unsafe-perm node-red
+
+### Instalar node extras (pacotes)
+
+Utilize o menu "Gerenciar Paleta"  para adicionar mais pacotes ao seu nodered. Conheças os pacotes em:
+
+<a href=https://flows.nodered.org/collection/590bc13ff3a5f005c7d2189bbb563976>Node-RED Dashboard extra nodes (collection) - Node-RED (nodered.org)</a>
+
+## Criando um Fluxo Básico no Node-RED
+
+### Objetivo
+
+Criar um fluxo básico para buscar a cotação do dólar em formato **JSON** e exibi-la em um **Dashboard**.
+
+### Passos:
+
+1. **Arraste** um nó `inject` e um nó `http request` para o canvas do Node-RED.
+2. Configure o nó `inject` para injetar a mensagem a cada 5 segundos.
+3. Configure o nó `http request` para fazer uma solicitação `GET` para a URL:
+```ruby 
+https://economia.awesomeapi.com.br/json/last/USD-BRL
+```
+4. **Conecte** o nó `inject` ao nó `http request`.
+5. **Arraste** um nó `debug` para o canvas e conecte-o ao nó `http request`.
+6. Clique em **Deploy** para salvar e implantar o fluxo.
+7. Abra a guia **Debug** na interface do Node-RED para ver a resposta da solicitação HTTP.
+
+
+## Exibindo a Cotação do Dólar em um Dashboard
+
+Agora que temos a cotação do dólar em formato **JSON**, vamos exibi-la em um **dashboard**.
+
+### Passos:
+
+1. **Arraste** um nó `template` para o canvas.
+2. Configure o nó `template` para exibir a cotação do dólar no seguinte formato:
+
+   ```html
+   O preço atual do dólar é {{payload.USD_BRL.high}}.
+
+   ```
+
+
+3. Conecte o nó http request ao nó template.
+4. Arraste um nó ui_template para o canvas do Node-RED e configure-o para exibir o conteúdo do nó template.
+5. Clique em "Deploy" para salvar e implantar o fluxo.
+6. Abra o dashboard do Node-RED em uma nova guia do navegador. Acesse a URL http://localhost:1880/ui para visualizar o dashboard.
+7. O valor da cotação do dólar deve ser exibido no dashboard.
+```ruby
+http://localhost:1880/ui
+```
+
+Este é apenas um exemplo básico de como usar o Node-RED para buscar dados de uma API e exibi-los em um dashboard. Existem muitos outros recursos disponíveis no Node-RED, como bancos de dados, integração com outros
+
+
+<a href=https://github.com/mchavesferreira/sebe/blob/main/flow_exemplos/cotacao_dolar.json>Script Cotação do dolar</a>: elaboração de um script flow que busque uma informação de cotação de dolar em formato json e exiba em dashboard.
+
+## Tutoriais, pdfs e vídeos sobre o Nodered
+
+
+[1] <a href=http://inf.ufes.br/~zegonc/material/Redes%20de%20Sensores%20sem%20Fio/Minicurso%20Node-RED.pdf>Slide: <a/> Desenvolvimento de aplicações integrando serviços Web, fontes de dados e dispositivos IoT com o uso do Node-RED. Ministrantes: Celso Alberto Saibel Santos e Jordano Ribeiro Celestrin  
+
+<a href=https://github.com/jordanorc/curso-node-red>Repositório do autor<a/>
+
+<img src=https://raw.githubusercontent.com/jordanorc/curso-node-red/master/assets/minicurso.png>
+
+
+[2] ***Curso Udemy*** de Reginaldo Santos. Do Zero ao Node-Red (Prototipagem rápida). Assista ao curso liberado no Canal Youtube do Autor 
+
+<img src=https://raw.githubusercontent.com/mchavesferreira/paginaaws/main/cursonodeudemy.png><BR>
+
+<a href=https://www.youtube.com/playlist?list=PL07l7JtVlEwJoWNaX_sn0N8j9aUZyScWK>[playlist youtube] <a/>
+<a href=https://www.youtube.com/watch?v=q9etCbnHLzo[aula 1-4 som editado] </a>
+<a href=http://https//youtu.be/Hy06QIhayYg(Seção 7 Front End )</a>
+
+<a href=https://www.youtube.com/watch?v=O88f7OxXSlk><img src=https://github.com/mchavesferreira/sebe/blob/main/imagens/video.png>
+Video com a seção de criação de uma dashboard para uma estação</a>
+
+
+<p>[3] <a href="https://nerdiy.de/en/nodered-mit-dashboard-nodes-eine-benutzeroberflaeche-erstellen/" target="_blank">HowTo: Node Red &ndash; Creating a User Interface with Dashboard Nodes</a></p>
+
+<p>[4] Slide aplica&otilde;es: <a href="https://sesam-world.com/_pdf/sesam-134/05-IBM.pdf">https://sesam-world.com/_pdf/sesam-134/05-IBM.pdf</a></p>
+
+<p>[5]&nbsp; Passe, Fernando et al .<a href="http://www2.sbc.org.br/ceacpad/ijcae/v6_n1_dec_2017/IJCAE_v6_n1_dez_2017_paper_6_vf.pdf"> Perspectivas para o uso do Node-Red no Ensino de IoT</a></p>
+
+<p>[6]&nbsp; da Silva, Esdras Barbosa Lima J.&nbsp; <a href="https://www.cin.ufpe.br/~tg/2020-3/TG_EC/tg_eblsj.pdf">Node-RED KNoT: Um m&oacute;dulo de integra&ccedil;&atilde;o da ferramenta Node-RED com a meta plataforma KNoT</a></p>
 
 
 
