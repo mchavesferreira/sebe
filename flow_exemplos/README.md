@@ -389,7 +389,7 @@ Este é apenas um exemplo básico de como usar o Node-RED para buscar dados de u
 ## Tutoriais, pdfs e vídeos sobre o Nodered
 
 
-[1] <a href=http://inf.ufes.br/~zegonc/material/Redes%20de%20Sensores%20sem%20Fio/Minicurso%20Node-RED.pdf>Slide: <a/> Desenvolvimento de aplicações integrando serviços Web, fontes de dados e dispositivos IoT com o uso do Node-RED. Ministrantes: Celso Alberto Saibel Santos e Jordano Ribeiro Celestrin  
+[1] <a href=http://inf.ufes.br/~zegonc/material/Redes%20de%20Sensores%20sem%20Fio/Minicurso%20Node-RED.pdf target=_blank>Slide: <a/> Desenvolvimento de aplicações integrando serviços Web, fontes de dados e dispositivos IoT com o uso do Node-RED. Ministrantes: Celso Alberto Saibel Santos e Jordano Ribeiro Celestrin  
 <BR><BR>
 <a href=https://github.com/jordanorc/curso-node-red>
 <img src=https://raw.githubusercontent.com/jordanorc/curso-node-red/master/assets/minicurso.png width=300 height=200><BR></BR>Repositório do autor<a/>
@@ -400,14 +400,15 @@ Este é apenas um exemplo básico de como usar o Node-RED para buscar dados de u
 
 <img src=https://raw.githubusercontent.com/mchavesferreira/paginaaws/main/cursonodeudemy.png width=300 height=200><BR>
 <BR><BR>
-<a href=https://www.youtube.com/playlist?list=PL07l7JtVlEwJoWNaX_sn0N8j9aUZyScWK>[playlist youtube] <a/>
+<a href=https://www.youtube.com/playlist?list=PL07l7JtVlEwJoWNaX_sn0N8j9aUZyScWK>playlist youtube <a/>
 <BR><BR>
-<a href=https://www.youtube.com/watch?v=q9etCbnHLzo>[aula 1-4 som editado] </a>
+<a href=https://www.youtube.com/watch?v=q9etCbnHLzo  target=_blan>aula 1-4 som editado </a>
 <BR><BR>
-<a href=http://https//youtu.be/Hy06QIhayYg>(Seção 7 Front End )</a>
+<a href=http://https//youtu.be/Hy06QIhayYg  target=_blan>(Seção 7 Front End )</a>
 <BR><BR>
-<a href=https://www.youtube.com/watch?v=O88f7OxXSlk><img src=https://github.com/mchavesferreira/sebe/blob/main/imagens/video.png>
-Video com a seção de criação de uma dashboard para uma estação</a>
+<img src=https://github.com/mchavesferreira/sebe/blob/main/imagens/video.png>
+
+<a href=https://www.youtube.com/watch?v=O88f7OxXSlk>Video com a seção de criação de uma dashboard para uma estação</a>
 
 
 <BR><BR>[3] <a href="https://nerdiy.de/en/nodered-mit-dashboard-nodes-eine-benutzeroberflaeche-erstellen/" target="_blank">HowTo: Node Red &ndash; Creating a User Interface with Dashboard Nodes</a></p>
