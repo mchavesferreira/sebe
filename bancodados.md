@@ -74,13 +74,12 @@ Define o campo ID como um inteiro que é autoincrementado para cada novo registr
     
 - Time VARCHAR(255):
 Define o campo Time como uma string variável que pode conter até 255 caracteres. Ele pode ser usado para armazenar informações sobre a turma ou o horário do aluno.
-   - 
-    - Nome VARCHAR(255):
-  Similar ao campo Time, este campo armazena o nome do aluno e pode conter até 255 caracteres.
-     
-    - RG VARCHAR(20) UNIQUE:
 
-  Define o campo RG para armazenar o RG do aluno, com um máximo de 20 caracteres. O modificador UNIQUE garante que cada RG na tabela seja único, prevenindo registros duplicados.
+
+- Nome VARCHAR(255):
+Similar ao campo Time, este campo armazena o nome do aluno e pode conter até 255 caracteres.
+     
+Define o campo RG para armazenar o RG do aluno, com um máximo de 20 caracteres. O modificador UNIQUE garante que cada RG na tabela seja único, prevenindo registros duplicados.
     
 
 Lembre-se de ajustar o tamanho dos campos VARCHAR conforme necessário para se adequar às suas necessidades específicas. Por exemplo, se você sabe que os nomes dos alunos não excederão 50 caracteres, você pode definir o campo Nome como VARCHAR(50) para economizar espaço na base de dados.
@@ -90,6 +89,7 @@ Lembre-se de ajustar o tamanho dos campos VARCHAR conforme necessário para se a
 A tabela a seguir descreve os tipos de campos (ou colunas) mais comuns usados em tabelas MySQL, que são essenciais para armazenar diferentes tipos de dados:
 
 ### CRIA TABELA
+
 ```java
 CREATE TABLE tempLog (
 
@@ -104,12 +104,14 @@ PRIMARY KEY (timeStamp) );
  ```
 
 ### descreve características da base de dados
+
  ```ruby 
 describe tempLogo;
  ```
  
 
 ### insere uma linha de dados
+
  ```ruby 
 INSERT INTO tempLog (temperature, humidity) VALUES ('33','56');
  ```
