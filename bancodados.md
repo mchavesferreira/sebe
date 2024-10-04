@@ -26,12 +26,16 @@ show databases;
  ```
 ### Cria base de dados
 
-### Create Database meubanco;
+ ```ruby 
+Create Database meubanco;
+ ```
 
-// seleciona base de dados
+###  seleciona base de dados
+
  ```ruby 
 use meubanco;
  ```
+
 ## Criação de tabelas
 
 ### Tipos de Campos Mais Comuns em MySQL
