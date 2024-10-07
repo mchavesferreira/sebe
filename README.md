@@ -27,11 +27,11 @@ https://github.com/mchavesferreira/embarcados_freertos
 
 Trabalhando com mysql, node-red e mqtt
 
-Importe para o node-red o flow:
+Importe para o NodeRED o seguinte fluxo:
 
 https://github.com/mchavesferreira/embarcados_freertos/blob/main/exemplo_node_red_mqtt_mysql_dht_sensor.json
 
-Adicione os nodes faltantes:  
+Adicione os nodes não instalados em seu NodeRED:  
 
 ui_led 
 
@@ -39,9 +39,19 @@ node-red-node-mysql
 
 Crie a conexão MQTT local, e conecte ao banco de dados Mysql
 
-A base de dados será a mesma utilizada para o projeto 1, disponível em: https://github.com/mchavesferreira/php_app
+A tabela de dados será a mesma utilizada para o projeto 1:
 
-Simule a conexão utilizando o circuito tratado em aulas anteriores:  https://wokwi.com/projects/365211000246545409
+```java
+CREATE TABLE tempLog (
+    timeStamp TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    temperature int(11) NOT NULL,
+    humidity int(11) NOT NULL,
+    PRIMARY KEY (timeStamp) );
+```
+
+disponível em: https://github.com/mchavesferreira/php_app
+
+Simule a conexão utilizando o circuito tratado em aulas anteriores, montando posteriormete o circuito em protoboard e personalizando para sua aplicação:  https://wokwi.com/projects/365211000246545409
 
 
 
