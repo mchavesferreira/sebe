@@ -62,3 +62,9 @@ https://www.json.org/json-en.html
 
 Fonte de dados IBGE:  
 https://servicodados.ibge.gov.br/api/docs/
+
+Exemplo com informações do tempo
+
+https://api.tutiempo.net/pt/json.html
+
+
