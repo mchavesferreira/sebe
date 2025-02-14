@@ -1,29 +1,186 @@
 # sebe
 Sistemas Embarcados
 
-## Aula 19/06/2024
 
-FreeRTOS - https://chatgpt.com/g/g-xFCyP0VEc-sebe-r  
+## Aulas
 
-Apresentação do Trabalho 2 
-
-Exemplos de códigos:  https://github.com/mchavesferreira/embarcados_freertos/tree/main/example_freertos_arduino
-
-https://github.com/mchavesferreira/embarcados_freertos/tree/main/exemplos_scripts_rtos
-
-https://github.com/mchavesferreira/embarcados_freertos/tree/main/DHT_MQTT_FREERTOS_v_jun21
-
-## Aula 12/06/2024
-
-- Configurar DNS
-
- http://smartcampus.ctd.ifsp.edu.br/blog/index.php?IDselecionado=30 Redirecionamento DDNS com DuckDns 
+- [Sistemas Operacionais](#Sistemas-Operacionais)
+- [Trabalho 1](#Trabalho-1)
+- [Comandos Básicos para Linux](#Comandos-Básicos-para-Linux)
+- [BLOG](#BLOG)
+- [Guia Básico para ESP32](#Guia-Básico-para-ESP32)
+- [Node-red links de interesse](#Node-red-links-de-interesse)
+- [Tago e ESP32](#Tago-e-ESP32)
+- [FreeRTOS](#FreeRTOS)
   
-- Introdução ao RTOS/FreeRTOS
+## Sistemas Operacionais
+<a href=tanenbaum.pdf> Livro </a>
 
-https://github.com/mchavesferreira/embarcados_freertos
+## Conhecendo o shell Windows
+https://github.com/mchavesferreira/sebe/blob/main/sistemaoperacinal.md
 
-## Aula 05/06/2024
+## Introdução ao Linux
+
+https://github.com/mchavesferreira/sebe/blob/main/linux.md
+
+##  Comandos Básicos para Linux
+
+
+Comando	Resumo	Exemplo
+ps	Exibe informações sobre os processos em execução no sistema	ps aux exibe informações detalhadas de todos os processos em execução
+top	Exibe informações em tempo real sobre a utilização do sistema, incluindo processos e threads	top -H exibe informações detalhadas sobre os threads em execução
+pstree	Exibe uma árvore hierárquica de todos os processos em execução no sistema	pstree -p exibe a árvore hierárquica de processos e seus respectivos IDs
+
+| Command | Description |
+| --- | --- |
+
+| Comando | Resumo | Exemplo |
+| --- | --- | --- |
+| ps | Lista informações sobre os processos em execução | ps -ef |
+| top | Mostra em tempo real os processos em execução, uso de CPU e memória | top |
+| htop | Similar ao top, mas com uma interface mais amigável | htop |
+| pstree
+| Mostra a estrutura hierárquica dos processos em execução | pstree |
+| kill | Envia um sinal para encerrar um processo especificado | kill 1234 |
+| killall | Encerra todos os processos com o nome especificado | killall firefox |
+| pgrep | Procura por processos com base em seus nomes ou outras informações | pgrep ssh |
+| pkill | Encerra processos com base em seus nomes ou outras informações | pkill firefox |
+| ps aux | Lista informações detalhadas sobre todos os processos em execução | ps aux |
+|ps -eLf | Lista informações sobre os threads em execução em cada processo | ps -eLf |
+| --- | --- | --- |
+
+
+
+
+## Criação de instância
+
+https://www.oracle.com/br/cloud/free/
+
+Alguns vídeos de orientação:  
+
+https://www.youtube.com/watch?v=CgjfyEt38fI&t=45s
+
+https://www.youtube.com/watch?v=XW7isnD1mWM
+
+https://www.youtube.com/watch?v=2GTPWqv-nAw
+
+Obs: 
+Instruções para liberar a porta 80, além de adicionar a regra em "VCN- Virtual cloud network", 
+realize no prompt os seguintes comandos:
+
+```java
+sudo iptables -I INPUT 6 -m state --state NEW -p tcp --dport 80 -j ACCEPT
+sudo netfilter-persistent save
+```
+Fonte:  https://blog.tomaszdunia.pl/oracle-free-tier-eng/
+
+Embora os vídes mostrem que o plano Free Tier permita uma instância Free Oracle Cloud VPS (4 Cores 24GB RAM),  não é apenas no domínio Brasil, que está sobrecarregado, uma busca em fóruns revela que outras regiões estão com o mesmo problema. 
+Então escolha  Distribuição Linux Ubuntu 20.04 ou 22...   Máquina virtual 1 core 1 GB. No momento foi possível a única disponível porém permite criar duas intâncias.
+
+![Captura de tela 2025-04-03 210148](https://github.com/mchavesferreira/sebe/assets/63993080/abfde088-6210-4a39-9923-e1352c7d8955)
+
+
+
+## Instalação de pacotes no servidor
+Apache, PHP, Mysql
+
+ orientação:
+- https://github.com/mchavesferreira/sebe/blob/main/install_php_apache_mysql.md
+- https://github.com/mchavesferreira/sebe/blob/main/slide/desenvolvendo_api_php_html.pdf
+- https://insights.ionited.io/ion/configurar-linux-apache-mysql-e-php-lamp-no-ubuntu-2204
+
+## Trabalho 1
+Verificar condições no SUAP. 
+Utilizar o seguinte repositório:
+
+- https://github.com/mchavesferreira/php_app/
+  
+- http://smartcampus.ifsp.online/blog/index.php?raselecionado=CT120893
+
+Com a finalidade desenvolver aplicações em nuvem preparando ambiente para IOT, o aluno deve implantar criar uma instância Linux Ubuntu 20.0.4 no AWS. 
+
+<h2>Atividade 03/04/2025 </h2>
+Instalar um servidor de web Apache e serviços PHP criação de uma pagina simples código php 
+
+<h2>Atividade 10/04/2025 14h00) </h2>
+Instalar Mysql e exemplificar a aplicação  banco de Dados Mysql.  
+
+<h2>Atividade Final Trabalho 1: 21/04/2025 14h00 </h2>
+Utilizando o exemplo disposto no repositório, criar uma API com php. Utilizar um node (esp32 ou Esp8266 para consumir a API utilizando método GET. Instalar o pacote de projeto e adaptar o código na instância. 
+Utilizar o repositório como referência: https://github.com/mchavesferreira/php_app
+Para saber mais sobre ESP32, simulação online: https://github.com/mchavesferreira/mcr/blob/main/ESP32.md
+Exemplo em funcionamento:
+http://smartcampus.ctd.ifsp.edu.br/aula/php_app/index.php
+Insira dados em: http://smartcampus.ctd.ifsp.edu.br/aula/php_app/form.php
+
+Esta atividade compõe 25 % a avaliação final. Apresentar presencialmente em sala de aula ou enviar até 21/04/2025 em SUAP o <b>http://IP</b> de sua instância.
+
+## Aula 24/04/2025
+
+IoT Introdução
+Soc, SBC, Esp32...
+
+Exemplo online Esp32+sensor comunicando com API/PHP:   https://wokwi.com/projects/396067644168942593
+
+https://github.com/mchavesferreira/mcr/blob/main/ESP32.md  >> Introdução ao ESP32
+
+https://github.com/mchavesferreira/mcr/tree/main/esp32_iot  >> Utilizando ESP32 em IoT
+
+Tecnologias:
+
+https://www.airgain.com/technology/    
+
+Choosing a Microcontroller (MCU) or Microprocessor (MPU)
+
+https://www.verytechnology.com/iot-insights/top-iot-boards-for-development-prototyping
+
+
+
+
+
+
+
+##  Aula 08/05/2025
+
+Node-red Oficial:  https://flows.nodered.org/
+
+Node-red Apresentação:  http://smartcampus.ctd.ifsp.edu.br/blog/index.php?IDselecionado=50
+
+Instalar Node-red: http://smartcampus.ctd.ifsp.edu.br/blog/index.php?IDselecionado=45
+
+
+Dashboard exemplo:  
+http://avrchaves.duckdns.org:1880/ui
+
+## Aula 15/05/2025
+
+### NodeRED
+[flow_exemplos/README.md](https://github.com/mchavesferreira/sebe/tree/main/flow_exemplos)
+
+### Formato JSON
+
+<a href=https://github.com/mchavesferreira/sebe/blob/main/flow_exemplos/json.md>Saiba mais sobre o formato json</a>
+
+Importe este exemplo para o nodered: <a href=https://github.com/mchavesferreira/sebe/blob/main/flow_exemplos/cotacao_dolar.json>Exemplo de cotação dolar</a>
+
+Instale um plugin no navegador para facilitar a compreensão de um json: <a href=https://addons.mozilla.org/en-US/firefox/addon/json_formatter/>firefox</a>
+
+
+### Trabalho: 
+Utilize o exemplo de cotação do dolar para capturar um valor (temperatura, cotações), qualquer exemplo em formato json, separar os campos, exemplificar com gráfico.
+
+Criar um dashboard para seu nodered.
+
+## Aula 22/05/2025
+
+### Protocolo MQTT
+
+https://github.com/mchavesferreira/mcr/tree/main/esp32_iot
+
+[flow_exemplos/aula_mqtt.pdf](https://github.com/mchavesferreira/sebe/blob/main/flow_exemplos/aula_mqtt.pdf)
+
+
+## Aula 05/06/2025
 
 Trabalhando com mysql, node-red e mqtt
 
@@ -56,69 +213,33 @@ Simule a conexão utilizando o circuito tratado em aulas anteriores, montando po
 
 
 
-## Aula 22/05/2024
+## Aula 12/06/2025
 
-### Protocolo MQTT
+- Configurar DNS
 
-https://github.com/mchavesferreira/mcr/tree/main/esp32_iot
+ http://smartcampus.ctd.ifsp.edu.br/blog/index.php?IDselecionado=30 Redirecionamento DDNS com DuckDns 
+  
+- Introdução ao RTOS/FreeRTOS
 
-[flow_exemplos/aula_mqtt.pdf](https://github.com/mchavesferreira/sebe/blob/main/flow_exemplos/aula_mqtt.pdf)
-
-
-## Aula 15/05/2024
-
-### NodeRED
-[flow_exemplos/README.md](https://github.com/mchavesferreira/sebe/tree/main/flow_exemplos)
-
-### Formato JSON
-
-<a href=https://github.com/mchavesferreira/sebe/blob/main/flow_exemplos/json.md>Saiba mais sobre o formato json</a>
-
-Importe este exemplo para o nodered: <a href=https://github.com/mchavesferreira/sebe/blob/main/flow_exemplos/cotacao_dolar.json>Exemplo de cotação dolar</a>
-
-Instale um plugin no navegador para facilitar a compreensão de um json: <a href=https://addons.mozilla.org/en-US/firefox/addon/json_formatter/>firefox</a>
+https://github.com/mchavesferreira/embarcados_freertos
 
 
-### Trabalho: 
-Utilize o exemplo de cotação do dolar para capturar um valor (temperatura, cotações), qualquer exemplo em formato json, separar os campos, exemplificar com gráfico.
+## Aula 19/06/2025
 
-Criar um dashboard para seu nodered.
+FreeRTOS - https://chatgpt.com/g/g-xFCyP0VEc-sebe-r  
 
-##  Aula 08/05/2024
+Apresentação do Trabalho 2 
 
-Node-red Oficial:  https://flows.nodered.org/
+Exemplos de códigos:  https://github.com/mchavesferreira/embarcados_freertos/tree/main/example_freertos_arduino
 
-Node-red Apresentação:  http://smartcampus.ctd.ifsp.edu.br/blog/index.php?IDselecionado=50
+https://github.com/mchavesferreira/embarcados_freertos/tree/main/exemplos_scripts_rtos
 
-Instalar Node-red: http://smartcampus.ctd.ifsp.edu.br/blog/index.php?IDselecionado=45
+https://github.com/mchavesferreira/embarcados_freertos/tree/main/DHT_MQTT_FREERTOS_v_jun21
 
-
-Dashboard exemplo:  
-http://avrchaves.duckdns.org:1880/ui
-
-
-## Aula 24/04/2024
-
-IoT Introdução
-Soc, SBC, Esp32...
-
-Exemplo online Esp32+sensor comunicando com API/PHP:   https://wokwi.com/projects/396067644168942593
-
-https://github.com/mchavesferreira/mcr/blob/main/ESP32.md  >> Introdução ao ESP32
-
-https://github.com/mchavesferreira/mcr/tree/main/esp32_iot  >> Utilizando ESP32 em IoT
-
-Tecnologias:
-
-https://www.airgain.com/technology/    
-
-Choosing a Microcontroller (MCU) or Microprocessor (MPU)
-
-https://www.verytechnology.com/iot-insights/top-iot-boards-for-development-prototyping
 
 ---------------------------
 
-## Trabalho 1: Orientações para quem não veio nas ultimas aulas.
+## Trabalho 1: Orientações adicionais
 
 Passos:
 - Criar instância no cloud oracle, com email pessoal ou institucional, escolher instância free, e sistema linux ubuntu (20.xx ou 22.xx)
@@ -194,116 +315,8 @@ http://ipdoseuservidor/php_app/form.php
 
 <B>Modifique cores, e nomes, cores da api personalize. </b>
 
-## Aulas
-
-- [Sistemas Operacionais](#Sistemas-Operacionais)
-- [Trabalho 1](#Trabalho-1)
-- [Comandos Básicos para Linux](#Comandos-Básicos-para-Linux)
-- [BLOG](#BLOG)
-- [Guia Básico para ESP32](#Guia-Básico-para-ESP32)
-- [Node-red links de interesse](#Node-red-links-de-interesse)
-- [Tago e ESP32](#Tago-e-ESP32)
-- [FreeRTOS](#FreeRTOS)
-
-## Sistemas Operacionais
-<a href=tanenbaum.pdf> Livro </a>
-
-## Conhecendo o shell Windows
-https://github.com/mchavesferreira/sebe/blob/main/sistemaoperacinal.md
-
-## Introdução ao Linux
-
-https://github.com/mchavesferreira/sebe/blob/main/linux.md
-
-## Criação de instância
-
-https://www.oracle.com/br/cloud/free/
-
-Alguns vídeos de orientação:  
-
-https://www.youtube.com/watch?v=CgjfyEt38fI&t=45s
-
-https://www.youtube.com/watch?v=XW7isnD1mWM
-
-https://www.youtube.com/watch?v=2GTPWqv-nAw
-
-Obs: 
-Instruções para liberar a porta 80, além de adicionar a regra em "VCN- Virtual cloud network", 
-realize no prompt os seguintes comandos:
-
-```java
-sudo iptables -I INPUT 6 -m state --state NEW -p tcp --dport 80 -j ACCEPT
-sudo netfilter-persistent save
-```
-Fonte:  https://blog.tomaszdunia.pl/oracle-free-tier-eng/
-
-Embora os vídes mostrem que o plano Free Tier permita uma instância Free Oracle Cloud VPS (4 Cores 24GB RAM),  não é apenas no domínio Brasil, que está sobrecarregado, uma busca em fóruns revela que outras regiões estão com o mesmo problema. 
-Então escolha  Distribuição Linux Ubuntu 20.04 ou 22...   Máquina virtual 1 core 1 GB. No momento foi possível a única disponível porém permite criar duas intâncias.
-
-![Captura de tela 2024-04-03 210148](https://github.com/mchavesferreira/sebe/assets/63993080/abfde088-6210-4a39-9923-e1352c7d8955)
 
 
-
-## Instalação de pacotes no servidor
-Apache, PHP, Mysql
-
- orientação:
-- https://github.com/mchavesferreira/sebe/blob/main/install_php_apache_mysql.md
-- https://github.com/mchavesferreira/sebe/blob/main/slide/desenvolvendo_api_php_html.pdf
-- https://insights.ionited.io/ion/configurar-linux-apache-mysql-e-php-lamp-no-ubuntu-2204
-
-## Trabalho 1
-Verificar condições no SUAP. 
-Utilizar o seguinte repositório:
-
-- https://github.com/mchavesferreira/php_app/
-  
-- http://smartcampus.ifsp.online/blog/index.php?raselecionado=CT120893
-
-Com a finalidade desenvolver aplicações em nuvem preparando ambiente para IOT, o aluno deve implantar criar uma instância Linux Ubuntu 20.0.4 no AWS. 
-
-<h2>Atividade 03/04/2024 </h2>
-Instalar um servidor de web Apache e serviços PHP criação de uma pagina simples código php 
-
-<h2>Atividade 10/04/2024 14h00) </h2>
-Instalar Mysql e exemplificar a aplicação  banco de Dados Mysql.  
-
-<h2>Atividade Final Trabalho 1: 21/04/2024 14h00 </h2>
-Utilizando o exemplo disposto no repositório, criar uma API com php. Utilizar um node (esp32 ou Esp8266 para consumir a API utilizando método GET. Instalar o pacote de projeto e adaptar o código na instância. 
-Utilizar o repositório como referência: https://github.com/mchavesferreira/php_app
-Para saber mais sobre ESP32, simulação online: https://github.com/mchavesferreira/mcr/blob/main/ESP32.md
-Exemplo em funcionamento:
-http://smartcampus.ctd.ifsp.edu.br/aula/php_app/index.php
-Insira dados em: http://smartcampus.ctd.ifsp.edu.br/aula/php_app/form.php
-
-Esta atividade compõe 25 % a avaliação final. Apresentar presencialmente em sala de aula ou enviar até 21/04/2024 em SUAP o <b>http://IP</b> de sua instância.
-
-
-##  Comandos Básicos para Linux
-
-
-Comando	Resumo	Exemplo
-ps	Exibe informações sobre os processos em execução no sistema	ps aux exibe informações detalhadas de todos os processos em execução
-top	Exibe informações em tempo real sobre a utilização do sistema, incluindo processos e threads	top -H exibe informações detalhadas sobre os threads em execução
-pstree	Exibe uma árvore hierárquica de todos os processos em execução no sistema	pstree -p exibe a árvore hierárquica de processos e seus respectivos IDs
-
-| Command | Description |
-| --- | --- |
-
-| Comando | Resumo | Exemplo |
-| --- | --- | --- |
-| ps | Lista informações sobre os processos em execução | ps -ef |
-| top | Mostra em tempo real os processos em execução, uso de CPU e memória | top |
-| htop | Similar ao top, mas com uma interface mais amigável | htop |
-| pstree
-| Mostra a estrutura hierárquica dos processos em execução | pstree |
-| kill | Envia um sinal para encerrar um processo especificado | kill 1234 |
-| killall | Encerra todos os processos com o nome especificado | killall firefox |
-| pgrep | Procura por processos com base em seus nomes ou outras informações | pgrep ssh |
-| pkill | Encerra processos com base em seus nomes ou outras informações | pkill firefox |
-| ps aux | Lista informações detalhadas sobre todos os processos em execução | ps aux |
-|ps -eLf | Lista informações sobre os threads em execução em cada processo | ps -eLf |
-| --- | --- | --- |
 
 
 ##  BLOG
