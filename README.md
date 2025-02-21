@@ -400,6 +400,9 @@ https://www.linux.com/NEWS/21-OPEN-SOURCE-PROJECTS-IOT/
    <BR> 
 
 ## FreeRTOS
+
+Alternativa Zephyr
+
 ### Projeto 3      
 
 FreeRTOS + Node red + mysql + ESP32
