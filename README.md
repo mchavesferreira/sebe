@@ -336,38 +336,44 @@ Os temas apresentado a seguir abrangem áreas como sustentabilidade, agricultura
 Esses projetos oferecem oportunidades para os alunos aplicarem conceitos de sistemas embarcados, IoT, programação, gerenciamento de dados e interface do usuário, enquanto desenvolvem soluções práticas e inovadoras para problemas do mundo real.
 
 
-Algumas Idéias:
+Algumas Idéias, integrando com APIs de IA Generativa
 
+| Sigla e Nome do Projeto                                   | Descrição (máx. 20 palavras)                                                                                     |
+|-----------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|
+| (MPC) Movimentação de Pilares de Concreto                 | Monitora pilares de concreto, detecta pequenas mudanças de posição e prevê instabilidades estruturais com alertas automáticos. |
+| (DPA) Detecção da Poluição do Ar                          | Mede poluentes atmosféricos, prevê picos de contaminação e envia relatórios para conscientização ambiental e ações preventivas. |
+| (UI) Umidificador Inteligente                             | Controla umidade ambiente automaticamente, usando sensores e IA para otimizar consumo de água e conforto.         |
+| (DVG) Detecção de Vazamento de Gás                        | Identifica concentrações perigosas de gás, reduz falsos alarmes com IA e envia alertas em tempo real.            |
+| (CABPIB) Controle de Acesso c/ Processamento de Imagens e Biometria | Reconhece rostos ou características biométricas, gerencia autorizações e gera registros detalhados de entradas e saídas. |
+| (SM) Smart Mirror                                         | Exibe informações no espelho (horário, clima, notícias), interage por voz e integra recursos de IA para personalização. |
+| (RI) Rastreamento Inteligente                             | Acompanha posição de pessoas ou objetos via GPS/LoRa, gerando alertas e relatórios de movimentação otimizados com IA. |
+| (PiWALL) Matriz de Monitores                              | Cria painel de múltiplas telas com Raspberry Pi, exibindo conteúdo dinâmico, gerenciado por IA ou visão computacional. |
+| (DMIA) Detecção de Movimentos (Integração com Ambiente)    | Monitora movimento através de sensores ou câmera, acionando automações e gerando alertas com classificação inteligente. |
+| (MCETR) Monitoramento de Consumo de Energia em Tempo Real  | Registra uso de energia, detecta padrões anormais e projeta custos, exibindo dados em dashboards interativos.     |
+| (SII) Sistema de Irrigação Inteligente                    | Controla irrigação conforme umidade do solo e previsões climáticas, reduzindo desperdícios e maximizando eficiência. |
+| (CARF) Controle de Acesso com Reconhecimento Facial        | Realiza verificação facial em tempo real, previne fraudes e gerencia dados de entrada de forma segura.            |
+| (MQAAI) Medição de Qualidade do Ar em Ambientes Internos   | Mede poluentes, temperatura e umidade, identificando riscos à saúde e fornecendo alertas e relatórios de bem-estar. |
+| (RAG) Rastreamento de Ativos com Geolocalização            | Localiza e monitora bens em tempo real, usando GPS/LoRaWAN, otimizando logística e evitando perdas.               |
+| (MTUA) Monitoramento de Temperatura e Umidade em Ambientes | Acompanha variações climáticas, previne condições inadequadas e emite recomendações automáticas de ventilação ou aquecimento. |
+| (SME) Sistema de Monitoramento de Estacionamento           | Detecta vagas livres, registra ocupação em tempo real e fornece orientações aos motoristas por dashboard.         |
+| (ARCV) Automação Residencial com Controle por Voz          | Gerencia dispositivos domésticos, interpretando comandos de voz e sugerindo rotinas inteligentes personalizadas para cada usuário. |
+| (SMS) Sistema de Monitoramento de Segurança                | Integra câmeras e sensores, diferencia intrusos de falsos alarmes, enviando notificações imediatas e registros detalhados. |
+| (GEA) Gerenciamento de Estoque Automatizado                | Monitora níveis de estoque com RFID ou visão computacional, prevendo reposição e criando relatórios de consumo.    |
+| (MCAR) Monitoramento de Consumo de Água em Residências     | Mede fluxo em hidrômetros, detecta vazamentos e gera relatórios de uso, incentivando consumo consciente.          |
+| (SCEAI) Sistema de Controle de Estufa p/ Agricultura Inteligente | Regula temperatura, umidade e CO₂, otimizando cultivo com IA e enviando alertas para intervenções rápidas.         |
+| (MVMI) Monitoramento de Vibração em Máquinas Industriais   | Analisa vibrações, detecta anomalias mecânicas e antecipa falhas, fornecendo manutenção preditiva e relatórios automáticos. |
+| (SADI) Sistema de Alarme e Detecção de Intrusão            | Consolida informações de sensores, identifica invasões reais e registra eventos com relatórios inteligentes.      |
+| (MNRAU) Monitoramento de Níveis de Ruído em Ambientes Urbanos | Mede poluição sonora, classifica fontes de barulho e gera estatísticas para intervenções em políticas públicas.    |
+| (SMSR) Sistema de Monitoramento de Saúde Remoto            | Coleta sinais vitais (frequência cardíaca, SpO₂, temperatura) e fornece alertas médicos e relatórios gerados por IA. |
+| (AICP) Automação Industrial com Controle de Processos      | Gerencia processos industriais, usando controle preditivo e relatórios automatizados para otimizar desempenho e reduzir falhas. |
+| (CASE) Controle de Acesso e Segurança em Edifícios         | Monitora fluxo de pessoas, integra câmeras e catracas, gerando relatórios e alertas para comportamento suspeito.   |
+| (SMQA) Sistema de Monitoramento de Qualidade da Água       | Avalia pH, turbidez e condutividade, detectando contaminações e emitindo relatórios para gestão ambiental.         |
+| (MRA) Medição de Radiação em Ambientes                     | Utiliza sensor Geiger-Müller, exibe níveis de radiação e emite alertas de risco com relatórios informativos.       |
+| (30) Sistema de Manutenção Preditiva c/ IA Generativa      | Analisa sensores em máquinas e cria relatórios detalhados, auxiliando planejamento preventivo e reduzindo paradas. |
+| (31) Sistema de Tutoria Inteligente p/ Usuários Finais     | Identifica falhas de configuração IoT e sugere correções passo a passo, dialogando via IA conversacional.         |
+| (32) Detecção de Emoções e Reações via Câmera              | Processa expressões faciais em tempo real, classificando emoções e gerando estatísticas de satisfação ou engajamento. |
+| (33) Robô de Inspeção Remota com IA                        | Movimenta-se autonomamente, coleta dados ambientais e gera relatórios inteligentes, permitindo consultas em linguagem natural. |
 
-    (MPC)  Movimentação de Pilares de Concreto
-    (DPA)  Detecção da Poluição do Ar
-    (UI)  Umidificador Inteligente
-    (DVG)  Detecção de Vazamento de Gás
-    (CABPIB)  Controle de Acesso Baseado em Processamento de Imagens e Biometria
-    (SM) Smart Mirror
-    (RI)  Rastreamento Inteligente
-    (PiWALL)  Matriz de Monitores
-    (DMIA)  Detecção de Movimentos para a Integração com o Ambiente
-    (MCETR)Monitoramento de Consumo de Energia em Tempo Real 
-    (SII) Sistema de Irrigação Inteligente 
-    (CARF) Controle de Acesso com Reconhecimento Facial 
-    (MQAAI) Medição de Qualidade do Ar em Ambientes Internos
-    (RAG)Rastreamento de Ativos com Geolocalização 
-    (MTUA) Monitoramento de Temperatura e Umidade em Ambientes 
-    (SME) Sistema de Monitoramento de Estacionamento 
-    (ARCV) Automação Residencial com Controle por Voz 
-    (SMS) Sistema de Monitoramento de Segurança 
-    (GEA) Gerenciamento de Estoque Automatizado 
-    (MCAR) Monitoramento de Consumo de Água em Residências 
-    (SCEAI) Sistema de Controle de Estufa para Agricultura Inteligente 
-    (MVMI) Monitoramento de Vibração em Máquinas Industriais 
-    (SADI) Sistema de Alarme e Detecção de Intrusão 
-    (MNRAU) Monitoramento de Níveis de Ruído em Ambientes Urbanos 
-    (SMSR) Sistema de Monitoramento de Saúde Remoto 
-    (AICP) Automação Industrial com Controle de Processos 
-    (CASE) Controle de Acesso e Segurança em Edifícios 
-    (SMQA) Sistema de Monitoramento de Qualidade da Água 
-    (MRA) Medição de Radiação em Ambientes 
 
 
 21 Open Source Projects for IoT
