@@ -677,4 +677,186 @@ A Device Tree é uma estrutura de dados que descreve o hardware para o kernel, s
 
 ```dts
 /dts-v1/;
-/include/ "bcm2
+
+/ {
+    compatible = "vendor,boardname";
+    model = "Vendor BoardName";
+    #address-cells = <1>;
+    #size-cells = <1>;
+    
+    cpus {
+        #address-cells = <1>;
+        #size-cells = <0>;
+        
+        cpu@0 {
+            compatible = "arm,cortex-a53";
+            device_type = "cpu";
+            reg = <0>;
+            enable-method = "psci";
+        };
+        
+        cpu@1 {
+            compatible = "arm,cortex-a53";
+            device_type = "cpu";
+            reg = <1>;
+            enable-method = "psci";
+        };
+    };
+    
+    memory {
+        device_type = "memory";
+        reg = <0x40000000 0x20000000>;
+    };
+    
+    soc {
+        compatible = "simple-bus";
+        #address-cells = <1>;
+        #size-cells = <1>;
+        ranges;
+        
+        uart0: serial@10000000 {
+            compatible = "vendor,uart";
+            reg = <0x10000000 0x1000>;
+            interrupts = <0 20 4>;
+            status = "okay";
+            clock-frequency = <50000000>;
+        };
+        
+        i2c0: i2c@10010000 {
+            compatible = "vendor,i2c";
+            reg = <0x10010000 0x1000>;
+            interrupts = <0 21 4>;
+            status = "okay";
+            clock-frequency = <100000>;
+            
+            eeprom@50 {
+                compatible = "atmel,24c32";
+                reg = <0x50>;
+                pagesize = <32>;
+            };
+        };
+        
+        gpio: gpio@10020000 {
+            compatible = "vendor,gpio";
+            reg = <0x10020000 0x1000>;
+            interrupts = <0 22 4>;
+            status = "okay";
+            gpio-controller;
+            #gpio-cells = <2>;
+            interrupt-controller;
+            #interrupt-cells = <2>;
+        };
+    };
+    
+    chosen {
+        bootargs = "console=ttyS0,115200 rootwait root=/dev/mmcblk0p2";
+        stdout-path = "serial0:115200n8";
+    };
+    
+    aliases {
+        serial0 = &uart0;
+        i2c0 = &i2c0;
+    };
+};
+
+```
+
+Aqui está um exemplo de um arquivo Device Tree (.dts):
+
+```
+/dts-v1/;
+
+/ {
+    compatible = "vendor,boardname";
+    model = "Vendor BoardName";
+    #address-cells = <1>;
+    #size-cells = <1>;
+    
+    cpus {
+        #address-cells = <1>;
+        #size-cells = <0>;
+        
+        cpu@0 {
+            compatible = "arm,cortex-a53";
+            device_type = "cpu";
+            reg = <0>;
+            enable-method = "psci";
+        };
+        
+        cpu@1 {
+            compatible = "arm,cortex-a53";
+            device_type = "cpu";
+            reg = <1>;
+            enable-method = "psci";
+        };
+    };
+    
+    memory {
+        device_type = "memory";
+        reg = <0x40000000 0x20000000>;
+    };
+    
+    soc {
+        compatible = "simple-bus";
+        #address-cells = <1>;
+        #size-cells = <1>;
+        ranges;
+        
+        uart0: serial@10000000 {
+            compatible = "vendor,uart";
+            reg = <0x10000000 0x1000>;
+            interrupts = <0 20 4>;
+            status = "okay";
+            clock-frequency = <50000000>;
+        };
+        
+        i2c0: i2c@10010000 {
+            compatible = "vendor,i2c";
+            reg = <0x10010000 0x1000>;
+            interrupts = <0 21 4>;
+            status = "okay";
+            clock-frequency = <100000>;
+            
+            eeprom@50 {
+                compatible = "atmel,24c32";
+                reg = <0x50>;
+                pagesize = <32>;
+            };
+        };
+        
+        gpio: gpio@10020000 {
+            compatible = "vendor,gpio";
+            reg = <0x10020000 0x1000>;
+            interrupts = <0 22 4>;
+            status = "okay";
+            gpio-controller;
+            #gpio-cells = <2>;
+            interrupt-controller;
+            #interrupt-cells = <2>;
+        };
+    };
+    
+    chosen {
+        bootargs = "console=ttyS0,115200 rootwait root=/dev/mmcblk0p2";
+        stdout-path = "serial0:115200n8";
+    };
+    
+    aliases {
+        serial0 = &uart0;
+        i2c0 = &i2c0;
+    };
+};
+```
+
+Este exemplo de Estrutura de Device Tree (DTS) descreve um sistema com:
+
+1. Dois núcleos de CPU Cortex-A53
+2. 512MB de RAM (0x20000000 bytes) começando no endereço 0x40000000
+3. Vários periféricos dentro do SoC (System on Chip):
+   - Uma UART (porta serial) no endereço 0x10000000
+   - Um controlador I2C no endereço 0x10010000 com um dispositivo EEPROM conectado
+   - Um controlador GPIO no endereço 0x10020000
+4. Argumentos de inicialização para o kernel
+5. Aliases para referenciar nós usando nomes mais curtos
+
+O Device Tree é usado pelo kernel Linux e outros sistemas operacionais para descobrir e configurar hardware durante a inicialização, especialmente em sistemas embarcados onde o hardware não pode ser enumerado dinamicamente como em PCs.
