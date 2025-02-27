@@ -137,3 +137,17 @@ int main() {
     }
     return 0;
 }
+```
+Para compilar no host (por exemplo, uma máquina x86_64 rodando Ubuntu), mas gerar binário para ARM, utilize o seguinte comando (assumindo que você tenha instalado a toolchain arm-linux-gnueabihf-gcc):
+
+```c
+arm-linux-gnueabihf-gcc blink.c -o blink
+```
+
+Em seguida, transfira o executável blink para a placa (por scp, pendrive ou outra forma) e execute:
+```c
+chmod +x blink
+./blink
+```
+
+
