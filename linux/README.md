@@ -1,4 +1,4 @@
-# **Material de Apresentação: Linux para Dispositivos Embarcados**
+# **Linux para Dispositivos Embarcados**
 
 Este material foi elaborado para estudantes de engenharia com foco em eletrônica, possuindo já uma base sólida em conceitos como portas lógicas, sinais elétricos e microcontroladores, mas que desejam aprofundar seus conhecimentos na área de sistemas embarcados com Linux. O objetivo é apresentar de forma clara e didática a relevância do Linux nesse universo, oferecendo exemplos práticos, analogias e uma visão histórica e conceitual suficientemente detalhada para quem está começando a explorar esse campo.
 
