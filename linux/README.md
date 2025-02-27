@@ -24,6 +24,7 @@ Essas características tornam o Linux ideal para projetos embarcados em que se e
 3. **Ampla Disponibilidade de Software**: Suporte a diversas linguagens de programação, bibliotecas e frameworks, acelerando o desenvolvimento e a prototipagem.  
 4. **Escalabilidade**: Pode rodar desde microcontroladores mais avançados (com MMU – Memory Management Unit) até grandes servidores, permitindo migrações e upgrades de hardware sem mudanças radicais no software.
 
+
 ---
 
 ## **2. Histórico do Linux**
