@@ -80,13 +80,46 @@ Assim como a indústria de semicondutores evoluiu de transistores discretos para
 
 ### **3.1 Estrutura Básica de um Sistema Operacional Linux**
 
+Em um sistema operacional Linux, há uma separação clara entre:
+
+   - **Espaço do kernel (kernel space)**: Onde o núcleo do sistema (kernel) é executado com privilégios completos sobre o hardware e os recursos do sistema.
+    
+   - **Espaço do usuário (user space)**: é a região ou contexto de execução onde programas de usuário (ou seja, aplicativos, ferramentas e bibliotecas fora do núcleo do sistema) são executados de forma não privilegiada, comunicando-se com o kernel por meio de chamadas de sistema (system calls).
+    
 
 Um sistema operacional Linux consiste, de forma simplificada, nos seguintes componentes principais:
 
-1. **Kernel**: Responsável pelo gerenciamento de processos, memória, drivers de dispositivo, sistema de arquivos e outros recursos de hardware.  
-2. **Sistema de Arquivos Root (RootFS)**: Contém bibliotecas, utilitários básicos e binários necessários para a inicialização e funcionamento do sistema.  
-3. **Serviços e Daemons**: Processos em segundo plano que fornecem funcionalidades específicas (servidores de rede, gerenciamento de logs etc.).  
-4. **Aplicativos**: Programas em espaço de usuário que realizam as funções finais, como interfaces gráficas, ferramentas de monitoramento e controle, etc.
+
+               +-----------------------------------+
+               |      Aplicativos (User Apps)      |
+               | (Programas de usuário, ferramentas,|
+               |  interfaces gráficas etc.)         |
+               +-------------------------^-----------+
+               |          Serviços e Daemons        |
+               |   (Processos em segundo plano,     |
+               |   servidores de rede, etc.)        |
+               +-------------------------^-----------+
+               |        Sistema de Arquivos         |
+               |  Root (RootFS) + bibliotecas, etc. |
+               +-------------------------^-----------+
+               |         Chamadas de Sistema        |
++--------------v------------------------------------v-----------------+
+|                              Kernel                                  |
+| (Gerenciamento de processos, memória, drivers, sistema de arquivos,  |
+|   segurança, etc.)                                                   |
++----------------------------^------------------------------------------+
+|                         Hardware                                     |
++-----------------------------------------------------------------------+
+
+
+
+**Aplicativos (User Apps)**: São programas como navegadores, editores de texto, players de mídia e qualquer outro software executado pelos usuários finais.
+**Serviços e Daemons**: Processos que normalmente rodam em segundo plano, responsáveis por funcionalidades de rede, gerenciamento de logs, agendadores de tarefas etc.
+**Sistema de Arquivos Root (RootFS)**: Contém as bibliotecas essenciais (como libc), binários básicos (/bin, /sbin), scripts de inicialização e outros arquivos necessários para o funcionamento do sistema.
+**Chamadas de Sistema (Syscalls)**: O ponto de comunicação entre o espaço de usuário e o espaço do kernel. Através delas, processos de usuário requisitam serviços como alocação de memória, acesso a arquivos, uso da rede, etc.
+**Kernel (Espaço do Kernel)**: Onde ocorrem as rotinas de gerenciamento de recursos do hardware, drivers de dispositivo, gerenciamento de memória, escalonamento de processos, manipulação de sistemas de arquivos, etc.
+**Hardware**:  É a base física do sistema (CPU, memória, discos, dispositivos de I/O, etc.).
+    
 
 Na eletrônica, podemos traçar uma analogia entre o **kernel** e um **circuito de controle** que distribui sinais e dados para diferentes componentes do sistema (equipamentos de entrada/saída, blocos de memória, periféricos). Assim como um circuito de controle gerencia e sincroniza sinais, o kernel gerencia processos e recursos.
 
