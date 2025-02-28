@@ -66,9 +66,11 @@ https://app.codeanywhere.com/workspace
 
 ## O que é o Linux e sua relevância para dispositivos embarcados
 
-O Linux é um sistema operacional de código aberto baseado no kernel criado por Linus Torvalds em 1991. Para engenheiros eletrônicos, podemos fazer uma analogia: se considerarmos um sistema embarcado como um circuito completo, o Linux seria equivalente a um controlador central altamente configurável que coordena todos os componentes e estabelece as regras de funcionamento.
+Para engenheiros eletrônicos, podemos fazer uma analogia: se considerarmos um sistema embarcado como um circuito completo, o Linux seria equivalente a um controlador central altamente configurável que coordena todos os componentes e estabelece as regras de funcionamento.
 
 Em dispositivos embarcados (sistemas computacionais dedicados a funções específicas, com recursos limitados), o Linux desempenha um papel fundamental, proporcionando uma camada de abstração entre o hardware e as aplicações.
+
+![ilustralinux](https://github.com/user-attachments/assets/16e4f53d-3ad9-4daf-af1d-5eeef6713efc)
 
 ### Por que escolher Linux para aplicações embarcadas?
 
