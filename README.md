@@ -5,7 +5,7 @@ Sistemas Embarcados
 ## Aulas
 
 - [Sistemas Operacionais](#Sistemas-Operacionais)
-- [Introdução ao Linux](#https://github.com/mchavesferreira/sebe/tree/main/linux)
+- [Introdução ao Linux](#Introdução-ao-Linux)
 - [BLOG](#BLOG)
 - [Guia Básico para ESP32](#Guia-Básico-para-ESP32)
 -  [Trabalho 1](#Trabalho-1)
@@ -14,6 +14,9 @@ Sistemas Embarcados
 - [FreeRTOS](#FreeRTOS)
   
 ## Sistemas Operacionais
+
+Aula 21/02/2025
+
 <a href=tanenbaum.pdf> Livro </a>
 
 ## Conhecendo o shell Windows
@@ -21,10 +24,14 @@ https://github.com/mchavesferreira/sebe/blob/main/sistemaoperacinal.md
 
 ## Introdução ao Linux
 
+Aula 28/02/2025
+
 https://github.com/mchavesferreira/sebe/tree/main/linux
 
 
 ## Criação de instância
+
+07/03/2025
 
 https://www.oracle.com/br/cloud/free/
 
