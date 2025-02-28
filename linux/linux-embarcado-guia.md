@@ -103,13 +103,13 @@ Um sistema operacional Linux consiste, de forma simplificada, nos seguintes comp
                |  Root (RootFS) + bibliotecas, etc. |
                +-------------------------^-----------+
                |         Chamadas de Sistema        |
-+--------------v------------------------------------v-----------------+
-|                              Kernel                                  |
-| (Gerenciamento de processos, memória, drivers, sistema de arquivos,  |
-|   segurança, etc.)                                                   |
-+----------------------------^------------------------------------------+
-|                         Hardware                                     |
-+-----------------------------------------------------------------------+
+    +--------------v------------------------------------v-----------------+
+    |                              Kernel                                  |
+    | (Gerenciamento de processos, memória, drivers, sistema de arquivos,  |
+    |   segurança, etc.)                                                   |
+    +----------------------------^------------------------------------------+
+    |                         Hardware                                     |
+    +-----------------------------------------------------------------------+
 
 
 **Aplicativos (User Apps)**: São programas como navegadores, editores de texto, players de mídia e qualquer outro software executado pelos usuários finais.
