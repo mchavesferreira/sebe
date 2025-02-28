@@ -41,7 +41,7 @@ O movimento de software livre, iniciado por Richard Stallman em 1983 com o proje
 
 Para dispositivos embarcados, essa abordagem permitiu que fabricantes de hardware utilizassem e modificassem o sistema sem restrições, acelerando a inovação e reduzindo custos. Esta colaboração pode ser comparada ao compartilhamento de designs de referência na indústria eletrônica, permitindo avanços mais rápidos e soluções mais robustas.
 
-# 2 - Histórico do Linux
+# Histórico do Linux
 
 ### **2.1 Origem, evolução e principais marcos**
 
@@ -76,7 +76,7 @@ A evolução do Linux para dispositivos embarcados pode ser comparada à miniatu
 
 Assim como a indústria de semicondutores evoluiu de transistores discretos para sistemas completos em um único chip (SoC), o Linux evoluiu de um sistema para computadores pessoais para uma solução escalável adequada até mesmo para dispositivos com recursos limitados.
 
-# 3 - Funcionamento do Linux em Dispositivos Embarcados
+# Funcionamento do Linux em Dispositivos Embarcados
 
 ### **3.1 Estrutura Básica de um Sistema Operacional Linux**
 
@@ -164,7 +164,7 @@ Para facilitar a compreensão, podemos estabelecer algumas analogias entre compo
 | Interrupções | Sinais de interrupção em hardware | Tratamento de eventos assíncronos |
 | Memória virtual | Técnicas de paginação em hardware | Expansão da capacidade aparente de memória |
 
-## 4 Ferramentas e Desenvolvimento
+# Ferramentas e Desenvolvimento
 
 ### **4.1 Principais ferramentas e ambientes de desenvolvimento**
 
@@ -242,7 +242,7 @@ chmod +x blink
 
 
 
-## 5  Conceitos Relevantes de TI e Engenharia de Software
+# Conceitos Relevantes de TI e Engenharia de Software
 
 ### Termos fundamentais explicados para engenheiros eletrônicos
 
