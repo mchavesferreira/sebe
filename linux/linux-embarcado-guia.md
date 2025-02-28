@@ -113,10 +113,15 @@ Um sistema operacional Linux consiste, de forma simplificada, nos seguintes comp
 
 
 **Aplicativos (User Apps)**: São programas como navegadores, editores de texto, players de mídia e qualquer outro software executado pelos usuários finais.
+
 **Serviços e Daemons**: Processos que normalmente rodam em segundo plano, responsáveis por funcionalidades de rede, gerenciamento de logs, agendadores de tarefas etc.
+
 **Sistema de Arquivos Root (RootFS)**: Contém as bibliotecas essenciais (como libc), binários básicos (/bin, /sbin), scripts de inicialização e outros arquivos necessários para o funcionamento do sistema.
+
 **Chamadas de Sistema (Syscalls)**: O ponto de comunicação entre o espaço de usuário e o espaço do kernel. Através delas, processos de usuário requisitam serviços como alocação de memória, acesso a arquivos, uso da rede, etc.
+
 **Kernel (Espaço do Kernel)**: Onde ocorrem as rotinas de gerenciamento de recursos do hardware, drivers de dispositivo, gerenciamento de memória, escalonamento de processos, manipulação de sistemas de arquivos, etc.
+
 **Hardware**:  É a base física do sistema (CPU, memória, discos, dispositivos de I/O, etc.).
     
 
