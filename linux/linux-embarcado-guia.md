@@ -1535,8 +1535,7 @@ Linux nos sistemas de infotainment e auxiliares em veículos:
            <div class="card">
                <h2>Temperatura Atual</h2>
                <div class="temp-display" id="current-temp">--°C</div>
-               <p>Última atualização: <span id="
-<p>Última atualização: <span id="last-update">--</span></p>
+               <p>Última atualização: <span id="last-update">--</span></p>
            </div>
            
            <div class="card">
