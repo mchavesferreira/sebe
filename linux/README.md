@@ -109,6 +109,8 @@ Com o avanço das arquiteturas de hardware embarcado (ARM, MIPS, etc.) e a popul
 - **Comunidade GNU/Linux** fornece um ecossistema colaborativo, no qual engenheiros de hardware podem se beneficiar de recursos já desenvolvidos pela comunidade.  
 - **Projetos como Yocto e Buildroot** tornaram a tarefa de criar distribuições Linux customizadas para dispositivos embarcados mais simples, dando origem a soluções altamente otimizadas para cada tipo de hardware.
 
+Link: https://github.com/eron93br/embeddedlinux/tree/master/yocto
+
 > **Referências**  
 > - [História do Linux no kernel.org](https://www.kernel.org/category/about.html)  
 > - [GNU General Public License (FSF)](https://www.gnu.org/licenses/gpl-3.0.html)
