@@ -112,7 +112,6 @@ Um sistema operacional Linux consiste, de forma simplificada, nos seguintes comp
 +-----------------------------------------------------------------------+
 
 
-
 **Aplicativos (User Apps)**: São programas como navegadores, editores de texto, players de mídia e qualquer outro software executado pelos usuários finais.
 **Serviços e Daemons**: Processos que normalmente rodam em segundo plano, responsáveis por funcionalidades de rede, gerenciamento de logs, agendadores de tarefas etc.
 **Sistema de Arquivos Root (RootFS)**: Contém as bibliotecas essenciais (como libc), binários básicos (/bin, /sbin), scripts de inicialização e outros arquivos necessários para o funcionamento do sistema.
