@@ -13,25 +13,29 @@ Sistemas Embarcados
 - [Tago e ESP32](#Tago-e-ESP32)
 - [FreeRTOS](#FreeRTOS)
   
-## Sistemas Operacionais
 
-Aula 21/02/2025
+
+## Aula 21/02/2025
+
+### Sistemas Operacionais
 
 <a href=tanenbaum.pdf> Livro </a>
 
-## Conhecendo o shell Windows
+#### Conhecendo o shell Windows
+
 https://github.com/mchavesferreira/sebe/blob/main/sistemaoperacinal.md
 
-## Introdução ao Linux
+## Aula 28/02/2025
 
-Aula 28/02/2025
+### Introdução ao Linux
 
 https://github.com/mchavesferreira/sebe/tree/main/linux
 
+## aula 07/03/2025
 
-## Criação de instância
+### Criação de instância e Servidor Web
 
-07/03/2025
+Apache e PHP
 
 https://www.oracle.com/br/cloud/free/
 
@@ -43,7 +47,8 @@ https://www.youtube.com/watch?v=XW7isnD1mWM
 
 https://www.youtube.com/watch?v=2GTPWqv-nAw
 
-Obs: 
+### Portas 
+
 Instruções para liberar a porta 80, além de adicionar a regra em "VCN- Virtual cloud network", 
 realize no prompt os seguintes comandos:
 
@@ -58,46 +63,18 @@ Então escolha  Distribuição Linux Ubuntu 20.04 ou 22...   Máquina virtual 1 
 
 ![Captura de tela 2025-04-03 210148](https://github.com/mchavesferreira/sebe/assets/63993080/abfde088-6210-4a39-9923-e1352c7d8955)
 
+## aula 14/03/2025
 
-
-## Instalação de pacotes no servidor
-Apache, PHP, Mysql
+- Banco de Dados, uso do mysql
 
  orientação:
 - https://github.com/mchavesferreira/sebe/blob/main/install_php_apache_mysql.md
 - https://github.com/mchavesferreira/sebe/blob/main/slide/desenvolvendo_api_php_html.pdf
 - https://insights.ionited.io/ion/configurar-linux-apache-mysql-e-php-lamp-no-ubuntu-2204
 
-## Trabalho 1
-Verificar condições no SUAP. 
-Utilizar o seguinte repositório:
+## Aula 21/03/2025
 
-- https://github.com/mchavesferreira/php_app/
-  
-- http://smartcampus.ifsp.online/blog/index.php?raselecionado=CT120893
-
-Com a finalidade desenvolver aplicações em nuvem preparando ambiente para IOT, o aluno deve implantar criar uma instância Linux Ubuntu 20.0.4 no AWS. 
-
-<h2>Atividade 03/04/2025 </h2>
-Instalar um servidor de web Apache e serviços PHP criação de uma pagina simples código php 
-
-<h2>Atividade 10/04/2025 14h00) </h2>
-Instalar Mysql e exemplificar a aplicação  banco de Dados Mysql.  
-
-<h2>Atividade Final Trabalho 1: 21/04/2025 14h00 </h2>
-Utilizando o exemplo disposto no repositório, criar uma API com php. Utilizar um node (esp32 ou Esp8266 para consumir a API utilizando método GET. Instalar o pacote de projeto e adaptar o código na instância. 
-Utilizar o repositório como referência: https://github.com/mchavesferreira/php_app
-Para saber mais sobre ESP32, simulação online: https://github.com/mchavesferreira/mcr/blob/main/ESP32.md
-Exemplo em funcionamento:
-http://smartcampus.ctd.ifsp.edu.br/aula/php_app/index.php
-Insira dados em: http://smartcampus.ctd.ifsp.edu.br/aula/php_app/form.php
-
-Esta atividade compõe 25 % a avaliação final. Apresentar presencialmente em sala de aula ou enviar até 21/04/2025 em SUAP o <b>http://IP</b> de sua instância.
-
-## Aula 24/04/2025
-
-IoT Introdução
-Soc, SBC, Esp32...
+IoT Introdução Soc, SBC, Esp32...
 
 Exemplo online Esp32+sensor comunicando com API/PHP:   https://wokwi.com/projects/396067644168942593
 
@@ -115,11 +92,45 @@ https://www.verytechnology.com/iot-insights/top-iot-boards-for-development-proto
 
 
 
+## Aula 28/03/2025
+
+Preparo do servidor para o Trabalho 1
+
+Utilizar o seguinte repositório:
+
+- https://github.com/mchavesferreira/php_app/
+  
+- http://smartcampus.ifsp.online/blog/index.php?raselecionado=CT120893
+
+Com a finalidade desenvolver aplicações em nuvem preparando ambiente para IOT, o aluno deve implantar criar uma instância Linux Ubuntu 20.0.4 no AWS. 
+
+## Aula  04/04/2025
+
+Instalar um servidor de web Apache e serviços PHP criação de uma pagina simples código php 
+
+## Aula 11/04/2025 
+
+Instalar Mysql e exemplificar e personalizar a aplicação de comuncação com  banco de Dados Mysql.  
+
+## Aula  25/04/2025 
+
+Apresentação final para o Trabalho 1
+
+Utilizando o exemplo disposto no repositório, criar uma API com php. Utilizar um node (esp32 ou Esp8266 para consumir a API utilizando método GET. Instalar o pacote de projeto e adaptar o código na instância. 
+Utilizar o repositório como referência: https://github.com/mchavesferreira/php_app
+
+Para saber mais sobre ESP32, simulação online: https://github.com/mchavesferreira/mcr/blob/main/ESP32.md
+
+Exemplo em funcionamento:
+
+http://smartcampus.ctd.ifsp.edu.br/aula/php_app/index.php
+
+Insira dados em: http://smartcampus.ctd.ifsp.edu.br/aula/php_app/form.php
+
+Esta atividade compõe 25 % a avaliação final. Apresentar presencialmente em sala de aula ou enviar até 25/04/2025 em SUAP o <b>http://IP</b> de sua instância.
 
 
-
-
-##  Aula 08/05/2025
+##  Aula 02/05/2025
 
 Node-red Oficial:  https://flows.nodered.org/
 
@@ -128,12 +139,17 @@ Node-red Apresentação:  http://smartcampus.ctd.ifsp.edu.br/blog/index.php?IDse
 Instalar Node-red: http://smartcampus.ctd.ifsp.edu.br/blog/index.php?IDselecionado=45
 
 
+##  Aula 09/05/2025
+
+Construindo Dashboard
+
 Dashboard exemplo:  
 http://avrchaves.duckdns.org:1880/ui
 
-## Aula 15/05/2025
+## Aula 16/05/2025
 
-### NodeRED
+Práticas com  NodeRED
+
 [flow_exemplos/README.md](https://github.com/mchavesferreira/sebe/tree/main/flow_exemplos)
 
 ### Formato JSON
@@ -145,23 +161,28 @@ Importe este exemplo para o nodered: <a href=https://github.com/mchavesferreira/
 Instale um plugin no navegador para facilitar a compreensão de um json: <a href=https://addons.mozilla.org/en-US/firefox/addon/json_formatter/>firefox</a>
 
 
-### Trabalho: 
-Utilize o exemplo de cotação do dolar para capturar um valor (temperatura, cotações), qualquer exemplo em formato json, separar os campos, exemplificar com gráfico.
+## Aula 23/05/2025
 
-Criar um dashboard para seu nodered.
-
-## Aula 22/05/2025
 
 ### Protocolo MQTT
+
 
 https://github.com/mchavesferreira/mcr/tree/main/esp32_iot
 
 [flow_exemplos/aula_mqtt.pdf](https://github.com/mchavesferreira/sebe/blob/main/flow_exemplos/aula_mqtt.pdf)
 
 
-## Aula 05/06/2025
 
-Trabalhando com mysql, node-red e mqtt
+Utilize o exemplo de cotação do dolar para capturar um valor (temperatura, cotações), qualquer exemplo em formato json, separar os campos, exemplificar com gráfico.
+
+Criar um dashboard para seu projeto com nodered/mysql/mqtt.
+
+- Utilizando Tunnel e DNS
+
+ http://smartcampus.ctd.ifsp.edu.br/blog/index.php?IDselecionado=30 Redirecionamento DDNS com DuckDns 
+ 
+
+### Construção do Trabalho 2: 
 
 Importe para o NodeRED o seguinte fluxo:
 
@@ -192,28 +213,33 @@ Simule a conexão utilizando o circuito tratado em aulas anteriores, montando po
 
 
 
-## Aula 12/06/2025
+## Aula 06/06/2025
 
-- Configurar DNS
+Apresentação final para o trabalho 2, Seminários
 
- http://smartcampus.ctd.ifsp.edu.br/blog/index.php?IDselecionado=30 Redirecionamento DDNS com DuckDns 
-  
+
+## Aula 13/06/2025
+
 - Introdução ao RTOS/FreeRTOS
 
 https://github.com/mchavesferreira/embarcados_freertos
 
 
-## Aula 19/06/2025
+## Aula 20/06/2025
 
 FreeRTOS - https://chatgpt.com/g/g-xFCyP0VEc-sebe-r  
 
-Apresentação do Trabalho 2 
 
 Exemplos de códigos:  https://github.com/mchavesferreira/embarcados_freertos/tree/main/example_freertos_arduino
 
 https://github.com/mchavesferreira/embarcados_freertos/tree/main/exemplos_scripts_rtos
 
 https://github.com/mchavesferreira/embarcados_freertos/tree/main/DHT_MQTT_FREERTOS_v_jun21
+
+
+## Aula 27/06/2025
+
+Apresentação Final para o Trabalho 3
 
 
 ---------------------------
@@ -293,9 +319,6 @@ http://ipdoseuservidor/php_app/form.php
 ```
 
 <B>Modifique cores, e nomes, cores da api personalize. </b>
-
-
-
 
 
 ##  BLOG
