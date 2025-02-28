@@ -5,10 +5,10 @@ Sistemas Embarcados
 ## Aulas
 
 - [Sistemas Operacionais](#Sistemas-Operacionais)
-- [Trabalho 1](#Trabalho-1)
-- [Comandos Básicos para Linux](#Comandos-Básicos-para-Linux)
+- [Introdução ao Linux](#https://github.com/mchavesferreira/sebe/tree/main/linux)
 - [BLOG](#BLOG)
 - [Guia Básico para ESP32](#Guia-Básico-para-ESP32)
+-  [Trabalho 1](#Trabalho-1)
 - [Node-red links de interesse](#Node-red-links-de-interesse)
 - [Tago e ESP32](#Tago-e-ESP32)
 - [FreeRTOS](#FreeRTOS)
@@ -22,9 +22,6 @@ https://github.com/mchavesferreira/sebe/blob/main/sistemaoperacinal.md
 ## Introdução ao Linux
 
 https://github.com/mchavesferreira/sebe/tree/main/linux
-
-
-
 
 
 ## Criação de instância
