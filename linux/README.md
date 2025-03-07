@@ -66,7 +66,7 @@ https://app.codeanywhere.com/workspace
 
 https://linuxcontainers.org/incus/try-it/
 
-https://bellard.org/jslinux/
+https://bellard.org/jslinux/    <B> << LEVE </b>
 
 ## Compilando o código fonte C
 
