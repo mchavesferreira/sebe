@@ -64,6 +64,21 @@ https://distrosea.com/
 
 https://app.codeanywhere.com/workspace
 
+https://linuxcontainers.org/incus/try-it/
+
+https://bellard.org/jslinux/
+
+## Compilando o código fonte C
+
+Para compilar um código em C, usaremos o compilador gcc. O compilador é responsável por traduzir o código fonte escrito em uma linguagem específica para um arquivo que o computador saiba
+interpretar, ou seja, um executável. No terminal, digitaremos: 
+
+gcc o saida meuCodigo.c
+
+O parâmetro “ o saida ” indica o nome do executável que será criado.
+
+O parâmetro “meuCodigo.c” indica qual será o código fonte compilado.
+
 ## O que é o Linux e sua relevância para dispositivos embarcados
 
 Para engenheiros eletrônicos, podemos fazer uma analogia: se considerarmos um sistema embarcado como um circuito completo, o Linux seria equivalente a um controlador central altamente configurável que coordena todos os componentes e estabelece as regras de funcionamento.
