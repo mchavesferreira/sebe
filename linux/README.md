@@ -79,6 +79,10 @@ O parâmetro “ o saida ” indica o nome do executável que será criado.
 
 O parâmetro “meuCodigo.c” indica qual será o código fonte compilado.
 
+Com o comando ls podemos notar que um arquivo saida foi criado. Para executarmos o
+programa, basta digitarmos o nome do executável precedito do comando “./” (por exemplo ./saida ).
+
+
 ## O que é o Linux e sua relevância para dispositivos embarcados
 
 Para engenheiros eletrônicos, podemos fazer uma analogia: se considerarmos um sistema embarcado como um circuito completo, o Linux seria equivalente a um controlador central altamente configurável que coordena todos os componentes e estabelece as regras de funcionamento.
