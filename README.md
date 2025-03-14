@@ -67,6 +67,11 @@ Então escolha  Distribuição Linux Ubuntu 20.04 ou 22...   Máquina virtual 1 
 
 - Banco de Dados, uso do mysql
 
+Guia
+
+https://github.com/mchavesferreira/sebe/blob/main/bancodados.md
+
+
  orientação:
 - https://github.com/mchavesferreira/sebe/blob/main/install_php_apache_mysql.md
 - https://github.com/mchavesferreira/sebe/blob/main/slide/desenvolvendo_api_php_html.pdf
