@@ -65,6 +65,8 @@ Então escolha  Distribuição Linux Ubuntu 20.04 ou 22...   Máquina virtual 1 
 
 ## aula 14/03/2025
 
+## Aula 21/03/2025
+
 - Banco de Dados, uso do mysql
 
 Guia
@@ -77,7 +79,9 @@ https://github.com/mchavesferreira/sebe/blob/main/bancodados.md
 - https://github.com/mchavesferreira/sebe/blob/main/slide/desenvolvendo_api_php_html.pdf
 - https://insights.ionited.io/ion/configurar-linux-apache-mysql-e-php-lamp-no-ubuntu-2204
 
-## Aula 21/03/2025
+
+
+## Aula 28/03/2025
 
 IoT Introdução Soc, SBC, Esp32...
 
@@ -87,28 +91,21 @@ https://github.com/mchavesferreira/mcr/blob/main/ESP32.md  >> Introdução ao ES
 
 https://github.com/mchavesferreira/mcr/tree/main/esp32_iot  >> Utilizando ESP32 em IoT
 
-Tecnologias:
-
-https://www.airgain.com/technology/    
-
-Choosing a Microcontroller (MCU) or Microprocessor (MPU)
-
-https://www.verytechnology.com/iot-insights/top-iot-boards-for-development-prototyping
+Utilizar o repositório como referência: https://github.com/mchavesferreira/php_app
 
 
 
-## Aula 28/03/2025
 
 Preparo do servidor para o Trabalho 1
 
-Utilizar o seguinte repositório:
 
-- https://github.com/mchavesferreira/php_app/
   
 
 Com a finalidade desenvolver aplicações em nuvem preparando ambiente para IOT, o aluno deve implantar criar uma instância Linux Ubuntu 20.0.4 no AWS. 
 
-- Instalar um servidor de web Apache e serviços PHP criação de uma pagina simples código php 
+- Instalar um servidor de web Apache e serviços PHP criação de uma pagina simples código php
+  
+-  Preparar o esp32 para seu uso como IOT (https://github.com/mchavesferreira/mcr/tree/main/esp32_iot) 
 
 ## Aula  04/04/2025
 
@@ -119,7 +116,7 @@ Com a finalidade desenvolver aplicações em nuvem preparando ambiente para IOT,
 Apresentação final para o Trabalho 1
 
 Utilizando o exemplo disposto no repositório, criar uma API com php. Utilizar um node (esp32 ou Esp8266 para consumir a API utilizando método GET. Instalar o pacote de projeto e adaptar o código na instância. 
-Utilizar o repositório como referência: https://github.com/mchavesferreira/php_app
+
 
 Para saber mais sobre ESP32, simulação online: https://github.com/mchavesferreira/mcr/blob/main/ESP32.md
 
@@ -470,5 +467,15 @@ https://codeanywhere.com/editor/
 <BR><BR> https://www.whatsmydns.net/
 <BR><BR> Registro traceroute Registro.br
 <BR><BR> https://registro.br/tecnologia/ferramentas/traceroute/
+
+Tecnologias:
+
+https://www.airgain.com/technology/    
+
+Choosing a Microcontroller (MCU) or Microprocessor (MPU)
+
+https://www.verytechnology.com/iot-insights/top-iot-boards-for-development-prototyping
+
+
 
 
