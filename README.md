@@ -105,19 +105,16 @@ Utilizar o seguinte repositório:
 
 - https://github.com/mchavesferreira/php_app/
   
-- http://smartcampus.ifsp.online/blog/index.php?raselecionado=CT120893
 
 Com a finalidade desenvolver aplicações em nuvem preparando ambiente para IOT, o aluno deve implantar criar uma instância Linux Ubuntu 20.0.4 no AWS. 
 
+- Instalar um servidor de web Apache e serviços PHP criação de uma pagina simples código php 
+
 ## Aula  04/04/2025
 
-Instalar um servidor de web Apache e serviços PHP criação de uma pagina simples código php 
+- Aperfeiçoamento transforme a comunicação GET para POST no ESP32, modifique a pagina para uma variavel de projeto individual, ou seja, não utiliza o original Temperatura e Umidade.
 
 ## Aula 11/04/2025 
-
-Instalar Mysql e exemplificar e personalizar a aplicação de comuncação com  banco de Dados Mysql.  
-
-## Aula  25/04/2025 
 
 Apresentação final para o Trabalho 1
 
