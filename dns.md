@@ -16,7 +16,9 @@ Crie ou edite o arquivo config:
 
     Abra o Bloco de Notas e cole:
 
+'''java
 Host ssh.seudominio.com
     HostName ssh.seudominio.com
     User pi
     ProxyCommand C:\cloudflared\cloudflared.exe access ssh --hostname %h
+'''
