@@ -212,7 +212,9 @@ Simule a conexão utilizando o circuito tratado em aulas anteriores, montando po
 
 
 
-## Aula 06/06/2025
+## Aula 30/05/2025
+
+Preencher SUAP 
 
 Apresentação final para o trabalho 2, Seminários
 
