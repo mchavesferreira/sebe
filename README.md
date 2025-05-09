@@ -142,14 +142,12 @@ Instalar Node-red: http://smartcampus.ctd.ifsp.edu.br/blog/index.php?IDseleciona
 
 Construindo Dashboard
 
-Dashboard exemplo:  
-http://avrchaves.duckdns.org:1880/ui
-
-## Aula 16/05/2025
-
 Práticas com  NodeRED
 
 [flow_exemplos/README.md](https://github.com/mchavesferreira/sebe/tree/main/flow_exemplos)
+
+##  Aula 16/05/2025
+
 
 ### Formato JSON
 
