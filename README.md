@@ -166,7 +166,7 @@ Crie uma interface que separe dados ou campos de uma url publica com json e apre
 ### Protocolo MQTT
 
 [
-https://github.com/mchavesferreira/mcr/tree/main/esp32_iot](https://github.com/mchavesferreira/sebe/tree/main/mqtt)
+Saiba mais Sobre MQTT](https://github.com/mchavesferreira/sebe/tree/main/mqtt)
 
 
 [flow_exemplos/aula_mqtt.pdf](https://github.com/mchavesferreira/sebe/blob/main/flow_exemplos/aula_mqtt.pdf)
