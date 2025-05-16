@@ -24,7 +24,15 @@ https://embarcados.com.br/mqtt-protocolos-para-iot/
 
  
 ## O Protocolo MQTT em IOT
+
+### Como instalar o mqtt (mosquito)
 aula <BR>  http://smartcampus.ctd.ifsp.edu.br/blog/index.php?IDselecionado=48
+
+### Instalando Broker no nodered 
+Utilize o node    node-red-contrib-aedes 
+
+![image](https://github.com/user-attachments/assets/d79cad10-7069-457f-b312-4c4b32506409)
+
 
 Aplicativo: Dash MQTT  
 https://play.google.com/store/apps/details?id=net.routix.mqttdash
@@ -92,4 +100,4 @@ Crie um novo script para o nodered publique este trabalho, modifique os tópicos
 
 
 
-## Entrega o resultado em Trabalho SUAP enviando o link do wokwi e a interface :18/ui link do nodered 
+## Entrega o resultado em Trabalho SUAP enviando o link do wokwi e a interface com link do nodered  http://seuip:1880/ui 
