@@ -157,14 +157,17 @@ Importe este exemplo para o nodered: <a href=https://github.com/mchavesferreira/
 
 Instale um plugin no navegador para facilitar a compreensão de um json: <a href=https://addons.mozilla.org/en-US/firefox/addon/json_formatter/>firefox</a>
 
+Crie uma interface que separe dados ou campos de uma url publica com json e apresente a interface nodered.
+
 
 ## Aula 23/05/2025
 
 
 ### Protocolo MQTT
 
+[
+https://github.com/mchavesferreira/mcr/tree/main/esp32_iot](https://github.com/mchavesferreira/sebe/tree/main/mqtt)
 
-https://github.com/mchavesferreira/mcr/tree/main/esp32_iot
 
 [flow_exemplos/aula_mqtt.pdf](https://github.com/mchavesferreira/sebe/blob/main/flow_exemplos/aula_mqtt.pdf)
 
