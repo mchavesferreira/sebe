@@ -79,7 +79,7 @@ Topic= esp32/out
 
 path Json= $.analogico
 
-# Trabalho 3° bimestre
+# Trabalho 
 
 Seguindo as instruções sobre MQTT e Json nesta url
 
@@ -88,12 +88,8 @@ e o exemplo de código
 https://wokwi.com/projects/412639452245191681
 
 
-Crie um novo script no wokwi e publique neste trabalho que contenha 2 leds controlados através de dois botões pushbutton , enviando o "status" on ou off de cada led, e duas entradas analógicas em fornato json.
-
-Cada botão conectado ao esp32 deve ligar e desligar cada led, e pelo aplicativo também deve desligar.
+Crie um novo script para o nodered publique este trabalho, modifique os tópicos para que um trabalho não interfira em outro.
 
 
-Mostre os valores em seu aplicativo dashboard
 
-## Entrega o resultado em Trabalho SUAP enviando o link do wokwi e a imagem de seu aplicativo dashboard do celular 
-
+## Entrega o resultado em Trabalho SUAP enviando o link do wokwi e a interface :18/ui link do nodered 
