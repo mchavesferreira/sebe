@@ -386,6 +386,41 @@ Este é apenas um exemplo básico de como usar o Node-RED para buscar dados de u
 
 <a href=https://github.com/mchavesferreira/sebe/blob/main/flow_exemplos/cotacao_dolar.json>Script Cotação do dolar</a>: elaboração de um script flow que busque uma informação de cotação de dolar em formato json e exiba em dashboard.
 
+
+**Node-RED Dashboard 2.0**, também chamada de **Node-RED Dashboard Next**, uma nova abordagem para interfaces gráficas no Node-RED, desenvolvida pela comunidade sob a organização do projeto *FlowFuse*.
+
+Abaixo está um resumo detalhado sobre essa versão:
+
+---
+
+## 🧭 Visão Geral — Node-RED Dashboard 2.0
+
+A Dashboard 2.0 é uma evolução completa da interface gráfica tradicional usada no Node-RED, sendo **reconstruída do zero** com foco em:
+
+* **Modernização da interface (UI/UX)**
+* **Arquitetura desacoplada (Frontend separado do Backend)**
+* **Desempenho superior em dispositivos embarcados**
+* **Suporte a temas e responsividade nativa**
+* **Integração com bibliotecas modernas como WebSocket, Tailwind, Vue.js**
+
+---
+
+## ⚙️ Características principais
+
+| Recurso                       | Dashboard 1.0 | Dashboard 2.0 (Next)                        |
+| ----------------------------- | ------------- | ------------------------------------------- |
+| UI baseado em AngularJS       | Sim           | Não                                         |
+| Framework moderno             | Não           | Sim (Vue.js + Tailwind CSS)                 |
+| Suporte mobile responsivo     | Limitado      | Sim, nativamente responsivo                 |
+| Suporte a múltiplos painéis   | Limitado      | Sim                                         |
+| Layouts customizáveis         | Difícil       | Sim, com grid visual e drag & drop          |
+| Integração com MQTT/WebSocket | Sim           | Sim                                         |
+| Temas customizáveis           | Limitado      | Sim                                         |
+| Separação entre UI e lógica   | Não           | Sim (frontend e backend independentes)      |
+| Componentes personalizados    | Complexo      | Facilitado (via Vue ou HTML Web Components) |
+
+
+
 # Tutoriais, pdfs e vídeos sobre o Node-RED
 
 
@@ -393,6 +428,7 @@ Este é apenas um exemplo básico de como usar o Node-RED para buscar dados de u
 <BR><BR>
 <a href=https://github.com/jordanorc/curso-node-red>
 <img src=https://raw.githubusercontent.com/jordanorc/curso-node-red/master/assets/minicurso.png width=300 height=200><BR></BR>Repositório do autor<a/>
+
 
 
 <BR><BR><BR><BR>
