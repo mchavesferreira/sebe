@@ -12,7 +12,25 @@ Sistemas Embarcados
 - [Node-red links de interesse](#Node-red-links-de-interesse)
 - [Tago e ESP32](#Tago-e-ESP32)
 - [FreeRTOS](#FreeRTOS)
-  
+
+
+# Temas para sorteio de seminarios em grupos de 3 alunos
+
+1- Edge Computing em Sistemas Embarcados
+
+2- Blockchain em Sistemas Embarcados
+
+3 - NFTs em Sistemas Embarcados
+
+4- Conceitos Fundamentais de RTOS: Tarefas, Semáforos, Filas e Timers
+
+5- NuttX em sistemas embarcados
+
+6-  Zephyr  Abordagens para Sistemas Embarcados
+
+8- FreeRTOS Abordagens para Sistemas Embarcados
+
+
 
 
 ## Aula 21/02/2025
