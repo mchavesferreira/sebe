@@ -28,7 +28,7 @@ Sistemas Embarcados
 
 6-  Zephyr  Abordagens para Sistemas Embarcados
 
-8- FreeRTOS Abordagens para Sistemas Embarcados
+7- FreeRTOS Abordagens para Sistemas Embarcados
 
 
 
