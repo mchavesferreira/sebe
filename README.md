@@ -434,7 +434,9 @@ https://chatgpt.com/g/g-xFCyP0VEc-freertos-esp32
 ## Links interessantes
 ### Mapas
 <BR><BR>Redes Internet
-<BR><a href=https://bbmaps.itu.int/bbmaps/>rede de fibra óptia ITU</a>
+<BR><a href=https://bbmaps.itu.int/bbmaps/>rede de fibra óptica ITU</a>
+
+https://bbmaps.itu.int/bbmaps/>Rede terrestre
 
 <BR><BR>LPWan
 <BR>https://www.teleco.com.br/lpwa_cobertura.asp
