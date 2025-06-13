@@ -405,6 +405,8 @@ https://www.linux.com/NEWS/21-OPEN-SOURCE-PROJECTS-IOT/
 
 ## FreeRTOS
 
+https://github.com/mchavesferreira/embarcados_freertos/blob/main/FreeRTOS_aula_slide.pdf
+
 Alternativa Zephyr
 
 ### Projeto 3      
@@ -430,7 +432,7 @@ https://github.com/mchavesferreira/embarcados_freertos/tree/main/DHT_MQTT_FREERT
 https://chatgpt.com/g/g-xFCyP0VEc-freertos-esp32
        
 ## Links interessantes
-###Mapas
+### Mapas
 <BR><BR>Redes Internet
 <BR><a href=https://bbmaps.itu.int/bbmaps/>rede de fibra óptia ITU</a>
 
