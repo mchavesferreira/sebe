@@ -420,6 +420,14 @@ https://wokwi.com/projects/365853246230678529  Simulador
 https://github.com/mchavesferreira/embarcados_freertos      
 
 Os recursos do projeto deve implementar (node, mysql, .ino, ..) e o formato de entrega de scripts de seu projeto deve ser acordado com o docente .
+
+Utilize o seguinte exemplo para modificar  o projeto 2 para FreeRtos
+
+https://github.com/mchavesferreira/embarcados_freertos/tree/main/DHT_MQTT_FREERTOS_v_jun21
+
+## GPT FreeRtos
+
+https://chatgpt.com/g/g-xFCyP0VEc-freertos-esp32
        
 ## Links interessantes
 ###Mapas
