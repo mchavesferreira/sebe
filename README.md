@@ -15,9 +15,15 @@ Sistemas Embarcados
 
 
 
-##  Guia Básico para ESP32
-<a href=https://github.com/mchavesferreira/mcr/blob/main/ESP32.md>Acesse o link</a>
+##  ESPRESSIF 
 
+### Guia expressif para os modelos ESP32
+
+https://products.espressif.com/#/product-selector
+
+Documentação ESP32
+
+https://docs.espressif.com/projects/esp-hardware-design-guidelines/en/latest/esp32/index.html
 
 ## IoT Introdução Soc, SBC, Esp32...
 
