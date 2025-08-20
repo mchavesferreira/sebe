@@ -14,26 +14,59 @@ Sistemas Embarcados
 - [FreeRTOS](#FreeRTOS)
 
 
-# Temas para sorteio de seminarios em grupos de 3 alunos
 
-1- Edge Computing em Sistemas Embarcados
+##  Guia Básico para ESP32
+<a href=https://github.com/mchavesferreira/mcr/blob/main/ESP32.md>Acesse o link</a>
 
-2- Blockchain em Sistemas Embarcados
 
-3 - NFTs em Sistemas Embarcados
-
-4- Conceitos Fundamentais de RTOS: Tarefas, Semáforos, Filas e Timers
-
-5- NuttX em sistemas embarcados
-
-6-  Zephyr  Abordagens para Sistemas Embarcados
-
-7- FreeRTOS Abordagens para Sistemas Embarcados
+## IoT Introdução Soc, SBC, Esp32...
 
 
 
+https://github.com/mchavesferreira/mcr/blob/main/ESP32.md  >> Introdução ao ESP32
 
-## Aula 21/02/2025
+https://github.com/mchavesferreira/mcr/tree/main/esp32_iot  >> Utilizando ESP32 em IoT
+
+Utilizar o repositório como referência: https://github.com/mchavesferreira/php_app
+
+Exemplo online Esp32+sensor comunicando com API/PHP:   https://wokwi.com/projects/396067644168942593
+
+##  Aula 16/05/2025
+
+
+### Formato JSON
+
+<a href=https://github.com/mchavesferreira/sebe/blob/main/flow_exemplos/json.md>Saiba mais sobre o formato json</a>
+
+Importe este exemplo para o nodered: <a href=https://github.com/mchavesferreira/sebe/blob/main/flow_exemplos/cotacao_dolar.json>Exemplo de cotação dolar</a>
+
+Instale um plugin no navegador para facilitar a compreensão de um json: <a href=https://addons.mozilla.org/en-US/firefox/addon/json_formatter/>firefox</a>
+
+Crie uma interface que separe dados ou campos de uma url publica com json e apresente a interface nodered.
+
+
+## Aula 
+
+
+### Protocolo MQTT
+
+[
+Saiba mais Sobre MQTT](https://github.com/mchavesferreira/sebe/tree/main/mqtt)
+
+
+[flow_exemplos/aula_mqtt.pdf](https://github.com/mchavesferreira/sebe/blob/main/flow_exemplos/aula_mqtt.pdf)
+
+
+
+Utilize o exemplo de cotação do dolar para capturar um valor (temperatura, cotações), qualquer exemplo em formato json, separar os campos, exemplificar com gráfico.
+
+Criar um dashboard para seu projeto com nodered/mysql/mqtt.
+
+- Utilizando Tunnel e DNS
+
+ http://smartcampus.ctd.ifsp.edu.br/blog/index.php?IDselecionado=30 Redirecionamento DDNS com DuckDns 
+
+ 
 
 ### Sistemas Operacionais
 
@@ -43,13 +76,11 @@ Sistemas Embarcados
 
 https://github.com/mchavesferreira/sebe/blob/main/sistemaoperacinal.md
 
-## Aula 28/02/2025
 
 ### Introdução ao Linux
 
 https://github.com/mchavesferreira/sebe/tree/main/linux
 
-## aula 07/03/2025
 
 ### Criação de instância e Servidor Web
 
@@ -81,11 +112,9 @@ Então escolha  Distribuição Linux Ubuntu 20.04 ou 22...   Máquina virtual 1 
 
 ![Captura de tela 2025-04-03 210148](https://github.com/mchavesferreira/sebe/assets/63993080/abfde088-6210-4a39-9923-e1352c7d8955)
 
-## aula 14/03/2025
 
-## Aula 21/03/2025
 
-- Banco de Dados, uso do mysql
+###  Banco de Dados, uso do mysql
 
 Guia
 
@@ -99,25 +128,10 @@ https://github.com/mchavesferreira/sebe/blob/main/bancodados.md
 
 
 
-## Aula 28/03/2025
-
-IoT Introdução Soc, SBC, Esp32...
-
-Exemplo online Esp32+sensor comunicando com API/PHP:   https://wokwi.com/projects/396067644168942593
-
-https://github.com/mchavesferreira/mcr/blob/main/ESP32.md  >> Introdução ao ESP32
-
-https://github.com/mchavesferreira/mcr/tree/main/esp32_iot  >> Utilizando ESP32 em IoT
-
-Utilizar o repositório como referência: https://github.com/mchavesferreira/php_app
 
 
+## Preparo do servidor para o Trabalho 1
 
-
-Preparo do servidor para o Trabalho 1
-
-
-  
 
 Com a finalidade desenvolver aplicações em nuvem preparando ambiente para IOT, o aluno deve implantar criar uma instância Linux Ubuntu 20.0.4 no AWS. 
 
@@ -125,11 +139,11 @@ Com a finalidade desenvolver aplicações em nuvem preparando ambiente para IOT,
   
 -  Preparar o esp32 para seu uso como IOT (https://github.com/mchavesferreira/mcr/tree/main/esp32_iot) 
 
-## Aula  04/04/2025
+## Aula  
 
 - Aperfeiçoamento transforme a comunicação GET para POST no ESP32, modifique a pagina para uma variavel de projeto individual, ou seja, não utiliza o original Temperatura e Umidade.
 
-## Aula 11/04/2025 
+## Aula 
 
 Apresentação final para o Trabalho 1
 
@@ -147,7 +161,7 @@ Insira dados em: http://smartcampus.ctd.ifsp.edu.br/aula/php_app/form.php
 Esta atividade compõe 25 % a avaliação final. Apresentar presencialmente em sala de aula ou enviar até 25/04/2025 em SUAP o <b>http://IP</b> de sua instância.
 
 
-##  Aula 02/05/2025
+##  Aula 
 
 Node-red Oficial:  https://flows.nodered.org/
 
@@ -156,7 +170,7 @@ Node-red Apresentação:  http://smartcampus.ctd.ifsp.edu.br/blog/index.php?IDse
 Instalar Node-red: http://smartcampus.ctd.ifsp.edu.br/blog/index.php?IDselecionado=45
 
 
-##  Aula 09/05/2025
+##  Aula 
 
 Construindo Dashboard
 
@@ -164,43 +178,10 @@ Práticas com  NodeRED
 
 [flow_exemplos/README.md](https://github.com/mchavesferreira/sebe/tree/main/flow_exemplos)
 
-##  Aula 16/05/2025
 
-
-### Formato JSON
-
-<a href=https://github.com/mchavesferreira/sebe/blob/main/flow_exemplos/json.md>Saiba mais sobre o formato json</a>
-
-Importe este exemplo para o nodered: <a href=https://github.com/mchavesferreira/sebe/blob/main/flow_exemplos/cotacao_dolar.json>Exemplo de cotação dolar</a>
-
-Instale um plugin no navegador para facilitar a compreensão de um json: <a href=https://addons.mozilla.org/en-US/firefox/addon/json_formatter/>firefox</a>
-
-Crie uma interface que separe dados ou campos de uma url publica com json e apresente a interface nodered.
-
-
-## Aula 23/05/2025
-
-
-### Protocolo MQTT
-
-[
-Saiba mais Sobre MQTT](https://github.com/mchavesferreira/sebe/tree/main/mqtt)
-
-
-[flow_exemplos/aula_mqtt.pdf](https://github.com/mchavesferreira/sebe/blob/main/flow_exemplos/aula_mqtt.pdf)
-
-
-
-Utilize o exemplo de cotação do dolar para capturar um valor (temperatura, cotações), qualquer exemplo em formato json, separar os campos, exemplificar com gráfico.
-
-Criar um dashboard para seu projeto com nodered/mysql/mqtt.
-
-- Utilizando Tunnel e DNS
-
- http://smartcampus.ctd.ifsp.edu.br/blog/index.php?IDselecionado=30 Redirecionamento DDNS com DuckDns 
  
 
-### Construção do Trabalho 2: 
+### Construção do Trabalho: 
 
 Importe para o NodeRED o seguinte fluxo:
 
@@ -231,23 +212,22 @@ Simule a conexão utilizando o circuito tratado em aulas anteriores, montando po
 
 
 
-## Aula 30/05/2025
+## Aula 
 
 Preencher SUAP 
 
 Apresentação final para o trabalho 2, Seminários
 
 
-## Aula 13/06/2025
+## Aula 
 
 - Introdução ao RTOS/FreeRTOS
 
 https://github.com/mchavesferreira/embarcados_freertos
 
 
-## Aula 20/06/2025
+## Aula 
 
-FreeRTOS - https://chatgpt.com/g/g-xFCyP0VEc-sebe-r  
 
 
 Exemplos de códigos:  https://github.com/mchavesferreira/embarcados_freertos/tree/main/example_freertos_arduino
@@ -257,9 +237,9 @@ https://github.com/mchavesferreira/embarcados_freertos/tree/main/exemplos_script
 https://github.com/mchavesferreira/embarcados_freertos/tree/main/DHT_MQTT_FREERTOS_v_jun21
 
 
-## Aula 27/06/2025
+## Aula 
 
-Apresentação Final para o Trabalho 3
+Apresentação Final para o Trabalho
 
 
 ---------------------------
@@ -346,8 +326,6 @@ http://ipdoseuservidor/php_app/form.php
 Orientações para a disciplina, acompanhe a postagem de trabalhos de outros alunos
 <a href=http://smartcampus.ifsp.online/blog/index.php?raselecionado=CT120893>Acesso as postagem do professor</a>
 
-##  Guia Básico para ESP32
-<a href=https://github.com/mchavesferreira/mcr/blob/main/ESP32.md>Acesse o link</a>
 
 
 
@@ -509,6 +487,21 @@ Choosing a Microcontroller (MCU) or Microprocessor (MPU)
 
 https://www.verytechnology.com/iot-insights/top-iot-boards-for-development-prototyping
 
+## Temas para  seminarios 
+
+1- Edge Computing em Sistemas Embarcados
+
+2- Blockchain em Sistemas Embarcados
+
+3 - NFTs em Sistemas Embarcados
+
+4- Conceitos Fundamentais de RTOS: Tarefas, Semáforos, Filas e Timers
+
+5- NuttX em sistemas embarcados
+
+6-  Zephyr  Abordagens para Sistemas Embarcados
+
+7- FreeRTOS Abordagens para Sistemas Embarcados
 
 
 
