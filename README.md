@@ -4,14 +4,13 @@ Sistemas Embarcados
 
 ## Aulas
 
+- [Guia Básico para ESP32](#Guia-Básico-para-ESP32)
+- [FreeRTOS](#FreeRTOS)
 - [Sistemas Operacionais](#Sistemas-Operacionais)
 - [Introdução ao Linux](#Introdução-ao-Linux)
-- [BLOG](#BLOG)
-- [Guia Básico para ESP32](#Guia-Básico-para-ESP32)
--  [Trabalho 1](#Trabalho-1)
 - [Node-red links de interesse](#Node-red-links-de-interesse)
 - [Tago e ESP32](#Tago-e-ESP32)
-- [FreeRTOS](#FreeRTOS)
+
 
 
 
@@ -28,16 +27,24 @@ https://docs.espressif.com/projects/esp-hardware-design-guidelines/en/latest/esp
 ## IoT Introdução Soc, SBC, Esp32...
 
 
-
 https://github.com/mchavesferreira/mcr/blob/main/ESP32.md  >> Introdução ao ESP32
 
 https://github.com/mchavesferreira/mcr/tree/main/esp32_iot  >> Utilizando ESP32 em IoT
 
+
+## Protocolo MQTT
+
+[Saiba mais Sobre MQTT](https://github.com/mchavesferreira/sebe/tree/main/mqtt)
+
+
+[flow_exemplos/aula_mqtt.pdf](https://github.com/mchavesferreira/sebe/blob/main/flow_exemplos/aula_mqtt.pdf)
+
+
+### Projeto php + Esp32
+
 Utilizar o repositório como referência: https://github.com/mchavesferreira/php_app
 
 Exemplo online Esp32+sensor comunicando com API/PHP:   https://wokwi.com/projects/396067644168942593
-
-##  Aula 16/05/2025
 
 
 ### Formato JSON
@@ -51,16 +58,7 @@ Instale um plugin no navegador para facilitar a compreensão de um json: <a href
 Crie uma interface que separe dados ou campos de uma url publica com json e apresente a interface nodered.
 
 
-## Aula 
 
-
-### Protocolo MQTT
-
-[
-Saiba mais Sobre MQTT](https://github.com/mchavesferreira/sebe/tree/main/mqtt)
-
-
-[flow_exemplos/aula_mqtt.pdf](https://github.com/mchavesferreira/sebe/blob/main/flow_exemplos/aula_mqtt.pdf)
 
 
 
@@ -167,7 +165,7 @@ Insira dados em: http://smartcampus.ctd.ifsp.edu.br/aula/php_app/form.php
 Esta atividade compõe 25 % a avaliação final. Apresentar presencialmente em sala de aula ou enviar até 25/04/2025 em SUAP o <b>http://IP</b> de sua instância.
 
 
-##  Aula 
+##  Node-Red
 
 Node-red Oficial:  https://flows.nodered.org/
 
@@ -176,7 +174,7 @@ Node-red Apresentação:  http://smartcampus.ctd.ifsp.edu.br/blog/index.php?IDse
 Instalar Node-red: http://smartcampus.ctd.ifsp.edu.br/blog/index.php?IDselecionado=45
 
 
-##  Aula 
+##  Dashboard com Node-red
 
 Construindo Dashboard
 
@@ -225,16 +223,17 @@ Preencher SUAP
 Apresentação final para o trabalho 2, Seminários
 
 
-## Aula 
+## Aula RTOS/FreeRTOS 
 
 - Introdução ao RTOS/FreeRTOS
 
 https://github.com/mchavesferreira/embarcados_freertos
 
+### Slide FreeRTOS
 
-## Aula 
+https://github.com/mchavesferreira/embarcados_freertos/blob/main/FreeRTOS_aula_slide.pdf
 
-
+Alternativa Zephyr
 
 Exemplos de códigos:  https://github.com/mchavesferreira/embarcados_freertos/tree/main/example_freertos_arduino
 
@@ -243,14 +242,11 @@ https://github.com/mchavesferreira/embarcados_freertos/tree/main/exemplos_script
 https://github.com/mchavesferreira/embarcados_freertos/tree/main/DHT_MQTT_FREERTOS_v_jun21
 
 
-## Aula 
-
-Apresentação Final para o Trabalho
 
 
 ---------------------------
 
-## Trabalho 1: Orientações adicionais
+## Trabalho PHP/mysql: Orientações adicionais
 
 Passos:
 - Criar instância no cloud oracle, com email pessoal ou institucional, escolher instância free, e sistema linux ubuntu (20.xx ou 22.xx)
@@ -327,16 +323,9 @@ http://ipdoseuservidor/php_app/form.php
 <B>Modifique cores, e nomes, cores da api personalize. </b>
 
 
-##  BLOG
-
-Orientações para a disciplina, acompanhe a postagem de trabalhos de outros alunos
-<a href=http://smartcampus.ifsp.online/blog/index.php?raselecionado=CT120893>Acesso as postagem do professor</a>
 
 
-
-
-## Projeto 2
-Idéias de projetos
+## Idéias de projetos
 Os temas apresentado a seguir abrangem áreas como sustentabilidade, agricultura, segurança e monitoramento ambiental. Os alunos podem explorar as tecnologias e técnicas necessárias para implementar esses projetos, incluindo a integração do microcontrolador com sensores, comunicação Wi-Fi, armazenamento de dados em um banco de dados e criação de um dashboard para visualização dos dados coletados.
 
 Esses projetos oferecem oportunidades para os alunos aplicarem conceitos de sistemas embarcados, IoT, programação, gerenciamento de dados e interface do usuário, enquanto desenvolvem soluções práticas e inovadoras para problemas do mundo real.
@@ -405,15 +394,11 @@ https://www.linux.com/NEWS/21-OPEN-SOURCE-PROJECTS-IOT/
 <BR><BR>    
    <BR> 
 
-## FreeRTOS
 
-https://github.com/mchavesferreira/embarcados_freertos/blob/main/FreeRTOS_aula_slide.pdf
 
-Alternativa Zephyr
+### Projeto FreeRTOS + Node red + mysql + ESP32     
 
-### Projeto 3      
 
-FreeRTOS + Node red + mysql + ESP32
 Este trabalho considerará o estudo do tema FREERTOS utilizando a prática com node MCU ESP32, não utilizando portanto o ambiente de prototipação Arduino.
 Disponibilidade de material e scripts fornecido pelo docente (github):
        
@@ -429,9 +414,6 @@ Utilize o seguinte exemplo para modificar  o projeto 2 para FreeRtos
 
 https://github.com/mchavesferreira/embarcados_freertos/tree/main/DHT_MQTT_FREERTOS_v_jun21
 
-## GPT FreeRtos
-
-https://chatgpt.com/g/g-xFCyP0VEc-freertos-esp32
        
 ## Links interessantes
 ### Mapas
@@ -452,7 +434,9 @@ https://bbmaps.itu.int/bbmaps/>Rede terrestre
 https://github.com/public-apis/public-apis
 
 <BR><BR>
+
 ##  Ferramentas de desenvolvimento
+
 Terminais shell gratis e online
 Referência: https://ubunlog.com/pt/terminales-online-gnulinux-navegador/?msclkid=48141829be5911ec94c7a0d473f4b695%2F
 
@@ -472,6 +456,7 @@ https://codeanywhere.com/editor/
 
 
 ## Node-red e MQTT links de interesse <BR>
+
 ###  Exemplo flow para node-red
     <BR>https://github.com/mchavesferreira/sebe/blob/main/tutorial_exemplo_flow_nodered.json
 <BR><BR> Dashboard extrs: https://flows.nodered.org/collection/590bc13ff3a5f005c7d2189bbb563976
