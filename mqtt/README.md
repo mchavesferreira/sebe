@@ -50,8 +50,7 @@ Acesse o seguinte exemplo como aplição do mqtt, onde um led pode ser controlad
 
 https://wokwi.com/projects/347942096378790483
 
-<img src=![mqtt1](https://github.com/user-attachments/assets/1758b978-b122-4008-b7d2-57d9a780e185)
->
+![mqtt1](https://github.com/user-attachments/assets/1758b978-b122-4008-b7d2-57d9a780e185)
 
 # Formato Json
 
@@ -89,14 +88,9 @@ path Json= $.analogico
 
 # Trabalho 
 
-Seguindo as instruções sobre MQTT e Json nesta url
-
-e o exemplo de código
-
-https://wokwi.com/projects/412639452245191681
 
 
-Crie um novo script para o nodered publique este trabalho, modifique os tópicos para que um trabalho não interfira em outro.
+Crie um novo script para o  publique este trabalho, modifique os tópicos para que um trabalho não interfira em outro.
 
 
 
