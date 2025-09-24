@@ -183,16 +183,19 @@ https://api.tutiempo.net/pt/json.html
 
 Se precisar de ajuda para implementar alguma dessas APIs ou quiser exemplos de código (ex.: em Python ou JavaScript), é só pedir!
 
-Fonte: 
+### Fonte: 
 
 https://www.json.org/json-en.html
 
 Fonte de dados IBGE:  
 https://servicodados.ibge.gov.br/api/docs/
 
-Exemplo com informações do tempo
 
 
+### Ferramentas de conversão
+Json para texto:
+
+https://www.browserling.com/tools/json-to-text
 
 
 
