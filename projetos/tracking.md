@@ -1192,3 +1192,7 @@ SAIDA:
 **Revisão:** Dezembro 2025  
 **Aplicabilidade:** Sistemas profissionais de rastreamento solar, escalas ≥1 MW, aplicações utility-scale e comerciais  
 **Validação:** Conforme IEC 62817:2014, ASCE 7-16, normas vigentes em 2025
+<P>
+<img src=tecnologias.png><P>
+<img src=estrutura.png><P>
+<img src=eletronica.png><P>
