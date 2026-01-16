@@ -2,7 +2,7 @@ oriente um estudante de curso Ciências Atuarias com um guia de uso de ferrament
 
 --------------
 
-Claro, Marcos — vou orientar como se eu estivesse montando um **roteiro profissional realista** para um estudante de **Ciências Atuariais** que quer dominar **ferramentas computacionais, Ciência de Dados e Machine Learning**, e ficar **preparado para o mercado e para mudanças futuras**.
+vou orientar como se eu estivesse montando um **roteiro profissional realista** para um estudante de **Ciências Atuariais** que quer dominar **ferramentas computacionais, Ciência de Dados e Machine Learning**, e ficar **preparado para o mercado e para mudanças futuras**.
 
 A ideia aqui é simples: **atuário que sabe programar e modelar dados vira um profissional raro e muito valorizado**, porque consegue conectar **risco + estatística + negócio + automação**.
 
@@ -418,7 +418,7 @@ O aluno tem a seguinte grade curricular. Considere que o aluno está no quinto t
 
 --------------
 
-Marcos, perfeito — com essa grade curricular o aluno já está em um ponto **muito estratégico** do curso (5º termo) para transformar a formação atuarial em uma **trajetória “atuária + dados + negócio”**, principalmente por ele já atuar como **analista de custos** (o que é um ótimo ponto de partida no mercado).
+ perfeito — com essa grade curricular o aluno já está em um ponto **muito estratégico** do curso (5º termo) para transformar a formação atuarial em uma **trajetória “atuária + dados + negócio”**, principalmente por ele já atuar como **analista de custos** (o que é um ótimo ponto de partida no mercado).
 
 Abaixo vou organizar um **guia bem prático**, conectando:
 
@@ -781,7 +781,7 @@ Com esse plano paralelo, ele vira:
 * data analytics
 
 ---
-Marcos, a sua preocupação é **muito pertinente** e madura:
+ a sua preocupação é **muito pertinente** e madura:
 👉 *“Se eu orientar um estudante de Ciências Atuariais a entrar forte em Ciência de Dados, isso não cria conflito de área e não atrapalha o crescimento na carreira?”*
 
 A resposta correta (e realista) é:
