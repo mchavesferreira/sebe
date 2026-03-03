@@ -32,12 +32,29 @@ https://github.com/mchavesferreira/mcr/blob/main/ESP32.md  >> Introdução ao ES
 https://github.com/mchavesferreira/mcr/tree/main/esp32_iot  >> Utilizando ESP32 em IoT
 
 
-## Protocolo MQTT
-
-[Saiba mais Sobre MQTT](https://github.com/mchavesferreira/sebe/tree/main/mqtt)
 
 
-[flow_exemplos/aula_mqtt.pdf](https://github.com/mchavesferreira/sebe/blob/main/flow_exemplos/aula_mqtt.pdf)
+# FreeRTOS
+
+### - Introdução ao RTOS/FreeRTOS
+
+https://github.com/mchavesferreira/embarcados_freertos
+
+### Slide FreeRTOS
+
+https://github.com/mchavesferreira/embarcados_freertos/blob/main/FreeRTOS_aula_slide.pdf
+
+
+
+### Exemplos de códigos: 
+
+https://github.com/mchavesferreira/embarcados_freertos/tree/main/example_freertos_arduino
+
+https://github.com/mchavesferreira/embarcados_freertos/tree/main/exemplos_scripts_rtos
+
+https://github.com/mchavesferreira/embarcados_freertos/tree/main/DHT_MQTT_FREERTOS_v_jun21
+
+
 
 
 ### Projeto php + Esp32
@@ -165,6 +182,14 @@ Insira dados em: http://smartcampus.ctd.ifsp.edu.br/aula/php_app/form.php
 Esta atividade compõe 25 % a avaliação final. Apresentar presencialmente em sala de aula ou enviar até 25/04/2025 em SUAP o <b>http://IP</b> de sua instância.
 
 
+# Protocolo MQTT
+
+[Saiba mais Sobre MQTT](https://github.com/mchavesferreira/sebe/tree/main/mqtt)
+
+
+[flow_exemplos/aula_mqtt.pdf](https://github.com/mchavesferreira/sebe/blob/main/flow_exemplos/aula_mqtt.pdf)
+
+
 ##  Node-Red
 
 Node-red Oficial:  https://flows.nodered.org/
@@ -213,28 +238,6 @@ disponível em: https://github.com/mchavesferreira/php_app
 
 Simule a conexão utilizando o circuito tratado em aulas anteriores, montando posteriormete o circuito em protoboard e personalizando para sua aplicação:  https://wokwi.com/projects/365211000246545409
 
-
-
-
-# FreeRTOS
-
-### - Introdução ao RTOS/FreeRTOS
-
-https://github.com/mchavesferreira/embarcados_freertos
-
-### Slide FreeRTOS
-
-https://github.com/mchavesferreira/embarcados_freertos/blob/main/FreeRTOS_aula_slide.pdf
-
-
-
-### Exemplos de códigos: 
-
-https://github.com/mchavesferreira/embarcados_freertos/tree/main/example_freertos_arduino
-
-https://github.com/mchavesferreira/embarcados_freertos/tree/main/exemplos_scripts_rtos
-
-https://github.com/mchavesferreira/embarcados_freertos/tree/main/DHT_MQTT_FREERTOS_v_jun21
 
 
 
