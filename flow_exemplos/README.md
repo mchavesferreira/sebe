@@ -434,8 +434,6 @@ A Dashboard 2.0 é uma evolução completa da interface gráfica tradicional usa
 <BR><BR><BR><BR>
 [2] ***Curso Udemy*** de <a href=https://www.udemy.com/course/node-red/>Reginaldo Santos. Do Zero ao Node-Red (Prototipagem rápida).</a> Assista ao curso liberado no Canal Youtube do Autor 
 
-<img src=https://raw.githubusercontent.com/mchavesferreira/paginaaws/main/cursonodeudemy.png width=300 height=200>
-
 
 https://www.youtube.com/playlist?list=PL07l7JtVlEwJoWNaX_sn0N8j9aUZyScWK : playlist do curso Liberada no yotube.
 
