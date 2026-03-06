@@ -389,11 +389,12 @@ Este é apenas um exemplo básico de como usar o Node-RED para buscar dados de u
 
 **Node-RED Dashboard 2.0**, também chamada de **Node-RED Dashboard Next**, uma nova abordagem para interfaces gráficas no Node-RED, desenvolvida pela comunidade sob a organização do projeto *FlowFuse*.
 
-Abaixo está um resumo detalhado sobre essa versão:
+https://dashboard.flowfuse.com/
 
 ---
 
 ## 🧭 Visão Geral — Node-RED Dashboard 2.0
+
 
 A Dashboard 2.0 é uma evolução completa da interface gráfica tradicional usada no Node-RED, sendo **reconstruída do zero** com foco em:
 
@@ -418,6 +419,7 @@ A Dashboard 2.0 é uma evolução completa da interface gráfica tradicional usa
 | Temas customizáveis           | Limitado      | Sim                                         |
 | Separação entre UI e lógica   | Não           | Sim (frontend e backend independentes)      |
 | Componentes personalizados    | Complexo      | Facilitado (via Vue ou HTML Web Components) |
+
 
 
 
@@ -463,3 +465,5 @@ https://www.youtube.com/watch?v=O88f7OxXSlk : Resumo do curso, Video com a seç�
 <img src=https://raw.githubusercontent.com/mchavesferreira/sebe/refs/heads/main/imagens/netio.png>
 
 <a href=https://www.netio-products.com/en/application-notes/an31-node-red-example-of-rest-xml-communication-with-netio-4x> Node-RED example of REST XML communication with NETIO</a>
+
+[8]  https://www.youtube.com/playlist?list=PLaynDkhlx-spZg5fkYnULuxGE9km217_X  playlist dashboard 2.0 
