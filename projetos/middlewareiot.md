@@ -1,12 +1,12 @@
 
 **middleware IoT hoje não é apenas “um painel que recebe MQTT”**.
-As propostas mais atuais tendem a separar pelo menos quatro camadas: **conectividade/protocolo**, **gestão de dispositivos**, **modelo de contexto ou digital twin** e **integração analítica/edge**. Isso ajuda a mostrar aos alunos por que o Node-RED continua excelente didaticamente, mas já não representa sozinho todo o ecossistema de middleware IoT. ([ThingsBoard][1])
+As propostas mais atuais tendem a separar pelo menos quatro camadas: **conectividade/protocolo**, **gestão de dispositivos**, **modelo de contexto ou digital twin** e **integração analítica/edge**. Isso ajuda a mostrar  por que o Node-RED continua excelente didaticamente, mas já não representa sozinho todo o ecossistema de middleware IoT. ([ThingsBoard][1])
 
-## 1) Como eu situaria o Node-RED em sala
+## 1)  Node-RED em sala
 
 O **Node-RED** continua muito forte como ferramenta de **orquestração visual, integração rápida, prototipação e automação de fluxos**. Ele é ótimo para aula porque torna visível o caminho do dado: sensor → broker → processamento → dashboard → alerta. A própria documentação do projeto enfatiza a construção de fluxos e integrações, o que o torna ideal para ensino introdutório e intermediário. ([nodered.org][2])
 
-Mas, para uma atualização conceitual, vale dizer aos alunos que o Node-RED normalmente ocupa **uma parte do middleware**, não todo ele. Em projetos maiores, ele costuma atuar como:
+Mas, para uma atualização conceitual, vale dizer que o Node-RED normalmente ocupa **uma parte do middleware**, não todo ele. Em projetos maiores, ele costuma atuar como:
 
 * camada de integração rápida;
 * motor de regras simples;
@@ -155,9 +155,8 @@ Você pode dizer algo como:
 
 > “Node-RED continua excelente para ensinar a lógica de integração IoT, mas o middleware atual evoluiu para arquiteturas em camadas. Plataformas como ThingsBoard e Mainflux ampliam a gestão operacional; FIWARE e Ditto introduzem contexto e digital twins; EdgeX e Neuron levam inteligência para a borda. No Brasil, o Centro de Operações Rio é um exemplo concreto de integração urbana em tempo real, mostrando como dados de sensores, clima, mobilidade e incidentes podem apoiar decisão operacional em escala municipal.” ([nodered.org][2])
 
-## 9) Minha sugestão objetiva de “stack” para comparar em sala
+## 9) comparação
 
-Para não sobrecarregar os alunos, eu selecionaria estes cinco exemplos:
 
 * **Node-RED** → integração visual e didática
 * **ThingsBoard** → plataforma IoT completa para laboratório
@@ -165,7 +164,6 @@ Para não sobrecarregar os alunos, eu selecionaria estes cinco exemplos:
 * **EdgeX Foundry** → edge middleware
 * **Centro de Operações Rio** → caso brasileiro de integração operacional urbana ([nodered.org][2])
 
-Se desejar, eu posso transformar esta pesquisa em um **roteiro de aula em Markdown**, com **tabela comparativa**, **arquitetura em camadas** e **exemplo de sequência didática de 2 horas**.
 
 [1]: https://thingsboard.io/?utm_source=chatgpt.com "ThingsBoard — Open-source IoT (Internet of Things) Platform"
 [2]: https://nodered.org/docs/?utm_source=chatgpt.com "Documentation"
