@@ -44,6 +44,7 @@ https://github.com/mchavesferreira/embarcados_freertos
 
 https://github.com/mchavesferreira/embarcados_freertos/blob/main/FreeRTOS_aula_slide.pdf
 
+Ebook: https://github.com/mchavesferreira/sebe/blob/main/slides/e-book-colecao-esp32-do-embarcados-comece-a-programar-o-esp32-parte-2.pdf
 
 
 ### Exemplos de códigos: 
@@ -58,6 +59,10 @@ https://github.com/mchavesferreira/embarcados_freertos/tree/main/DHT_MQTT_FREERT
 # Expressif IDE
 
 Ferramenta do fabricante
+
+https://github.com/mchavesferreira/sebe/blob/main/slides/ebook-explorando-o-potencial-do-esp32-guia-de-iniciacao-ao-esp-idf-5.pdf Guia de Inicialização
+
+https://github.com/mchavesferreira/sebe/blob/main/slides/slides-webinar-explorando-a-espressif-ide-melhore-seu-workflow-para-projetos-com-esp32.pdf
 
 https://github.com/FBSeletronica/exemplos-ebook-esp32-com-espidf  repositório utilizando expressif ide
 
