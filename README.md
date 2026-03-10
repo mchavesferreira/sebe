@@ -55,6 +55,11 @@ https://github.com/mchavesferreira/embarcados_freertos/tree/main/exemplos_script
 https://github.com/mchavesferreira/embarcados_freertos/tree/main/DHT_MQTT_FREERTOS_v_jun21
 
 
+# Expressif IDE
+
+Ferramenta do fabricante
+
+https://github.com/FBSeletronica/exemplos-ebook-esp32-com-espidf  repositório utilizando expressif ide
 
 
 ### Projeto php + Esp32
