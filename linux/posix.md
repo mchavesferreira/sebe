@@ -205,5 +205,5 @@ Ele define um conjunto de **interfaces padronizadas para interação com o siste
 
 Graças ao POSIX, sistemas como **Linux, macOS e BSD conseguem compartilhar grande parte do mesmo ecossistema de software**.
 
-```
+
 
