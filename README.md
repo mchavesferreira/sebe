@@ -1,6 +1,11 @@
 # sebe
 Sistemas Embarcados
 
+SEMINÁRIO LINUX EMBARCADO 2026
+
+28 DE MARÇO DE 2026 | 100% ONLINE
+
+https://embarcados.com.br/seminario-linux-embarcado-2026/
 
 ## Aulas
 
