@@ -70,14 +70,6 @@ https://github.com/mchavesferreira/sebe/blob/main/slides/slides-webinar-exploran
 https://github.com/FBSeletronica/exemplos-ebook-esp32-com-espidf  repositório utilizando expressif ide
 
 
-### Projeto php + Esp32
-
-Utilizar o repositório como referência: https://github.com/mchavesferreira/php_app
-
-Exemplo online Esp32+sensor comunicando com API/PHP:   https://wokwi.com/projects/396067644168942593
-
-
-
 # Sistemas Operacionais
 
 <a href=tanenbaum.pdf> Livro </a>
@@ -92,17 +84,11 @@ https://github.com/mchavesferreira/sebe/blob/main/sistemaoperacinal.md
 https://github.com/mchavesferreira/sebe/tree/main/linux
 
 
-### Portas 
+# Projeto PHP + MySql + Esp32
 
-Instruções para liberar a porta 80, além de adicionar a regra em "VCN- Virtual cloud network", 
-realize no prompt os seguintes comandos:
+Utilizar o repositório como referência: https://github.com/mchavesferreira/php_app
 
-```java
-sudo iptables -I INPUT 6 -m state --state NEW -p tcp --dport 80 -j ACCEPT
-sudo netfilter-persistent save
-```
-Fonte:  https://blog.tomaszdunia.pl/oracle-free-tier-eng/
-
+Exemplo online Esp32+sensor comunicando com API/PHP:   https://wokwi.com/projects/396067644168942593
 
 ### Criação de instância e Servidor Web
 
@@ -118,7 +104,7 @@ https://www.youtube.com/watch?v=XW7isnD1mWM
 
 https://www.youtube.com/watch?v=2GTPWqv-nAw
 
-Embora os vídes mostrem que o plano Free Tier permita uma instância Free Oracle Cloud VPS (4 Cores 24GB RAM),  não é apenas no domínio Brasil, que está sobrecarregado, uma busca em fóruns revela que outras regiões estão com o mesmo problema. 
+Embora os vídeos mostrem que o plano Free Tier permita uma instância Free Oracle Cloud VPS (4 Cores 24GB RAM),  não é apenas no domínio Brasil, que está sobrecarregado, uma busca em fóruns revela que outras regiões estão com o mesmo problema. 
 Então escolha  Distribuição Linux Ubuntu 20.04 ou 22...   Máquina virtual 1 core 1 GB. No momento foi possível a única disponível porém permite criar duas intâncias.
 
 ![Captura de tela 2025-04-03 210148](https://github.com/mchavesferreira/sebe/assets/63993080/abfde088-6210-4a39-9923-e1352c7d8955)
@@ -141,23 +127,38 @@ https://github.com/mchavesferreira/sebe/blob/main/bancodados.md
 
 ## Preparo do servidor para o Trabalho 1
 
+## Atividade: Implantação de Ambiente IoT em Nuvem
 
-Com a finalidade desenvolver aplicações em nuvem preparando ambiente para IOT, o aluno deve implantar criar uma instância Linux Ubuntu 20.0.4 no AWS. 
+Com o objetivo de desenvolver aplicações em nuvem para IoT, o aluno deverá criar e configurar uma instância **Linux Ubuntu 20.04 na AWS**.
 
-- Instalar um servidor de web Apache e serviços PHP criação de uma pagina simples código php
-  
--  Preparar o esp32 para seu uso como IOT (https://github.com/mchavesferreira/mcr/tree/main/esp32_iot) 
+### Etapas
 
-## Aula  
+* Instalar um servidor web **Apache** com suporte a **PHP**
 
-- Aperfeiçoamento transforme a comunicação GET para POST no ESP32, modifique a pagina para uma variavel de projeto individual, ou seja, não utiliza o original Temperatura e Umidade.
+  * Criar uma página simples em PHP para teste
 
-Utilizando o exemplo disposto no repositório, criar uma API com php. Utilizar um node (esp32 ou Esp8266 para consumir a API utilizando método GET. Instalar o pacote de projeto e adaptar o código na instância. 
+* Preparar o **ESP32** para envio de dados via HTTP (GET) e posteriormente via **MQTT**
+
+  * Repositório de apoio:
+    [https://github.com/mchavesferreira/mcr/tree/main/esp32_iot](https://github.com/mchavesferreira/mcr/tree/main/esp32_iot)
+
+* **Aperfeiçoamento**
+
+  * Alterar a comunicação de **GET para POST** no ESP32
+  * Adaptar a aplicação para uma variável de projeto individual (não utilizar apenas temperatura e umidade)
+
+* Criar uma **API em PHP** com base no repositório
+
+  * Utilizar um ESP32 para consumir a API via método **GET**
+  * Instalar e adaptar o código na instância AWS
+
+### Referência adicional
+
+Para estudos sobre ESP32 e simulação online:
+[https://github.com/mchavesferreira/mcr/blob/main/ESP32.md](https://github.com/mchavesferreira/mcr/blob/main/ESP32.md)
 
 
-Para saber mais sobre ESP32, simulação online: https://github.com/mchavesferreira/mcr/blob/main/ESP32.md
 
-Exemplo em funcionamento:
 ## exemplo api em PHP
 
 http://smartcampus.ctd.ifsp.edu.br/aula/php_app/index.php
@@ -392,7 +393,7 @@ https://www.linux.com/NEWS/21-OPEN-SOURCE-PROJECTS-IOT/
 
 
 
-### Projeto FreeRTOS + Node red + mysql + ESP32     
+# Projeto FreeRTOS + Node red + mysql + ESP32     
 
 
 Este trabalho considerará o estudo do tema FREERTOS utilizando a prática com node MCU ESP32, não utilizando portanto o ambiente de prototipação Arduino.
@@ -410,8 +411,21 @@ Utilize o seguinte exemplo para modificar  o projeto 2 para FreeRtos
 
 https://github.com/mchavesferreira/embarcados_freertos/tree/main/DHT_MQTT_FREERTOS_v_jun21
 
-       
+
+
 ## Links interessantes
+
+### Portas 
+
+Instruções para liberar a porta 80, além de adicionar a regra em "VCN- Virtual cloud network", 
+realize no prompt os seguintes comandos:
+
+```java
+sudo iptables -I INPUT 6 -m state --state NEW -p tcp --dport 80 -j ACCEPT
+sudo netfilter-persistent save
+```
+Fonte:  https://blog.tomaszdunia.pl/oracle-free-tier-eng/
+
 ### Mapas
 <BR><BR>Redes Internet
 <BR><a href=https://bbmaps.itu.int/bbmaps/>rede de fibra óptica ITU</a>
