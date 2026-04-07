@@ -59,7 +59,7 @@ https://github.com/mchavesferreira/embarcados_freertos/tree/main/exemplos_script
 https://github.com/mchavesferreira/embarcados_freertos/tree/main/DHT_MQTT_FREERTOS_v_jun21
 
 
-# Expressif IDE
+### Expressif IDE
 
 Ferramenta do fabricante
 
@@ -78,7 +78,7 @@ Exemplo online Esp32+sensor comunicando com API/PHP:   https://wokwi.com/project
 
 
 
-### Sistemas Operacionais
+# Sistemas Operacionais
 
 <a href=tanenbaum.pdf> Livro </a>
 
@@ -87,9 +87,21 @@ Exemplo online Esp32+sensor comunicando com API/PHP:   https://wokwi.com/project
 https://github.com/mchavesferreira/sebe/blob/main/sistemaoperacinal.md
 
 
-### Introdução ao Linux
+## Introdução ao Linux
 
 https://github.com/mchavesferreira/sebe/tree/main/linux
+
+
+### Portas 
+
+Instruções para liberar a porta 80, além de adicionar a regra em "VCN- Virtual cloud network", 
+realize no prompt os seguintes comandos:
+
+```java
+sudo iptables -I INPUT 6 -m state --state NEW -p tcp --dport 80 -j ACCEPT
+sudo netfilter-persistent save
+```
+Fonte:  https://blog.tomaszdunia.pl/oracle-free-tier-eng/
 
 
 ### Criação de instância e Servidor Web
@@ -106,17 +118,6 @@ https://www.youtube.com/watch?v=XW7isnD1mWM
 
 https://www.youtube.com/watch?v=2GTPWqv-nAw
 
-### Portas 
-
-Instruções para liberar a porta 80, além de adicionar a regra em "VCN- Virtual cloud network", 
-realize no prompt os seguintes comandos:
-
-```java
-sudo iptables -I INPUT 6 -m state --state NEW -p tcp --dport 80 -j ACCEPT
-sudo netfilter-persistent save
-```
-Fonte:  https://blog.tomaszdunia.pl/oracle-free-tier-eng/
-
 Embora os vídes mostrem que o plano Free Tier permita uma instância Free Oracle Cloud VPS (4 Cores 24GB RAM),  não é apenas no domínio Brasil, que está sobrecarregado, uma busca em fóruns revela que outras regiões estão com o mesmo problema. 
 Então escolha  Distribuição Linux Ubuntu 20.04 ou 22...   Máquina virtual 1 core 1 GB. No momento foi possível a única disponível porém permite criar duas intâncias.
 
@@ -124,7 +125,7 @@ Então escolha  Distribuição Linux Ubuntu 20.04 ou 22...   Máquina virtual 1 
 
 
 
-###  Banco de Dados, uso do mysql
+##  Banco de Dados, uso do mysql
 
 Guia
 
@@ -151,27 +152,22 @@ Com a finalidade desenvolver aplicações em nuvem preparando ambiente para IOT,
 
 - Aperfeiçoamento transforme a comunicação GET para POST no ESP32, modifique a pagina para uma variavel de projeto individual, ou seja, não utiliza o original Temperatura e Umidade.
 
-## Aula 
-
-Apresentação final para o Trabalho 1
-
 Utilizando o exemplo disposto no repositório, criar uma API com php. Utilizar um node (esp32 ou Esp8266 para consumir a API utilizando método GET. Instalar o pacote de projeto e adaptar o código na instância. 
 
 
 Para saber mais sobre ESP32, simulação online: https://github.com/mchavesferreira/mcr/blob/main/ESP32.md
 
 Exemplo em funcionamento:
+## exemplo api em PHP
 
 http://smartcampus.ctd.ifsp.edu.br/aula/php_app/index.php
 
 Insira dados em: http://smartcampus.ctd.ifsp.edu.br/aula/php_app/form.php
 
-Esta atividade compõe 25 % a avaliação final. Apresentar presencialmente em sala de aula ou enviar até 25/04/2025 em SUAP o <b>http://IP</b> de sua instância.
 
+## Criação do do servidor, banco de dados, API em PHP, GET ESP32
 
-## Trabalho PHP/mysql: Orientações adicionais
-
-Passos:
+### passo a passo:
 - Criar instância no cloud oracle, com email pessoal ou institucional, escolher instância free, e sistema linux ubuntu (20.xx ou 22.xx)
   
 - Instalar Apache, php. (Liberar porta 80 nas configurações de rede, abaixo tem comentário e link de orientação. Conferir a pasta /var/www/html  crie um arquivo .php  para verificar funcionamento)
@@ -319,14 +315,9 @@ CREATE TABLE tempLog (
     PRIMARY KEY (timeStamp) );
 ```
 
-disponível em: https://github.com/mchavesferreira/php_app
+Utilize o mesmo banco de dados construido com a API em PHP, disponível em: https://github.com/mchavesferreira/php_app
 
 Simule a conexão utilizando o circuito tratado em aulas anteriores, montando posteriormete o circuito em protoboard e personalizando para sua aplicação:  https://wokwi.com/projects/365211000246545409
-
-
-
-
-
 
 
 
