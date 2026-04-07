@@ -17,8 +17,6 @@ https://embarcados.com.br/seminario-linux-embarcado-2026/
 - [Tago e ESP32](#Tago-e-ESP32)
 
 
-
-
 ##  ESPRESSIF 
 
 ### Guia expressif para os modelos ESP32
@@ -79,30 +77,6 @@ Utilizar o repositório como referência: https://github.com/mchavesferreira/php
 Exemplo online Esp32+sensor comunicando com API/PHP:   https://wokwi.com/projects/396067644168942593
 
 
-### Formato JSON
-
-<a href=https://github.com/mchavesferreira/sebe/blob/main/flow_exemplos/json.md>Saiba mais sobre o formato json</a>
-
-Importe este exemplo para o nodered: <a href=https://github.com/mchavesferreira/sebe/blob/main/flow_exemplos/cotacao_dolar.json>Exemplo de cotação dolar</a>
-
-Instale um plugin no navegador para facilitar a compreensão de um json: <a href=https://addons.mozilla.org/en-US/firefox/addon/json_formatter/>firefox</a>
-
-Crie uma interface que separe dados ou campos de uma url publica com json e apresente a interface nodered.
-
-
-
-
-
-
-Utilize o exemplo de cotação do dolar para capturar um valor (temperatura, cotações), qualquer exemplo em formato json, separar os campos, exemplificar com gráfico.
-
-Criar um dashboard para seu projeto com nodered/mysql/mqtt.
-
-- Utilizando Tunnel e DNS
-
- http://smartcampus.ctd.ifsp.edu.br/blog/index.php?IDselecionado=30 Redirecionamento DDNS com DuckDns 
-
- 
 
 ### Sistemas Operacionais
 
@@ -164,8 +138,6 @@ https://github.com/mchavesferreira/sebe/blob/main/bancodados.md
 
 
 
-
-
 ## Preparo do servidor para o Trabalho 1
 
 
@@ -195,66 +167,6 @@ http://smartcampus.ctd.ifsp.edu.br/aula/php_app/index.php
 Insira dados em: http://smartcampus.ctd.ifsp.edu.br/aula/php_app/form.php
 
 Esta atividade compõe 25 % a avaliação final. Apresentar presencialmente em sala de aula ou enviar até 25/04/2025 em SUAP o <b>http://IP</b> de sua instância.
-
-
-# Protocolo MQTT
-
-[Saiba mais Sobre MQTT](https://github.com/mchavesferreira/sebe/tree/main/mqtt)
-
-
-[flow_exemplos/aula_mqtt.pdf](https://github.com/mchavesferreira/sebe/blob/main/flow_exemplos/aula_mqtt.pdf)
-
-
-##  Node-Red
-
-Node-red Oficial:  https://flows.nodered.org/
-
-Node-red Apresentação:  http://smartcampus.ctd.ifsp.edu.br/blog/index.php?IDselecionado=50
-
-Instalar Node-red: http://smartcampus.ctd.ifsp.edu.br/blog/index.php?IDselecionado=45
-
-
-##  Dashboard com Node-red
-
-Construindo Dashboard
-
-Práticas com  NodeRED
-
-[flow_exemplos/README.md](https://github.com/mchavesferreira/sebe/tree/main/flow_exemplos)
-
-
- 
-
-### Construção do Trabalho: 
-
-Importe para o NodeRED o seguinte fluxo:
-
-https://github.com/mchavesferreira/embarcados_freertos/blob/main/exemplo_node_red_mqtt_mysql_dht_sensor.json
-
-Adicione os nodes não instalados em seu NodeRED:  
-
-ui_led 
-
-node-red-node-mysql
-
-Crie a conexão MQTT local, e conecte ao banco de dados Mysql
-
-A tabela de dados será a mesma utilizada para o projeto 1:
-
-```java
-CREATE TABLE tempLog (
-    timeStamp TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
-    temperature int(11) NOT NULL,
-    humidity int(11) NOT NULL,
-    PRIMARY KEY (timeStamp) );
-```
-
-disponível em: https://github.com/mchavesferreira/php_app
-
-Simule a conexão utilizando o circuito tratado em aulas anteriores, montando posteriormete o circuito em protoboard e personalizando para sua aplicação:  https://wokwi.com/projects/365211000246545409
-
-
-
 
 
 ## Trabalho PHP/mysql: Orientações adicionais
@@ -335,8 +247,90 @@ http://ipdoseuservidor/php_app/form.php
 
 
 
+# Protocolo MQTT
 
-## Idéias de projetos
+[Saiba mais Sobre MQTT](https://github.com/mchavesferreira/sebe/tree/main/mqtt)
+
+
+[flow_exemplos/aula_mqtt.pdf](https://github.com/mchavesferreira/sebe/blob/main/flow_exemplos/aula_mqtt.pdf)
+
+
+ 
+
+#  Node-Red
+
+Node-red Oficial:  https://flows.nodered.org/
+
+Node-red Apresentação:  http://smartcampus.ctd.ifsp.edu.br/blog/index.php?IDselecionado=50
+
+Instalar Node-red: http://smartcampus.ctd.ifsp.edu.br/blog/index.php?IDselecionado=45
+
+
+##  Dashboard com Node-red
+
+Construindo Dashboard
+
+Práticas com  NodeRED
+
+[flow_exemplos/README.md](https://github.com/mchavesferreira/sebe/tree/main/flow_exemplos)
+
+
+### Formato JSON
+
+<a href=https://github.com/mchavesferreira/sebe/blob/main/flow_exemplos/json.md>Saiba mais sobre o formato json</a>
+
+Importe este exemplo para o nodered: <a href=https://github.com/mchavesferreira/sebe/blob/main/flow_exemplos/cotacao_dolar.json>Exemplo de cotação dolar</a>
+
+Instale um plugin no navegador para facilitar a compreensão de um json: <a href=https://addons.mozilla.org/en-US/firefox/addon/json_formatter/>firefox</a>
+
+Crie uma interface que separe dados ou campos de uma url publica com json e apresente a interface nodered.
+ 
+
+Utilize o exemplo de cotação do dolar para capturar um valor (temperatura, cotações), qualquer exemplo em formato json, separar os campos, exemplificar com gráfico.
+
+Criar um dashboard para seu projeto com nodered/mysql/mqtt.
+
+- Utilizando Tunnel e DNS
+
+ http://smartcampus.ctd.ifsp.edu.br/blog/index.php?IDselecionado=30 Redirecionamento DDNS com DuckDns 
+
+
+### Construção do Trabalho: 
+
+Importe para o NodeRED o seguinte fluxo:
+
+https://github.com/mchavesferreira/embarcados_freertos/blob/main/exemplo_node_red_mqtt_mysql_dht_sensor.json
+
+Adicione os nodes não instalados em seu NodeRED:  
+
+ui_led 
+
+node-red-node-mysql
+
+Crie a conexão MQTT local, e conecte ao banco de dados Mysql
+
+A tabela de dados será a mesma utilizada para o projeto 1:
+
+```java
+CREATE TABLE tempLog (
+    timeStamp TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    temperature int(11) NOT NULL,
+    humidity int(11) NOT NULL,
+    PRIMARY KEY (timeStamp) );
+```
+
+disponível em: https://github.com/mchavesferreira/php_app
+
+Simule a conexão utilizando o circuito tratado em aulas anteriores, montando posteriormete o circuito em protoboard e personalizando para sua aplicação:  https://wokwi.com/projects/365211000246545409
+
+
+
+
+
+
+
+
+# Idéias de projetos
 Os temas apresentado a seguir abrangem áreas como sustentabilidade, agricultura, segurança e monitoramento ambiental. Os alunos podem explorar as tecnologias e técnicas necessárias para implementar esses projetos, incluindo a integração do microcontrolador com sensores, comunicação Wi-Fi, armazenamento de dados em um banco de dados e criação de um dashboard para visualização dos dados coletados.
 
 Esses projetos oferecem oportunidades para os alunos aplicarem conceitos de sistemas embarcados, IoT, programação, gerenciamento de dados e interface do usuário, enquanto desenvolvem soluções práticas e inovadoras para problemas do mundo real.
