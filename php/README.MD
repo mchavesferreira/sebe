@@ -1,4 +1,4 @@
-# Aula PHP: Exemplos para a criação futura de uma API
+# Aula PHP: Exemplos para a criação de futura API
 
 ## 1. O que é PHP?
 
