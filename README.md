@@ -86,40 +86,49 @@ https://github.com/mchavesferreira/sebe/tree/main/linux
 
 # Projeto PHP + MySql + Esp32
 
-Utilizar o repositório como referência: https://github.com/mchavesferreira/php_app
-
-Exemplo online Esp32+sensor comunicando com API/PHP:   https://wokwi.com/projects/396067644168942593
-
-### Criação de instância e Servidor Web
-
+## Aula PHP
 
 <a href=https://github.com/mchavesferreira/sebe/blob/main/php/>Tutorial PHP</a>
 
-Então escolha  Distribuição Linux Ubuntu 20.04 ou 22...   Máquina virtual 1 core 1 GB. No momento foi possível a única disponível porém permite criar duas intâncias.
-
-![Captura de tela 2025-04-03 210148](https://github.com/mchavesferreira/sebe/assets/63993080/abfde088-6210-4a39-9923-e1352c7d8955)
-
-
-
-##  Banco de Dados, uso do mysql
-
-Guia
+## Aula Banco de Dados, uso do mysql
 
 https://github.com/mchavesferreira/sebe/blob/main/bancodados.md
 
 
- orientação:
+outras fontes:
 - https://github.com/mchavesferreira/sebe/blob/main/install_php_apache_mysql.md
 - https://github.com/mchavesferreira/sebe/blob/main/slide/desenvolvendo_api_php_html.pdf
 - https://insights.ionited.io/ion/configurar-linux-apache-mysql-e-php-lamp-no-ubuntu-2204
 
+## Preparo do servidor para o Trabalho 1 - PHP + MYSQL + ESP32
+
+Utilizar o repositório como referência: https://github.com/mchavesferreira/php_app
+
+### Prazos
+- 05/05/2026 - Indicar o IP do servidor na nuvem
+- 12/05/2026 - PHP e bancos de dados mysql instalados exemplo http://ipdoseuservidor/php_app/ funcionando
+- 19/05/2026 - ESP32 enviando dados com consumo da API
+
+Trabalho 2:
+
+- 26/05/2026 -  serviço de mqtt funcionando na nuvem
+- 02/06/2026 - Node-Red instalado com senha
+- 09/06/2026 - Node-Red + MQTT + ESP32 comunicando-se
+- 16/06/2026 - Node-Red + MQTT + MYSQL + ESP32 Projeto 2 concluido
+
+Trabalho 3:
+
+- 23/06/2026 - Preparando ESP32 + RTOS + servidor na nuvem
+- 30/06/2026 - Apresentação Final e seminários
 
 
-## Preparo do servidor para o Trabalho 1
-
-## Atividade: Implantação de Ambiente IoT em Nuvem
+### Atividade: Implantação de Ambiente IoT em Nuvem
 
 Com o objetivo de desenvolver aplicações em nuvem para IoT, o aluno deverá criar e configurar uma instância **Linux Ubuntu 20.04 na AWS**.
+
+Crie um servidor na cloud utilizando contas gratuitas da AWS, Oracle ou outra empresa para criar um servidor VPS. Defina uma Distribuição Linux Ubuntu 20.04 ou 22...   
+
+![Captura de tela 2025-04-03 210148](https://github.com/mchavesferreira/sebe/assets/63993080/abfde088-6210-4a39-9923-e1352c7d8955)
 
 ### Etapas
 
@@ -141,19 +150,6 @@ Com o objetivo de desenvolver aplicações em nuvem para IoT, o aluno deverá cr
 
   * Utilizar um ESP32 para consumir a API via método **GET**
   * Instalar e adaptar o código na instância AWS
-
-### Referência adicional
-
-Para estudos sobre ESP32 e simulação online:
-[https://github.com/mchavesferreira/mcr/blob/main/ESP32.md](https://github.com/mchavesferreira/mcr/blob/main/ESP32.md)
-
-
-
-## exemplo api em PHP
-
-http://smartcampus.ctd.ifsp.edu.br/aula/php_app/index.php
-
-Insira dados em: http://smartcampus.ctd.ifsp.edu.br/aula/php_app/form.php
 
 
 ## Criação do do servidor, banco de dados, API em PHP, GET ESP32
@@ -232,9 +228,10 @@ http://ipdoseuservidor/php_app/form.php
 
 <B>Modifique cores, e nomes, cores da api personalize. </b>
 
+Exemplo online Esp32+sensor comunicando com API/PHP:   https://wokwi.com/projects/396067644168942593
 
 
-# Protocolo MQTT
+# Aula Protocolo MQTT
 
 [Saiba mais Sobre MQTT](https://github.com/mchavesferreira/sebe/tree/main/mqtt)
 
@@ -242,7 +239,10 @@ http://ipdoseuservidor/php_app/form.php
 [flow_exemplos/aula_mqtt.pdf](https://github.com/mchavesferreira/sebe/blob/main/flow_exemplos/aula_mqtt.pdf)
 
 
- 
+* Preparar o **ESP32** para envio de dados via HTTP (GET) e posteriormente via **MQTT**
+
+  * Repositório de apoio:
+    [https://github.com/mchavesferreira/mcr/tree/main/esp32_iot](https://github.com/mchavesferreira/mcr/tree/main/esp32_iot)
 
 #  Node-Red
 
