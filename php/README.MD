@@ -17,7 +17,7 @@ Baixe o pacote deste <a href=https://downloads.php.net/~windows/releases/php-8.3
 
 Nomei a pasta por exemplo para "phpsever" e mova para um um local conhecido, exemplo C:\users\alunos\phpserver.  "php.exe" será o executável que executará os scripts .php e criará um webserver na porta definida.
 
-Faça o download o arquivo "www.zip" deste repositorio, descompacte e mova seu conteudo na pasta phpserver/www 
+Faça o download o arquivo <a href=https://github.com/mchavesferreira/sebe/blob/main/php/www.zip>"www.zip"</a> deste repositorio, descompacte e mova seu conteudo na pasta phpserver/www 
 
 Exemplo de comando para iniciar um servidor local:
 
