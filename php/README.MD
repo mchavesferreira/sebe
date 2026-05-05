@@ -102,7 +102,11 @@ O PHP pode ser usado dentro de uma página HTML:
 </body>
 </html>
 ```
+Acesse:
 
+```text
+http://localhost:8000/indexhtml.php
+```
 ---
 
 ## 4. Variáveis em PHP
