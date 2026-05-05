@@ -581,7 +581,7 @@ Ao enviar o formulário, os dados não aparecerão na URL.
 
 ---
 
-# 15. Comparando GET e POST
+# Comparando GET e POST
 
 | Característica                            | GET                                | POST                          |
 | ----------------------------------------- | ---------------------------------- | ----------------------------- |
@@ -596,124 +596,7 @@ Importante: POST não significa segurança automática. Para dados sensíveis, �
 ---
 
 
-
-# 16. Exemplo final para aula muito curta
-
-Este exemplo reúne variáveis, GET, POST, operadores e condicionais em uma única atividade.
-
-Arquivo: `mini_aula.php`
-
-```php
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <title>Mini aula de PHP</title>
-</head>
-<body>
-    <h1>Mini aula de PHP</h1>
-
-    <h2>1. Variáveis fixas no código</h2>
-
-    <?php
-    $linguagem = "PHP";
-    $ano = 2026;
-
-    echo "Estamos estudando $linguagem em $ano.<br>";
-    ?>
-
-    <hr>
-
-    <h2>2. Teste com GET</h2>
-
-    <p>Digite na URL algo como:</p>
-
-    <pre>http://localhost:8000/mini_aula.php?nome=Marcos&idade=40</pre>
-
-    <?php
-    $nome_get = $_GET["nome"] ?? "visitante";
-    $idade_get = $_GET["idade"] ?? null;
-
-    echo "Nome recebido por GET: $nome_get <br>";
-
-    if ($idade_get !== null) {
-        $idade_get = (int) $idade_get;
-        echo "Idade recebida por GET: $idade_get <br>";
-
-        if ($idade_get >= 18) {
-            echo "Pelo GET, a pessoa é maior de idade.<br>";
-        } else {
-            echo "Pelo GET, a pessoa é menor de idade.<br>";
-        }
-    } else {
-        echo "Nenhuma idade foi recebida por GET.<br>";
-    }
-    ?>
-
-    <hr>
-
-    <h2>3. Teste com POST</h2>
-
-    <form method="post" action="mini_aula.php">
-        <label>Produto:</label><br>
-        <input type="text" name="produto"><br><br>
-
-        <label>Preço:</label><br>
-        <input type="number" step="0.01" name="preco"><br><br>
-
-        <label>Quantidade:</label><br>
-        <input type="number" name="quantidade"><br><br>
-
-        <button type="submit">Calcular total</button>
-    </form>
-
-    <?php
-    if (isset($_POST["produto"], $_POST["preco"], $_POST["quantidade"])) {
-        $produto = $_POST["produto"];
-        $preco = (float) $_POST["preco"];
-        $quantidade = (int) $_POST["quantidade"];
-        $total = $preco * $quantidade;
-
-        echo "<h3>Resultado do POST</h3>";
-        echo "Produto: $produto <br>";
-        echo "Preço: R$ $preco <br>";
-        echo "Quantidade: $quantidade <br>";
-        echo "Total: R$ $total <br>";
-    }
-    ?>
-
-    <hr>
-
-    <h2>4. Laço de repetição</h2>
-
-    <?php
-    for ($i = 1; $i <= 5; $i++) {
-        echo "Linha gerada pelo PHP número $i <br>";
-    }
-    ?>
-</body>
-</html>
-```
-
-Acesse:
-
-```text
-http://localhost:8000/mini_aula.php
-```
-
-Depois teste também:
-
-```text
-http://localhost:8000/mini_aula.php?nome=Ana&idade=17
-```
-
----
-
-
-
-
-
-# 17. Exemplo com GET: controlar LED aceso ou apagado
+# 15. Exemplo com GET: controlar LED aceso ou apagado
 
 Este exemplo simula o controle de um LED usando o método **GET**. O estado do LED será enviado pela URL.
 
@@ -824,7 +707,7 @@ então o LED será mostrado como apagado.
 
 ---
 
-# 18. Exemplo com GET usando formulário
+# 16. Exemplo com GET usando formulário
 
 Neste exemplo, o usuário escolhe o estado do LED por meio de um formulário com botões de opção.
 
@@ -922,7 +805,7 @@ http://localhost:8000/form_led_get.php?led=apagado
 
 ---
 
-# 19. Exemplo com POST: controlar LED aceso ou apagado
+# 17. Exemplo com POST: controlar LED aceso ou apagado
 
 Agora o estado do LED será enviado pelo método **POST**. Nesse caso, o valor não aparece diretamente na URL.
 
@@ -948,10 +831,10 @@ Arquivo: `led_post.php`
             margin: 20px 0;
         }
 
-        .aceso {
-            background-color: red;
-            box-shadow: 0 0 30px red;
-        }
+       .aceso {
+        background-color: green;
+        box-shadow: 0 0 30px green;
+    }
 
         .apagado {
             background-color: #333;
@@ -1012,84 +895,7 @@ $estado = $_POST["led"] ?? "apagado";
 
 ---
 
-# 20. Exemplo com POST e `select`
-
-Também podemos usar uma caixa de seleção para escolher o estado do LED.
-
-Arquivo: `led_post_select.php`
-
-```php
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <title>LED com POST e Select</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 30px;
-        }
-
-        .led {
-            width: 120px;
-            height: 120px;
-            border-radius: 50%;
-            border: 3px solid #333;
-            margin: 20px 0;
-        }
-
-        .aceso {
-            background-color: blue;
-            box-shadow: 0 0 30px blue;
-        }
-
-        .apagado {
-            background-color: #333;
-        }
-    </style>
-</head>
-<body>
-    <h1>Controle de LED com POST e Select</h1>
-
-    <form method="post" action="led_post_select.php">
-        <label for="led">Estado do LED:</label><br><br>
-
-        <select name="led" id="led">
-            <option value="aceso">Aceso</option>
-            <option value="apagado">Apagado</option>
-        </select>
-
-        <br><br>
-
-        <button type="submit">Atualizar LED</button>
-    </form>
-
-    <hr>
-
-    <?php
-    $estado = $_POST["led"] ?? "apagado";
-
-    echo "<h2>Estado escolhido: $estado</h2>";
-
-    if ($estado == "aceso") {
-        echo "<div class='led aceso'></div>";
-    } else {
-        echo "<div class='led apagado'></div>";
-    }
-    ?>
-</body>
-</html>
-```
-
-Acesse:
-
-```text
-http://localhost:8000/led_post_select.php
-```
-
----
-
-# 21. Exemplo didático: simulando comando para microcontrolador
+## Simulando comando para microcontrolador
 
 Em sistemas embarcados, muitas vezes uma página web envia um comando que depois poderia ser interpretado por um microcontrolador, ESP32, Arduino, Node-RED ou outro sistema.
 
@@ -1098,239 +904,6 @@ Neste exemplo, o PHP não acende um LED físico diretamente. Ele apenas gera um 
 * `1` para LED aceso;
 * `0` para LED apagado.
 
-Arquivo: `comando_led.php`
 
-```php
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <title>Comando de LED</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 30px;
-        }
-
-        .caixa {
-            padding: 15px;
-            border: 1px solid #999;
-            background-color: #f5f5f5;
-            width: 300px;
-        }
-
-        button {
-            padding: 10px 20px;
-            margin-right: 10px;
-        }
-    </style>
-</head>
-<body>
-    <h1>Simulação de comando para LED</h1>
-
-    <form method="post" action="comando_led.php">
-        <button type="submit" name="led" value="1">Enviar comando: LED ON</button>
-        <button type="submit" name="led" value="0">Enviar comando: LED OFF</button>
-    </form>
-
-    <hr>
-
-    <?php
-    $comando = $_POST["led"] ?? "0";
-
-    if ($comando == "1") {
-        $estado = "ACESO";
-    } else {
-        $estado = "APAGADO";
-    }
-    ?>
-
-    <div class="caixa">
-        <h2>Resultado</h2>
-        <p>Comando enviado: <?php echo $comando; ?></p>
-        <p>Estado interpretado: <?php echo $estado; ?></p>
-    </div>
-
-    <p>Em um projeto real, esse valor poderia ser enviado para um ESP32, Arduino, banco de dados, arquivo, MQTT ou Node-RED.</p>
-</body>
-</html>
-```
-
-Acesse:
-
-```text
-http://localhost:8000/comando_led.php
-```
-
----
-
-# 27. Exemplo com arquivo: salvando o último estado do LED
-
-Nos exemplos anteriores, quando a página é recarregada sem enviar dados, o estado volta para o padrão. Agora, vamos salvar o último estado em um arquivo de texto.
-
-Arquivo: `led_memoria.php`
-
-```php
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <title>LED com memória em arquivo</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 30px;
-        }
-
-        .led {
-            width: 120px;
-            height: 120px;
-            border-radius: 50%;
-            border: 3px solid #333;
-            margin: 20px 0;
-        }
-
-        .aceso {
-            background-color: orange;
-            box-shadow: 0 0 30px orange;
-        }
-
-        .apagado {
-            background-color: #333;
-        }
-
-        button {
-            padding: 10px 20px;
-            margin-right: 10px;
-        }
-    </style>
-</head>
-<body>
-    <h1>LED controlado por POST com memória em arquivo</h1>
-
-    <?php
-    $arquivo = "estado_led.txt";
-
-    if (isset($_POST["led"])) {
-        $estado_recebido = $_POST["led"];
-
-        if ($estado_recebido == "aceso" || $estado_recebido == "apagado") {
-            file_put_contents($arquivo, $estado_recebido);
-        }
-    }
-
-    if (file_exists($arquivo)) {
-        $estado = trim(file_get_contents($arquivo));
-    } else {
-        $estado = "apagado";
-    }
-    ?>
-
-    <form method="post" action="led_memoria.php">
-        <button type="submit" name="led" value="aceso">Acender LED</button>
-        <button type="submit" name="led" value="apagado">Apagar LED</button>
-    </form>
-
-    <hr>
-
-    <?php
-    echo "<h2>Estado salvo: $estado</h2>";
-
-    if ($estado == "aceso") {
-        echo "<div class='led aceso'></div>";
-    } else {
-        echo "<div class='led apagado'></div>";
-    }
-    ?>
-
-    <p>Este exemplo cria ou atualiza o arquivo <strong>estado_led.txt</strong> na mesma pasta da página PHP.</p>
-</body>
-</html>
-```
-
-Acesse:
-
-```text
-http://localhost:8000/led_memoria.php
-```
-
-Depois de clicar em um botão, será criado um arquivo:
-
-```text
-estado_led.txt
-```
-
-Com o conteúdo:
-
-```text
-aceso
-```
-
-ou:
-
-```text
-apagado
-```
-
-Este exemplo é interessante para explicar que o PHP pode receber um valor de formulário e armazenar esse valor para ser usado depois.
-
----
-
-# 28. Atividade rápida para os alunos
-
-Após testar os exemplos, proponha as seguintes alterações:
-
-1. Trocar a cor do LED aceso.
-2. Criar um segundo LED chamado `led2`.
-3. Adicionar três estados: `aceso`, `apagado` e `piscando`.
-4. Mostrar o comando numérico correspondente:
-
-| Estado   | Comando |
-| -------- | ------- |
-| apagado  | `0`     |
-| aceso    | `1`     |
-| piscando | `2`     |
-
-Exemplo de lógica:
-
-```php
-<?php
-$estado = $_POST["led"] ?? "apagado";
-
-if ($estado == "aceso") {
-    $comando = 1;
-} elseif ($estado == "piscando") {
-    $comando = 2;
-} else {
-    $comando = 0;
-}
-
-echo "Estado: $estado <br>";
-echo "Comando: $comando <br>";
-?>
-```
-
-Essa atividade ajuda a relacionar programação web com sistemas embarcados, pois o formulário web passa a representar uma interface simples para geração de comandos.
-
-Foram acrescentados:
-
-* `led_get.php`: controle por links usando `?led=aceso` e `?led=apagado`;
-* `form_led_get.php`: controle por formulário usando método GET;
-* `led_post.php`: controle por botões usando método POST;
-* `led_post_select.php`: controle por caixa de seleção usando POST;
-* `comando_led.php`: simulação de comando para microcontrolador, usando `1` para aceso e `0` para apagado;
-* `led_memoria.php`: exemplo que salva o último estado do LED em um arquivo `estado_led.txt`;
-* uma atividade curta para os alunos criarem segundo LED e estado “piscando”.
-
-O exemplo mais importante para relacionar com sistemas embarcados é este conceito:
-
-```php
-$comando = $_POST["led"] ?? "0";
-
-if ($comando == "1") {
-    $estado = "ACESO";
-} else {
-    $estado = "APAGADO";
-}
 ```
 
