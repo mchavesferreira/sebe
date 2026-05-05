@@ -13,7 +13,7 @@ Posteriormente, esses mesmos conceitos poderão ser aplicados para receber dados
 ---
 ## Servidor didático para windows
 
-Baixe o pacote php-8.3.30-Win32-vs16-x64.zip deste <a href=https://downloads.php.net/~windows/releases>repositório</a> e descompacte em uma pasta. 
+Baixe o pacote deste <a href=https://downloads.php.net/~windows/releases/php-8.0.30-Win32-vs16-x64.zip>repositório</a> e descompacte em uma pasta. 
 
 Nomei a pasta por exemplo para "phpsever" e mova para um um local conhecido, exemplo C:\users\alunos\phpserver.  "php.exe" será o executável que executará os scripts .php e criará um webserver na porta definida.
 
