@@ -888,7 +888,7 @@ $estado = $_POST["led"] ?? "apagado";
 
 ---
 
-# 18. API para controle
+# 18. API para embarcados
 
 API é a sigla para Application Programming Interface, que pode ser traduzida como Interface de Programação de Aplicações. De forma simples, uma API é um meio de comunicação entre sistemas diferentes. Por exemplo, quando um aplicativo de celular mostra a previsão do tempo, consulta o saldo de uma conta, envia uma mensagem ou controla uma lâmpada inteligente, ele normalmente não guarda todas essas informações dentro do próprio celular. O aplicativo envia uma solicitação para um servidor pela internet, o servidor processa o pedido e devolve uma resposta. Em uma API feita com PHP, poderíamos criar endereços específicos para receber informações, como a temperatura medida por um sensor, o estado de um botão ou o comando para ligar e desligar uma carga. Assim, o PHP pode funcionar como uma ponte entre o aplicativo, o navegador, o banco de dados e os dispositivos físicos.
 
