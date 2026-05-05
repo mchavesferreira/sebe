@@ -1,14 +1,17 @@
 # Aula rápida de PHP: primeiros testes com `php.exe` e um servidor web
 
-Exemplo para windows: Baixe o pacote deste <a href=https://downloads.php.net/~windows/releases/php-8.3.30-Win32-vs16-x64.zip>link e descompacte em uma pasta. Nomei a pasta por exemplo para "phpsever" e mova para um um local conhecido, exemplo C:\users\alunos\phpserver
-
-baixe o arquivo "www.zip", mova e descompacte seu conteudo na pasta phpserver criada acima.
-
-
-
 ## 1. O que é PHP?
 
 PHP é uma linguagem de programação muito usada no desenvolvimento de páginas web dinâmicas. Diferente de HTML e CSS, que são interpretados diretamente pelo navegador, o PHP normalmente é executado **no servidor**. Isso significa que o navegador recebe o resultado final, geralmente em HTML, e não necessariamente o código PHP original.
+
+---
+## Servidor didático para windows
+
+Baixe o pacote deste <a href=https://downloads.php.net/~windows/releases/php-8.3.30-Win32-vs16-x64.zip>repositório</a> e descompacte em uma pasta. 
+
+Nomei a pasta por exemplo para "phpsever" e mova para um um local conhecido, exemplo C:\users\alunos\phpserver
+
+Faça o download o arquivo "www.zip" deste repositorio, descompacte e mova seu conteudo na pasta phpserver/www 
 
 Exemplo de comando para iniciar um servidor local:
 
@@ -27,21 +30,14 @@ Depois, basta abrir no navegador:
 http://localhost:8000
 ```
 
----
-
-## 2. Preparação rápida para a aula
-
-Crie uma pasta para a aula, por exemplo:
-
-```text
-C:\users\alunos\phpserver\www
-```
-
-Dentro dela, crie os arquivos que serão usados nos exemplos:
+ crie os arquivos que serão usados nos exemplos:
 
 ```text
 www/
 ├── index.php
+├── indexhtml.php
+├── led_get.php
+├── led_post.php
 ├── variaveis.php
 ├── operadores.php
 ├── lacos.php
