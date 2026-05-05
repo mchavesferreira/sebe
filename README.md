@@ -92,19 +92,9 @@ Exemplo online Esp32+sensor comunicando com API/PHP:   https://wokwi.com/project
 
 ### Criação de instância e Servidor Web
 
-Apache e PHP
 
-https://www.oracle.com/br/cloud/free/
+<a href=https://github.com/mchavesferreira/sebe/blob/main/php/>Tutorial PHP</a>
 
-Alguns vídeos de orientação:  
-
-https://www.youtube.com/watch?v=CgjfyEt38fI&t=45s
-
-https://www.youtube.com/watch?v=XW7isnD1mWM
-
-https://www.youtube.com/watch?v=2GTPWqv-nAw
-
-Embora os vídeos mostrem que o plano Free Tier permita uma instância Free Oracle Cloud VPS (4 Cores 24GB RAM),  não é apenas no domínio Brasil, que está sobrecarregado, uma busca em fóruns revela que outras regiões estão com o mesmo problema. 
 Então escolha  Distribuição Linux Ubuntu 20.04 ou 22...   Máquina virtual 1 core 1 GB. No momento foi possível a única disponível porém permite criar duas intâncias.
 
 ![Captura de tela 2025-04-03 210148](https://github.com/mchavesferreira/sebe/assets/63993080/abfde088-6210-4a39-9923-e1352c7d8955)
