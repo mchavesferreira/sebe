@@ -15,7 +15,7 @@ Posteriormente, esses mesmos conceitos poderão ser aplicados para receber dados
 
 Baixe o pacote deste <a href=https://downloads.php.net/~windows/releases/php-8.3.30-Win32-vs16-x64.zip>repositório</a> e descompacte em uma pasta. 
 
-Nomei a pasta por exemplo para "phpsever" e mova para um um local conhecido, exemplo C:\users\alunos\phpserver
+Nomei a pasta por exemplo para "phpsever" e mova para um um local conhecido, exemplo C:\users\alunos\phpserver.  "php.exe" será o executável que executará os scripts .php e criará um webserver na porta definida.
 
 Faça o download o arquivo "www.zip" deste repositorio, descompacte e mova seu conteudo na pasta phpserver/www 
 
@@ -27,7 +27,8 @@ No Windows, usando o caminho completo do executável baixado em ZIP, pode ficar 
 
 cd C:\users\alunos\phpserver\www
 
-php -S localhost:8000
+C:\users\alunos\phpserver\php -S localhost:8000
+
 ```
 
 Depois, basta abrir no navegador:
@@ -51,20 +52,6 @@ www/
 ├── formulario_get.php
 ├── formulario_post.php
 └── receber_post.php
-```
-
-Para executar os exemplos, abra o terminal dentro da pasta `www` e execute:
-
-```bat
-
-php -S localhost:8000
-
-```
-
-Acesse no navegador:
-
-```text
-http://localhost:8000
 ```
 
 ---
