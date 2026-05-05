@@ -1,8 +1,14 @@
-# Aula rápida de PHP: primeiros testes com `php.exe` e um servidor web
+# Aula PHP: Exemplos para a criação futura de uma API
 
 ## 1. O que é PHP?
 
 PHP é uma linguagem de programação muito usada no desenvolvimento de páginas web dinâmicas. Diferente de HTML e CSS, que são interpretados diretamente pelo navegador, o PHP normalmente é executado **no servidor**. Isso significa que o navegador recebe o resultado final, geralmente em HTML, e não necessariamente o código PHP original.
+
+### Criando uma API
+
+Os exemplos a seguir, são preparatórios para a criação de uma API simples em PHP. Inicialmente, vamos testar variáveis, formulários, métodos GET e POST e respostas geradas pelo servidor.
+
+Posteriormente, esses mesmos conceitos poderão ser aplicados para receber dados de sensores, comandos de botões ou informações enviadas por formulários, permitindo controlar cargas, registrar medições em banco de dados, acionar dispositivos, armazenar históricos e integrar páginas web com projetos de sistemas embarcados, automação e Internet das Coisas.
 
 ---
 ## Servidor didático para windows
