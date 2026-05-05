@@ -7,6 +7,27 @@ SEMINÁRIO LINUX EMBARCADO 2026
 
 https://embarcados.com.br/seminario-linux-embarcado-2026/
 
+# Atividades Avaliativas
+
+## Prazos
+
+### Trabalho 1:
+- 05/05/2026 - Indicar o IP do servidor na nuvem
+- 12/05/2026 - PHP e bancos de dados mysql instalados exemplo http://ipdoseuservidor/php_app/ funcionando
+- 19/05/2026 - ESP32 enviando dados com consumo da API
+
+### Trabalho 2:
+
+- 26/05/2026 -  serviço de mqtt funcionando na nuvem, fornecer URL com DNS
+- 02/06/2026 - Node-Red instalado com senha
+- 09/06/2026 - Node-Red + MQTT + ESP32 comunicando-se
+- 16/06/2026 - Node-Red + MQTT + MYSQL + ESP32 Projeto 2 concluido
+
+### Trabalho 3/Seminários:
+
+- 23/06/2026 - Preparando ESP32 + RTOS + servidor na nuvem
+- 30/06/2026 - Apresentação Final e seminários
+
 ## Aulas
 
 - [Guia Básico para ESP32](#Guia-Básico-para-ESP32)
@@ -103,23 +124,6 @@ outras fontes:
 ## Preparo do servidor para o Trabalho 1 - PHP + MYSQL + ESP32
 
 Utilizar o repositório como referência: https://github.com/mchavesferreira/php_app
-
-### Prazos
-- 05/05/2026 - Indicar o IP do servidor na nuvem
-- 12/05/2026 - PHP e bancos de dados mysql instalados exemplo http://ipdoseuservidor/php_app/ funcionando
-- 19/05/2026 - ESP32 enviando dados com consumo da API
-
-Trabalho 2:
-
-- 26/05/2026 -  serviço de mqtt funcionando na nuvem, fornecer URL com DNS
-- 02/06/2026 - Node-Red instalado com senha
-- 09/06/2026 - Node-Red + MQTT + ESP32 comunicando-se
-- 16/06/2026 - Node-Red + MQTT + MYSQL + ESP32 Projeto 2 concluido
-
-Trabalho 3:
-
-- 23/06/2026 - Preparando ESP32 + RTOS + servidor na nuvem
-- 30/06/2026 - Apresentação Final e seminários
 
 
 ### Atividade: Implantação de Ambiente IoT em Nuvem
