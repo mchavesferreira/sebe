@@ -1,21 +1,24 @@
-# Aula rápida de PHP: primeiros testes com `php.exe`
+# Aula rápida de PHP: primeiros testes com `php.exe` e um servidor web
+
+Exemplo para windows: Baixe o pacote deste <a href=https://downloads.php.net/~windows/releases/php-8.3.30-Win32-vs16-x64.zip>link e descompacte em uma pasta. Nomei a pasta por exemplo para "phpsever" e mova para um um local conhecido, exemplo C:\users\alunos\phpserver
+
+baixe o arquivo "www.zip", mova e descompacte seu conteudo na pasta phpserver criada acima.
+
+
 
 ## 1. O que é PHP?
 
 PHP é uma linguagem de programação muito usada no desenvolvimento de páginas web dinâmicas. Diferente de HTML e CSS, que são interpretados diretamente pelo navegador, o PHP normalmente é executado **no servidor**. Isso significa que o navegador recebe o resultado final, geralmente em HTML, e não necessariamente o código PHP original.
 
-Nas transcrições analisadas, os autores apresentam o PHP como uma linguagem simples para iniciar no desenvolvimento web, com integração fácil com HTML e uso frequente em sistemas como WordPress e Joomla. Também é mostrado que, para testar PHP rapidamente, não é obrigatório instalar XAMPP, WampServer ou Laragon: é possível usar o próprio executável `php.exe` com o servidor embutido do PHP.
-
 Exemplo de comando para iniciar um servidor local:
-
-```bat
-php -S localhost:8000
-```
 
 No Windows, usando o caminho completo do executável baixado em ZIP, pode ficar assim:
 
 ```bat
-C:\Users\SEU_USUARIO\php\php.exe -S localhost:8000
+
+cd C:\users\alunos\phpserver\www
+
+php -S localhost:8000
 ```
 
 Depois, basta abrir no navegador:
@@ -31,13 +34,13 @@ http://localhost:8000
 Crie uma pasta para a aula, por exemplo:
 
 ```text
-C:\Users\SEU_USUARIO\Documents\aula_php
+C:\users\alunos\phpserver\www
 ```
 
 Dentro dela, crie os arquivos que serão usados nos exemplos:
 
 ```text
-aula_php/
+www/
 ├── index.php
 ├── variaveis.php
 ├── operadores.php
@@ -48,10 +51,12 @@ aula_php/
 └── receber_post.php
 ```
 
-Para executar os exemplos, abra o terminal dentro da pasta `aula_php` e execute:
+Para executar os exemplos, abra o terminal dentro da pasta `www` e execute:
 
 ```bat
-C:\Users\SEU_USUARIO\php\php.exe -S localhost:8000
+
+php -S localhost:8000
+
 ```
 
 Acesse no navegador:
@@ -590,111 +595,9 @@ Importante: POST não significa segurança automática. Para dados sensíveis, �
 
 ---
 
-# 16. Exemplo prático curto: calculadora com GET
 
-Arquivo: `calculadora_get.php`
 
-```php
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <title>Calculadora GET</title>
-</head>
-<body>
-    <h1>Calculadora simples com GET</h1>
-
-    <form method="get" action="calculadora_get.php">
-        <label>Valor A:</label><br>
-        <input type="number" name="a"><br><br>
-
-        <label>Valor B:</label><br>
-        <input type="number" name="b"><br><br>
-
-        <button type="submit">Somar</button>
-    </form>
-
-    <hr>
-
-    <?php
-    if (isset($_GET["a"]) && isset($_GET["b"])) {
-        $a = (float) $_GET["a"];
-        $b = (float) $_GET["b"];
-        $soma = $a + $b;
-
-        echo "<h2>Resultado</h2>";
-        echo "$a + $b = $soma";
-    }
-    ?>
-</body>
-</html>
-```
-
-Acesse:
-
-```text
-http://localhost:8000/calculadora_get.php
-```
-
----
-
-# 17. Exemplo prático curto: avaliação com POST
-
-Arquivo: `avaliacao_post.php`
-
-```php
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <title>Avaliação POST</title>
-</head>
-<body>
-    <h1>Situação do aluno</h1>
-
-    <form method="post" action="avaliacao_post.php">
-        <label>Nome do aluno:</label><br>
-        <input type="text" name="nome"><br><br>
-
-        <label>Nota:</label><br>
-        <input type="number" step="0.1" name="nota"><br><br>
-
-        <button type="submit">Verificar</button>
-    </form>
-
-    <hr>
-
-    <?php
-    if (isset($_POST["nome"]) && isset($_POST["nota"])) {
-        $nome = $_POST["nome"];
-        $nota = (float) $_POST["nota"];
-
-        echo "<h2>Resultado</h2>";
-        echo "Aluno: $nome <br>";
-        echo "Nota: $nota <br>";
-
-        if ($nota >= 7) {
-            echo "Situação: Aprovado";
-        } elseif ($nota >= 5) {
-            echo "Situação: Recuperação";
-        } else {
-            echo "Situação: Reprovado";
-        }
-    }
-    ?>
-</body>
-</html>
-```
-
-Acesse:
-
-```text
-http://localhost:8000/avaliacao_post.php
-```
-
----
-
-# 18. Exemplo final para aula muito curta
+# 16. Exemplo final para aula muito curta
 
 Este exemplo reúne variáveis, GET, POST, operadores e condicionais em uma única atividade.
 
@@ -806,127 +709,11 @@ http://localhost:8000/mini_aula.php?nome=Ana&idade=17
 
 ---
 
-# 19. Roteiro para uma aula muito curta
 
-## Tempo sugerido: 20 a 30 minutos
 
-### Parte 1 — Mostrar o PHP funcionando
 
-1. Abrir a pasta da aula.
-2. Rodar:
 
-```bat
-C:\Users\SEU_USUARIO\php\php.exe -S localhost:8000
-```
-
-3. Abrir:
-
-```text
-http://localhost:8000
-```
-
-4. Mostrar o arquivo `index.php`.
-
-### Parte 2 — Mostrar variáveis
-
-Usar `variaveis.php` para explicar:
-
-* variável começa com `$`;
-* `echo` exibe informação;
-* ponto `.` concatena textos;
-* `var_dump()` mostra tipo e valor.
-
-### Parte 3 — Mostrar operadores
-
-Usar `operadores.php` para explicar:
-
-* soma;
-* subtração;
-* multiplicação;
-* divisão;
-* resto da divisão;
-* comparação com `==` e `===`.
-
-### Parte 4 — Mostrar GET
-
-Abrir diretamente:
-
-```text
-http://localhost:8000/get.php?nome=Marcos&idade=40
-```
-
-Explicar:
-
-* o valor vem pela URL;
-* o PHP lê com `$_GET`;
-* os dados aparecem no endereço;
-* valores chegam inicialmente como texto.
-
-### Parte 5 — Mostrar POST
-
-Abrir:
-
-```text
-http://localhost:8000/formulario_post.php
-```
-
-Explicar:
-
-* o valor vem por um formulário;
-* o PHP lê com `$_POST`;
-* os dados não aparecem diretamente na URL.
-
-### Parte 6 — Atividade rápida
-
-Pedir aos alunos:
-
-1. Alterar o formulário POST para receber `cidade`.
-2. Exibir a cidade na resposta.
-3. Criar um campo `nota`.
-4. Mostrar se a nota é maior ou igual a 6.
-
----
-
-# 20. Cuidados básicos
-
-Em uma aula inicial, os exemplos podem usar `echo` diretamente para facilitar o aprendizado. Porém, em sistemas reais, dados vindos de `GET` e `POST` devem ser validados e tratados antes de serem exibidos ou gravados.
-
-Exemplo simples de tratamento para evitar exibição direta de HTML enviado pelo usuário:
-
-```php
-<?php
-$nome = $_GET["nome"] ?? "visitante";
-$nome = htmlspecialchars($nome, ENT_QUOTES, "UTF-8");
-
-echo "Olá, $nome";
-?>
-```
-
-Esse cuidado evita que o usuário envie códigos HTML ou JavaScript para serem interpretados pelo navegador.
-
----
-
-# 21. Conclusão
-
-Com poucos comandos, já é possível mostrar os conceitos principais do PHP:
-
-* criação de arquivos `.php`;
-* execução com `php.exe`;
-* uso do servidor embutido;
-* variáveis;
-* concatenação;
-* operadores;
-* condicionais;
-* laços;
-* arrays;
-* recebimento de dados por GET;
-* recebimento de dados por POST.
-
-Para uma primeira aula, o mais importante é que o aluno entenda que o PHP roda no servidor, processa informações e devolve uma resposta para o navegador.
-
----
-
-# 22. Exemplo com GET: controlar LED aceso ou apagado
+# 17. Exemplo com GET: controlar LED aceso ou apagado
 
 Este exemplo simula o controle de um LED usando o método **GET**. O estado do LED será enviado pela URL.
 
@@ -1037,7 +824,7 @@ então o LED será mostrado como apagado.
 
 ---
 
-# 23. Exemplo com GET usando formulário
+# 18. Exemplo com GET usando formulário
 
 Neste exemplo, o usuário escolhe o estado do LED por meio de um formulário com botões de opção.
 
@@ -1135,7 +922,7 @@ http://localhost:8000/form_led_get.php?led=apagado
 
 ---
 
-# 24. Exemplo com POST: controlar LED aceso ou apagado
+# 19. Exemplo com POST: controlar LED aceso ou apagado
 
 Agora o estado do LED será enviado pelo método **POST**. Nesse caso, o valor não aparece diretamente na URL.
 
@@ -1225,7 +1012,7 @@ $estado = $_POST["led"] ?? "apagado";
 
 ---
 
-# 25. Exemplo com POST e `select`
+# 20. Exemplo com POST e `select`
 
 Também podemos usar uma caixa de seleção para escolher o estado do LED.
 
@@ -1302,7 +1089,7 @@ http://localhost:8000/led_post_select.php
 
 ---
 
-# 26. Exemplo didático: simulando comando para microcontrolador
+# 21. Exemplo didático: simulando comando para microcontrolador
 
 Em sistemas embarcados, muitas vezes uma página web envia um comando que depois poderia ser interpretado por um microcontrolador, ESP32, Arduino, Node-RED ou outro sistema.
 
