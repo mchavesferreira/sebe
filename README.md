@@ -256,6 +256,7 @@ Kelvyn | http://3.144.85.207/
 Leandro | http://coxaleandro.duckdns.org/php_app
 Bruno | htttp://brunovieira.rpiot.com.br
 Victor | [http://php.victorcapelli.](https://php.vitorcape.com.br/scada/index.php)
+Thomas | http://18.228.189.223/
 
 #  Node-Red
 
