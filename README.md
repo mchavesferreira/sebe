@@ -248,15 +248,18 @@ Exemplo online Esp32+sensor comunicando com API/PHP:   https://wokwi.com/project
   * Repositório de apoio:
     [https://github.com/mchavesferreira/mcr/tree/main/esp32_iot](https://github.com/mchavesferreira/mcr/tree/main/esp32_iot)
 
-#
-Garbo | http://52.73.98.101
-Lucas | lucasmp.rpiot.com.br/dashoard 
-José | http://18.229.134.103/ze/dashboard.php
-Kelvyn | http://3.144.85.207/
-Leandro | http://coxaleandro.duckdns.org/php_app
-Bruno | htttp://brunovieira.rpiot.com.br
-Victor | [http://php.victorcapelli.](https://php.vitorcape.com.br/scada/index.php)
-Thomas | http://18.228.189.223/
+# Servidores da turma 2026-1 
+
+| Nome    | Endereço |
+|---------|-----------|
+| Garbo   | http://52.73.98.101 |
+| Lucas   | lucasmp.rpiot.com.br/dashoard |
+| José    | http://18.229.134.103/ze/dashboard.php |
+| Kelvyn  | http://3.144.85.207/ |
+| Leandro | http://coxaleandro.duckdns.org/php_app |
+| Bruno   | htttp://brunovieira.rpiot.com.br |
+| Victor  | http://php.victorcapelli |
+| Thomas  | http://18.228.189.223/ |
 
 #  Node-Red
 
