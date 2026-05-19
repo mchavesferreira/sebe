@@ -18,10 +18,10 @@ https://embarcados.com.br/seminario-linux-embarcado-2026/
 
 ### Trabalho 2:
 
-- 26/05/2026 -  serviço de mqtt funcionando na nuvem, fornecer URL com DNS
-- 02/06/2026 - Node-Red instalado com senha
+- 26/05/2026 - Aula mqtt e Node-Red
+- 02/06/2026 - serviço de mqtt funcionando na nuvem, fornecer URL com DNS
 - 09/06/2026 - Node-Red + MQTT + ESP32 comunicando-se
-- 16/06/2026 - Node-Red + MQTT + MYSQL + ESP32 Projeto 2 concluido
+- 16/06/2026 - Node-Red + MQTT + MYSQL + ESP32. Aplicação dashboard Projeto 2 concluido
 
 ### Trabalho 3/Seminários:
 
