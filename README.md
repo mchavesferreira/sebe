@@ -253,12 +253,12 @@ Exemplo online Esp32+sensor comunicando com API/PHP:   https://wokwi.com/project
 | Nome    | Endereço |
 |---------|-----------|
 | Garbo   | http://52.73.98.101 |
-| Lucas   | lucasmp.rpiot.com.br/dashoard |
+| Lucas   | htttp://lucasmp.rpiot.com.br/dashoard |
 | José    | http://18.229.134.103/ze/dashboard.php |
 | Kelvyn  | http://3.144.85.207/ |
 | Leandro | http://coxaleandro.duckdns.org/php_app |
 | Bruno   | htttp://brunovieira.rpiot.com.br |
-| Victor  | http://php.victorcapelli |
+| Victor  | https://php.vitorcape.com.br/scada/index.php |
 | Thomas  | http://18.228.189.223/ |
 
 #  Node-Red
