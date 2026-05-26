@@ -235,19 +235,6 @@ http://ipdoseuservidor/php_app/form.php
 Exemplo online Esp32+sensor comunicando com API/PHP:   https://wokwi.com/projects/396067644168942593
 
 
-# Aula Protocolo MQTT
-
-[Saiba mais Sobre MQTT](https://github.com/mchavesferreira/sebe/tree/main/mqtt)
-
-
-[flow_exemplos/aula_mqtt.pdf](https://github.com/mchavesferreira/sebe/blob/main/flow_exemplos/aula_mqtt.pdf)
-
-
-* Preparar o **ESP32** para envio de dados via HTTP (GET) e posteriormente via **MQTT**
-
-  * Repositório de apoio:
-    [https://github.com/mchavesferreira/mcr/tree/main/esp32_iot](https://github.com/mchavesferreira/mcr/tree/main/esp32_iot)
-
 # Servidores da turma 2026-1 
 
 | Nome    | Endereço |
@@ -265,10 +252,6 @@ Exemplo online Esp32+sensor comunicando com API/PHP:   https://wokwi.com/project
 #  Node-Red
 
 Node-red Oficial:  https://flows.nodered.org/
-
-Node-red Apresentação:  http://smartcampus.ctd.ifsp.edu.br/blog/index.php?IDselecionado=50
-
-Instalar Node-red: http://smartcampus.ctd.ifsp.edu.br/blog/index.php?IDselecionado=45
 
 
 ##  Dashboard com Node-red
@@ -296,9 +279,21 @@ Utilize o exemplo de cotação do dolar para capturar um valor (temperatura, cot
 Criar um dashboard para seu projeto com nodered/mysql/mqtt.
 
 - Utilizando Tunnel e DNS
+ Redirecionamento DDNS com DuckDns 
 
- http://smartcampus.ctd.ifsp.edu.br/blog/index.php?IDselecionado=30 Redirecionamento DDNS com DuckDns 
+# Aula Protocolo MQTT
 
+[Saiba mais Sobre MQTT](https://github.com/mchavesferreira/sebe/tree/main/mqtt)
+
+
+[flow_exemplos/aula_mqtt.pdf](https://github.com/mchavesferreira/sebe/blob/main/flow_exemplos/aula_mqtt.pdf)
+
+
+* Preparar o **ESP32** para envio de dados via HTTP (GET) e posteriormente via **MQTT**
+
+  * Repositório de apoio:
+    [https://github.com/mchavesferreira/mcr/tree/main/esp32_iot](https://github.com/mchavesferreira/mcr/tree/main/esp32_iot)
+    
 
 ### Construção do Trabalho: 
 
