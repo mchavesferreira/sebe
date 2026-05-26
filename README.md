@@ -269,6 +269,8 @@ Práticas com  NodeRED
 
 Importe este exemplo para o nodered: <a href=https://github.com/mchavesferreira/sebe/blob/main/flow_exemplos/cotacao_dolar.json>Exemplo de cotação dolar</a>
 
+https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/CotacaoDolarDia(dataCotacao=@dataCotacao)?@dataCotacao='05-26-2026'&$top=100&$format=json&$select=cotacaoVenda 
+
 Instale um plugin no navegador para facilitar a compreensão de um json: <a href=https://addons.mozilla.org/en-US/firefox/addon/json_formatter/>firefox</a>
 
 Crie uma interface que separe dados ou campos de uma url publica com json e apresente a interface nodered.
