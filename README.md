@@ -241,7 +241,7 @@ Exemplo online Esp32+sensor comunicando com API/PHP:   https://wokwi.com/project
 |---------|-----------|
 | Alison  | http://56.124.102.67/chaves |
 | Garbo   | http://52.73.98.101 |
-| Lucas   | <a href=http://lucasmp.rpiot.com.br/dashboard>http://lucasmp.rpiot.com.br/dashboard</a> |
+| Lucas   | http://lucasmp.rpiot.com.br/php_app/dashboard.php |
 | José    | http://18.229.134.103/ze/dashboard.php |
 | Kelvyn  | http://3.144.85.207/ |
 | Leandro | http://coxaleandro.duckdns.org/php_app |
