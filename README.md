@@ -19,13 +19,12 @@ https://embarcados.com.br/seminario-linux-embarcado-2026/
 ### Trabalho 2:
 
 - 26/05/2026 - Aula mqtt e Node-Red
-- 02/06/2026 - serviço de mqtt funcionando na nuvem e o serviço de Node-Red fornecer URL com DNS
-- 09/06/2026 - Node-Red (senha) + MQTT + ESP32 comunicando-se com dados simulados
-- 16/06/2026 - Node-Red + MQTT + MYSQL + ESP32 com sensores devem subir os dados e as cargas devem ser opcionalmente comandadas remotamente com a dashboard. Construir a dasbhoard com Node-Red (graficos, tabelas, botões de comandos) 
+- 09/06/2026 - serviço de mqtt funcionando na nuvem e o serviço de Node-Red fornecer URL com DNS
+-  16/06/2026 - Node-Red (senha) + MQTT + ESP32 comunicando-se com dados simulados
+- 23/06/2026 - Node-Red + MQTT + MYSQL + ESP32 com sensores devem subir os dados e as cargas devem ser opcionalmente comandadas remotamente com a dashboard. Construir a dasbhoard com Node-Red (graficos, tabelas, botões de comandos) 
 
 ### Trabalho 3/Seminários:
 
-- 23/06/2026 - Elaborar o código em RTOS para o projeto 1 ou projeto 2.
 - 30/06/2026 - Apresentação Final e seminários
 
 ## Aulas
