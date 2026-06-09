@@ -34,13 +34,13 @@ Cada seminário deverá ter duração aproximada de **10 minutos**, apresentando
 1. **Atualização OTA e manutenção remota**
    Atualização de firmware pela rede, registro de falhas, watchdog e confiabilidade em dispositivos de campo.
 
-2. **Zephyr RTOS e portabilidade de firmware**
+2. **Zephyr RTOS e portabilidade de firmware** (Vitor e José)
    Introdução ao Zephyr como sistema operacional de tempo real moderno para diferentes arquiteturas embarcadas.
 
-3. **Segurança em sistemas embarcados conectados**
+3. **Segurança em sistemas embarcados conectados** (Leandro)
    Boas práticas para proteger dispositivos IoT, incluindo autenticação, criptografia, senhas, redes e atualização segura.
 
-4. **Edge AI em sistemas embarcados**
+4. **Edge AI em sistemas embarcados** (Lucas e Luis)
    Uso de microcontroladores e placas embarcadas para classificação de sinais, imagens ou anomalias.
 
 5. **IA generativa aplicada ao desenvolvimento embarcado**
@@ -49,14 +49,14 @@ Cada seminário deverá ter duração aproximada de **10 minutos**, apresentando
 6. **Profissões do futuro em sistemas embarcados e IoT**
    Novas oportunidades profissionais envolvendo automação, robótica, Edge AI, veículos inteligentes, cidades inteligentes e dispositivos conectados. O Fórum Econômico Mundial aponta crescimento em áreas ligadas à IA, big data e engenharia tecnológica. ([World Economic Forum][1])
 
-7. **RISC-V e o futuro dos microcontroladores**
-   Estudo da arquitetura RISC-V como alternativa aberta para processadores e microcontroladores usados em sistemas embarcados.
+7. **RISC-V e o futuro dos microcontroladores** (Garbo e Alison)
+   Estudo da arquitetura RISC-V como alternativa aberta para processadores e microcontroladores usados em sistemas embarcados. 
 
 8. **Robótica conectada com IA, IoT e sistemas embarcados**
    Integração entre sensores, atuadores, comunicação em rede e inteligência artificial para criar robôs mais autônomos.
 
-9. **TinyML e aprendizado de máquina em microcontroladores**
-   Aplicação de modelos pequenos de machine learning em dispositivos com pouca memória e baixo consumo de energia.
+9. **TinyML e aprendizado de máquina em microcontroladores** (Kelvyn e Bruno)
+   Aplicação de modelos pequenos de machine learning em dispositivos com pouca memória e baixo consumo de energia. EdgeImpulse.
 
 10. **Linux embarcado como gateway inteligente**
     Uso de Raspberry Pi, Orange Pi ou BeagleBone para conectar sensores, microcontroladores, bancos de dados, dashboards e serviços MQTT.
