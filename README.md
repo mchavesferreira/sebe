@@ -279,19 +279,19 @@ Exemplo online Esp32+sensor comunicando com API/PHP:   https://wokwi.com/project
 
 # Servidores da turma 2026-1 
 
-| Nome    | Endereço |
-|---------|-----------|
-| Alison  | http://56.124.102.67/chaves |
-| Garbo   | http://52.73.98.101 |
-| Lucas   | http://lucasmp.rpiot.com.br/php_app/dashboard.php |
-| José    | http://18.229.134.103/ze/dashboard.php |
-| Kelvyn  | http://3.144.85.207/ |
-| Leandro | http://coxaleandro.duckdns.org/php_app |
-| Bruno   | <a href=http://brunovieira.rpiot.com.br>http://brunovieira.rpiot.com.br</a> |
-| Vitor  | https://php.vitorcape.com.br/scada/index.php |
-| Thomas  | http://18.228.189.223/ |
-| Luiz | https://embarcados.lzmeister.uk |
-| Luis | 179.222.204.251:2459/ui |
+| Nome    | php | nodered |
+|---------|-----------| ----- |
+| Alison  | http://56.124.102.67/chaves |  |
+| Garbo   | http://52.73.98.101 |  |
+| Lucas   | http://lucasmp.rpiot.com.br/php_app/dashboard.php |  |
+| José    | http://18.229.134.103/ze/dashboard.php |  |
+| Kelvyn  | http://3.144.85.207/ |  |
+| Leandro | http://coxaleandro.duckdns.org/php_app |  ||
+| Bruno   | <a href=http://brunovieira.rpiot.com.br>http://brunovieira.rpiot.com.br</a> |  |
+| Vitor  | https://php.vitorcape.com.br/scada/index.php |  |
+| Thomas  | http://18.228.189.223/ |  |
+| Luiz | https://embarcados.lzmeister.uk | |
+| Luis | http://179.222.204.251:2458/php_app/dados.php| 179.222.204.251:2459/ui |
 
 
 #  Node-Red
