@@ -1,13 +1,23 @@
 # sebe
 Sistemas Embarcados
 
-SEMINÁRIO LINUX EMBARCADO 2026
-
-28 DE MARÇO DE 2026 | 100% ONLINE
-
-https://embarcados.com.br/seminario-linux-embarcado-2026/
-
 # Atividades Avaliativas
+
+# Proetos da turma 2026-1 
+
+| Nome    | php | nodered | github |
+|---------|-----------| ----- |  |
+| Alison  | http://56.124.102.67/chaves | http://56.124.102.67:1880/dashboard/  |  |
+| Bruno   | <a href=http://brunovieira.rpiot.com.br>http://brunovieira.rpiot.com.br</a> | <a href=https://brunovieiranode.rpiot.com.br/ui/>Dashboard</a> |  |
+| Lucas   | http://lucasmp.rpiot.com.br/php_app/dashboard.php | <a href=https://lucasmpnode.rpiot.com.br/ui>Dashboard</a>
+| José    | http://18.229.134.103/ze/dashboard.php | http://firewatchifsp.duckdns.org:1880/dashboard/monitoramento  | <a href=https://github.com/Joserrob/Projeto-2-Embarcados-IFSP-2026>github</a> |
+| Kelvyn  | http://3.144.85.207/ |  |  |
+| Leandro | http://coxaleandro.duckdns.org/php_app | http://coxaleandro.duckdns.org:1880/ui ||
+| Luiz | https://embarcados.lzmeister.uk |https://nodered.lzmeister.uk/ui/ |  |
+| Luis | http://179.222.204.251:2458/php_app/dados.php| 179.222.204.251:2459/ui |  |  |
+| Rafael   | http://52.73.98.101 |  | |
+| Thomas  | http://18.228.189.223/ |http://18.228.189.223:1880/ui/  |  |
+| Vitor  | https://php.vitorcape.com.br/scada/index.php |  |  |
 
 ## Prazos
 
@@ -277,21 +287,8 @@ http://ipdoseuservidor/php_app/form.php
 Exemplo online Esp32+sensor comunicando com API/PHP:   https://wokwi.com/projects/396067644168942593
 
 
-# Servidores da turma 2026-1 
 
-| Nome    | php | nodered |
-|---------|-----------| ----- |
-| Alison  | http://56.124.102.67/chaves |  |
-| Garbo   | http://52.73.98.101 |  |
-| Lucas   | http://lucasmp.rpiot.com.br/php_app/dashboard.php |  |
-| José    | http://18.229.134.103/ze/dashboard.php |  |
-| Kelvyn  | http://3.144.85.207/ |  |
-| Leandro | http://coxaleandro.duckdns.org/php_app |  ||
-| Bruno   | <a href=http://brunovieira.rpiot.com.br>http://brunovieira.rpiot.com.br</a> |  |
-| Vitor  | https://php.vitorcape.com.br/scada/index.php |  |
-| Thomas  | http://18.228.189.223/ |  |
-| Luiz | https://embarcados.lzmeister.uk | |
-| Luis | http://179.222.204.251:2458/php_app/dados.php| 179.222.204.251:2459/ui |
+
 
 
 #  Node-Red
