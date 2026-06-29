@@ -13,7 +13,7 @@ Sistemas Embarcados
 | José    | http://18.229.134.103/ze/dashboard.php | http://firewatchifsp.duckdns.org:1880/dashboard/monitoramento  | <a href=https://github.com/Joserrob/Projeto-2-Embarcados-IFSP-2026>github</a> | 
 | Kelvyn  | http://3.144.85.207/ |  | |
 | Leandro | http://coxaleandro.duckdns.org/php_app | http://coxaleandro.duckdns.org:1880/ui |   |
-| Luiz | https://embarcados.lzmeister.uk |https://nodered.lzmeister.uk/ui/ |  |
+| Luiz | https://embarcados.lzmeister.uk |https://nodered.lzmeister.uk/ui/ |  https://github.com/lzmeister/Sistemas-Embarcados |
 | Luis | http://179.222.204.251:2458/php_app/dados.php| http://179.222.204.251:2459/ui |  |  
 | Rafael   | http://52.73.98.101 |  | |
 | Thomas  | http://18.228.189.223/ |http://18.228.189.223:1880/ui/  |  |
