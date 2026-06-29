@@ -7,7 +7,7 @@ Sistemas Embarcados
 
 | Nome    | php | nodered | github |
 |---------|-----------| ----- | ----- |
-| Alison  | http://56.124.102.67/chaves | http://56.124.102.67:1880/dashboard/  | |
+| Alison  | http://56.124.102.67/chaves | http://56.124.102.67:1880/dashboard/  | https://github.com/Imp0SS1ble/Projeto_embarcados |
 | Bruno   | <a href=http://brunovieira.rpiot.com.br>http://brunovieira.rpiot.com.br</a> | <a href=https://brunovieiranode.rpiot.com.br/ui/>Dashboard</a> |  |
 | Lucas   | http://lucasmp.rpiot.com.br/php_app/dashboard.php | <a href=https://lucasmpnode.rpiot.com.br/ui>Dashboard</a> | |
 | José    | http://18.229.134.103/ze/dashboard.php | http://firewatchifsp.duckdns.org:1880/dashboard/monitoramento  | <a href=https://github.com/Joserrob/Projeto-2-Embarcados-IFSP-2026>github</a> | 
