@@ -16,7 +16,7 @@ Sistemas Embarcados
 | Luiz | https://embarcados.lzmeister.uk |https://nodered.lzmeister.uk/ui/ |  https://github.com/lzmeister/Sistemas-Embarcados |
 | Luis | http://179.222.204.251:2458/php_app/dados.php| http://179.222.204.251:2459/ui |  |  
 | Rafael   | http://52.73.98.101 |  | |
-| Thomas  | http://18.228.189.223/ |http://18.228.189.223:1880/ui/  |  |
+| Thomas  | http://18.228.189.223/ |http://18.228.189.223:1880/ui/  | https://github.com/thomascolomboo/embarcados/ |
 | Vitor  | https://php.vitorcape.com.br/scada/index.php | http://nodered.vitorcape.com.br/ui | https://github.com/vitorcape/PHP-Scada  |
 
 ## Prazos
